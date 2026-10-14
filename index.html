@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>คู่มือเกม</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="template/style.css">
 <style>
 .home{max-width:720px;margin:0 auto;padding:48px 24px 64px}
@@ -14,6 +15,10 @@
 .cards a:hover{border-color:var(--focus)}
 .cards b{display:block;font:600 21px/1.19 var(--disp);color:var(--blue)}
 .cards span{display:block;margin-top:4px;color:var(--ink80);font-size:15px}
+.find{display:block;width:100%;height:44px;margin:0 0 16px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--canvas);border:1px solid var(--chip);border-radius:9999px}
+.find::placeholder{color:var(--ink48)}
+.cards a[hidden],#none[hidden]{display:none}
+#none{margin:8px 0 0;color:var(--ink48)}
 @media (max-width:640px){
 .home{padding:32px 20px 48px}
 .home h1{font-size:28px;line-height:1.14}
@@ -24,10 +29,18 @@
 <main class="home">
 <h1>คู่มือเกม</h1>
 <p class="lead">คู่มือภาษาไทย อ่านบนมือถือได้</p>
-<nav class="cards" aria-label="รายการคู่มือ">
-<a href="guides/bayonetta3/Bayonetta3_Guide_TH.html"><b>Bayonetta 3</b><span>คู่มือเดินด่านและของสะสม (Switch)</span></a>
-<a href="guides/ffx/FFX_International_Guide_TH.html"><b>Final Fantasy X International</b><span>คู่มือเดินเรื่องและของสะสม (PS2)</span></a>
+<input id="find" class="find" type="search" placeholder="ค้นหาคู่มือ" aria-label="ค้นหาคู่มือ" aria-controls="guides" autocomplete="off">
+<nav id="guides" class="cards" aria-label="รายการคู่มือ">
+<a data-k="bayonetta เบโยเนตต้า switch platinumgames" href="guides/bayonetta3/Bayonetta3_Guide_TH.html"><b>Bayonetta 3</b><span>คู่มือเดินด่านและของสะสม (Switch)</span></a>
+<a data-k="ffx final fantasy x ไฟนอลแฟนตาซี ps2 square" href="guides/ffx/FFX_International_Guide_TH.html"><b>Final Fantasy X International</b><span>คู่มือเดินเรื่องและของสะสม (PS2)</span></a>
 </nav>
+<p id="none" role="status" hidden>ไม่พบคู่มือ</p>
+<script>
+(()=>{const q=document.getElementById('find'),cs=[...document.querySelectorAll('#guides a')],no=document.getElementById('none');
+const n=t=>t.normalize('NFC').toLowerCase();
+q.addEventListener('input',()=>{const v=n(q.value.trim());let k=0;cs.forEach(a=>{const m=!v||n(a.textContent+' '+(a.dataset.k||'')).includes(v);a.hidden=!m;if(m)k++});no.hidden=k>0});
+q.addEventListener('keydown',e=>{if(e.key==='Escape'){q.value='';q.dispatchEvent(new Event('input'))}});})();
+</script>
 </main>
 </body>
 </html>

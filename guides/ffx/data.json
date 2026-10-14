@@ -7,7 +7,7 @@
   "storage_key": "ffxintl:",
   "footer": "ทำโดยโซอี้ 🎮 · ต.ค. 2026 · ข้อมูลจาก FF Wiki (Fandom) และ Wikipedia",
   "ui": {
-    "search_placeholder": "ค้นหา เช่น Primer, Jecht, Sigil…",
+    "search_placeholder": "ค้นหา เช่น Primer",
     "verses": "{n}",
     "no_verses": "เริ่มพื้นที่",
     "start": "เริ่ม",

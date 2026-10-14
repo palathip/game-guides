@@ -54,7 +54,7 @@ def maps_html(s, base):
         b = fp.read_bytes()
         if len(b) > IMG_WARN: print(f'WARN  {w}: {f} is {len(b)/1024:.0f} KB (keep images under ~300 KB)', file=sys.stderr)
         cap = ' '.join(x for x in (E(m.get('caption', '')), f'<span class="cr">{E(m["credit"])}</span>' if m.get('credit') else '') if x)
-        o.append(f'<figure class="map"><img src="data:{mt};base64,{base64.b64encode(b).decode()}" alt="{E(m.get("caption", ""))}" loading="lazy" decoding="async">' + (f'<figcaption>{cap}</figcaption>' if cap else '') + '</figure>')
+        o.append(f'<figure class="map"><img src="data:{mt};base64,{base64.b64encode(b).decode()}" alt="{E(m.get("caption", ""))}" loading="lazy" decoding="async">' + ((f'<figcaption><details class="capd"><summary>{E(m.get("caption","")[:40].rstrip())}…</summary>{cap}</details></figcaption>' if len(m.get('caption', '')) > 80 else f'<figcaption>{cap}</figcaption>') if cap else '') + '</figure>')
     return ''.join(o)
 def check_inline(v, where, errs):
     p = Inline(); p.feed(v); p.close(); errs += [f'{where}: {e}' for e in p.err]

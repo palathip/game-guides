@@ -1,0 +1,2199 @@
+{
+  "game": "ffx",
+  "output": "FFX_International_Guide_TH.html",
+  "lang": "th",
+  "title": "Final Fantasy X International (PS2) – คู่มือเดินเรื่อง",
+  "heading": "⚔️ Final Fantasy X International (PS2) – Walkthrough & ของสะสม",
+  "storage_key": "ffxintl:",
+  "footer": "ทำโดยโซอี้ 🎮 · ต.ค. 2026 · ข้อมูลจาก FF Wiki (Fandom) และ Wikipedia",
+  "ui": {
+    "search_placeholder": "ค้นหา เช่น Primer, Jecht, Sigil…",
+    "verses": "{n}",
+    "no_verses": "เริ่มพื้นที่",
+    "start": "เริ่ม",
+    "end": "จบ",
+    "no_items_summary": "—"
+  },
+  "types": {
+    "Primer": {
+      "label": "Al Bhed Primer",
+      "short": "Primer",
+      "color": "#38bdf8"
+    },
+    "Jecht": {
+      "label": "Jecht/Movie Sphere",
+      "short": "Sphere",
+      "color": "#a78bfa"
+    },
+    "Celes": {
+      "label": "Celestial (อาวุธ/Crest/Sigil)",
+      "short": "Celes",
+      "color": "#fde047"
+    },
+    "Cloister": {
+      "label": "หีบลับ Cloister of Trials",
+      "short": "Trial",
+      "color": "#34d399"
+    },
+    "Aeon": {
+      "label": "เอออนเสริม",
+      "short": "Aeon",
+      "color": "#f472b6"
+    },
+    "Item": {
+      "label": "ไอเท็ม/ของพลาดได้",
+      "short": "Item",
+      "color": "#f59e0b"
+    }
+  },
+  "intro": [
+    {
+      "p": "คู่มือนี้สำหรับ Final Fantasy X International (PS2) เรียงตามเนื้อเรื่องตั้งแต่ Zanarkand จนจบ ติ๊กช่องเพื่อจดว่าเก็บแล้วได้เลยค่ะ ของที่ต้องย้อนกลับมาเก็บภายหลังจะเป็นกล่องเส้นประนะคะ"
+    },
+    {
+      "h2": "รวมของสะสม"
+    },
+    {
+      "totals": true
+    }
+  ],
+  "picker": [
+    {
+      "title": "เนื้อเรื่อง",
+      "style": "main",
+      "items": [
+        {
+          "id": "a01",
+          "short": "01"
+        },
+        {
+          "id": "a02",
+          "short": "02"
+        },
+        {
+          "id": "a03",
+          "short": "03"
+        },
+        {
+          "id": "a04",
+          "short": "04"
+        },
+        {
+          "id": "a05",
+          "short": "05"
+        },
+        {
+          "id": "a06",
+          "short": "06"
+        },
+        {
+          "id": "a07",
+          "short": "07"
+        },
+        {
+          "id": "a08",
+          "short": "08"
+        },
+        {
+          "id": "a09",
+          "short": "09"
+        },
+        {
+          "id": "a10",
+          "short": "10"
+        },
+        {
+          "id": "a11",
+          "short": "11"
+        },
+        {
+          "id": "a12",
+          "short": "12"
+        },
+        {
+          "id": "a13",
+          "short": "13"
+        },
+        {
+          "id": "a14",
+          "short": "14"
+        },
+        {
+          "id": "a15",
+          "short": "15"
+        },
+        {
+          "id": "a16",
+          "short": "16"
+        },
+        {
+          "id": "a17",
+          "short": "17"
+        },
+        {
+          "id": "a18",
+          "short": "18"
+        },
+        {
+          "id": "a19",
+          "short": "19"
+        },
+        {
+          "id": "a20",
+          "short": "20"
+        },
+        {
+          "id": "a21",
+          "short": "21"
+        },
+        {
+          "id": "a22",
+          "short": "22"
+        },
+        {
+          "id": "a23",
+          "short": "23"
+        },
+        {
+          "id": "a24",
+          "short": "24"
+        }
+      ]
+    },
+    {
+      "title": "อ้างอิง",
+      "style": "ref",
+      "items": [
+        {
+          "id": "r-intl",
+          "short": "International"
+        },
+        {
+          "id": "r-grid",
+          "short": "Standard"
+        },
+        {
+          "id": "r-primer",
+          "short": "Al"
+        },
+        {
+          "id": "r-celes",
+          "short": "Celestial"
+        },
+        {
+          "id": "r-jecht",
+          "short": "Jecht"
+        },
+        {
+          "id": "r-cloister",
+          "short": "Cloister"
+        },
+        {
+          "id": "r-aeon",
+          "short": "เอออนเสริม"
+        },
+        {
+          "id": "r-arena",
+          "short": "Monster"
+        },
+        {
+          "id": "r-dark",
+          "short": "Dark"
+        },
+        {
+          "id": "r-gap",
+          "short": "หมายเหตุ"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "a01",
+      "kind": "chapter",
+      "title": "01 – Zanarkand (ความฝัน)",
+      "verses": 0,
+      "enemies": [
+        "Sinspawn Ammes"
+      ],
+      "items": [
+        {
+          "key": "a01-0",
+          "type": "Item",
+          "short": "Potion ×2",
+          "where": "คุยกับเด็กผู้หญิงชุดชมพูคนที่อยู่ไกลสุด 3 ครั้ง แล้วตอบ \"Sure thing\" ค่ะ"
+        }
+      ],
+      "tips": [
+        "ฉากสอนเล่นค่ะ เดินตามเนื้อเรื่องไปสู้ Sinspawn Ammes พร้อม Auron ได้เลย",
+        "ใช้ Overdrive ของ Auron (Bushido) เมื่อเกจเต็ม — ท่าแรกมีให้ใช้ตั้งแต่ต้นค่ะ (FF Wiki: Overdrive)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Dream Zanarkand",
+          "url": "https://finalfantasy.fandom.com/wiki/Dream_Zanarkand"
+        },
+        {
+          "label": "FF Wiki: Sinspawn Ammes",
+          "url": "https://finalfantasy.fandom.com/wiki/Sinspawn_Ammes"
+        },
+        {
+          "label": "FF Wiki: Overdrive (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Overdrive_%28Final_Fantasy_X%29"
+        }
+      ]
+    },
+    {
+      "id": "a02",
+      "kind": "chapter",
+      "title": "02 – ซากปรักหักพัง Baaj",
+      "verses": 0,
+      "enemies": [
+        "Sahagin",
+        "Geosgaeno",
+        "Klikk",
+        "Tros"
+      ],
+      "items": [
+        {
+          "key": "a02-0",
+          "type": "Item",
+          "short": "ไอเทมใน Baaj",
+          "where": "200 gil, Potion ×2, Hi-Potion, X-Potion, Ether, Withered Bouquet, Flint ค่ะ"
+        },
+        {
+          "key": "a02-1",
+          "type": "Celes",
+          "short": "Onion Knight (ภายหลัง)",
+          "where": "กลับมาตอนมีเรือเหาะ ด้วยพิกัด 12, 57 ดำน้ำไปประตูทางเหนือ ชนะ Geosgaeno แล้วหีบจะโผล่ฝั่งใต้ใต้น้ำ ต้องมี Celestial Mirror ค่ะ",
+          "backtrack": true
+        }
+      ],
+      "tips": [
+        "Klikk: ให้ Rikku (\"????\") ขโมยแล้วปา Grenade ชนะง่ายค่ะ (FF Wiki: Klikk)",
+        "Geosgaeno ช่วงนี้เป็นการหนีตามเนื้อเรื่องค่ะ ตัวจริงที่สู้ได้อยู่ช่วงท้ายเกม"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Baaj",
+          "url": "https://finalfantasy.fandom.com/wiki/Baaj"
+        },
+        {
+          "label": "FF Wiki: Klikk",
+          "url": "https://finalfantasy.fandom.com/wiki/Klikk"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a02.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ ซากปรักหักพัง Baaj: Ruins, Ruins Underwater Hall, Ruins Corridor, Ruins Hall, Ruins Hallway",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a03",
+      "kind": "chapter",
+      "title": "03 – Besaid",
+      "verses": 0,
+      "enemies": [
+        "Valefor (ได้รับ)"
+      ],
+      "items": [
+        {
+          "key": "a03-0",
+          "type": "Celes",
+          "short": "Moon Crest",
+          "where": "ในซอกบนชายหาดที่ Tidus เจอ Wakka ครั้งแรก (ของ Nirvana) ค่ะ"
+        },
+        {
+          "key": "a03-1",
+          "type": "Primer",
+          "short": "Primer II",
+          "where": "Besaid Village – Crusaders Lodge ค่ะ"
+        },
+        {
+          "key": "a03-2",
+          "type": "Cloister",
+          "short": "Rod of Wisdom",
+          "where": "หีบลับใน Cloister of Trials ของ Besaid: เอา Destruction Sphere จากห้องเล็กที่ข้ามไปใส่ช่องที่เคยมี Besaid Sphere แล้วเปิดหีบหลังกำแพงที่พังค่ะ"
+        },
+        {
+          "key": "a03-3",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 3",
+          "where": "ข้างขวาวิหารใน Besaid Village ปลดล็อกหลังชนะ Spherimorph (ต้องย้อนกลับมา) ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a03-4",
+          "type": "Item",
+          "short": "ของจากชาวบ้าน",
+          "where": "Keepa 200 gil, Jassu Potion ×3, Datto Hi-Potion, Botta Potion ×2 และ Seeker's Ring จากนักบวชที่ท่าเรือหลังสอนเล่นค่ะ"
+        }
+      ],
+      "tips": [
+        "ของใต้น้ำ: Phoenix Down, Hi-Potion, Antidote ×2 ค่ะ",
+        "Dark Valefor (เฉพาะ International) จะขวางทางเข้าหมู่บ้านหลังได้เรือเหาะ ควรเก็บ Jecht's Sphere และหีบใน Cloister ให้ครบก่อนนะคะ (FF Wiki: Dark Aeon)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Besaid",
+          "url": "https://finalfantasy.fandom.com/wiki/Besaid"
+        },
+        {
+          "label": "FF Wiki: Besaid Temple",
+          "url": "https://finalfantasy.fandom.com/wiki/Besaid_Temple"
+        },
+        {
+          "label": "FF Wiki: Cloister of Trials (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a03.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Besaid: Besaid Beach, Besaid Valley, Besaid Village Slope, Besaid Village",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a04",
+      "kind": "chapter",
+      "title": "04 – S.S. Liki",
+      "verses": 0,
+      "enemies": [
+        "Sin's Fin",
+        "Sinspawn Echuilles"
+      ],
+      "items": [
+        {
+          "key": "a04-0",
+          "type": "Primer",
+          "short": "Primer III",
+          "where": "Power Room บนเรือ (ถ้าพลาดไปเก็บได้ที่ Sanubia Desert ข้างเต็นท์ที่เจอ Wakka) ค่ะ"
+        },
+        {
+          "key": "a04-1",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 4",
+          "where": "ห้องกัปตัน หลังชนะ Spherimorph ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a04-2",
+          "type": "Item",
+          "short": "Potion (เตะกระเป๋า)",
+          "where": "เตะกระเป๋าในห้องโดยสาร ได้ Potion ครั้งละ 1 จนกว่าจะมีครบ 20 ค่ะ"
+        }
+      ],
+      "tips": [
+        "Sinspawn Echuilles: ฮีลก่อนสู้ ใช้ Dark Attack ของ Wakka กัน Drain Touch และ Cheer ของ Tidus ลดการใช้ Potion ค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: S.S. Liki",
+          "url": "https://finalfantasy.fandom.com/wiki/S.S._Liki"
+        },
+        {
+          "label": "FF Wiki: Sinspawn Echuilles",
+          "url": "https://finalfantasy.fandom.com/wiki/Sinspawn_Echuilles"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        }
+      ]
+    },
+    {
+      "id": "a05",
+      "kind": "chapter",
+      "title": "05 – Kilika",
+      "verses": 0,
+      "enemies": [
+        "Lord Ochu",
+        "Sinspawn Geneaux",
+        "Ifrit (ได้รับ)"
+      ],
+      "items": [
+        {
+          "key": "a05-0",
+          "type": "Primer",
+          "short": "Primer IV",
+          "where": "Kilika Port – ร้านเหล้า (Tavern) ค่ะ"
+        },
+        {
+          "key": "a05-1",
+          "type": "Item",
+          "short": "Kilika Woods",
+          "where": "Mana Sphere ×2, Scout, Luck Sphere; Luzzu ให้ Antidote ×4 ก่อนสู้ Lord Ochu และ Elixir หลังชนะ; NulBlaze Shield จากผู้หญิงฝั่งตะวันตกหลังชนะ Lord Ochu ค่ะ"
+        },
+        {
+          "key": "a05-2",
+          "type": "Cloister",
+          "short": "Red Armlet",
+          "where": "หีบลับ Cloister of Trials ของ Kilika ใช้ Destruction Sphere ทำลายกำแพงช่องขวา ก่อนเข้าประตูสุดท้ายค่ะ"
+        }
+      ],
+      "tips": [
+        "Lord Ochu (บอสเสริม): ใช้ Fire ของ Lulu ตอนมันหลับให้เรียก Valefor ตีค่ะ (FF Wiki)",
+        "Sinspawn Geneaux: ใช้ Overdrive ของ Valefor หรือ Fire ตีหนวดก่อน แล้วค่อยตีตัวตอนออกจากเปลือกค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Kilika Port",
+          "url": "https://finalfantasy.fandom.com/wiki/Kilika_Port"
+        },
+        {
+          "label": "FF Wiki: Kilika Woods",
+          "url": "https://finalfantasy.fandom.com/wiki/Kilika_Woods"
+        },
+        {
+          "label": "FF Wiki: Kilika Temple",
+          "url": "https://finalfantasy.fandom.com/wiki/Kilika_Temple"
+        },
+        {
+          "label": "FF Wiki: Lord Ochu",
+          "url": "https://finalfantasy.fandom.com/wiki/Lord_Ochu"
+        },
+        {
+          "label": "FF Wiki: Sinspawn Geneaux",
+          "url": "https://finalfantasy.fandom.com/wiki/Sinspawn_Geneaux"
+        },
+        {
+          "label": "FF Wiki: Cloister of Trials (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a05.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Kilika: Kilika Docks, Kilika Woods",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a06",
+      "kind": "chapter",
+      "title": "06 – S.S. Winno",
+      "verses": 0,
+      "enemies": [],
+      "items": [
+        {
+          "key": "a06-0",
+          "type": "Primer",
+          "short": "Primer V",
+          "where": "บนสะพานเดินเรือ (ถ้าพลาดเก็บได้ที่ Sanubia Desert ใกล้กองหินที่เจอ Kimahri) ค่ะ"
+        },
+        {
+          "key": "a06-1",
+          "type": "Item",
+          "short": "Ace Wizard",
+          "where": "เล่นมินิเกมนับนกนางนวลแล้วตอบ \"11\" ค่ะ"
+        }
+      ],
+      "tips": [
+        "เรียนท่า Jecht Shot บนดาดฟ้าได้ที่นี่ค่ะ (FF Wiki: S.S. Winno)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: S.S. Winno",
+          "url": "https://finalfantasy.fandom.com/wiki/S.S._Winno"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        }
+      ]
+    },
+    {
+      "id": "a07",
+      "kind": "chapter",
+      "title": "07 – Luca",
+      "verses": 0,
+      "enemies": [
+        "Oblitzerator",
+        "Luca Goers (บลิตซ์บอล)",
+        "Sahagin Chief",
+        "Garuda"
+      ],
+      "items": [
+        {
+          "key": "a07-0",
+          "type": "Primer",
+          "short": "Primer VI",
+          "where": "Luca Stadium – Basement B ค่ะ"
+        },
+        {
+          "key": "a07-1",
+          "type": "Primer",
+          "short": "Primer VII",
+          "where": "Luca Theater – Reception ค่ะ"
+        },
+        {
+          "key": "a07-2",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 5",
+          "where": "ทางเดินหน้าห้องล็อกเกอร์ทีม Aurochs หลังชนะ Spherimorph ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a07-3",
+          "type": "Celes",
+          "short": "Jupiter Crest",
+          "where": "ในล็อกเกอร์ห้อง Aurochs หลังเข้า Mi'ihen Highroad แล้วย้อนกลับมา (ของ World Champion) ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a07-4",
+          "type": "Celes",
+          "short": "World Champion",
+          "where": "คุยกับบาร์เทนเดอร์ในบาร์ หลังได้อันดับ 3 ขึ้นไปในทัวร์นาเมนต์บลิตซ์บอล ต้องมี Celestial Mirror ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a07-5",
+          "type": "Item",
+          "short": "Tidal Spear และอื่นๆ",
+          "where": "Hi-Potion ×2, 600 gil, Tidal Spear, Magic Sphere, HP Sphere, 1,000 gil และ Strength Sphere เมื่อชนะ Luca Goers ค่ะ"
+        }
+      ],
+      "tips": [
+        "Oblitzerator: Cheer เพิ่มพลัง ให้ Lulu ใช้ Thunder รัวๆ ค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Luca (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Luca_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Oblitzerator",
+          "url": "https://finalfantasy.fandom.com/wiki/Oblitzerator"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a07.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Luca: Luca Main Gate, Luca Number 1 Dock, Luca Number 2 Dock, Luca Number 5 Dock, Luca City Limits",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a08",
+      "kind": "chapter",
+      "title": "08 – Mi'ihen Highroad",
+      "verses": 0,
+      "enemies": [
+        "Chocobo Eater",
+        "Belgemine (ดวลเอออน)"
+      ],
+      "items": [
+        {
+          "key": "a08-0",
+          "type": "Primer",
+          "short": "Primer VIII",
+          "where": "รับจาก Rin ที่ Travel Agency อัตโนมัติค่ะ"
+        },
+        {
+          "key": "a08-1",
+          "type": "Primer",
+          "short": "Primer IX",
+          "where": "Newroad, North ค่ะ"
+        },
+        {
+          "key": "a08-2",
+          "type": "Celes",
+          "short": "Mars Crest",
+          "where": "ปลายสุดของ Oldroad, South ทางเดินแคบทางตะวันออกเฉียงใต้ใกล้ทางเข้า Mushroom Rock Road (ของ Masamune) ค่ะ"
+        },
+        {
+          "key": "a08-3",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 6",
+          "where": "Oldroad, South หลังชนะ Spherimorph ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a08-4",
+          "type": "Item",
+          "short": "บริจาคให้ O'aka",
+          "where": "บริจาคได้เฉพาะก่อนเหตุการณ์ Operation Mi'ihen เท่านั้น (พลาดถาวร) ค่ะ"
+        },
+        {
+          "key": "a08-5",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Hunter's Spear, Ice Brand (หลังซากโบราณ), Echo Ring เมื่อชนะเอออนของ Belgemine; Heat Lance, Thunder Blade, Fortune Sphere ต้องขี่ช็อกโกโบค่ะ"
+        }
+      ],
+      "tips": [
+        "Chocobo Eater: ดันมันไปทางหน้าผาจะชนะได้เร็ว — <span class=\"mut\">(หน้าบอสใน FF Wiki ไม่มีหัวข้อกลยุทธ์ ข้อนี้เป็นการอนุมาน)</span>"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Mi'ihen Highroad",
+          "url": "https://finalfantasy.fandom.com/wiki/Mi%27ihen_Highroad"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        },
+        {
+          "label": "FF Wiki: Permanently missable content",
+          "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a08.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mi'ihen Highroad: Miihen Highroad South End, Miihen Highroad South, Miihen Highroad Central, Miihen Highroad Newroad South, Miihen Highroad Newroad North, Miihen Highroad North End, Miihen Highroad Oldroad North, Miihen Highroad Oldroad South",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a09",
+      "kind": "chapter",
+      "title": "09 – Mushroom Rock Road",
+      "verses": 0,
+      "enemies": [
+        "Sinspawn Gui ×2"
+      ],
+      "items": [
+        {
+          "key": "a09-0",
+          "type": "Primer",
+          "short": "Primer X",
+          "where": "Precipice ค่ะ"
+        },
+        {
+          "key": "a09-1",
+          "type": "Jecht",
+          "short": "Auron's Sphere",
+          "where": "ขอบหน้าผาใกล้ลิฟต์หลัก หลังชนะ Spherimorph ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a09-2",
+          "type": "Celes",
+          "short": "Masamune",
+          "where": "นำ Rusty Sword (จาก Calm Lands) มาวางที่รูปปั้น Lord Mi'ihen ทางผ่านตะวันตกเฉียงเหนือฝั่ง Djose ต้องมี Celestial Mirror ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a09-3",
+          "type": "Celes",
+          "short": "Godhand",
+          "where": "ใส่รหัส GODHAND บนเรือเหาะ หีบอยู่ทางเหนือ ต้องมี Celestial Mirror ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a09-4",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Tough Bangle, Serene Armlet, Serene Bracer, X-Potion, Mega-Potion และ 1000 gil ค่ะ"
+        }
+      ],
+      "tips": [
+        "Sinspawn Gui: Haste ทั้งทีม ใช้ Auron/Kimahri ตีแขนที่มีเกราะ แล้วค่อยตีตัว ใช้ Overdrive ของเอออนตีหลายเป้าค่ะ (FF Wiki)",
+        "Dark Magus Sisters (เฉพาะ International) จะอยู่แถวทางออกฝั่ง Mi'ihen หลังได้เรือเหาะ วิ่งหนีให้แยกสู้ทีละตัวได้ค่ะ (FF Wiki: Dark Aeon)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Mushroom Rock Road",
+          "url": "https://finalfantasy.fandom.com/wiki/Mushroom_Rock_Road"
+        },
+        {
+          "label": "FF Wiki: Sinspawn Gui",
+          "url": "https://finalfantasy.fandom.com/wiki/Sinspawn_Gui"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        },
+        {
+          "label": "FF Wiki: Dark Aeon",
+          "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a09.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mushroom Rock Road: Mushroom Rock Road, Mushroom Rock Valley, Mushroom Rock Precipice, Mushroom Rock Ridge, Mushroom Rock Aftermath",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "kind": "chapter",
+      "title": "10 – Djose",
+      "verses": 0,
+      "enemies": [
+        "Ixion (ได้รับ)"
+      ],
+      "items": [
+        {
+          "key": "a10-0",
+          "type": "Primer",
+          "short": "Primer XI",
+          "where": "Djose Highroad ค่ะ"
+        },
+        {
+          "key": "a10-1",
+          "type": "Cloister",
+          "short": "Magic Sphere",
+          "where": "Cloister of Trials: แตะกลีฟที่กะพริบชั้นล่าง ได้ Destruction Sphere แล้วนำขึ้นลิฟต์ใส่แท่นค่ะ"
+        },
+        {
+          "key": "a10-2",
+          "type": "Item",
+          "short": "Halberd (พลาดได้)",
+          "where": "จากทหารหมวกเทาบนสะพานหน้าวิหารหลังผ่าน Trials ต้องเก็บก่อนไป Moonflow ค่ะ"
+        },
+        {
+          "key": "a10-3",
+          "type": "Item",
+          "short": "หีบหน้าวิหาร",
+          "where": "4000 gil (ซ้าย), Ability Sphere ×4 (ขวา), Mega Phoenix ในห้องขวาค่ะ"
+        }
+      ],
+      "tips": [],
+      "sources": [
+        {
+          "label": "FF Wiki: Djose Highroad",
+          "url": "https://finalfantasy.fandom.com/wiki/Djose_Highroad"
+        },
+        {
+          "label": "FF Wiki: Djose Temple",
+          "url": "https://finalfantasy.fandom.com/wiki/Djose_Temple"
+        },
+        {
+          "label": "FF Wiki: Cloister of Trials (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Permanently missable content",
+          "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a10.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Djose: Djose Highroad, Djose Temple, Djose Pilgrimage Road",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "kind": "chapter",
+      "title": "11 – Moonflow",
+      "verses": 0,
+      "enemies": [
+        "Extractor"
+      ],
+      "items": [
+        {
+          "key": "a11-0",
+          "type": "Primer",
+          "short": "Primer XII",
+          "where": "North Wharf ค่ะ"
+        },
+        {
+          "key": "a11-1",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 7",
+          "where": "South Wharf หลังชนะ Spherimorph ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a11-2",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Lv.1 Key Sphere ×6, X-Potion, 5000 gil; ชนะเอออน Belgemine ได้ Dragon Scale ×2 ค่ะ"
+        }
+      ],
+      "tips": [
+        "Extractor: ใช้อาวุธธาตุสายฟ้า Slow/Haste/Cheer และ Overdrive ของ Wakka ค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Moonflow (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Moonflow_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Extractor",
+          "url": "https://finalfantasy.fandom.com/wiki/Extractor"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a11.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Moonflow: Moonflow South Bank Road, Moonflow South Bank, Moonflow South Wharf, Moonflow North Bank, Moonflow North Bank Road",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "kind": "chapter",
+      "title": "12 – Guadosalam",
+      "verses": 0,
+      "enemies": [],
+      "items": [
+        {
+          "key": "a12-0",
+          "type": "Primer",
+          "short": "Primer XIII",
+          "where": "ในบ้าน (House) ค่ะ"
+        },
+        {
+          "key": "a12-1",
+          "type": "Celes",
+          "short": "Venus Crest",
+          "where": "ใน Farplane หลัง Tidus พูดถึงการออกเดินทางของ Seymour ถ้าพลาดกลับมาได้ภายหลัง (ของ Onion Knight) ค่ะ"
+        },
+        {
+          "key": "a12-2",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Mega-Potion, Elixir, 3000 gil, Lightning Marble ×8 ค่ะ"
+        }
+      ],
+      "tips": [],
+      "sources": [
+        {
+          "label": "FF Wiki: Guadosalam",
+          "url": "https://finalfantasy.fandom.com/wiki/Guadosalam"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "kind": "chapter",
+      "title": "13 – Thunder Plains",
+      "verses": 0,
+      "enemies": [],
+      "items": [
+        {
+          "key": "a13-0",
+          "type": "Primer",
+          "short": "Primer XIV",
+          "where": "คุยกับ Rikku ใน Agency แล้วตอบ Rin ว่า \"Okay\" ก่อนเข้าห้อง Yuna ค่ะ"
+        },
+        {
+          "key": "a13-1",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 8",
+          "where": "ใกล้หอคอยขวากลางเขตใต้ หลังชนะ Spherimorph ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a13-2",
+          "type": "Celes",
+          "short": "Venus Sigil",
+          "where": "หลบสายฟ้าติดกัน 200 ครั้งโดยไม่ออกจากพื้นที่ หีบจะโผล่หน้า Agency ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a13-3",
+          "type": "Celes",
+          "short": "Spirit Lance",
+          "where": "อ่านเรื่อง Gandof ใน Agency แล้วสวดที่หิน Qactuar 3 ก้อน ตาม Qactuar ไปหอคอยพัง ต้องมี Celestial Mirror ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a13-4",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Water Ball, 5000 gil, Yellow Shield (หลัง Wantz วิ่งหนี) ค่ะ"
+        }
+      ],
+      "tips": [
+        "Dark Ixion (เฉพาะ International) จะโผล่หลังเห็นฉากเข้า Calm Lands คุยกับ Warrior Monk เขตเหนือ ต้องชนะ 2 รอบค่ะ (FF Wiki: Dark Aeon)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Thunder Plains (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Thunder_Plains_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        },
+        {
+          "label": "FF Wiki: Dark Aeon",
+          "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a13.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Thunder Plains: Thunder Plains South, Thunder Plains North",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "kind": "chapter",
+      "title": "14 – Macalania Woods & ทะเลสาบ",
+      "verses": 0,
+      "enemies": [
+        "Spherimorph",
+        "Crawler"
+      ],
+      "items": [
+        {
+          "key": "a14-0",
+          "type": "Primer",
+          "short": "Primer XV",
+          "where": "Lake Road ค่ะ"
+        },
+        {
+          "key": "a14-1",
+          "type": "Primer",
+          "short": "Primer XVI",
+          "where": "Lake Macalania – Agency Front ค่ะ"
+        },
+        {
+          "key": "a14-2",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 1",
+          "where": "ได้หลังชนะ Spherimorph ปลดล็อกสเฟียร์อื่นทั้งหมด ค่ะ"
+        },
+        {
+          "key": "a14-3",
+          "type": "Jecht",
+          "short": "Jecht's Sphere 2",
+          "where": "เขตใต้ของ Macalania Woods หลังชนะ Spherimorph ค่ะ"
+        },
+        {
+          "key": "a14-4",
+          "type": "Celes",
+          "short": "Saturn Sigil",
+          "where": "ชนะมินิเกมจับผีเสื้อ 2 ครั้ง (หลังได้เรือเหาะ) ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a14-5",
+          "type": "Celes",
+          "short": "Celestial Mirror",
+          "where": "ตามหาสามีและลูกชายของหญิงทางเข้า แล้วตรวจแท่นบูชาบน Shimmering Path ด้วย Cloudy Mirror ค่ะ",
+          "backtrack": true
+        }
+      ],
+      "tips": [
+        "Spherimorph: ตีกายภาพแล้วดูว่ามันสวนด้วยเวทธาตุไหน ให้ Lulu ใช้ธาตุตรงข้ามค่ะ (FF Wiki)",
+        "Crawler: <span class=\"mut\">ไม่มีกลยุทธ์ในแหล่ง</span>"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Macalania Woods",
+          "url": "https://finalfantasy.fandom.com/wiki/Macalania_Woods"
+        },
+        {
+          "label": "FF Wiki: Lake Macalania",
+          "url": "https://finalfantasy.fandom.com/wiki/Lake_Macalania"
+        },
+        {
+          "label": "FF Wiki: Spherimorph",
+          "url": "https://finalfantasy.fandom.com/wiki/Spherimorph"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a14.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Macalania Woods & ทะเลสาบ: Macalania Woods South, Macalania Woods Central, Macalania Woods North, Macalania Woods Lake Road, Lake Macalania Agency Front, Macalania Road, Macalania Hall, Lake Macalania Crevasse",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "kind": "chapter",
+      "title": "15 – Macalania Temple",
+      "verses": 0,
+      "enemies": [
+        "Seymour",
+        "Anima (ของ Seymour)",
+        "Wendigo"
+      ],
+      "items": [
+        {
+          "key": "a15-0",
+          "type": "Cloister",
+          "short": "Luck Sphere",
+          "where": "Cloister of Trials: หลังสร้างสะพานแล้ว ทำขั้นตอนเสริมเพื่อเอา Destruction Sphere ไปทำลายน้ำแข็งที่ครอบหีบค่ะ"
+        },
+        {
+          "key": "a15-1",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Shell Targe จาก Tromell, 5000 gil, X-Potion ×2, Elixir ค่ะ"
+        }
+      ],
+      "tips": [
+        "Seymour: ใช้ Dispel หรือ Aerospark ของ Ixion ลบ Shell ให้ Rikku ขโมย Hi-Potion ขององครักษ์ค่ะ (FF Wiki)",
+        "Dark Shiva (เฉพาะ International) ขวางทางเข้าวิหารหลังได้เรือเหาะค่ะ"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Macalania Temple",
+          "url": "https://finalfantasy.fandom.com/wiki/Macalania_Temple"
+        },
+        {
+          "label": "FF Wiki: Seymour (Final Fantasy X boss)",
+          "url": "https://finalfantasy.fandom.com/wiki/Seymour_%28Final_Fantasy_X_boss%29"
+        },
+        {
+          "label": "FF Wiki: Cloister of Trials (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Dark Aeon",
+          "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "kind": "chapter",
+      "title": "16 – Bikanel (Sanubia Desert)",
+      "verses": 0,
+      "enemies": [
+        "Sandragora",
+        "Zu"
+      ],
+      "items": [
+        {
+          "key": "a16-0",
+          "type": "Primer",
+          "short": "Primer XVII",
+          "where": "Sanubia Desert – Central ค่ะ"
+        },
+        {
+          "key": "a16-1",
+          "type": "Primer",
+          "short": "Primer XVIII",
+          "where": "Sanubia Desert – Central ค่ะ"
+        },
+        {
+          "key": "a16-2",
+          "type": "Primer",
+          "short": "Primer I/III/V (ถ้าพลาด)",
+          "where": "Primer I ทางตะวันออกเฉียงเหนือของโอเอซิส; III ข้างเต็นท์ Wakka; V ใกล้กองหินที่เจอ Kimahri ค่ะ"
+        },
+        {
+          "key": "a16-3",
+          "type": "Celes",
+          "short": "Mercury Crest",
+          "where": "หีบในหลุมทรายเคลื่อนที่เขตสุดท้าย (ของ Godhand) ค่ะ"
+        },
+        {
+          "key": "a16-4",
+          "type": "Celes",
+          "short": "Mercury Sigil",
+          "where": "ทำภารกิจหมู่บ้าน Cactuar หลังได้เรือเหาะค่ะ",
+          "backtrack": true
+        }
+      ],
+      "tips": [],
+      "sources": [
+        {
+          "label": "FF Wiki: Bikanel",
+          "url": "https://finalfantasy.fandom.com/wiki/Bikanel"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a16.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Bikanel (Sanubia Desert): Sanubia Oasis, Sanubia Desert East, Sanubia Central, Sanubia West",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "kind": "chapter",
+      "title": "17 – Home (บ้าน Al Bhed)",
+      "verses": 0,
+      "enemies": [
+        "Guado Guardian ×3"
+      ],
+      "items": [
+        {
+          "key": "a17-0",
+          "type": "Primer",
+          "short": "Primer XIX (พลาดได้)",
+          "where": "ภายใน Home ค่ะ"
+        },
+        {
+          "key": "a17-1",
+          "type": "Primer",
+          "short": "Primer XX (พลาดได้)",
+          "where": "Living Quarters ค่ะ"
+        },
+        {
+          "key": "a17-2",
+          "type": "Primer",
+          "short": "Primer XXI (พลาดได้)",
+          "where": "Main Corridor ค่ะ"
+        }
+      ],
+      "tips": [
+        "Primer XIX–XXI เก็บได้ครั้งเดียวในเนื้อเรื่อง ถ้าพลาดต้องใช้ Compilation Sphere ค่ะ (FF Wiki)",
+        "Dark Ifrit (เฉพาะ International) อยู่ทางเข้า Home เดิมหลังได้เรือเหาะค่ะ"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Home",
+          "url": "https://finalfantasy.fandom.com/wiki/Home"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Permanently missable content",
+          "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
+        },
+        {
+          "label": "FF Wiki: Dark Aeon",
+          "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a17.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Home (บ้าน Al Bhed): Home Outside, Home Main Corridor, Home Environmental Controls",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "kind": "chapter",
+      "title": "18 – Bevelle & Via Purifico",
+      "verses": 0,
+      "enemies": [
+        "Evrae",
+        "Isaaru",
+        "Evrae Altana",
+        "Seymour Natus"
+      ],
+      "items": [
+        {
+          "key": "a18-0",
+          "type": "Primer",
+          "short": "Primer XXII (พลาดได้)",
+          "where": "Priests' Passage หลังฉากงานแต่ง เก็บได้ครั้งเดียวค่ะ"
+        },
+        {
+          "key": "a18-1",
+          "type": "Cloister",
+          "short": "HP Sphere",
+          "where": "Cloister of Trials ของ Bevelle: หีบ Destruction ทางขวาห้องสุดท้าย (Bevelle ได้ของนี้อัตโนมัติเพื่อปลด Anima) ค่ะ"
+        },
+        {
+          "key": "a18-2",
+          "type": "Item",
+          "short": "Knight Lance",
+          "where": "ต้องใช้ Bevelle Sphere อันที่สองจากชั้นล่างค่ะ"
+        },
+        {
+          "key": "a18-3",
+          "type": "Item",
+          "short": "Via Purifico",
+          "where": "Elixir, Wht/Blk Magic Sphere, Mega-Potion, Lucid Ring, Skill Sphere, 10,000 gil; ไม่เปิดประตูตอนสู้ Evrae Altana ได้ Rematch ค่ะ"
+        }
+      ],
+      "tips": [
+        "Evrae: ให้ Rikku เริ่มด้วย Overdrive Mix (Mighty G) เติมบัฟ ใช้ Wakka/Lulu ตีจากไกลค่ะ (FF Wiki)",
+        "Seymour Natus: ติด Poison ได้ ใส่ Reflect ทั้งทีมกับตัวมันจะลดดาเมจค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Bevelle",
+          "url": "https://finalfantasy.fandom.com/wiki/Bevelle"
+        },
+        {
+          "label": "FF Wiki: Bevelle Temple",
+          "url": "https://finalfantasy.fandom.com/wiki/Bevelle_Temple"
+        },
+        {
+          "label": "FF Wiki: Via Purifico",
+          "url": "https://finalfantasy.fandom.com/wiki/Via_Purifico"
+        },
+        {
+          "label": "FF Wiki: Evrae",
+          "url": "https://finalfantasy.fandom.com/wiki/Evrae"
+        },
+        {
+          "label": "FF Wiki: Seymour Natus",
+          "url": "https://finalfantasy.fandom.com/wiki/Seymour_Natus"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a18.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Bevelle & Via Purifico: Bevelle Underwater, Bevelle Highbridge",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "kind": "chapter",
+      "title": "19 – Calm Lands & Remiem Temple",
+      "verses": 0,
+      "enemies": [
+        "Defender X"
+      ],
+      "items": [
+        {
+          "key": "a19-0",
+          "type": "Primer",
+          "short": "Primer XXIII",
+          "where": "Calm Lands – Central ค่ะ"
+        },
+        {
+          "key": "a19-1",
+          "type": "Primer",
+          "short": "Primer XXIV",
+          "where": "Remiem Temple ค่ะ"
+        },
+        {
+          "key": "a19-2",
+          "type": "Celes",
+          "short": "Rusty Sword",
+          "where": "Gorge Bottom (สำหรับ Masamune) ค่ะ"
+        },
+        {
+          "key": "a19-3",
+          "type": "Celes",
+          "short": "Caladbolg",
+          "where": "ชนะเวลาครูฝึกในการแข่งช็อกโกโบ แล้วลงทางลาดมุมตะวันตกเฉียงเหนือ ต้องมี Celestial Mirror ค่ะ"
+        },
+        {
+          "key": "a19-4",
+          "type": "Celes",
+          "short": "Sun Sigil",
+          "where": "แข่งช็อกโกโบได้เวลา 0:00 (เก็บลูกโป่งอย่างน้อย 13 ลูก โดนนกไม่เกิน 1 ครั้ง เข้าเส้นใน 36 วินาที) ค่ะ"
+        },
+        {
+          "key": "a19-5",
+          "type": "Celes",
+          "short": "Nirvana",
+          "where": "รับภารกิจที่ Monster Arena จับมอนสเตอร์ใน Calm Lands ครบ 9 ชนิด ค่ะ"
+        },
+        {
+          "key": "a19-6",
+          "type": "Celes",
+          "short": "Cloudy Mirror",
+          "where": "ชนะแข่งช็อกโกโบครั้งแรกที่ Remiem Temple ค่ะ"
+        },
+        {
+          "key": "a19-7",
+          "type": "Item",
+          "short": "Buckler พิเศษ (พลาดได้)",
+          "where": "ชายบนโฮเวอร์ครั้งแรกที่มา Calm Lands ขาย Buckler ที่มี Magic Counter ให้ Tidus จะหายไปหลังไปต่อค่ะ"
+        }
+      ],
+      "tips": [
+        "Defender X: Armor Break ของ Auron, ใช้ Provoke ให้ Tidus ดึงการโจมตีค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Calm Lands",
+          "url": "https://finalfantasy.fandom.com/wiki/Calm_Lands"
+        },
+        {
+          "label": "FF Wiki: Remiem Temple",
+          "url": "https://finalfantasy.fandom.com/wiki/Remiem_Temple"
+        },
+        {
+          "label": "FF Wiki: Defender X",
+          "url": "https://finalfantasy.fandom.com/wiki/Defender_X"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        },
+        {
+          "label": "FF Wiki: Permanently missable content",
+          "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a19.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Calm Lands & Remiem Temple: Calm Lands, Calm Lands North, Calm Lands Near Bridge",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "kind": "chapter",
+      "title": "20 – Cavern of the Stolen Fayth",
+      "verses": 0,
+      "enemies": [
+        "Yojimbo (ทดสอบ)"
+      ],
+      "items": [
+        {
+          "key": "a20-0",
+          "type": "Primer",
+          "short": "Primer XXV",
+          "where": "ภายในถ้ำค่ะ"
+        },
+        {
+          "key": "a20-1",
+          "type": "Aeon",
+          "short": "Yojimbo",
+          "where": "ห้อง Fayth: เลือก \"To defeat the most powerful of enemies\" แล้วต่อรองราคาจนจ่ายราว 178,931 gil ค่ะ"
+        },
+        {
+          "key": "a20-2",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Megalixir, Lv.2 Key Sphere, Flexible Arm, MP Sphere ค่ะ"
+        }
+      ],
+      "tips": [
+        "Dark Yojimbo (เฉพาะ International) ต้องชนะ 5 ครั้งติดกัน ออกจากถ้ำหรือโหลดเกมจะรีเซ็ตนับใหม่ค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Cavern of the Stolen Fayth",
+          "url": "https://finalfantasy.fandom.com/wiki/Cavern_of_the_Stolen_Fayth"
+        },
+        {
+          "label": "FF Wiki: Yojimbo (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Yojimbo_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Dark Aeon",
+          "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a20.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Cavern of the Stolen Fayth: Cavern of the Stolen Fayth",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "kind": "chapter",
+      "title": "21 – Mt. Gagazet",
+      "verses": 0,
+      "enemies": [
+        "Biran & Yenke Ronso",
+        "Seymour Flux",
+        "Sanctuary Keeper"
+      ],
+      "items": [
+        {
+          "key": "a21-0",
+          "type": "Jecht",
+          "short": "Braska's Sphere",
+          "where": "Mountain Trail ทางแยกข้างค่ะ"
+        },
+        {
+          "key": "a21-1",
+          "type": "Celes",
+          "short": "Saturn Crest",
+          "where": "Prominence ระหว่างเสาสองต้นซ้ายมือหลังชนะ Seymour Flux (ของ Spirit Lance) ค่ะ"
+        },
+        {
+          "key": "a21-2",
+          "type": "Item",
+          "short": "Wantz (พลาดได้)",
+          "where": "ต้องคุยกับ Wantz ครั้งแรกที่นี่ ไม่งั้นเขาจะไม่ไปขายของ 4 ช่องที่ Macalania ค่ะ"
+        },
+        {
+          "key": "a21-3",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "20,000 gil, Lv.4 Key Sphere, Defending Bracer, Pep Talk และ Recovery Ring จากมินิเกมปุ่มค่ะ"
+        }
+      ],
+      "tips": [
+        "Seymour Flux: ภูมิต้าน Break ใช้ Holy/Flare/Ultima และ Holy Water แก้ Zombie ค่ะ (FF Wiki)",
+        "Sanctuary Keeper: Dispel + Bio ใส่ Reflect ให้มัน Auron ใช้ Break ต่างๆ ค่ะ (FF Wiki)"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Mt. Gagazet",
+          "url": "https://finalfantasy.fandom.com/wiki/Mt._Gagazet"
+        },
+        {
+          "label": "FF Wiki: Seymour Flux",
+          "url": "https://finalfantasy.fandom.com/wiki/Seymour_Flux"
+        },
+        {
+          "label": "FF Wiki: Sanctuary Keeper",
+          "url": "https://finalfantasy.fandom.com/wiki/Sanctuary_Keeper"
+        },
+        {
+          "label": "FF Wiki: Movie sphere",
+          "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        },
+        {
+          "label": "FF Wiki: Permanently missable content",
+          "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a21.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mt. Gagazet: Mt Gagazet Entrance, Mt Gagazet Mountain Trail 1, Mt Gagazet Mountain Trail 2, Mt Gagazet Prominence, Mt Gagazet Cave 1, Mt Gagazet Submerged 1, Mt Gagazet Cave 2, Mt Gagazet Submerged 2",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "kind": "chapter",
+      "title": "22 – Zanarkand Ruins & Dome",
+      "verses": 0,
+      "enemies": [
+        "Spectral Keeper",
+        "Yunalesca"
+      ],
+      "items": [
+        {
+          "key": "a22-0",
+          "type": "Cloister",
+          "short": "Magistral Rod",
+          "where": "กลับมาหลังได้เรือเหาะ เหยียบช่องสีขาวทั้งหมด เอา Destruction Sphere ไปใส่ช่องขวาของจอห้องใหญ่ค่ะ",
+          "backtrack": true
+        },
+        {
+          "key": "a22-1",
+          "type": "Celes",
+          "short": "Sun Crest",
+          "where": "The Beyond หลังชนะ Yunalesca ที่บันไดด้านหลัง ถ้าไม่เก็บทันทีต้องชนะ Dark Bahamut ก่อนค่ะ"
+        },
+        {
+          "key": "a22-2",
+          "type": "Item",
+          "short": "ของเด่น",
+          "where": "Fortune Sphere, Spiritual Targe ค่ะ"
+        }
+      ],
+      "tips": [
+        "Spectral Keeper: ยืนให้มีช่องว่างข้างแต่ละคน ใช้ Provoke และ Mental Break ค่ะ (FF Wiki)",
+        "Yunalesca: <span class=\"mut\">ในหน้าที่อ่านมาไม่มีหัวข้อกลยุทธ์</span>"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Zanarkand",
+          "url": "https://finalfantasy.fandom.com/wiki/Zanarkand"
+        },
+        {
+          "label": "FF Wiki: Spectral Keeper",
+          "url": "https://finalfantasy.fandom.com/wiki/Spectral_Keeper"
+        },
+        {
+          "label": "FF Wiki: Cloister of Trials (Final Fantasy X)",
+          "url": "https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29"
+        },
+        {
+          "label": "FF Wiki: Celestial Weapon",
+          "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a22.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Zanarkand Ruins & Dome: Zanarkand Ruins Entrance, Zanarkand Ruins Overpass, Zanarkand Dome Interior, Zanarkand Dome Corridor",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "kind": "chapter",
+      "title": "23 – เรือเหาะ & Sin",
+      "verses": 0,
+      "enemies": [
+        "Sin (Left/Right Fin)",
+        "Sinspawn Genais",
+        "Overdrive Sin",
+        "Seymour Omnis",
+        "Braska's Final Aeon",
+        "Yu Yevon"
+      ],
+      "items": [
+        {
+          "key": "a23-0",
+          "type": "Item",
+          "short": "Underdog's Secret ×99",
+          "where": "คุยกับ Rin บนเรือเหาะหลังเก็บ Primer ครบค่ะ"
+        },
+        {
+          "key": "a23-1",
+          "type": "Item",
+          "short": "Inside Sin",
+          "where": "Lv.4 Key Sphere ในห้องล็อก (ล้มมอนสเตอร์ 35 ตัวใน City of Dying Dreams), Laevatein, Infinity, Four-on-One ฯลฯ ค่ะ"
+        }
+      ],
+      "tips": [
+        "Seymour Omnis: หมุนวงแหวน Mortiphasm (ตีกายภาพ = ทวนเข็ม, เวท = ตามเข็ม) แล้วใช้ Nul-spell ค่ะ (FF Wiki)",
+        "ก่อนเข้า Sin สามารถใช้เรือเหาะทำเนื้อหาเสริมทั้งหมดได้ค่ะ"
+      ],
+      "sources": [
+        {
+          "label": "FF Wiki: Fahrenheit",
+          "url": "https://finalfantasy.fandom.com/wiki/Fahrenheit"
+        },
+        {
+          "label": "FF Wiki: Inside Sin",
+          "url": "https://finalfantasy.fandom.com/wiki/Inside_Sin"
+        },
+        {
+          "label": "FF Wiki: Seymour Omnis",
+          "url": "https://finalfantasy.fandom.com/wiki/Seymour_Omnis"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a23.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ เรือเหาะ & Sin: Sin Sea of Sorrow, Sin City of Dying Dreams",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "kind": "chapter",
+      "title": "24 – Omega Ruins (เสริม)",
+      "verses": 0,
+      "enemies": [],
+      "items": [
+        {
+          "key": "a24-0",
+          "type": "Primer",
+          "short": "Primer XXVI",
+          "where": "ใน Omega Ruins (ฉบับอเมริกาชื่อผิดเป็น XVI) ค่ะ"
+        },
+        {
+          "key": "a24-1",
+          "type": "Item",
+          "short": "มินิเกมหีบ",
+          "where": "เปิดหีบ 12 ใบครบทีละกลุ่มโดยไม่เจอ Mimic ได้ Warp Sphere ×99 ถ้าพลาดหีบจะหายถาวรค่ะ"
+        }
+      ],
+      "tips": [],
+      "sources": [
+        {
+          "label": "FF Wiki: Omega Ruins",
+          "url": "https://finalfantasy.fandom.com/wiki/Omega_Ruins"
+        },
+        {
+          "label": "FF Wiki: Al Bhed Primer",
+          "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
+        },
+        {
+          "label": "FF Wiki: Permanently missable content",
+          "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
+        }
+      ],
+      "maps": [
+        {
+          "file": "maps/a24.webp",
+          "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Omega Ruins (เสริม): Omega Ruins",
+          "credit": "แผนที่จาก Jegged.com"
+        }
+      ]
+    },
+    {
+      "id": "r-intl",
+      "kind": "page",
+      "title": "สิ่งที่ International มีเพิ่ม",
+      "blocks": [
+        {
+          "list": [
+            "Final Fantasy X International วางจำหน่ายที่ญี่ปุ่นบน PS2 ปี 2002 ค่ะ",
+            "Dark Aeons และซูเปอร์บอส Penance เป็นเนื้อหาเพิ่มของ International/PAL (และรุ่นหลัง) ค่ะ",
+            "มี Expert Sphere Grid ให้เลือกแทน Standard ค่ะ",
+            "มีคลิป Eternal Calm (ราว 14 นาที) ปูเรื่องสู่ X-2 ค่ะ",
+            "อุปกรณ์ที่ Penance ดรอปมีโบนัสคริติคอลซ่อน +10% (เฉพาะรุ่นที่มี Penance) ค่ะ"
+          ]
+        },
+        {
+          "p": "หมายเหตุ: ชื่อไอเท็มในไกด์อิงฉบับภาษาอังกฤษจาก FF Wiki ฉบับญี่ปุ่นอาจใช้ชื่อต่างกัน (อนุมาน) ค่ะ",
+          "class": "note"
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://en.wikipedia.org/wiki/Final_Fantasy_X\">Wikipedia: Final Fantasy X</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Dark_Aeon\">FF Wiki: Dark Aeon</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Sphere_Grid\">FF Wiki: Sphere Grid</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Permanently_missable_content\">FF Wiki: Missables</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-grid",
+      "kind": "page",
+      "title": "Standard vs Expert Sphere Grid",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "",
+              "Standard",
+              "Expert"
+            ],
+            "rows": [
+              [
+                "จำนวนช่อง",
+                "860",
+                "805"
+              ],
+              [
+                "จุดเริ่ม",
+                "แต่ละตัวมีเส้นทางของตัวเอง",
+                "ทุกคนเริ่มกลางกระดาน เลือกเส้นทางเอง"
+              ],
+              [
+                "ความสามารถ",
+                "ครบเหมือนกัน",
+                "ครบเหมือนกัน"
+              ]
+            ]
+          }
+        },
+        {
+          "list": [
+            "Expert มีช่องน้อยกว่า Standard 68 ช่อง แต่ยังพอดันค่าสถานะส่วนใหญ่ให้สุดค่ะ (FF Wiki)",
+            "คำแนะนำ (อนุมาน): เล่นรอบแรกเลือก Standard จะเดินตามบทบาทตัวละครได้ง่าย ส่วน Expert เหมาะกับคนที่อยากวางแผนเองค่ะ"
+          ]
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Sphere_Grid\">FF Wiki: Sphere Grid</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-primer",
+      "kind": "page",
+      "title": "Al Bhed Primer ทั้ง 26 เล่ม",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "เล่ม",
+              "สถานที่",
+              "พลาดได้?"
+            ],
+            "rows": [
+              [
+                "I",
+                "เรือกู้ซาก Al Bhed (หรือ Sanubia)",
+                "ไม่"
+              ],
+              [
+                "II",
+                "Besaid",
+                "ไม่"
+              ],
+              [
+                "III",
+                "S.S. Liki",
+                "ไม่"
+              ],
+              [
+                "IV",
+                "Kilika Port",
+                "ไม่"
+              ],
+              [
+                "V",
+                "S.S. Winno",
+                "ไม่"
+              ],
+              [
+                "VI",
+                "Luca Stadium",
+                "ไม่"
+              ],
+              [
+                "VII",
+                "Luca Theater",
+                "ไม่"
+              ],
+              [
+                "VIII",
+                "Mi'ihen (Rin)",
+                "ไม่"
+              ],
+              [
+                "IX",
+                "Mi'ihen Newroad",
+                "ไม่"
+              ],
+              [
+                "X",
+                "Mushroom Rock",
+                "ไม่"
+              ],
+              [
+                "XI",
+                "Djose Highroad",
+                "ไม่"
+              ],
+              [
+                "XII",
+                "Moonflow",
+                "ไม่"
+              ],
+              [
+                "XIII",
+                "Guadosalam",
+                "ไม่"
+              ],
+              [
+                "XIV",
+                "Thunder Plains",
+                "ไม่"
+              ],
+              [
+                "XV",
+                "Macalania Woods",
+                "ไม่"
+              ],
+              [
+                "XVI",
+                "Lake Macalania",
+                "ไม่"
+              ],
+              [
+                "XVII",
+                "Sanubia",
+                "ไม่"
+              ],
+              [
+                "XVIII",
+                "Sanubia",
+                "ไม่"
+              ],
+              [
+                "XIX",
+                "Home",
+                "ใช่"
+              ],
+              [
+                "XX",
+                "Home",
+                "ใช่"
+              ],
+              [
+                "XXI",
+                "Home",
+                "ใช่"
+              ],
+              [
+                "XXII",
+                "Bevelle",
+                "ใช่"
+              ],
+              [
+                "XXIII",
+                "Calm Lands",
+                "ไม่"
+              ],
+              [
+                "XXIV",
+                "Remiem",
+                "ไม่"
+              ],
+              [
+                "XXV",
+                "Stolen Fayth",
+                "ไม่"
+              ],
+              [
+                "XXVI",
+                "Omega Ruins",
+                "ไม่"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer\">FF Wiki: Al Bhed Primer</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-celes",
+      "kind": "page",
+      "title": "Celestial Weapons",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "ตัวละคร",
+              "อาวุธ",
+              "Crest",
+              "Sigil"
+            ],
+            "rows": [
+              [
+                "Tidus",
+                "Caladbolg",
+                "Sun – The Beyond",
+                "Sun – แข่งช็อกโกโบ 0:00"
+              ],
+              [
+                "Yuna",
+                "Nirvana",
+                "Moon – ชายหาด Besaid",
+                "Moon – ชนะเอออน Belgemine ทั้งหมด"
+              ],
+              [
+                "Wakka",
+                "World Champion",
+                "Jupiter – ล็อกเกอร์ Luca",
+                "Jupiter – รางวัลลีกบลิตซ์บอล"
+              ],
+              [
+                "Kimahri",
+                "Spirit Lance",
+                "Saturn – Gagazet",
+                "Saturn – จับผีเสื้อ"
+              ],
+              [
+                "Lulu",
+                "Onion Knight",
+                "Venus – Farplane",
+                "Venus – หลบสายฟ้า 200"
+              ],
+              [
+                "Auron",
+                "Masamune",
+                "Mars – Mi'ihen Oldroad",
+                "Mars – Monster Arena 10 ตัวพิเศษ"
+              ],
+              [
+                "Rikku",
+                "Godhand",
+                "Mercury – Bikanel",
+                "Mercury – Cactuar"
+              ]
+            ]
+          }
+        },
+        {
+          "list": [
+            "ต้องมี Celestial Mirror ก่อนจึงจะได้อาวุธ และใช้ Crest ก่อน Sigil เสมอค่ะ",
+            "อาวุธเหล่านี้ไม่สนค่า Defense ศัตรู เหมาะกับ Penance ค่ะ"
+          ]
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Celestial_Weapon\">FF Wiki: Celestial Weapon</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-jecht",
+      "kind": "page",
+      "title": "Jecht Spheres & Overdrive",
+      "blocks": [
+        {
+          "list": [
+            "Jecht's Sphere 8 อัน + Auron's Sphere + Braska's Sphere ปลด Bushido ของ Auron ค่ะ",
+            "Tidus: Swordplay ปลดท่าใหม่ตามจำนวนครั้งที่ใช้ (Spiral Cut, Slice & Dice, Energy Rain, Blitz Ace)",
+            "Yuna: Grand Summon; Wakka: Slots ได้จากรางวัลบลิตซ์บอล; Lulu: Fury หมุนอนาล็อกขวา",
+            "Kimahri: Ronso Rage เรียนด้วย Lancet (12 ท่า); Rikku: Mix ผสมไอเทม 2 ชิ้น"
+          ]
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Movie_sphere\">FF Wiki: Movie sphere</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Overdrive_%28Final_Fantasy_X%29\">FF Wiki: Overdrive (Final Fantasy X)</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-cloister",
+      "kind": "page",
+      "title": "Cloister of Trials – หีบลับ",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "วิหาร",
+              "ของ"
+            ],
+            "rows": [
+              [
+                "Besaid",
+                "Rod of Wisdom"
+              ],
+              [
+                "Kilika",
+                "Red Armlet"
+              ],
+              [
+                "Djose",
+                "Magic Sphere"
+              ],
+              [
+                "Macalania",
+                "Luck Sphere"
+              ],
+              [
+                "Bevelle",
+                "HP Sphere (+ Knight Lance)"
+              ],
+              [
+                "Zanarkand",
+                "Magistral Rod (หลังได้เรือเหาะ)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "เก็บครบ 6 วิหารเพื่อปลดผนึก Anima ใน Baaj ค่ะ"
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29\">FF Wiki: Cloister of Trials (Final Fantasy X)</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-aeon",
+      "kind": "page",
+      "title": "เอออนเสริม",
+      "blocks": [
+        {
+          "list": [
+            "Yojimbo: Cavern of the Stolen Fayth จ่ายต่ำสุดราว 178,931 gil",
+            "Anima: เก็บหีบลับ Cloister ครบ ชนะ Geosgaeno ที่ Baaj (พิกัด 12, 57)",
+            "Magus Sisters: ใช้ Flower Sceptre (ชนะ Bahamut ของ Belgemine) + Blossom Crown (จับมอนสเตอร์ Gagazet ครบ) เปิดประตูหลัง Remiem หลังได้ Yojimbo และ Anima"
+          ]
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Yojimbo_%28Final_Fantasy_X%29\">FF Wiki: Yojimbo (Final Fantasy X)</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Anima_%28summon%29\">FF Wiki: Anima (summon)</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Magus_Sisters_%28Final_Fantasy_X%29\">FF Wiki: Magus Sisters (Final Fantasy X)</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-arena",
+      "kind": "page",
+      "title": "Monster Arena",
+      "blocks": [
+        {
+          "list": [
+            "อยู่ Calm Lands ซื้ออาวุธ Capture ที่นี่เพื่อจับมอนสเตอร์",
+            "รางวัล: Nirvana, Blossom Crown, Mars Sigil และของหายาก",
+            "Overkill ในสนามได้ไอเท็ม 2 เท่า แพ้แล้วไม่ Game Over",
+            "บอสแพงสุดคือ Nemesis 25,000 gil ต่อครั้ง"
+          ]
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Monster_Arena\">FF Wiki: Monster Arena</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-dark",
+      "kind": "page",
+      "title": "Dark Aeons & Penance (เฉพาะ International)",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "บอส",
+              "ตำแหน่ง"
+            ],
+            "rows": [
+              [
+                "Dark Valefor",
+                "ทางเข้า Besaid Village"
+              ],
+              [
+                "Dark Ifrit",
+                "ทางเข้า Home บน Bikanel"
+              ],
+              [
+                "Dark Ixion",
+                "Thunder Plains เหนือ (2 รอบ)"
+              ],
+              [
+                "Dark Shiva",
+                "ทางเข้า Macalania Temple"
+              ],
+              [
+                "Dark Bahamut",
+                "Zanarkand Dome"
+              ],
+              [
+                "Dark Anima",
+                "ทางเข้า Mt. Gagazet (หลังทำ trial ลูกบอลของ Wakka อีกครั้ง)"
+              ],
+              [
+                "Dark Yojimbo",
+                "Cavern of the Stolen Fayth (5 รอบ)"
+              ],
+              [
+                "Dark Magus Sisters",
+                "Mushroom Rock Road"
+              ]
+            ]
+          }
+        },
+        {
+          "list": [
+            "Penance: HP 12,000,000 พร้อมแขนซ้าย/ขวาข้างละ 500,000 ปรากฏหลังชนะ Dark Aeons ทั้งหมด เลือกจากรายการสถานที่ของเรือเหาะค่ะ",
+            "Judgment Day ทำดาเมจ 99,999 ทั้งทีม ต้องมีแขนทั้งสองข้าง",
+            "แนะนำ Rikku และเกราะ Auto-Haste, Auto-Protect, Auto-Potion, Defense +20% ใช้ Celestial Weapons เพราะไม่สน Defense ค่ะ"
+          ]
+        },
+        {
+          "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Dark_Aeon\">FF Wiki: Dark Aeon</a> · <a href=\"https://finalfantasy.fandom.com/wiki/Penance_%28Final_Fantasy_X%29\">FF Wiki: Penance (Final Fantasy X)</a>",
+          "class": "src"
+        }
+      ]
+    },
+    {
+      "id": "r-gap",
+      "kind": "page",
+      "title": "หมายเหตุ & ข้อจำกัด",
+      "blocks": [
+        {
+          "list": [
+            "ลำดับพื้นที่และของในแต่ละบทอิงรายการจาก FF Wiki ตำแหน่งในกล่อง Walkthrough เป็นลำดับโดยประมาณค่ะ",
+            "บางบอส (เช่น Chocobo Eater, Crawler, Yunalesca) แหล่งไม่มีหัวข้อกลยุทธ์ ข้อความที่ระบุว่าอนุมานคือการคาดเดาค่ะ"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+[
+ {
+  "area_id": "a02",
+  "file": "a02.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ ซากปรักหักพัง Baaj: Ruins, Ruins Underwater Hall, Ruins Corridor, Ruins Hall, Ruins Hallway",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/03-Ruins.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins-Underwater-Hall.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins-Corridor.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins-Hall.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins-Hallway.webp"
+  ],
+  "bytes": 10904
+ },
+ {
+  "area_id": "a03",
+  "file": "a03.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Besaid: Besaid Beach, Besaid Valley, Besaid Village Slope, Besaid Village",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/04-Besaid-Island.html",
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/05-Besaid-Village.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Besaid-Beach.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Besaid-Valley.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Besaid-Village-Slope.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Besaid-Village.webp"
+  ],
+  "bytes": 11074
+ },
+ {
+  "area_id": "a05",
+  "file": "a05.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Kilika: Kilika Docks, Kilika Woods",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/07-Kilika.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Kilika-Docks.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Kilika-Woods.webp"
+  ],
+  "bytes": 6580
+ },
+ {
+  "area_id": "a07",
+  "file": "a07.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Luca: Luca Main Gate, Luca Number 1 Dock, Luca Number 2 Dock, Luca Number 5 Dock, Luca City Limits",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/09-Luca.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-Main-Gate.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-Number-1-Dock.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-Number-2-Dock.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-Number-5-Dock.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-City-Limits.webp"
+  ],
+  "bytes": 17334
+ },
+ {
+  "area_id": "a08",
+  "file": "a08.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mi'ihen Highroad: Miihen Highroad South End, Miihen Highroad South, Miihen Highroad Central, Miihen Highroad Newroad South, Miihen Highroad Newroad North, Miihen Highroad North End, Miihen Highroad Oldroad North, Miihen Highroad Oldroad South",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/10-Miihen-Highroad-South-Central.html",
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/11-Miihen-Highroad-Agency-Newroad.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-South-End.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-South.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Central.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Newroad-South.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Newroad-North.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-North-End.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Oldroad-North.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Oldroad-South.webp"
+  ],
+  "bytes": 21678
+ },
+ {
+  "area_id": "a09",
+  "file": "a09.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mushroom Rock Road: Mushroom Rock Road, Mushroom Rock Valley, Mushroom Rock Precipice, Mushroom Rock Ridge, Mushroom Rock Aftermath",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/12-Mushroom-Rock.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Road.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Valley.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Precipice.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Ridge.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Aftermath.webp"
+  ],
+  "bytes": 16306
+ },
+ {
+  "area_id": "a10",
+  "file": "a10.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Djose: Djose Highroad, Djose Temple, Djose Pilgrimage Road",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/13-Djose-Highroad-and-Temple.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Djose-Highroad.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Djose-Temple.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Djose-Pilgrimage-Road.webp"
+  ],
+  "bytes": 7862
+ },
+ {
+  "area_id": "a11",
+  "file": "a11.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Moonflow: Moonflow South Bank Road, Moonflow South Bank, Moonflow South Wharf, Moonflow North Bank, Moonflow North Bank Road",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/14-Moonflow.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-South-Bank-Road.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-South-Bank.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-South-Wharf.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-North-Bank.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-North-Bank-Road.webp"
+  ],
+  "bytes": 11260
+ },
+ {
+  "area_id": "a13",
+  "file": "a13.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Thunder Plains: Thunder Plains South, Thunder Plains North",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/16-Thunder-Plains.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Thunder-Plains-South.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Thunder-Plains-North.webp"
+  ],
+  "bytes": 4504
+ },
+ {
+  "area_id": "a14",
+  "file": "a14.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Macalania Woods & ทะเลสาบ: Macalania Woods South, Macalania Woods Central, Macalania Woods North, Macalania Woods Lake Road, Lake Macalania Agency Front, Macalania Road, Macalania Hall, Lake Macalania Crevasse",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/17-Macalania-Woods.html",
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/18-Lake-Macalania.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Woods-South.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Woods-Central.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Woods-North.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Woods-Lake-Road.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Lake-Macalania-Agency-Front.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Road.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Hall.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Lake-Macalania-Crevasse.webp"
+  ],
+  "bytes": 30478
+ },
+ {
+  "area_id": "a16",
+  "file": "a16.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Bikanel (Sanubia Desert): Sanubia Oasis, Sanubia Desert East, Sanubia Central, Sanubia West",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/19-Sanubia-Desert.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sanubia-Oasis.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sanubia-Desert-East.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sanubia-Central.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sanubia-West.webp"
+  ],
+  "bytes": 11748
+ },
+ {
+  "area_id": "a17",
+  "file": "a17.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Home (บ้าน Al Bhed): Home Outside, Home Main Corridor, Home Environmental Controls",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/20-Home.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Home-Outside.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Home-Main-Corridor.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Home-Environmental-Controls.webp"
+  ],
+  "bytes": 7614
+ },
+ {
+  "area_id": "a18",
+  "file": "a18.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Bevelle & Via Purifico: Bevelle Underwater, Bevelle Highbridge",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/23-Via-Purifico.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Bevelle-Underwater.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Bevelle-Highbridge.webp"
+  ],
+  "bytes": 3034
+ },
+ {
+  "area_id": "a19",
+  "file": "a19.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Calm Lands & Remiem Temple: Calm Lands, Calm Lands North, Calm Lands Near Bridge",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/25-The-Calm-Lands.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Calm-Lands.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Calm-Lands-North.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Calm-Lands-Near-Bridge.webp"
+  ],
+  "bytes": 10838
+ },
+ {
+  "area_id": "a20",
+  "file": "a20.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Cavern of the Stolen Fayth: Cavern of the Stolen Fayth",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Cavern-of-the-Stolen-Fayth.webp"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Cavern-of-the-Stolen-Fayth.webp"
+  ],
+  "bytes": 2966
+ },
+ {
+  "area_id": "a21",
+  "file": "a21.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mt. Gagazet: Mt Gagazet Entrance, Mt Gagazet Mountain Trail 1, Mt Gagazet Mountain Trail 2, Mt Gagazet Prominence, Mt Gagazet Cave 1, Mt Gagazet Submerged 1, Mt Gagazet Cave 2, Mt Gagazet Submerged 2",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/26-Mt-Gagazet.html",
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/27-Mt-Gagazet-Cave.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Entrance.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Mountain-Trail-1.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Mountain-Trail-2.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Prominence.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Cave-1.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Submerged-1.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Cave-2.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Submerged-2.webp"
+  ],
+  "bytes": 31332
+ },
+ {
+  "area_id": "a22",
+  "file": "a22.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Zanarkand Ruins & Dome: Zanarkand Ruins Entrance, Zanarkand Ruins Overpass, Zanarkand Dome Interior, Zanarkand Dome Corridor",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/28-Zanarkand-Ruins.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Zanarkand-Ruins-Entrance.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Zanarkand-Ruins-Overpass.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Zanarkand-Dome-Interior.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Zanarkand-Dome-Corridor.webp"
+  ],
+  "bytes": 8134
+ },
+ {
+  "area_id": "a23",
+  "file": "a23.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ เรือเหาะ & Sin: Sin Sea of Sorrow, Sin City of Dying Dreams",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/31-Sin.html",
+   "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/32-Inside-Sin.html"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sin-Sea-of-Sorrow.webp",
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sin-City-of-Dying-Dreams.webp"
+  ],
+  "bytes": 8886
+ },
+ {
+  "area_id": "a24",
+  "file": "a24.webp",
+  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Omega Ruins (เสริม): Omega Ruins",
+  "credit": "แผนที่จาก Jegged.com",
+  "source_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Omega-Ruins.webp"
+  ],
+  "image_urls": [
+   "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Omega-Ruins.webp"
+  ],
+  "bytes": 5154
+ }
+]

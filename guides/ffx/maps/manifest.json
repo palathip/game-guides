@@ -2,7 +2,7 @@
  {
   "area_id": "a02",
   "file": "a02.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ ซากปรักหักพัง Baaj: Ruins, Ruins Underwater Hall, Ruins Corridor, Ruins Hall, Ruins Hallway",
+  "caption": "แผนที่ ซากปรักหักพัง Baaj — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Ruins – Al Bhed Compilation Sphere; 2) Ruins – Potion ×2; 3) Ruins Underwater Hall – Hi-Potion; 4) Ruins Hall – Flint; 5) Ruins Hall – X-Potion; 6) Ruins Hallway – Ether; 7) Ruins Hallway – Withered Bouquet",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/03-Ruins.html"
@@ -14,12 +14,50 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins-Hall.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Ruins-Hallway.webp"
   ],
-  "bytes": 10904
+  "bytes": 10904,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Ruins",
+    "item": "Al Bhed Compilation Sphere"
+   },
+   {
+    "n": 2,
+    "submap": "Ruins",
+    "item": "Potion ×2"
+   },
+   {
+    "n": 3,
+    "submap": "Ruins Underwater Hall",
+    "item": "Hi-Potion"
+   },
+   {
+    "n": 4,
+    "submap": "Ruins Hall",
+    "item": "Flint"
+   },
+   {
+    "n": 5,
+    "submap": "Ruins Hall",
+    "item": "X-Potion"
+   },
+   {
+    "n": 6,
+    "submap": "Ruins Hallway",
+    "item": "Ether"
+   },
+   {
+    "n": 7,
+    "submap": "Ruins Hallway",
+    "item": "Withered Bouquet"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a03",
   "file": "a03.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Besaid: Besaid Beach, Besaid Valley, Besaid Village Slope, Besaid Village",
+  "caption": "แผนที่ Besaid — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Besaid Beach – Moon Crest; 2) Besaid Beach – Antidote; 3) Besaid Valley – Phoenix Down; 4) Besaid Valley – Hi-Potion; 5) Besaid Valley – Antidote ×2; 6) Besaid Village – Phoenix Down; 7) Besaid Village – Potion ×2; 8) Besaid Village – Hi-Potion; 9) Besaid Village – 400 Gil",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/04-Besaid-Island.html",
@@ -31,12 +69,60 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Besaid-Village-Slope.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Besaid-Village.webp"
   ],
-  "bytes": 11074
+  "bytes": 11074,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Besaid Beach",
+    "item": "Moon Crest"
+   },
+   {
+    "n": 2,
+    "submap": "Besaid Beach",
+    "item": "Antidote"
+   },
+   {
+    "n": 3,
+    "submap": "Besaid Valley",
+    "item": "Phoenix Down"
+   },
+   {
+    "n": 4,
+    "submap": "Besaid Valley",
+    "item": "Hi-Potion"
+   },
+   {
+    "n": 5,
+    "submap": "Besaid Valley",
+    "item": "Antidote ×2"
+   },
+   {
+    "n": 6,
+    "submap": "Besaid Village",
+    "item": "Phoenix Down"
+   },
+   {
+    "n": 7,
+    "submap": "Besaid Village",
+    "item": "Potion ×2"
+   },
+   {
+    "n": 8,
+    "submap": "Besaid Village",
+    "item": "Hi-Potion"
+   },
+   {
+    "n": 9,
+    "submap": "Besaid Village",
+    "item": "400 Gil"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a05",
   "file": "a05.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Kilika: Kilika Docks, Kilika Woods",
+  "caption": "แผนที่ Kilika — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Kilika Woods – Mana Sphere ×2; 2) Kilika Woods – Scout; 3) Kilika Woods – Remedy; 4) Kilika Woods – Hi-Potion; 5) Kilika Woods – Luck Sphere",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/07-Kilika.html"
@@ -45,12 +131,40 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Kilika-Docks.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Kilika-Woods.webp"
   ],
-  "bytes": 6580
+  "bytes": 6580,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Kilika Woods",
+    "item": "Mana Sphere ×2"
+   },
+   {
+    "n": 2,
+    "submap": "Kilika Woods",
+    "item": "Scout"
+   },
+   {
+    "n": 3,
+    "submap": "Kilika Woods",
+    "item": "Remedy"
+   },
+   {
+    "n": 4,
+    "submap": "Kilika Woods",
+    "item": "Hi-Potion"
+   },
+   {
+    "n": 5,
+    "submap": "Kilika Woods",
+    "item": "Luck Sphere"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a07",
   "file": "a07.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Luca: Luca Main Gate, Luca Number 1 Dock, Luca Number 2 Dock, Luca Number 5 Dock, Luca City Limits",
+  "caption": "แผนที่ Luca — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Luca Number 1 Dock – 600 Gil; 2) Luca Number 1 Dock – Tidal Spear; 3) Luca Number 2 Dock – Phoenix Down ×2; 4) Luca Number 5 Dock – HP Sphere; 5) Luca Number 5 Dock – Magic Sphere; 6) Luca City Limits – 1,000 Gil",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/09-Luca.html"
@@ -62,12 +176,45 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-Number-5-Dock.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Luca-City-Limits.webp"
   ],
-  "bytes": 17334
+  "bytes": 17334,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Luca Number 1 Dock",
+    "item": "600 Gil"
+   },
+   {
+    "n": 2,
+    "submap": "Luca Number 1 Dock",
+    "item": "Tidal Spear"
+   },
+   {
+    "n": 3,
+    "submap": "Luca Number 2 Dock",
+    "item": "Phoenix Down ×2"
+   },
+   {
+    "n": 4,
+    "submap": "Luca Number 5 Dock",
+    "item": "HP Sphere"
+   },
+   {
+    "n": 5,
+    "submap": "Luca Number 5 Dock",
+    "item": "Magic Sphere"
+   },
+   {
+    "n": 6,
+    "submap": "Luca City Limits",
+    "item": "1,000 Gil"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a08",
   "file": "a08.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mi'ihen Highroad: Miihen Highroad South End, Miihen Highroad South, Miihen Highroad Central, Miihen Highroad Newroad South, Miihen Highroad Newroad North, Miihen Highroad North End, Miihen Highroad Oldroad North, Miihen Highroad Oldroad South",
+  "caption": "แผนที่ Mi'ihen Highroad — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Miihen Highroad South End – Ice Brand; 2) Miihen Highroad South End – Belgemine; 3) Miihen Highroad South – Remedy; 4) Miihen Highroad Central – 2,000 Gil; 5) Miihen Highroad Central – Eye Drops ×3; 6) Miihen Highroad Newroad North – Heat Lance; 7) Miihen Highroad Newroad North – Al Bhed Primer (Vol. IX); 8) Miihen Highroad North End – Hi-Potion ×2; 9) Miihen Highroad Oldroad North – Thunder Blade; 10) Miihen Highroad Oldroad North – Scout; 11) Miihen Highroad Oldroad South – Fortune Sphere; 12) Miihen Highroad Oldroad South – Mars CrestSaturn Crest",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/10-Miihen-Highroad-South-Central.html",
@@ -83,12 +230,75 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Oldroad-North.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Miihen-Highroad-Oldroad-South.webp"
   ],
-  "bytes": 21678
+  "bytes": 21678,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Miihen Highroad South End",
+    "item": "Ice Brand"
+   },
+   {
+    "n": 2,
+    "submap": "Miihen Highroad South End",
+    "item": "Belgemine"
+   },
+   {
+    "n": 3,
+    "submap": "Miihen Highroad South",
+    "item": "Remedy"
+   },
+   {
+    "n": 4,
+    "submap": "Miihen Highroad Central",
+    "item": "2,000 Gil"
+   },
+   {
+    "n": 5,
+    "submap": "Miihen Highroad Central",
+    "item": "Eye Drops ×3"
+   },
+   {
+    "n": 6,
+    "submap": "Miihen Highroad Newroad North",
+    "item": "Heat Lance"
+   },
+   {
+    "n": 7,
+    "submap": "Miihen Highroad Newroad North",
+    "item": "Al Bhed Primer (Vol. IX)"
+   },
+   {
+    "n": 8,
+    "submap": "Miihen Highroad North End",
+    "item": "Hi-Potion ×2"
+   },
+   {
+    "n": 9,
+    "submap": "Miihen Highroad Oldroad North",
+    "item": "Thunder Blade"
+   },
+   {
+    "n": 10,
+    "submap": "Miihen Highroad Oldroad North",
+    "item": "Scout"
+   },
+   {
+    "n": 11,
+    "submap": "Miihen Highroad Oldroad South",
+    "item": "Fortune Sphere"
+   },
+   {
+    "n": 12,
+    "submap": "Miihen Highroad Oldroad South",
+    "item": "Mars CrestSaturn Crest"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a09",
   "file": "a09.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mushroom Rock Road: Mushroom Rock Road, Mushroom Rock Valley, Mushroom Rock Precipice, Mushroom Rock Ridge, Mushroom Rock Aftermath",
+  "caption": "แผนที่ Mushroom Rock Road — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Mushroom Rock Valley – 1,000 Gil; 2) Mushroom Rock Valley – Remedy; 3) Mushroom Rock Valley – Hi-Potion; 4) Mushroom Rock Precipice – Serene Armlet; 5) Mushroom Rock Precipice – Al Bhed Primer (Vol. X); 6) Mushroom Rock Ridge – Mega-Potion; 7) Mushroom Rock Ridge – Serene Bracer; 8) Mushroom Rock Aftermath – Hi-Potion",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/12-Mushroom-Rock.html"
@@ -100,12 +310,55 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Ridge.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mushroom-Rock-Aftermath.webp"
   ],
-  "bytes": 16306
+  "bytes": 16306,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Mushroom Rock Valley",
+    "item": "1,000 Gil"
+   },
+   {
+    "n": 2,
+    "submap": "Mushroom Rock Valley",
+    "item": "Remedy"
+   },
+   {
+    "n": 3,
+    "submap": "Mushroom Rock Valley",
+    "item": "Hi-Potion"
+   },
+   {
+    "n": 4,
+    "submap": "Mushroom Rock Precipice",
+    "item": "Serene Armlet"
+   },
+   {
+    "n": 5,
+    "submap": "Mushroom Rock Precipice",
+    "item": "Al Bhed Primer (Vol. X)"
+   },
+   {
+    "n": 6,
+    "submap": "Mushroom Rock Ridge",
+    "item": "Mega-Potion"
+   },
+   {
+    "n": 7,
+    "submap": "Mushroom Rock Ridge",
+    "item": "Serene Bracer"
+   },
+   {
+    "n": 8,
+    "submap": "Mushroom Rock Aftermath",
+    "item": "Hi-Potion"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a10",
   "file": "a10.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Djose: Djose Highroad, Djose Temple, Djose Pilgrimage Road",
+  "caption": "แผนที่ Djose — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Djose Highroad – Phoenix Down ×2; 2) Djose Highroad – Al Bhed Primer (Vol. XI); 3) Djose Highroad – Bright Bangle; 4) Djose Temple – Ability Sphere ×4; 5) Djose Temple – 4,000 Gil",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/13-Djose-Highroad-and-Temple.html"
@@ -115,12 +368,40 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Djose-Temple.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Djose-Pilgrimage-Road.webp"
   ],
-  "bytes": 7862
+  "bytes": 7862,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Djose Highroad",
+    "item": "Phoenix Down ×2"
+   },
+   {
+    "n": 2,
+    "submap": "Djose Highroad",
+    "item": "Al Bhed Primer (Vol. XI)"
+   },
+   {
+    "n": 3,
+    "submap": "Djose Highroad",
+    "item": "Bright Bangle"
+   },
+   {
+    "n": 4,
+    "submap": "Djose Temple",
+    "item": "Ability Sphere ×4"
+   },
+   {
+    "n": 5,
+    "submap": "Djose Temple",
+    "item": "4,000 Gil"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a11",
   "file": "a11.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Moonflow: Moonflow South Bank Road, Moonflow South Bank, Moonflow South Wharf, Moonflow North Bank, Moonflow North Bank Road",
+  "caption": "แผนที่ Moonflow — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Moonflow South Bank Road – Lv. 1 Key Sphere; 2) Moonflow South Bank Road – X-Potion; 3) Moonflow South Bank Road – Lv. 1 Key Sphere ×3; 4) Moonflow South Bank Road – Belgemine; 5) Moonflow South Bank Road – Magic Def Sphere; 6) Moonflow South Wharf – Phoenix Down ×2; 7) Moonflow North Bank – Rikku; 8) Moonflow North Bank – Antidote ×4; 9) Moonflow North Bank Road – Mega-Potion",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/14-Moonflow.html"
@@ -132,12 +413,60 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-North-Bank.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Moonflow-North-Bank-Road.webp"
   ],
-  "bytes": 11260
+  "bytes": 11260,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Moonflow South Bank Road",
+    "item": "Lv. 1 Key Sphere"
+   },
+   {
+    "n": 2,
+    "submap": "Moonflow South Bank Road",
+    "item": "X-Potion"
+   },
+   {
+    "n": 3,
+    "submap": "Moonflow South Bank Road",
+    "item": "Lv. 1 Key Sphere ×3"
+   },
+   {
+    "n": 4,
+    "submap": "Moonflow South Bank Road",
+    "item": "Belgemine"
+   },
+   {
+    "n": 5,
+    "submap": "Moonflow South Bank Road",
+    "item": "Magic Def Sphere"
+   },
+   {
+    "n": 6,
+    "submap": "Moonflow South Wharf",
+    "item": "Phoenix Down ×2"
+   },
+   {
+    "n": 7,
+    "submap": "Moonflow North Bank",
+    "item": "Rikku"
+   },
+   {
+    "n": 8,
+    "submap": "Moonflow North Bank",
+    "item": "Antidote ×4"
+   },
+   {
+    "n": 9,
+    "submap": "Moonflow North Bank Road",
+    "item": "Mega-Potion"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a13",
   "file": "a13.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Thunder Plains: Thunder Plains South, Thunder Plains North",
+  "caption": "แผนที่ Thunder Plains — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Thunder Plains South – Phoenix Down ×2; 2) Thunder Plains South – Hi-Potion ×2; 3) Thunder Plains South – 5,000 Gil; 4) Thunder Plains South – Water Ball; 5) Thunder Plains North – X-Potion; 6) Thunder Plains North – Ether; 7) Thunder Plains North – 2,000 Gil",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/16-Thunder-Plains.html"
@@ -146,12 +475,50 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Thunder-Plains-South.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Thunder-Plains-North.webp"
   ],
-  "bytes": 4504
+  "bytes": 4504,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Thunder Plains South",
+    "item": "Phoenix Down ×2"
+   },
+   {
+    "n": 2,
+    "submap": "Thunder Plains South",
+    "item": "Hi-Potion ×2"
+   },
+   {
+    "n": 3,
+    "submap": "Thunder Plains South",
+    "item": "5,000 Gil"
+   },
+   {
+    "n": 4,
+    "submap": "Thunder Plains South",
+    "item": "Water Ball"
+   },
+   {
+    "n": 5,
+    "submap": "Thunder Plains North",
+    "item": "X-Potion"
+   },
+   {
+    "n": 6,
+    "submap": "Thunder Plains North",
+    "item": "Ether"
+   },
+   {
+    "n": 7,
+    "submap": "Thunder Plains North",
+    "item": "2,000 Gil"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a14",
   "file": "a14.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Macalania Woods & ทะเลสาบ: Macalania Woods South, Macalania Woods Central, Macalania Woods North, Macalania Woods Lake Road, Lake Macalania Agency Front, Macalania Road, Macalania Hall, Lake Macalania Crevasse",
+  "caption": "แผนที่ Macalania Woods & ทะเลสาบ — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Macalania Woods South – Sleepy Cait Sith; 2) Macalania Woods South – 2,000 Gil; 3) Macalania Woods Central – Phoenix Down ×3; 4) Macalania Woods Central – Butterfly Catcher; 5) Macalania Woods North – Remedy; 6) Macalania Woods Lake Road – Al Bhed Primer (Vol. XV); 7) Lake Macalania Agency Front – 4,000 Gil (cannot be obtained until later in the game); 8) Lake Macalania Agency Front – Al Bhed Primer (Vol. XVI); 9) Macalania Hall – 5,000 Gil; 10) Macalania Hall – X-Potion; 11) Lake Macalania Crevasse – Lv. 1 Key Sphere",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/17-Macalania-Woods.html",
@@ -167,12 +534,70 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Macalania-Hall.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Lake-Macalania-Crevasse.webp"
   ],
-  "bytes": 30478
+  "bytes": 30478,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Macalania Woods South",
+    "item": "Sleepy Cait Sith"
+   },
+   {
+    "n": 2,
+    "submap": "Macalania Woods South",
+    "item": "2,000 Gil"
+   },
+   {
+    "n": 3,
+    "submap": "Macalania Woods Central",
+    "item": "Phoenix Down ×3"
+   },
+   {
+    "n": 4,
+    "submap": "Macalania Woods Central",
+    "item": "Butterfly Catcher"
+   },
+   {
+    "n": 5,
+    "submap": "Macalania Woods North",
+    "item": "Remedy"
+   },
+   {
+    "n": 6,
+    "submap": "Macalania Woods Lake Road",
+    "item": "Al Bhed Primer (Vol. XV)"
+   },
+   {
+    "n": 7,
+    "submap": "Lake Macalania Agency Front",
+    "item": "4,000 Gil (cannot be obtained until later in the game)"
+   },
+   {
+    "n": 8,
+    "submap": "Lake Macalania Agency Front",
+    "item": "Al Bhed Primer (Vol. XVI)"
+   },
+   {
+    "n": 9,
+    "submap": "Macalania Hall",
+    "item": "5,000 Gil"
+   },
+   {
+    "n": 10,
+    "submap": "Macalania Hall",
+    "item": "X-Potion"
+   },
+   {
+    "n": 11,
+    "submap": "Lake Macalania Crevasse",
+    "item": "Lv. 1 Key Sphere"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a16",
   "file": "a16.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Bikanel (Sanubia Desert): Sanubia Oasis, Sanubia Desert East, Sanubia Central, Sanubia West",
+  "caption": "แผนที่ Bikanel (Sanubia Desert) — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Sanubia Oasis – Remedy ×4; 2) Sanubia Oasis – Wakka; 3) Sanubia Oasis – Al Bhed Potion ×8; 4) Sanubia Desert East – Kimahri; 5) Sanubia Desert East – Rikku; 6) Sanubia Desert East – Ether ×2; 7) Sanubia Desert East – Al Bhed Potion ×8; 8) Sanubia Desert East – Hi-Potion ×4; 9) Sanubia Central – Hi-Potion ×4; 10) Sanubia Central – X-Potion ×2; 11) Sanubia Central – Mega-Potion ×2; 12) Sanubia Central – Al Bhed Potion ×8; 13) Sanubia Central – Lv. 2 Key Sphere; 14) Sanubia Central – Lv. 2 Key Sphere; 15) Sanubia Central – 10,000 Gil; 16) Sanubia Central – Al Bhed Primer (Vol. XVII); 17) Sanubia Central – Al Bhed Primer (Vol. XVIII); 18) Sanubia West – Hi-Potion ×8; 19) Sanubia West – Mercury Crest; 20) Sanubia West – Megalixir ×3; 21) Sanubia West – Mega-Potion ×3; 22) Sanubia West – X-Potion ×2; 23) Sanubia West – Teleport Sphere ×2",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/19-Sanubia-Desert.html"
@@ -183,12 +608,130 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sanubia-Central.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sanubia-West.webp"
   ],
-  "bytes": 11748
+  "bytes": 11748,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Sanubia Oasis",
+    "item": "Remedy ×4"
+   },
+   {
+    "n": 2,
+    "submap": "Sanubia Oasis",
+    "item": "Wakka"
+   },
+   {
+    "n": 3,
+    "submap": "Sanubia Oasis",
+    "item": "Al Bhed Potion ×8"
+   },
+   {
+    "n": 4,
+    "submap": "Sanubia Desert East",
+    "item": "Kimahri"
+   },
+   {
+    "n": 5,
+    "submap": "Sanubia Desert East",
+    "item": "Rikku"
+   },
+   {
+    "n": 6,
+    "submap": "Sanubia Desert East",
+    "item": "Ether ×2"
+   },
+   {
+    "n": 7,
+    "submap": "Sanubia Desert East",
+    "item": "Al Bhed Potion ×8"
+   },
+   {
+    "n": 8,
+    "submap": "Sanubia Desert East",
+    "item": "Hi-Potion ×4"
+   },
+   {
+    "n": 9,
+    "submap": "Sanubia Central",
+    "item": "Hi-Potion ×4"
+   },
+   {
+    "n": 10,
+    "submap": "Sanubia Central",
+    "item": "X-Potion ×2"
+   },
+   {
+    "n": 11,
+    "submap": "Sanubia Central",
+    "item": "Mega-Potion ×2"
+   },
+   {
+    "n": 12,
+    "submap": "Sanubia Central",
+    "item": "Al Bhed Potion ×8"
+   },
+   {
+    "n": 13,
+    "submap": "Sanubia Central",
+    "item": "Lv. 2 Key Sphere"
+   },
+   {
+    "n": 14,
+    "submap": "Sanubia Central",
+    "item": "Lv. 2 Key Sphere"
+   },
+   {
+    "n": 15,
+    "submap": "Sanubia Central",
+    "item": "10,000 Gil"
+   },
+   {
+    "n": 16,
+    "submap": "Sanubia Central",
+    "item": "Al Bhed Primer (Vol. XVII)"
+   },
+   {
+    "n": 17,
+    "submap": "Sanubia Central",
+    "item": "Al Bhed Primer (Vol. XVIII)"
+   },
+   {
+    "n": 18,
+    "submap": "Sanubia West",
+    "item": "Hi-Potion ×8"
+   },
+   {
+    "n": 19,
+    "submap": "Sanubia West",
+    "item": "Mercury Crest"
+   },
+   {
+    "n": 20,
+    "submap": "Sanubia West",
+    "item": "Megalixir ×3"
+   },
+   {
+    "n": 21,
+    "submap": "Sanubia West",
+    "item": "Mega-Potion ×3"
+   },
+   {
+    "n": 22,
+    "submap": "Sanubia West",
+    "item": "X-Potion ×2"
+   },
+   {
+    "n": 23,
+    "submap": "Sanubia West",
+    "item": "Teleport Sphere ×2"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a17",
   "file": "a17.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Home (บ้าน Al Bhed): Home Outside, Home Main Corridor, Home Environmental Controls",
+  "caption": "แผนที่ Home (บ้าน Al Bhed) — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Home Outside – Al Bhed Primer (Vol. XIX); 2) Home Main Corridor – Al Bhed Potion ×4; 3) Home Main Corridor – Al Bhed Primer (Vol. XX); 4) Home Main Corridor – Dreams Puzzle; 5) Home Main Corridor – Password Puzzle; 6) Home Main Corridor – Al Bhed Potion ×6; 7) Home Main Corridor – Al Bhed Primer (Vol. XXI); 8) Home Main Corridor – Numbers Puzzle; 9) Home Main Corridor – Verification Puzzle; 10) Home Main Corridor – Lv. 2 Key Sphere; 11) Home Main Corridor – Lv. 4 Key Sphere; 12) Home Environmental Controls – 10,000 Gil",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/20-Home.html"
@@ -198,12 +741,75 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Home-Main-Corridor.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Home-Environmental-Controls.webp"
   ],
-  "bytes": 7614
+  "bytes": 7614,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Home Outside",
+    "item": "Al Bhed Primer (Vol. XIX)"
+   },
+   {
+    "n": 2,
+    "submap": "Home Main Corridor",
+    "item": "Al Bhed Potion ×4"
+   },
+   {
+    "n": 3,
+    "submap": "Home Main Corridor",
+    "item": "Al Bhed Primer (Vol. XX)"
+   },
+   {
+    "n": 4,
+    "submap": "Home Main Corridor",
+    "item": "Dreams Puzzle"
+   },
+   {
+    "n": 5,
+    "submap": "Home Main Corridor",
+    "item": "Password Puzzle"
+   },
+   {
+    "n": 6,
+    "submap": "Home Main Corridor",
+    "item": "Al Bhed Potion ×6"
+   },
+   {
+    "n": 7,
+    "submap": "Home Main Corridor",
+    "item": "Al Bhed Primer (Vol. XXI)"
+   },
+   {
+    "n": 8,
+    "submap": "Home Main Corridor",
+    "item": "Numbers Puzzle"
+   },
+   {
+    "n": 9,
+    "submap": "Home Main Corridor",
+    "item": "Verification Puzzle"
+   },
+   {
+    "n": 10,
+    "submap": "Home Main Corridor",
+    "item": "Lv. 2 Key Sphere"
+   },
+   {
+    "n": 11,
+    "submap": "Home Main Corridor",
+    "item": "Lv. 4 Key Sphere"
+   },
+   {
+    "n": 12,
+    "submap": "Home Environmental Controls",
+    "item": "10,000 Gil"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a18",
   "file": "a18.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Bevelle & Via Purifico: Bevelle Underwater, Bevelle Highbridge",
+  "caption": "แผนที่ Bevelle & Via Purifico — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Bevelle Underwater – Rematch; 2) Bevelle Underwater – Avenger",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/23-Via-Purifico.html"
@@ -212,12 +818,25 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Bevelle-Underwater.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Bevelle-Highbridge.webp"
   ],
-  "bytes": 3034
+  "bytes": 3034,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Bevelle Underwater",
+    "item": "Rematch"
+   },
+   {
+    "n": 2,
+    "submap": "Bevelle Underwater",
+    "item": "Avenger"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a19",
   "file": "a19.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Calm Lands & Remiem Temple: Calm Lands, Calm Lands North, Calm Lands Near Bridge",
+  "caption": "แผนที่ Calm Lands & Remiem Temple — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Calm Lands – Rin’s Traveling Agency; 2) Calm Lands – 5,000 Gil; 3) Calm Lands – 10,000 Gil; 4) Calm Lands – Lv. 2 Key Sphere; 5) Calm Lands – Al Bhed Primer (Vol. XXIII); 6) Calm Lands – Chocobo Trainer; 7) Calm Lands – Belgemine; 8) Calm Lands Near Bridge – Cavern of Fayth Entrance; 9) Calm Lands Near Bridge – Rusty Sword",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/25-The-Calm-Lands.html"
@@ -227,12 +846,60 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Calm-Lands-North.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Calm-Lands-Near-Bridge.webp"
   ],
-  "bytes": 10838
+  "bytes": 10838,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Calm Lands",
+    "item": "Rin’s Traveling Agency"
+   },
+   {
+    "n": 2,
+    "submap": "Calm Lands",
+    "item": "5,000 Gil"
+   },
+   {
+    "n": 3,
+    "submap": "Calm Lands",
+    "item": "10,000 Gil"
+   },
+   {
+    "n": 4,
+    "submap": "Calm Lands",
+    "item": "Lv. 2 Key Sphere"
+   },
+   {
+    "n": 5,
+    "submap": "Calm Lands",
+    "item": "Al Bhed Primer (Vol. XXIII)"
+   },
+   {
+    "n": 6,
+    "submap": "Calm Lands",
+    "item": "Chocobo Trainer"
+   },
+   {
+    "n": 7,
+    "submap": "Calm Lands",
+    "item": "Belgemine"
+   },
+   {
+    "n": 8,
+    "submap": "Calm Lands Near Bridge",
+    "item": "Cavern of Fayth Entrance"
+   },
+   {
+    "n": 9,
+    "submap": "Calm Lands Near Bridge",
+    "item": "Rusty Sword"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a20",
   "file": "a20.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Cavern of the Stolen Fayth: Cavern of the Stolen Fayth",
+  "caption": "แผนที่ Cavern of the Stolen Fayth (แหล่งข้อมูลไม่มีตำแหน่งของบนแผนที่นี้)",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Cavern-of-the-Stolen-Fayth.webp"
@@ -240,12 +907,14 @@
   "image_urls": [
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Cavern-of-the-Stolen-Fayth.webp"
   ],
-  "bytes": 2966
+  "bytes": 2966,
+  "pins": [],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a21",
   "file": "a21.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Mt. Gagazet: Mt Gagazet Entrance, Mt Gagazet Mountain Trail 1, Mt Gagazet Mountain Trail 2, Mt Gagazet Prominence, Mt Gagazet Cave 1, Mt Gagazet Submerged 1, Mt Gagazet Cave 2, Mt Gagazet Submerged 2",
+  "caption": "แผนที่ Mt. Gagazet — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Mt Gagazet Mountain Trail 1 – 20,000 Gil; 2) Mt Gagazet Mountain Trail 1 – Mega-Potion; 3) Mt Gagazet Mountain Trail 1 – Jecht Sphere; 4) Mt Gagazet Mountain Trail 1 – Defending Bracer; 5) Mt Gagazet Mountain Trail 1 – Wantz; 6) Mt Gagazet Mountain Trail 2 – HP Sphere; 7) Mt Gagazet Mountain Trail 2 – Lv. 4 Key Sphere; 8) Mt Gagazet Prominence – Saturn CrestJupiter Crest; 9) Mt Gagazet Submerged 1 – First Trial; 10) Mt Gagazet Submerged 2 – Second Trial; 11) Mt Gagazet Submerged 3 – Return Sphere; 12) Mt Gagazet Submerged 3 – Recovery Ring; 13) Mt Gagazet Cave 4 – Pep Talk",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/26-Mt-Gagazet.html",
@@ -261,12 +930,80 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Cave-2.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Mt-Gagazet-Submerged-2.webp"
   ],
-  "bytes": 31332
+  "bytes": 31332,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Mt Gagazet Mountain Trail 1",
+    "item": "20,000 Gil"
+   },
+   {
+    "n": 2,
+    "submap": "Mt Gagazet Mountain Trail 1",
+    "item": "Mega-Potion"
+   },
+   {
+    "n": 3,
+    "submap": "Mt Gagazet Mountain Trail 1",
+    "item": "Jecht Sphere"
+   },
+   {
+    "n": 4,
+    "submap": "Mt Gagazet Mountain Trail 1",
+    "item": "Defending Bracer"
+   },
+   {
+    "n": 5,
+    "submap": "Mt Gagazet Mountain Trail 1",
+    "item": "Wantz"
+   },
+   {
+    "n": 6,
+    "submap": "Mt Gagazet Mountain Trail 2",
+    "item": "HP Sphere"
+   },
+   {
+    "n": 7,
+    "submap": "Mt Gagazet Mountain Trail 2",
+    "item": "Lv. 4 Key Sphere"
+   },
+   {
+    "n": 8,
+    "submap": "Mt Gagazet Prominence",
+    "item": "Saturn CrestJupiter Crest"
+   },
+   {
+    "n": 9,
+    "submap": "Mt Gagazet Submerged 1",
+    "item": "First Trial"
+   },
+   {
+    "n": 10,
+    "submap": "Mt Gagazet Submerged 2",
+    "item": "Second Trial"
+   },
+   {
+    "n": 11,
+    "submap": "Mt Gagazet Submerged 3",
+    "item": "Return Sphere"
+   },
+   {
+    "n": 12,
+    "submap": "Mt Gagazet Submerged 3",
+    "item": "Recovery Ring"
+   },
+   {
+    "n": 13,
+    "submap": "Mt Gagazet Cave 4",
+    "item": "Pep Talk"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a22",
   "file": "a22.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Zanarkand Ruins & Dome: Zanarkand Ruins Entrance, Zanarkand Ruins Overpass, Zanarkand Dome Interior, Zanarkand Dome Corridor",
+  "caption": "แผนที่ Zanarkand Ruins & Dome — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Zanarkand Dome Interior – 10,000 Gil; 2) Zanarkand Dome Interior – Friend Sphere; 3) Zanarkand Dome Interior – Lv. 3 Key Sphere; 4) Zanarkand Dome Corridor – Luck Sphere",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/28-Zanarkand-Ruins.html"
@@ -277,12 +1014,35 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Zanarkand-Dome-Interior.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Zanarkand-Dome-Corridor.webp"
   ],
-  "bytes": 8134
+  "bytes": 8134,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Zanarkand Dome Interior",
+    "item": "10,000 Gil"
+   },
+   {
+    "n": 2,
+    "submap": "Zanarkand Dome Interior",
+    "item": "Friend Sphere"
+   },
+   {
+    "n": 3,
+    "submap": "Zanarkand Dome Interior",
+    "item": "Lv. 3 Key Sphere"
+   },
+   {
+    "n": 4,
+    "submap": "Zanarkand Dome Corridor",
+    "item": "Luck Sphere"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a23",
   "file": "a23.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ เรือเหาะ & Sin: Sin Sea of Sorrow, Sin City of Dying Dreams",
+  "caption": "แผนที่ เรือเหาะ & Sin — หมุดเหลือง = หีบสมบัติ/จุดเก็บของ, หมุดฟ้า = Al Bhed Primer: 1) Sin Sea of Sorrow – Phantom Ring; 2) Sin Sea of Sorrow – Special Sphere; 3) Sin Sea of Sorrow – Elixir; 4) Sin Sea of Sorrow – Wizard Lance; 5) Sin Sea of Sorrow – Lv. 3 Key Sphere; 6) Sin City of Dying Dreams – Lv. 4 Key Sphere; 7) Sin City of Dying Dreams – Four-on-One; 8) Sin City of Dying Dreams – Defending Bracer; 9) Sin City of Dying Dreams – 20,000 Gil; 10) Sin City of Dying Dreams – HP Sphere; 11) Sin City of Dying Dreams – Defense Sphere; 12) Sin City of Dying Dreams – Megalixir; 13) Sin City of Dying Dreams – Laevatein",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/Games/Final-Fantasy-X/Walkthrough/31-Sin.html",
@@ -292,12 +1052,80 @@
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sin-Sea-of-Sorrow.webp",
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Sin-City-of-Dying-Dreams.webp"
   ],
-  "bytes": 8886
+  "bytes": 8886,
+  "pins": [
+   {
+    "n": 1,
+    "submap": "Sin Sea of Sorrow",
+    "item": "Phantom Ring"
+   },
+   {
+    "n": 2,
+    "submap": "Sin Sea of Sorrow",
+    "item": "Special Sphere"
+   },
+   {
+    "n": 3,
+    "submap": "Sin Sea of Sorrow",
+    "item": "Elixir"
+   },
+   {
+    "n": 4,
+    "submap": "Sin Sea of Sorrow",
+    "item": "Wizard Lance"
+   },
+   {
+    "n": 5,
+    "submap": "Sin Sea of Sorrow",
+    "item": "Lv. 3 Key Sphere"
+   },
+   {
+    "n": 6,
+    "submap": "Sin City of Dying Dreams",
+    "item": "Lv. 4 Key Sphere"
+   },
+   {
+    "n": 7,
+    "submap": "Sin City of Dying Dreams",
+    "item": "Four-on-One"
+   },
+   {
+    "n": 8,
+    "submap": "Sin City of Dying Dreams",
+    "item": "Defending Bracer"
+   },
+   {
+    "n": 9,
+    "submap": "Sin City of Dying Dreams",
+    "item": "20,000 Gil"
+   },
+   {
+    "n": 10,
+    "submap": "Sin City of Dying Dreams",
+    "item": "HP Sphere"
+   },
+   {
+    "n": 11,
+    "submap": "Sin City of Dying Dreams",
+    "item": "Defense Sphere"
+   },
+   {
+    "n": 12,
+    "submap": "Sin City of Dying Dreams",
+    "item": "Megalixir"
+   },
+   {
+    "n": 13,
+    "submap": "Sin City of Dying Dreams",
+    "item": "Laevatein"
+   }
+  ],
+  "source_images_dir": "maps/src/"
  },
  {
   "area_id": "a24",
   "file": "a24.webp",
-  "caption": "แผนที่พื้นที่ในเกม (มินิแมพ) ของ Omega Ruins (เสริม): Omega Ruins",
+  "caption": "แผนที่ Omega Ruins (เสริม) (แหล่งข้อมูลไม่มีตำแหน่งของบนแผนที่นี้)",
   "credit": "แผนที่จาก Jegged.com",
   "source_urls": [
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Omega-Ruins.webp"
@@ -305,6 +1133,8 @@
   "image_urls": [
    "https://jegged.com/img/Games/Final-Fantasy-X/Maps/Omega-Ruins.webp"
   ],
-  "bytes": 5154
+  "bytes": 5154,
+  "pins": [],
+  "source_images_dir": "maps/src/"
  }
 ]

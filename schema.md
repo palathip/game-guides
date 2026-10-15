@@ -43,6 +43,8 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 | `items` | item[] ✔ | ของสะสมเรียงตามเส้นทาง (ว่าง `[]` ได้) |
 | `tips` | inline-HTML[] | ทิปบอส/การสู้ |
 | `sources` | `{label,url}`[] | ลิงก์แหล่งท้ายบท |
+| `flow` | bool | default true · `false` = ซ่อนไดอะแกรม Walkthrough แนวนอน (หัวข้อ, legend, กล่อง) ของบทนี้ เช็กลิสต์/ทิปยังอยู่ |
+| `blocks` | block[] | เนื้อหาเพิ่ม (แบบเดียวกับ page) แสดงต่อจากแมพ ก่อน Walkthrough · checklist ในนี้นับรวมในสรุป |
 
 ### item (ใช้ทั้งใน chapter.items และ block checklist)
 | field | type | |
@@ -67,6 +69,7 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 | `{"h3": "text"}` | หัวข้อย่อย |
 | `{"p": "inline HTML", "class": "note"\|"src"\|"lg"}` | ย่อหน้า (`note` = กล่องเน้น, `src` = แหล่งที่มา ตัวเล็ก) |
 | `{"list": ["inline HTML", ...]}` | bullet list |
+| `{"olist": ["inline HTML", ...]}` | ลิสต์ตัวเลข 1. 2. 3. (เหมาะกับขั้นตอน/เส้นทาง) |
 | `{"table": {"head": ["A","B"], "rows": [["a","b"]]}}` | ตาราง (plain text, จำนวนช่องต้องเท่า head) |
 | `{"checklist": [item, ...]}` | เช็กลิสต์ติ๊กได้ (นับรวมในสรุป) |
 | `{"totals": true}` | สรุปจำนวนของสะสมทุกประเภท (คำนวณให้อัตโนมัติ) |

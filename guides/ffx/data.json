@@ -12,8 +12,7 @@
   "no_verses": "เริ่มพื้นที่",
   "start": "เริ่ม",
   "end": "จบ",
-  "no_items_summary": "—",
-  "flow_note": "กล่องนี้เป็นสรุปของสะสมในบท ไม่ใช่ลำดับเส้นทาง · ขอบเส้นประ = ต้องย้อนกลับ · ขอบชมพู = ศัตรู/บอส · เส้นทางทีละขั้นอยู่ในหัวข้อ \"เส้นทาง & แมพ\" ถัดไปค่ะ"
+  "no_items_summary": "—"
  },
  "types": {
   "Primer": {
@@ -226,7 +225,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a01-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "ฉากสอนเล่นค่ะ เดินตามเนื้อเรื่องไปสู้ Sinspawn Ammes พร้อม Auron ได้เลย",
     "ใช้ Overdrive ของ Auron (Bushido) เมื่อเกจเต็ม — ท่าแรกมีให้ใช้ตั้งแต่ต้นค่ะ (FF Wiki: Overdrive)"
    ],
@@ -243,24 +241,20 @@
      "label": "FF Wiki: Overdrive (Final Fantasy X)",
      "url": "https://finalfantasy.fandom.com/wiki/Overdrive_%28Final_Fantasy_X%29"
     }
-   ]
-  },
-  {
-   "id": "a01-r",
-   "kind": "page",
-   "title": "01 · เส้นทาง & แมพ: Zanarkand (ความฝัน)",
+   ],
+   "flow": false,
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> เริ่มหน้าบ้าน Tidus ตั้งชื่อตัวละคร แล้วคุยกับคนแถวนั้นได้ตามใจค่ะ",
-      "<b>2.</b> ไปที่ <b>Street</b> คุยกับเด็กผู้หญิงเสื้อชมพูที่หาตั๋วบลิตซ์บอล ตอบว่ามีตั๋วเหลือ จะได้ <b>Potion ×2</b> ค่ะ",
-      "<b>3.</b> เข้าตึกไปดูฉากเนื้อเรื่อง แล้วเดินลงใต้ตาม Auron ไป ระหว่างทางตีแค่ Sinscale ที่ขวางข้างหน้าก็พอค่ะ",
-      "<b>4.</b> <b>บอส: Sinspawn Ammes</b> ใช้ Overdrive ของ Auron (Dragon Fang) กวาด Sinscale แล้วตีบอสต่อ บอสใช้แค่ Demi เลยฆ่าเราไม่ได้ค่ะ",
-      "<b>5.</b> <b>Save Sphere</b> ด้านล่างถนน ใช้เติม HP/MP ได้ค่ะ",
-      "<b>6.</b> สู้ Sinscale ที่เกิดใหม่เรื่อยๆ จน Auron สั่งให้ตี <b>Tanker</b> ทางขวา ตี Tanker 5 ครั้งก็จบฉากค่ะ"
+     "olist": [
+      "เริ่มหน้าบ้าน Tidus ตั้งชื่อตัวละคร แล้วคุยกับคนแถวนั้นได้ตามใจค่ะ",
+      "ไปที่ <b>Street</b> คุยกับเด็กผู้หญิงเสื้อชมพูที่หาตั๋วบลิตซ์บอล ตอบว่ามีตั๋วเหลือ จะได้ <b>Potion ×2</b> ค่ะ",
+      "เข้าตึกไปดูฉากเนื้อเรื่อง แล้วเดินลงใต้ตาม Auron ไป ระหว่างทางตีแค่ Sinscale ที่ขวางข้างหน้าก็พอค่ะ",
+      "<b>บอส: Sinspawn Ammes</b> ใช้ Overdrive ของ Auron (Dragon Fang) กวาด Sinscale แล้วตีบอสต่อ บอสใช้แค่ Demi เลยฆ่าเราไม่ได้ค่ะ",
+      "<b>Save Sphere</b> ด้านล่างถนน ใช้เติม HP/MP ได้ค่ะ",
+      "สู้ Sinscale ที่เกิดใหม่เรื่อยๆ จน Auron สั่งให้ตี <b>Tanker</b> ทางขวา ตี Tanker 5 ครั้งก็จบฉากค่ะ"
      ]
     },
     {
@@ -284,37 +278,37 @@
     {
      "key": "a02-p1",
      "label": "#1 Ruins – Al Bhed Compilation Sphere",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-p2",
      "label": "#2 Ruins – Potion ×2",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-p3",
      "label": "#3 Ruins Underwater Hall – Hi-Potion",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-p4",
      "label": "#4 Ruins Hall – Flint",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-p5",
      "label": "#5 Ruins Hall – X-Potion",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-p6",
      "label": "#6 Ruins Hallway – Ether",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-p7",
      "label": "#7 Ruins Hallway – Withered Bouquet",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a02-gil",
@@ -330,7 +324,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a02-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Klikk: ให้ Rikku (\"????\") ขโมยแล้วปา Grenade ชนะง่ายค่ะ (FF Wiki: Klikk)",
     "Geosgaeno ช่วงนี้เป็นการหนีตามเนื้อเรื่องค่ะ ตัวจริงที่สู้ได้อยู่ช่วงท้ายเกม"
    ],
@@ -347,28 +340,31 @@
      "label": "FF Wiki: Celestial Weapon",
      "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
     }
-   ]
-  },
-  {
-   "id": "a02-r",
-   "kind": "page",
-   "title": "02 · เส้นทาง & แมพ: ซากปรักหักพัง Baaj",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a02.webp",
+     "caption": "แผนที่ ซากปรักหักพัง Baaj — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> ว่ายไปทางตะวันตกเฉียงเหนือ ขึ้นบันไดเก็บ <b>Al Bhed Compilation Sphere</b> (หมุด 1) แล้วเปิดหีบทางใต้ได้ <b>Potion ×2</b> (หมุด 2) ค่ะ",
-      "<b>2.</b> หีบฝั่งตะวันออกใกล้กราฟฟิตี Al Bhed มี <b>200 Gil</b> เก็บก่อนขึ้นเหนือนะคะ",
-      "<b>3.</b> <b>Underwater Hall:</b> ใช้ <b>Save Sphere</b> ทางซ้าย แล้วแยกซ้ายเปิดหีบ <b>Hi-Potion</b> (หมุด 3) ค่ะ",
-      "<b>4.</b> ไปทางเหนือ ว่ายเข้าหา Save Sphere จะเข้า <b>บอส: Sahagin + Geosgaeno</b> เป็นฉากหนี ไม่ต้องเปลืองยาค่ะ",
-      "<b>5.</b> <b>Corridor → Hall:</b> Save Sphere มุมตะวันตกเฉียงใต้ เข้าห้องข้างๆ เก็บ <b>Flint</b> (หมุด 4) ค่ะ",
-      "<b>6.</b> กลับห้องหลักไปทางตะวันออก หีบขวาประตูใหญ่มี <b>X-Potion</b> (หมุด 5) ค่ะ",
-      "<b>7.</b> เข้าประตูทางเหนือ หีบตรงทางเข้ามี <b>Ether</b> (หมุด 6) ขึ้นบันไดเก็บ <b>Withered Bouquet</b> (หมุด 7) แล้วเดินต่อไปชั้น 2 ของห้องหลักเปิดหีบ <b>Hi-Potion</b> ค่ะ",
-      "<b>8.</b> จุดไฟที่กองไฟกลางห้อง → <b>บอส: Klikk</b> ให้สาวชุดแดง (\"????\") ขโมยแล้วปา Grenade ค่ะ",
-      "<b>9.</b> <b>บนเรือกู้ซาก:</b> ทำบทเรียน Sphere Grid คุยกับ Al Bhed ทางซ้ายได้ <b>Potion ×3</b> แล้วเก็บ <b>Al Bhed Primer Vol. I</b> ท้ายเรือ แล้วเซฟค่ะ",
-      "<b>10.</b> ดำน้ำลงไปซากใต้น้ำ ใช้ <b>Save Sphere</b> เปิดเครื่องปั่นไฟ → <b>บอส: Tros</b> (ใช้ Grenade และ Trigger Command 'Pincer Attack') ค่ะ"
+     "olist": [
+      "ว่ายไปทางตะวันตกเฉียงเหนือ ขึ้นบันไดเก็บ <b>Al Bhed Compilation Sphere</b> (หมุด 1) แล้วเปิดหีบทางใต้ได้ <b>Potion ×2</b> (หมุด 2) ค่ะ",
+      "หีบฝั่งตะวันออกใกล้กราฟฟิตี Al Bhed มี <b>200 Gil</b> เก็บก่อนขึ้นเหนือนะคะ",
+      "<b>Underwater Hall:</b> ใช้ <b>Save Sphere</b> ทางซ้าย แล้วแยกซ้ายเปิดหีบ <b>Hi-Potion</b> (หมุด 3) ค่ะ",
+      "ไปทางเหนือ ว่ายเข้าหา Save Sphere จะเข้า <b>บอส: Sahagin + Geosgaeno</b> เป็นฉากหนี ไม่ต้องเปลืองยาค่ะ",
+      "<b>Corridor → Hall:</b> Save Sphere มุมตะวันตกเฉียงใต้ เข้าห้องข้างๆ เก็บ <b>Flint</b> (หมุด 4) ค่ะ",
+      "กลับห้องหลักไปทางตะวันออก หีบขวาประตูใหญ่มี <b>X-Potion</b> (หมุด 5) ค่ะ",
+      "เข้าประตูทางเหนือ หีบตรงทางเข้ามี <b>Ether</b> (หมุด 6) ขึ้นบันไดเก็บ <b>Withered Bouquet</b> (หมุด 7) แล้วเดินต่อไปชั้น 2 ของห้องหลักเปิดหีบ <b>Hi-Potion</b> ค่ะ",
+      "จุดไฟที่กองไฟกลางห้อง → <b>บอส: Klikk</b> ให้สาวชุดแดง (\"????\") ขโมยแล้วปา Grenade ค่ะ",
+      "<b>บนเรือกู้ซาก:</b> ทำบทเรียน Sphere Grid คุยกับ Al Bhed ทางซ้ายได้ <b>Potion ×3</b> แล้วเก็บ <b>Al Bhed Primer Vol. I</b> ท้ายเรือ แล้วเซฟค่ะ",
+      "ดำน้ำลงไปซากใต้น้ำ ใช้ <b>Save Sphere</b> เปิดเครื่องปั่นไฟ → <b>บอส: Tros</b> (ใช้ Grenade และ Trigger Command 'Pincer Attack') ค่ะ"
      ]
     },
     {
@@ -424,13 +420,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/03-Ruins.html\">Jegged: Ruins</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a02.webp",
-     "caption": "แผนที่ ซากปรักหักพัง Baaj — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -451,42 +440,42 @@
     {
      "key": "a03-p2",
      "label": "#2 Besaid Beach – Antidote",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p3",
      "label": "#3 Besaid Valley – Phoenix Down",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p4",
      "label": "#4 Besaid Valley – Hi-Potion",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p5",
      "label": "#5 Besaid Valley – Antidote ×2",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p6",
      "label": "#6 Besaid Village – Phoenix Down",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p7",
      "label": "#7 Besaid Village – Potion ×2",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p8",
      "label": "#8 Besaid Village – Hi-Potion",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-p9",
      "label": "#9 Besaid Village – 400 Gil",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a03-1",
@@ -515,7 +504,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a03-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "ของใต้น้ำ: Phoenix Down, Hi-Potion, Antidote ×2 ค่ะ",
     "Dark Valefor (เฉพาะ International) จะขวางทางเข้าหมู่บ้านหลังได้เรือเหาะ ควรเก็บ Jecht's Sphere และหีบใน Cloister ให้ครบก่อนนะคะ (FF Wiki: Dark Aeon)"
    ],
@@ -540,28 +528,31 @@
      "label": "FF Wiki: Al Bhed Primer",
      "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
     }
-   ]
-  },
-  {
-   "id": "a03-r",
-   "kind": "page",
-   "title": "03 · เส้นทาง & แมพ: Besaid",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a03.webp",
+     "caption": "แผนที่ Besaid — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Besaid Beach:</b> ก่อนว่ายไปหากลุ่มคน ว่ายไปทางตะวันออกเปิดหีบ <b>Moon Crest</b> (หมุด 1) แล้วไปฝั่งซ้ายเปิดหีบบนหาดได้ <b>Antidote</b> (หมุด 2) ค่ะ",
-      "<b>2.</b> คุยกับ Wakka แล้วเดินตามเขาผ่าน Crossroads ไปที่ <b>Besaid Valley</b> ค่ะ",
-      "<b>3.</b> ในลำน้ำ ดำลงเปิดหีบ <b>Phoenix Down</b> (หมุด 3) ไปทางตะวันออกได้ <b>Hi-Potion</b> (หมุด 4) และตามลำน้ำต่อได้ <b>Antidote ×2</b> (หมุด 5) ค่ะ",
-      "<b>4.</b> <b>Besaid Village:</b> หีบทางซ้ายของทางเข้า (หมุด 6) แล้วไปซอกฝั่งตะวันตกของหมู่บ้าน มีหีบ 3 ใบ (หมุด 7–9) ค่ะ",
-      "<b>5.</b> เต็นท์ Crusaders: <b>Al Bhed Primer Vol. II</b> อยู่ขวาโต๊ะค่ะ",
-      "<b>6.</b> เข้าวิหาร → <b>Cloister of Trials</b> ถ้าเก็บ Destruction Sphere ได้จะได้ <b>Rod of Wisdom</b> ค่ะ",
-      "<b>7.</b> ตื่นในเต็นท์ Wakka ใช้ <b>Save Sphere</b> แล้วก่อนออกจากหมู่บ้าน ไปคุยกับเจ้าของร้านค้า (หมาจะขุดของให้) ค่ะ",
-      "<b>8.</b> เดินลงทาง Waterfall Way เจอ Kimahri (ฉากสอนต่อสู้) แล้วกลับถึงหาด ใช้ <b>Save Sphere</b> อีกครั้งค่ะ",
-      "<b>9.</b> ที่ท่าเรือคุยกับฝูงชนทุกคน ได้ <b>Seeker's Ring, Ether, 400 Gil, Phoenix Down ×3</b> และของจากเด็กบนไม้กระดานค่ะ",
-      "<b>10.</b> <b>Jecht's Sphere</b> ในหมู่บ้านจะโผล่ภายหลัง (ต้องย้อนมาเก็บหลังผ่าน Macalania และก่อนมี Dark Valefor ขวาง) ค่ะ"
+     "olist": [
+      "<b>Besaid Beach:</b> ก่อนว่ายไปหากลุ่มคน ว่ายไปทางตะวันออกเปิดหีบ <b>Moon Crest</b> (หมุด 1) แล้วไปฝั่งซ้ายเปิดหีบบนหาดได้ <b>Antidote</b> (หมุด 2) ค่ะ",
+      "คุยกับ Wakka แล้วเดินตามเขาผ่าน Crossroads ไปที่ <b>Besaid Valley</b> ค่ะ",
+      "ในลำน้ำ ดำลงเปิดหีบ <b>Phoenix Down</b> (หมุด 3) ไปทางตะวันออกได้ <b>Hi-Potion</b> (หมุด 4) และตามลำน้ำต่อได้ <b>Antidote ×2</b> (หมุด 5) ค่ะ",
+      "<b>Besaid Village:</b> หีบทางซ้ายของทางเข้า (หมุด 6) แล้วไปซอกฝั่งตะวันตกของหมู่บ้าน มีหีบ 3 ใบ (หมุด 7–9) ค่ะ",
+      "เต็นท์ Crusaders: <b>Al Bhed Primer Vol. II</b> อยู่ขวาโต๊ะค่ะ",
+      "เข้าวิหาร → <b>Cloister of Trials</b> ถ้าเก็บ Destruction Sphere ได้จะได้ <b>Rod of Wisdom</b> ค่ะ",
+      "ตื่นในเต็นท์ Wakka ใช้ <b>Save Sphere</b> แล้วก่อนออกจากหมู่บ้าน ไปคุยกับเจ้าของร้านค้า (หมาจะขุดของให้) ค่ะ",
+      "เดินลงทาง Waterfall Way เจอ Kimahri (ฉากสอนต่อสู้) แล้วกลับถึงหาด ใช้ <b>Save Sphere</b> อีกครั้งค่ะ",
+      "ที่ท่าเรือคุยกับฝูงชนทุกคน ได้ <b>Seeker's Ring, Ether, 400 Gil, Phoenix Down ×3</b> และของจากเด็กบนไม้กระดานค่ะ",
+      "<b>Jecht's Sphere</b> ในหมู่บ้านจะโผล่ภายหลัง (ต้องย้อนมาเก็บหลังผ่าน Macalania และก่อนมี Dark Valefor ขวาง) ค่ะ"
      ]
     },
     {
@@ -627,13 +618,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/04-Besaid-Island.html\">Jegged: Besaid Island</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/05-Besaid-Village.html\">Jegged: Besaid Village</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a03.webp",
-     "caption": "แผนที่ Besaid — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -667,7 +651,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a04-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Sinspawn Echuilles: ฮีลก่อนสู้ ใช้ Dark Attack ของ Wakka กัน Drain Touch และ Cheer ของ Tidus ลดการใช้ Potion ค่ะ (FF Wiki)"
    ],
    "sources": [
@@ -687,24 +670,20 @@
      "label": "FF Wiki: Movie sphere",
      "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
     }
-   ]
-  },
-  {
-   "id": "a04-r",
-   "kind": "page",
-   "title": "04 · เส้นทาง & แมพ: S.S. Liki",
+   ],
+   "flow": false,
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> คุยกับ Wakka แล้วลงชั้นล่างสุดไปเจอ <b>O'aka XXIII</b> แนะนำให้บริจาค 1,001 Gil ค่ะ",
-      "<b>2.</b> ห้องตรงข้าม O'aka มีหีบ <b>Remedy</b> ค่ะ",
-      "<b>3.</b> เตะกระเป๋าบนพื้นได้ Potion สูงสุดจนมีครบ 20 ขวดค่ะ",
-      "<b>4.</b> ห้อง Power Room ข้าง O'aka มี <b>Al Bhed Primer Vol. III</b> ค่ะ",
-      "<b>5.</b> ขึ้นดาดฟ้า คุยกับ Wakka แล้วคุยกับ Yuna → <b>บอส: Sin's Fin</b> ให้ Lulu, Wakka, Kimahri ตีครีบ ค่ะ",
-      "<b>6.</b> <b>บอส: Sinspawn Echuilles</b> (ใต้น้ำ) ใช้ Cheer ของ Tidus และ Dark Attack ของ Wakka แล้วตีบอสตัวเดียวค่ะ"
+     "olist": [
+      "คุยกับ Wakka แล้วลงชั้นล่างสุดไปเจอ <b>O'aka XXIII</b> แนะนำให้บริจาค 1,001 Gil ค่ะ",
+      "ห้องตรงข้าม O'aka มีหีบ <b>Remedy</b> ค่ะ",
+      "เตะกระเป๋าบนพื้นได้ Potion สูงสุดจนมีครบ 20 ขวดค่ะ",
+      "ห้อง Power Room ข้าง O'aka มี <b>Al Bhed Primer Vol. III</b> ค่ะ",
+      "ขึ้นดาดฟ้า คุยกับ Wakka แล้วคุยกับ Yuna → <b>บอส: Sin's Fin</b> ให้ Lulu, Wakka, Kimahri ตีครีบ ค่ะ",
+      "<b>บอส: Sinspawn Echuilles</b> (ใต้น้ำ) ใช้ Cheer ของ Tidus และ Dark Attack ของ Wakka แล้วตีบอสตัวเดียวค่ะ"
      ]
     },
     {
@@ -727,27 +706,27 @@
     {
      "key": "a05-p1",
      "label": "#1 Kilika Woods – Mana Sphere ×2",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a05-p2",
      "label": "#2 Kilika Woods – Scout",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a05-p3",
      "label": "#3 Kilika Woods – Remedy",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a05-p4",
      "label": "#4 Kilika Woods – Hi-Potion",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a05-p5",
      "label": "#5 Kilika Woods – Luck Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a05-0",
@@ -769,7 +748,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a05-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Lord Ochu (บอสเสริม): ใช้ Fire ของ Lulu ตอนมันหลับให้เรียก Valefor ตีค่ะ (FF Wiki)",
     "Sinspawn Geneaux: ใช้ Overdrive ของ Valefor หรือ Fire ตีหนวดก่อน แล้วค่อยตีตัวตอนออกจากเปลือกค่ะ (FF Wiki)"
    ],
@@ -798,29 +776,32 @@
      "label": "FF Wiki: Cloister of Trials (Final Fantasy X)",
      "url": "https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29"
     }
-   ]
-  },
-  {
-   "id": "a05-r",
-   "kind": "page",
-   "title": "05 · เส้นทาง & แมพ: Kilika",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a05.webp",
+     "caption": "แผนที่ Kilika — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Docks:</b> ใช้ <b>Save Sphere</b> แล้วเลี้ยวซ้ายไปดูพิธีส่งวิญญาณของ Yuna ค่ะ",
-      "<b>2.</b> <b>Residential Area:</b> ตื่นในโรงแรม ใช้ Save Sphere เข้ากระท่อมซ้ายบน และช่วยเด็กจากกระท่อมที่ถล่มเพื่อรับของค่ะ",
-      "<b>3.</b> ตาม Datto ไปกระท่อมด้านบน เปิดหีบ และเก็บ <b>Al Bhed Primer Vol. IV</b> บนเคาน์เตอร์ แล้วไปหา Wakka ค่ะ",
-      "<b>4.</b> ไปทางตะวันตกถึง <b>Kilika Woods</b> ใช้ <b>Save Sphere</b> และรับ Yuna เป็นผู้คุ้มกันค่ะ",
-      "<b>5.</b> เดินสุดทางเปิดหีบ <b>Mana Sphere ×2</b> (หมุด 1) แล้วกลับไปทางเข้า ค่ะ",
-      "<b>6.</b> ไปทางตะวันตกถึงทางแยก มีทางลับไปหีบ <b>Scout</b> (หมุด 2) ค่ะ",
-      "<b>7.</b> คุยกับหัวหน้าทหารกลุ่มแรกได้ <b>Remedy</b> (หมุด 3) และกลุ่มถัดไปได้ <b>Hi-Potion</b> (หมุด 4) ค่ะ",
-      "<b>8.</b> ไปเหนือแล้วแยกซ้ายเปิดหีบ <b>Luck Sphere</b> (หมุด 5) ค่ะ",
-      "<b>9.</b> (ไม่บังคับ) กลับไป Save Sphere แล้วสู้ <b>บอส: Lord Ochu</b> ชนะแล้วคุยกับ Luzzu ได้ <b>Elixir</b> ค่ะ",
-      "<b>10.</b> ตามทางไปตะวันออกถึงสะพาน → <b>Pilgrimage Road:</b> Save Sphere แล้ว <b>บอส: Sinspawn Geneaux</b> ค่ะ",
-      "<b>11.</b> <b>Kilika Temple → Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Red Armlet</b> ค่ะ แล้วได้ Ifrit"
+     "olist": [
+      "<b>Docks:</b> ใช้ <b>Save Sphere</b> แล้วเลี้ยวซ้ายไปดูพิธีส่งวิญญาณของ Yuna ค่ะ",
+      "<b>Residential Area:</b> ตื่นในโรงแรม ใช้ Save Sphere เข้ากระท่อมซ้ายบน และช่วยเด็กจากกระท่อมที่ถล่มเพื่อรับของค่ะ",
+      "ตาม Datto ไปกระท่อมด้านบน เปิดหีบ และเก็บ <b>Al Bhed Primer Vol. IV</b> บนเคาน์เตอร์ แล้วไปหา Wakka ค่ะ",
+      "ไปทางตะวันตกถึง <b>Kilika Woods</b> ใช้ <b>Save Sphere</b> และรับ Yuna เป็นผู้คุ้มกันค่ะ",
+      "เดินสุดทางเปิดหีบ <b>Mana Sphere ×2</b> (หมุด 1) แล้วกลับไปทางเข้า ค่ะ",
+      "ไปทางตะวันตกถึงทางแยก มีทางลับไปหีบ <b>Scout</b> (หมุด 2) ค่ะ",
+      "คุยกับหัวหน้าทหารกลุ่มแรกได้ <b>Remedy</b> (หมุด 3) และกลุ่มถัดไปได้ <b>Hi-Potion</b> (หมุด 4) ค่ะ",
+      "ไปเหนือแล้วแยกซ้ายเปิดหีบ <b>Luck Sphere</b> (หมุด 5) ค่ะ",
+      "(ไม่บังคับ) กลับไป Save Sphere แล้วสู้ <b>บอส: Lord Ochu</b> ชนะแล้วคุยกับ Luzzu ได้ <b>Elixir</b> ค่ะ",
+      "ตามทางไปตะวันออกถึงสะพาน → <b>Pilgrimage Road:</b> Save Sphere แล้ว <b>บอส: Sinspawn Geneaux</b> ค่ะ",
+      "<b>Kilika Temple → Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Red Armlet</b> ค่ะ แล้วได้ Ifrit"
      ]
     },
     {
@@ -866,13 +847,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/07-Kilika.html\">Jegged: Kilika</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a05.webp",
-     "caption": "แผนที่ Kilika — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -896,7 +870,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a06-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "เรียนท่า Jecht Shot บนดาดฟ้าได้ที่นี่ค่ะ (FF Wiki: S.S. Winno)"
    ],
    "sources": [
@@ -908,22 +881,18 @@
      "label": "FF Wiki: Al Bhed Primer",
      "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
     }
-   ]
-  },
-  {
-   "id": "a06-r",
-   "kind": "page",
-   "title": "06 · เส้นทาง & แมพ: S.S. Winno",
+   ],
+   "flow": false,
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> เริ่มในห้องชั้นล่าง เปิดหีบท้ายห้องได้ <b>Hi-Potion</b> ค่ะ",
-      "<b>2.</b> ใช้ <b>Save Sphere</b> ก่อนเพราะมินิเกม Jecht Shot เล่นได้แค่ครั้งเดียวในรอบนี้ค่ะ",
-      "<b>3.</b> ขึ้นดาดฟ้า เข้าประตูซ้ายไป Bridge หลังพวงมาลัยเรือมี <b>Al Bhed Primer Vol. V</b> ค่ะ",
-      "<b>4.</b> <b>มินิเกม Jecht Shot:</b> ถ้าพลาดให้โหลดเซฟแล้วลองใหม่ ได้ท่า Jecht Shot สำหรับบลิตซ์บอลค่ะ (กลับมาทำภายหลังได้)"
+     "olist": [
+      "เริ่มในห้องชั้นล่าง เปิดหีบท้ายห้องได้ <b>Hi-Potion</b> ค่ะ",
+      "ใช้ <b>Save Sphere</b> ก่อนเพราะมินิเกม Jecht Shot เล่นได้แค่ครั้งเดียวในรอบนี้ค่ะ",
+      "ขึ้นดาดฟ้า เข้าประตูซ้ายไป Bridge หลังพวงมาลัยเรือมี <b>Al Bhed Primer Vol. V</b> ค่ะ",
+      "<b>มินิเกม Jecht Shot:</b> ถ้าพลาดให้โหลดเซฟแล้วลองใหม่ ได้ท่า Jecht Shot สำหรับบลิตซ์บอลค่ะ (กลับมาทำภายหลังได้)"
      ]
     },
     {
@@ -947,32 +916,32 @@
     {
      "key": "a07-p1",
      "label": "#1 Luca Number 1 Dock – 600 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a07-p2",
      "label": "#2 Luca Number 1 Dock – Tidal Spear",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a07-p3",
      "label": "#3 Luca Number 2 Dock – Phoenix Down ×2",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a07-p4",
      "label": "#4 Luca Number 5 Dock – HP Sphere",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a07-p5",
      "label": "#5 Luca Number 5 Dock – Magic Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a07-p6",
      "label": "#6 Luca City Limits – 1,000 Gil",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a07-0",
@@ -1015,7 +984,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a07-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Oblitzerator: Cheer เพิ่มพลัง ให้ Lulu ใช้ Thunder รัวๆ ค่ะ (FF Wiki)"
    ],
    "sources": [
@@ -1039,27 +1007,30 @@
      "label": "FF Wiki: Celestial Weapon",
      "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
     }
-   ]
-  },
-  {
-   "id": "a07-r",
-   "kind": "page",
-   "title": "07 · เส้นทาง & แมพ: Luca",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a07.webp",
+     "caption": "แผนที่ Luca — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Stadium Basement B:</b> <b>Al Bhed Primer Vol. VI</b> อยู่หลังผู้ชายชุดเขียว และสุดทางเดินมีหีบ <b>Hi-Potion ×2</b> ค่ะ",
-      "<b>2.</b> <b>Number 1 Dock:</b> หีบ <b>600 Gil</b> (หมุด 1) และ <b>Tidal Spear</b> (หมุด 2) ค่ะ",
-      "<b>3.</b> <b>Number 2 Dock:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 3) แล้วข้าม Dock 3–4 ไป Dock 5 เลยค่ะ",
-      "<b>4.</b> <b>Number 5 Dock:</b> เดินหลังกองกล่อง มีหีบ <b>HP Sphere</b> (หมุด 4) และ <b>Magic Sphere</b> (หมุด 5) ค่ะ",
-      "<b>5.</b> ข้ามสะพานไป <b>Theater</b> เก็บ <b>Al Bhed Primer Vol. VII</b> หน้าบันได ค่ะ",
-      "<b>6.</b> <b>Luca Square:</b> ขึ้นบันไดตะวันออกเฉียงเหนือไป <b>City Limits</b> เปิดหีบ <b>1,000 Gil</b> (หมุด 6) ค่ะ",
-      "<b>7.</b> กลับไปสเตเดียม ใช้ <b>Save Sphere</b> หีบ 600 Gil ที่ Dock 1 จะเติมใหม่ เก็บซ้ำได้ค่ะ",
-      "<b>8.</b> <b>บอส: Oblitzerator</b> แล้วแข่ง <b>บลิตซ์บอลกับ Luca Goers</b> ค่ะ",
-      "<b>9.</b> <b>บุกเมือง Luca:</b> สู้กับมอนสเตอร์ในสเตเดียม แล้ว <b>บอส: Sahagin Chief</b> ค่ะ"
+     "olist": [
+      "<b>Stadium Basement B:</b> <b>Al Bhed Primer Vol. VI</b> อยู่หลังผู้ชายชุดเขียว และสุดทางเดินมีหีบ <b>Hi-Potion ×2</b> ค่ะ",
+      "<b>Number 1 Dock:</b> หีบ <b>600 Gil</b> (หมุด 1) และ <b>Tidal Spear</b> (หมุด 2) ค่ะ",
+      "<b>Number 2 Dock:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 3) แล้วข้าม Dock 3–4 ไป Dock 5 เลยค่ะ",
+      "<b>Number 5 Dock:</b> เดินหลังกองกล่อง มีหีบ <b>HP Sphere</b> (หมุด 4) และ <b>Magic Sphere</b> (หมุด 5) ค่ะ",
+      "ข้ามสะพานไป <b>Theater</b> เก็บ <b>Al Bhed Primer Vol. VII</b> หน้าบันได ค่ะ",
+      "<b>Luca Square:</b> ขึ้นบันไดตะวันออกเฉียงเหนือไป <b>City Limits</b> เปิดหีบ <b>1,000 Gil</b> (หมุด 6) ค่ะ",
+      "กลับไปสเตเดียม ใช้ <b>Save Sphere</b> หีบ 600 Gil ที่ Dock 1 จะเติมใหม่ เก็บซ้ำได้ค่ะ",
+      "<b>บอส: Oblitzerator</b> แล้วแข่ง <b>บลิตซ์บอลกับ Luca Goers</b> ค่ะ",
+      "<b>บุกเมือง Luca:</b> สู้กับมอนสเตอร์ในสเตเดียม แล้ว <b>บอส: Sahagin Chief</b> ค่ะ"
      ]
     },
     {
@@ -1110,13 +1081,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/09-Luca.html\">Jegged: Luca</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a07.webp",
-     "caption": "แผนที่ Luca — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -1132,32 +1096,32 @@
     {
      "key": "a08-p1",
      "label": "#1 Mi'ihen Highroad South End – Ice Brand",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p2",
      "label": "#2 Mi'ihen Highroad South End – ดวลกับ Belgemine (คนเรียกเอออน)",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p3",
      "label": "#3 Mi'ihen Highroad South – Remedy",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p4",
      "label": "#4 Mi'ihen Highroad Central – 2,000 Gil",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p5",
      "label": "#5 Mi'ihen Highroad Central – Eye Drops ×3",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p6",
      "label": "#6 Mi'ihen Highroad Newroad North – Heat Lance",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-1",
@@ -1168,22 +1132,22 @@
     {
      "key": "a08-p8",
      "label": "#8 Mi'ihen Highroad North End – Hi-Potion ×2",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p9",
      "label": "#9 Mi'ihen Highroad Oldroad North – Thunder Blade",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p10",
      "label": "#10 Mi'ihen Highroad Oldroad North – Scout",
-     "where": "ดูหมุด #10 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-p11",
      "label": "#11 Mi'ihen Highroad Oldroad South – Fortune Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a08-2",
@@ -1218,7 +1182,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a08-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Chocobo Eater: ดันมันไปทางหน้าผาจะชนะได้เร็ว — <span class=\"mut\">(หน้าบอสใน FF Wiki ไม่มีหัวข้อกลยุทธ์ ข้อนี้เป็นการอนุมาน)</span>"
    ],
    "sources": [
@@ -1242,28 +1205,31 @@
      "label": "FF Wiki: Permanently missable content",
      "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
     }
-   ]
-  },
-  {
-   "id": "a08-r",
-   "kind": "page",
-   "title": "08 · เส้นทาง & แมพ: Mi'ihen Highroad",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a08.webp",
+     "caption": "แผนที่ Mi'ihen Highroad — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>South End:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบ (หมุด 1) และดวลกับ <b>Belgemine</b> (หมุด 2) ชนะได้ Echo Ring แพ้ได้ Seeker's Ring ค่ะ",
-      "<b>2.</b> <b>South:</b> หีบ <b>Remedy</b> (หมุด 3) ทางเหนือ และคนวิ่งผ่านให้ Red Ring ค่ะ",
-      "<b>3.</b> <b>Central:</b> รับ <b>Lv. 1 Key Sphere</b> จากผู้ชายเดินผ่าน หีบ <b>2,000 Gil</b> (หมุด 4) คุยกับคนตามทางรับของ และหีบสุดทาง <b>Eye Drops ×3</b> (หมุด 5) ค่ะ",
-      "<b>4.</b> <b>Agency (Rin):</b> <b>Save Sphere</b> + Al Bhed Compilation Sphere ด้านล่างจอ Rin ให้ <b>Al Bhed Primer Vol. VIII</b> ค่ะ",
-      "<b>5.</b> <b>บอส: Chocobo Eater</b> ดันตกหน้าผาจะได้ Lv. 1 Key Sphere ×2 ค่ะ",
-      "<b>6.</b> ขี่ Chocobo ไป <b>Newroad North:</b> กดใกล้ขนนก Chocobo บินไปหีบ <b>Heat Lance</b> (หมุด 6) และเก็บ <b>Al Bhed Primer Vol. IX</b> (หมุด 7) ระหว่างทางค่ะ",
-      "<b>7.</b> <b>North End:</b> ให้ Chocobo เตะหีบ <b>Hi-Potion ×2</b> (หมุด 8) ห้ามลงจาก Chocobo ก่อนไป Oldroad นะคะ",
-      "<b>8.</b> <b>Oldroad North:</b> ขนนกพาไปหีบลับ (หมุด 9) แล้วได้ <b>Scout</b> (หมุด 10) ค่ะ",
-      "<b>9.</b> <b>Oldroad South:</b> ขนนกพาไปหีบ <b>Fortune Sphere</b> (หมุด 11) ผ่าน Save Sphere สุดทางมีหีบ <b>Mars Crest</b> (หมุด 12) ค่ะ",
-      "<b>10.</b> กลับ North End ลงจาก Chocobo คุยกับ Dona ใช้ <b>Save Sphere</b> และบริจาคให้ O'aka รับอาวุธได้ค่ะ"
+     "olist": [
+      "<b>South End:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบ (หมุด 1) และดวลกับ <b>Belgemine</b> (หมุด 2) ชนะได้ Echo Ring แพ้ได้ Seeker's Ring ค่ะ",
+      "<b>South:</b> หีบ <b>Remedy</b> (หมุด 3) ทางเหนือ และคนวิ่งผ่านให้ Red Ring ค่ะ",
+      "<b>Central:</b> รับ <b>Lv. 1 Key Sphere</b> จากผู้ชายเดินผ่าน หีบ <b>2,000 Gil</b> (หมุด 4) คุยกับคนตามทางรับของ และหีบสุดทาง <b>Eye Drops ×3</b> (หมุด 5) ค่ะ",
+      "<b>Agency (Rin):</b> <b>Save Sphere</b> + Al Bhed Compilation Sphere ด้านล่างจอ Rin ให้ <b>Al Bhed Primer Vol. VIII</b> ค่ะ",
+      "<b>บอส: Chocobo Eater</b> ดันตกหน้าผาจะได้ Lv. 1 Key Sphere ×2 ค่ะ",
+      "ขี่ Chocobo ไป <b>Newroad North:</b> กดใกล้ขนนก Chocobo บินไปหีบ <b>Heat Lance</b> (หมุด 6) และเก็บ <b>Al Bhed Primer Vol. IX</b> (หมุด 7) ระหว่างทางค่ะ",
+      "<b>North End:</b> ให้ Chocobo เตะหีบ <b>Hi-Potion ×2</b> (หมุด 8) ห้ามลงจาก Chocobo ก่อนไป Oldroad นะคะ",
+      "<b>Oldroad North:</b> ขนนกพาไปหีบลับ (หมุด 9) แล้วได้ <b>Scout</b> (หมุด 10) ค่ะ",
+      "<b>Oldroad South:</b> ขนนกพาไปหีบ <b>Fortune Sphere</b> (หมุด 11) ผ่าน Save Sphere สุดทางมีหีบ <b>Mars Crest</b> (หมุด 12) ค่ะ",
+      "กลับ North End ลงจาก Chocobo คุยกับ Dona ใช้ <b>Save Sphere</b> และบริจาคให้ O'aka รับอาวุธได้ค่ะ"
      ]
     },
     {
@@ -1344,13 +1310,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/10-Miihen-Highroad-South-Central.html\">Jegged: Miihen Highroad South Central</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/11-Miihen-Highroad-Agency-Newroad.html\">Jegged: Miihen Highroad Agency Newroad</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a08.webp",
-     "caption": "แผนที่ Mi'ihen Highroad — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -1365,22 +1324,22 @@
     {
      "key": "a09-p1",
      "label": "#1 Mushroom Rock Valley – 1,000 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-p2",
      "label": "#2 Mushroom Rock Valley – Remedy",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-p3",
      "label": "#3 Mushroom Rock Valley – Hi-Potion",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-p4",
      "label": "#4 Mushroom Rock Precipice – Serene Armlet",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-0",
@@ -1391,17 +1350,17 @@
     {
      "key": "a09-p6",
      "label": "#6 Mushroom Rock Ridge – Mega-Potion",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-p7",
      "label": "#7 Mushroom Rock Ridge – Serene Bracer",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-p8",
      "label": "#8 Mushroom Rock Aftermath – Hi-Potion",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a09-1",
@@ -1432,7 +1391,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a09-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Sinspawn Gui: Haste ทั้งทีม ใช้ Auron/Kimahri ตีแขนที่มีเกราะ แล้วค่อยตีตัว ใช้ Overdrive ของเอออนตีหลายเป้าค่ะ (FF Wiki)",
     "Dark Magus Sisters (เฉพาะ International) จะอยู่แถวทางออกฝั่ง Mi'ihen หลังได้เรือเหาะ วิ่งหนีให้แยกสู้ทีละตัวได้ค่ะ (FF Wiki: Dark Aeon)"
    ],
@@ -1461,26 +1419,29 @@
      "label": "FF Wiki: Dark Aeon",
      "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
     }
-   ]
-  },
-  {
-   "id": "a09-r",
-   "kind": "page",
-   "title": "09 · เส้นทาง & แมพ: Mushroom Rock Road",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a09.webp",
+     "caption": "แผนที่ Mushroom Rock Road — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> คุยกับทหารกลุ่มแรกได้ <b>Ether</b> และ <b>Hi-Potion</b> ค่ะ",
-      "<b>2.</b> <b>Valley:</b> ใช้ <b>Save Sphere</b> คุยทหารปลายทางได้ Hi-Potion แล้วขึ้นลิฟต์ค่ะ",
-      "<b>3.</b> ระหว่างทางมีหีบ <b>1,000 Gil</b> (หมุด 1) ทหารให้ Potion ×10 และหีบ <b>Remedy</b> (หมุด 2) กับ <b>Hi-Potion</b> (หมุด 3) ค่ะ",
-      "<b>4.</b> <b>Precipice:</b> ทหารหน้าลิฟต์ให้ X-Potion ก่อนตามลูกศรแดง เลี้ยวซ้ายไปทางตันเก็บ (หมุด 4) และ <b>Al Bhed Primer Vol. X</b> (หมุด 5) ค่ะ",
-      "<b>5.</b> ขึ้นลิฟต์ เลี้ยวหัวมุมใช้ <b>Save Sphere</b> แล้วคุยกับ Luzzu ค่ะ",
-      "<b>6.</b> <b>Ridge:</b> <b>Save Sphere</b> + O'aka หีบใกล้ Yuna กับ Lulu มี <b>Mega-Potion</b> (หมุด 6) และลึกเข้าไปอีกมี <b>Serene Bracer</b> (หมุด 7) ค่ะ",
-      "<b>7.</b> <b>บอส: Sinspawn Gui</b> (สู้ 2 รอบ) ค่ะ",
-      "<b>8.</b> <b>Aftermath:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบทางซ้าย <b>Hi-Potion</b> (หมุด 8) ค่ะ"
+     "olist": [
+      "คุยกับทหารกลุ่มแรกได้ <b>Ether</b> และ <b>Hi-Potion</b> ค่ะ",
+      "<b>Valley:</b> ใช้ <b>Save Sphere</b> คุยทหารปลายทางได้ Hi-Potion แล้วขึ้นลิฟต์ค่ะ",
+      "ระหว่างทางมีหีบ <b>1,000 Gil</b> (หมุด 1) ทหารให้ Potion ×10 และหีบ <b>Remedy</b> (หมุด 2) กับ <b>Hi-Potion</b> (หมุด 3) ค่ะ",
+      "<b>Precipice:</b> ทหารหน้าลิฟต์ให้ X-Potion ก่อนตามลูกศรแดง เลี้ยวซ้ายไปทางตันเก็บ (หมุด 4) และ <b>Al Bhed Primer Vol. X</b> (หมุด 5) ค่ะ",
+      "ขึ้นลิฟต์ เลี้ยวหัวมุมใช้ <b>Save Sphere</b> แล้วคุยกับ Luzzu ค่ะ",
+      "<b>Ridge:</b> <b>Save Sphere</b> + O'aka หีบใกล้ Yuna กับ Lulu มี <b>Mega-Potion</b> (หมุด 6) และลึกเข้าไปอีกมี <b>Serene Bracer</b> (หมุด 7) ค่ะ",
+      "<b>บอส: Sinspawn Gui</b> (สู้ 2 รอบ) ค่ะ",
+      "<b>Aftermath:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบทางซ้าย <b>Hi-Potion</b> (หมุด 8) ค่ะ"
      ]
     },
     {
@@ -1541,13 +1502,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/12-Mushroom-Rock.html\">Jegged: Mushroom Rock</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a09.webp",
-     "caption": "แผนที่ Mushroom Rock Road — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -1562,7 +1516,7 @@
     {
      "key": "a10-p1",
      "label": "#1 Djose Highroad – Phoenix Down ×2",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a10-0",
@@ -1573,17 +1527,17 @@
     {
      "key": "a10-p3",
      "label": "#3 Djose Highroad – Bright Bangle",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a10-p4",
      "label": "#4 Djose Temple – Ability Sphere ×4",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a10-p5",
      "label": "#5 Djose Temple – 4,000 Gil",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a10-1",
@@ -1604,9 +1558,7 @@
      "where": "4000 gil (ซ้าย), Ability Sphere ×4 (ขวา), Mega Phoenix ในห้องขวาค่ะ"
     }
    ],
-   "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a10-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ"
-   ],
+   "tips": [],
    "sources": [
     {
      "label": "FF Wiki: Djose Highroad",
@@ -1628,24 +1580,27 @@
      "label": "FF Wiki: Permanently missable content",
      "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
     }
-   ]
-  },
-  {
-   "id": "a10-r",
-   "kind": "page",
-   "title": "10 · เส้นทาง & แมพ: Djose",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a10.webp",
+     "caption": "แผนที่ Djose — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Djose Highroad:</b> ใช้ <b>Save Sphere</b> แล้วเดินไปเจอหีบ <b>Phoenix Down ×2</b> (หมุด 1) เลยไปนิดหลังเสามี <b>Al Bhed Primer Vol. XI</b> (หมุด 2) ค่ะ",
-      "<b>2.</b> คุยกับทุกคนตามทางได้ Soft Ring, Ether, Hi-Potion, Mega-Potion, Variable Steel และหีบ <b>Bright Bangle</b> (หมุด 3) ค่ะ",
-      "<b>3.</b> <b>Djose Temple (ด้านนอก):</b> <b>Save Sphere</b> หีบข้างร้านทางตะวันออกเฉียงเหนือ <b>Ability Sphere ×4</b> (หมุด 4) และหีบซ้ายสุด <b>4,000 Gil</b> (หมุด 5) ค่ะ",
-      "<b>4.</b> ในวิหาร หลังคุยกับ Isaaru เปิดหีบห้องซ้าย (Remedy) และห้องขวาของบันได ค่ะ",
-      "<b>5.</b> <b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Magic Sphere</b> แล้วได้ Ixion ค่ะ",
-      "<b>6.</b> ตื่นมา ใช้ <b>Save Sphere</b> ตอนออกไป Pilgrimage Road คนแรกปลายสะพานให้ <b>Halberd</b> (<b>พลาดได้</b>) ถัดไปได้ Potion ×10 และ Hi-Potion ×2 ค่ะ"
+     "olist": [
+      "<b>Djose Highroad:</b> ใช้ <b>Save Sphere</b> แล้วเดินไปเจอหีบ <b>Phoenix Down ×2</b> (หมุด 1) เลยไปนิดหลังเสามี <b>Al Bhed Primer Vol. XI</b> (หมุด 2) ค่ะ",
+      "คุยกับทุกคนตามทางได้ Soft Ring, Ether, Hi-Potion, Mega-Potion, Variable Steel และหีบ <b>Bright Bangle</b> (หมุด 3) ค่ะ",
+      "<b>Djose Temple (ด้านนอก):</b> <b>Save Sphere</b> หีบข้างร้านทางตะวันออกเฉียงเหนือ <b>Ability Sphere ×4</b> (หมุด 4) และหีบซ้ายสุด <b>4,000 Gil</b> (หมุด 5) ค่ะ",
+      "ในวิหาร หลังคุยกับ Isaaru เปิดหีบห้องซ้าย (Remedy) และห้องขวาของบันได ค่ะ",
+      "<b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Magic Sphere</b> แล้วได้ Ixion ค่ะ",
+      "ตื่นมา ใช้ <b>Save Sphere</b> ตอนออกไป Pilgrimage Road คนแรกปลายสะพานให้ <b>Halberd</b> (<b>พลาดได้</b>) ถัดไปได้ Potion ×10 และ Hi-Potion ×2 ค่ะ"
      ]
     },
     {
@@ -1691,13 +1646,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/13-Djose-Highroad-and-Temple.html\">Jegged: Djose Highroad and Temple</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a10.webp",
-     "caption": "แผนที่ Djose — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -1712,47 +1660,47 @@
     {
      "key": "a11-p1",
      "label": "#1 Moonflow South Bank Road – Lv. 1 Key Sphere",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p2",
      "label": "#2 Moonflow South Bank Road – X-Potion",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p3",
      "label": "#3 Moonflow South Bank Road – Lv. 1 Key Sphere ×3",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p4",
      "label": "#4 Moonflow South Bank Road – ดวลกับ Belgemine (คนเรียกเอออน)",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p5",
      "label": "#5 Moonflow South Bank Road – Magic Def Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p6",
      "label": "#6 Moonflow South Wharf – Phoenix Down ×2",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p7",
      "label": "#7 Moonflow North Bank – Rikku เข้าทีม",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p8",
      "label": "#8 Moonflow North Bank – Antidote ×4",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-p9",
      "label": "#9 Moonflow North Bank Road – Mega-Potion",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a11-0",
@@ -1775,7 +1723,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a11-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Extractor: ใช้อาวุธธาตุสายฟ้า Slow/Haste/Cheer และ Overdrive ของ Wakka ค่ะ (FF Wiki)"
    ],
    "sources": [
@@ -1795,26 +1742,29 @@
      "label": "FF Wiki: Movie sphere",
      "url": "https://finalfantasy.fandom.com/wiki/Movie_sphere"
     }
-   ]
-  },
-  {
-   "id": "a11-r",
-   "kind": "page",
-   "title": "11 · เส้นทาง & แมพ: Moonflow",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a11.webp",
+     "caption": "แผนที่ Moonflow — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>South Bank Road:</b> ทางเล็กขวา Shelinda มีหีบ <b>Lv. 1 Key Sphere</b> (หมุด 1) ค่ะ",
-      "<b>2.</b> หลังกลุ่ม Ronso (Biran & Yenke) มีหีบ <b>X-Potion</b> (หมุด 2) และทางแยกขวาได้ <b>Lv. 1 Key Sphere ×3</b> (หมุด 3) ค่ะ",
-      "<b>3.</b> ดวล <b>Belgemine</b> (หมุด 4) ชนะได้ Dragon Scale ×2 และได้ Summoner's Soul เสมอ ถัดไปแยกซ้ายเปิดหีบ <b>Magic Def Sphere</b> (หมุด 5) ค่ะ",
-      "<b>4.</b> <b>South Wharf:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 6) หีบหลัง Lulu ได้ <b>5,000 Gil</b> ใช้ <b>Save Sphere</b> แล้วขึ้น Shoopuf ค่ะ",
-      "<b>5.</b> <b>บอส: Extractor</b> (ระหว่างนั่ง Shoopuf) ใช้อาวุธธาตุสายฟ้าช่วยได้ค่ะ",
-      "<b>6.</b> <b>North Wharf:</b> <b>Save Sphere</b> ไปทางตะวันตก 1 จอเก็บ <b>Al Bhed Primer Vol. XII</b> และอีกจอได้หีบ <b>Ether</b> ค่ะ",
-      "<b>7.</b> ขึ้นเหนือ ได้ <b>Rikku</b> เข้าทีม (หมุด 7) แล้วหีบขวามี <b>Antidote ×4</b> (หมุด 8) ค่ะ",
-      "<b>8.</b> <b>North Bank Road:</b> หีบสุดทาง <b>Mega-Potion</b> (หมุด 9) แล้วเข้า Guadosalam ค่ะ"
+     "olist": [
+      "<b>South Bank Road:</b> ทางเล็กขวา Shelinda มีหีบ <b>Lv. 1 Key Sphere</b> (หมุด 1) ค่ะ",
+      "หลังกลุ่ม Ronso (Biran & Yenke) มีหีบ <b>X-Potion</b> (หมุด 2) และทางแยกขวาได้ <b>Lv. 1 Key Sphere ×3</b> (หมุด 3) ค่ะ",
+      "ดวล <b>Belgemine</b> (หมุด 4) ชนะได้ Dragon Scale ×2 และได้ Summoner's Soul เสมอ ถัดไปแยกซ้ายเปิดหีบ <b>Magic Def Sphere</b> (หมุด 5) ค่ะ",
+      "<b>South Wharf:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 6) หีบหลัง Lulu ได้ <b>5,000 Gil</b> ใช้ <b>Save Sphere</b> แล้วขึ้น Shoopuf ค่ะ",
+      "<b>บอส: Extractor</b> (ระหว่างนั่ง Shoopuf) ใช้อาวุธธาตุสายฟ้าช่วยได้ค่ะ",
+      "<b>North Wharf:</b> <b>Save Sphere</b> ไปทางตะวันตก 1 จอเก็บ <b>Al Bhed Primer Vol. XII</b> และอีกจอได้หีบ <b>Ether</b> ค่ะ",
+      "ขึ้นเหนือ ได้ <b>Rikku</b> เข้าทีม (หมุด 7) แล้วหีบขวามี <b>Antidote ×4</b> (หมุด 8) ค่ะ",
+      "<b>North Bank Road:</b> หีบสุดทาง <b>Mega-Potion</b> (หมุด 9) แล้วเข้า Guadosalam ค่ะ"
      ]
     },
     {
@@ -1880,13 +1830,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/14-Moonflow.html\">Jegged: Moonflow</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a11.webp",
-     "caption": "แผนที่ Moonflow — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -1915,9 +1858,7 @@
      "where": "Mega-Potion, Elixir, 3000 gil, Lightning Marble ×8 ค่ะ"
     }
    ],
-   "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a12-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ"
-   ],
+   "tips": [],
    "sources": [
     {
      "label": "FF Wiki: Guadosalam",
@@ -1931,25 +1872,21 @@
      "label": "FF Wiki: Celestial Weapon",
      "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
     }
-   ]
-  },
-  {
-   "id": "a12-r",
-   "kind": "page",
-   "title": "12 · เส้นทาง & แมพ: Guadosalam",
+   ],
+   "flow": false,
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> ประตูแรกคือโรงแรม มี <b>Save Sphere</b> ค่ะ",
-      "<b>2.</b> หีบขวาประตูคฤหาสน์ Seymour มี <b>Mega-Potion</b> ค่ะ",
-      "<b>3.</b> บ้านซ้ายสุด: <b>Al Bhed Primer Vol. XIII</b> บนพื้น และหีบท้ายห้อง <b>3,000 Gil</b> ค่ะ",
-      "<b>4.</b> ใต้บ้านนั้นใกล้เสาไฟมีหีบ <b>Elixir</b> ค่ะ",
-      "<b>5.</b> เข้าคฤหาสน์ Seymour ดูฉากเนื้อเรื่อง (ชั้น 2 หลังระเบียงมีหีบ Hi-Potion ×2) ค่ะ",
-      "<b>6.</b> ขึ้นชั้นบนสุดไป <b>Road to Farplane:</b> หีบซ้าย <b>Lightning Marble ×8</b> แล้วเข้า Farplane ค่ะ",
-      "<b>7.</b> หลัง Seymour ออกจากเมือง กลับเข้า Farplane อีกครั้งเก็บหีบ <b>Venus Crest</b> ค่ะ"
+     "olist": [
+      "ประตูแรกคือโรงแรม มี <b>Save Sphere</b> ค่ะ",
+      "หีบขวาประตูคฤหาสน์ Seymour มี <b>Mega-Potion</b> ค่ะ",
+      "บ้านซ้ายสุด: <b>Al Bhed Primer Vol. XIII</b> บนพื้น และหีบท้ายห้อง <b>3,000 Gil</b> ค่ะ",
+      "ใต้บ้านนั้นใกล้เสาไฟมีหีบ <b>Elixir</b> ค่ะ",
+      "เข้าคฤหาสน์ Seymour ดูฉากเนื้อเรื่อง (ชั้น 2 หลังระเบียงมีหีบ Hi-Potion ×2) ค่ะ",
+      "ขึ้นชั้นบนสุดไป <b>Road to Farplane:</b> หีบซ้าย <b>Lightning Marble ×8</b> แล้วเข้า Farplane ค่ะ",
+      "หลัง Seymour ออกจากเมือง กลับเข้า Farplane อีกครั้งเก็บหีบ <b>Venus Crest</b> ค่ะ"
      ]
     },
     {
@@ -1968,37 +1905,37 @@
     {
      "key": "a13-p1",
      "label": "#1 Thunder Plains South – Phoenix Down ×2",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-p2",
      "label": "#2 Thunder Plains South – Hi-Potion ×2",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-p3",
      "label": "#3 Thunder Plains South – 5,000 Gil",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-p4",
      "label": "#4 Thunder Plains South – Water Ball",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-p5",
      "label": "#5 Thunder Plains North – X-Potion",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-p6",
      "label": "#6 Thunder Plains North – Ether",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-p7",
      "label": "#7 Thunder Plains North – 2,000 Gil",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a13-0",
@@ -2035,7 +1972,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a13-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Dark Ixion (เฉพาะ International) จะโผล่หลังเห็นฉากเข้า Calm Lands คุยกับ Warrior Monk เขตเหนือ ต้องชนะ 2 รอบค่ะ (FF Wiki: Dark Aeon)"
    ],
    "sources": [
@@ -2059,24 +1995,27 @@
      "label": "FF Wiki: Dark Aeon",
      "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
     }
-   ]
-  },
-  {
-   "id": "a13-r",
-   "kind": "page",
-   "title": "13 · เส้นทาง & แมพ: Thunder Plains",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a13.webp",
+     "caption": "แผนที่ Thunder Plains — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>South:</b> หีบซ้าย <b>Save Sphere</b> <b>Phoenix Down ×2</b> (หมุด 1) แล้วเซฟค่ะ",
-      "<b>2.</b> หีบตะวันตกเฉียงเหนือของ Save Sphere <b>Hi-Potion ×2</b> (หมุด 2) ค่ะ",
-      "<b>3.</b> เลียบกำแพงฝั่งตะวันตก หลังรูปปั้น Cactuar มีหีบ <b>5,000 Gil</b> (หมุด 3) ค่ะ",
-      "<b>4.</b> ทางเดินเล็กฝั่งตะวันออกมีหีบ <b>Water Ball</b> (หมุด 4) ค่ะ",
-      "<b>5.</b> <b>Agency:</b> <b>Save Sphere</b> คุยกับ Rin ตอบ \"Okay\" ได้ <b>Al Bhed Primer Vol. XIV</b> และของเรืองแสงบนพื้นคือ <b>Yellow Shield</b> ค่ะ",
-      "<b>6.</b> <b>North:</b> หีบขวามือ <b>X-Potion</b> (หมุด 5) ไปเหนือถึง <b>Save Sphere</b> แล้วหีบซ้ายทาง <b>Ether</b> (หมุด 6) กับหีบขวา (หมุด 7) ค่ะ"
+     "olist": [
+      "<b>South:</b> หีบซ้าย <b>Save Sphere</b> <b>Phoenix Down ×2</b> (หมุด 1) แล้วเซฟค่ะ",
+      "หีบตะวันตกเฉียงเหนือของ Save Sphere <b>Hi-Potion ×2</b> (หมุด 2) ค่ะ",
+      "เลียบกำแพงฝั่งตะวันตก หลังรูปปั้น Cactuar มีหีบ <b>5,000 Gil</b> (หมุด 3) ค่ะ",
+      "ทางเดินเล็กฝั่งตะวันออกมีหีบ <b>Water Ball</b> (หมุด 4) ค่ะ",
+      "<b>Agency:</b> <b>Save Sphere</b> คุยกับ Rin ตอบ \"Okay\" ได้ <b>Al Bhed Primer Vol. XIV</b> และของเรืองแสงบนพื้นคือ <b>Yellow Shield</b> ค่ะ",
+      "<b>North:</b> หีบขวามือ <b>X-Potion</b> (หมุด 5) ไปเหนือถึง <b>Save Sphere</b> แล้วหีบซ้ายทาง <b>Ether</b> (หมุด 6) กับหีบขวา (หมุด 7) ค่ะ"
      ]
     },
     {
@@ -2132,13 +2071,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/16-Thunder-Plains.html\">Jegged: Thunder Plains</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a13.webp",
-     "caption": "แผนที่ Thunder Plains — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -2154,17 +2086,17 @@
     {
      "key": "a14-p1",
      "label": "#1 Macalania Woods South – Sleepy Cait Sith",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-p2",
      "label": "#2 Macalania Woods South – 2,000 Gil",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-p3",
      "label": "#3 Macalania Woods Central – Phoenix Down ×3",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-4",
@@ -2176,7 +2108,7 @@
     {
      "key": "a14-p5",
      "label": "#5 Macalania Woods North – Remedy",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-0",
@@ -2187,7 +2119,7 @@
     {
      "key": "a14-p7",
      "label": "#7 Lake Macalania Agency Front – 4,000 Gil (เก็บได้ภายหลัง)",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-1",
@@ -2198,17 +2130,17 @@
     {
      "key": "a14-p9",
      "label": "#9 Macalania Hall – 5,000 Gil",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-p10",
      "label": "#10 Macalania Hall – X-Potion",
-     "where": "ดูหมุด #10 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-p11",
      "label": "#11 Lake Macalania Crevasse – Lv. 1 Key Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a14-2",
@@ -2231,7 +2163,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a14-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Spherimorph: ตีกายภาพแล้วดูว่ามันสวนด้วยเวทธาตุไหน ให้ Lulu ใช้ธาตุตรงข้ามค่ะ (FF Wiki)",
     "Crawler: <span class=\"mut\">ไม่มีกลยุทธ์ในแหล่ง</span>"
    ],
@@ -2260,28 +2191,31 @@
      "label": "FF Wiki: Celestial Weapon",
      "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
     }
-   ]
-  },
-  {
-   "id": "a14-r",
-   "kind": "page",
-   "title": "14 · เส้นทาง & แมพ: Macalania Woods & ทะเลสาบ",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a14.webp",
+     "caption": "แผนที่ Macalania Woods & ทะเลสาบ — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Woods South:</b> ใช้ <b>Save Sphere</b> หีบลับหัวมุม <b>Sleepy Cait Sith</b> (หมุด 1) และต่อไป <b>2,000 Gil</b> (หมุด 2) ค่ะ",
-      "<b>2.</b> <b>Central:</b> สุดทางเหนือหลังต้นไม้มี <b>Phoenix Down ×3</b> (หมุด 3) มินิเกมจับผีเสื้อ (หมุด 4) ให้ <b>Saturn Sigil</b> ค่ะ",
-      "<b>3.</b> <b>North:</b> หีบหลังต้นไม้ <b>Remedy</b> (หมุด 5) ค่ะ",
-      "<b>4.</b> <b>Lake Road:</b> <b>Save Sphere</b> + O'aka ระหว่างทางเก็บ <b>Al Bhed Primer Vol. XV</b> (หมุด 6) ค่ะ",
-      "<b>5.</b> <b>บอส: Spherimorph</b> ชนะได้ <b>Jecht's Sphere</b> แล้ว Jecht's Sphere ในพื้นที่ก่อนๆ จะโผล่ ควรย้อนไปเก็บอันที่ Besaid เป็นอย่างน้อยค่ะ",
-      "<b>6.</b> <b>Lake Agency Front:</b> <b>Al Bhed Primer Vol. XVI</b> (หมุด 8) หีบหลัง Clasko (หมุด 7) ยังเก็บไม่ได้รอบนี้ ใช้ <b>Save Sphere</b> ในเอเจนซีค่ะ",
-      "<b>7.</b> <b>บอส: Crawler</b> แล้วเข้า Macalania Temple (ดูบทที่ 15) ค่ะ",
-      "<b>8.</b> หลังออกจากวิหาร ที่ <b>Crevasse</b> มีทางแยกไปหีบ <b>Lv. 1 Key Sphere</b> (หมุด 11) และ <b>Save Sphere</b> ก่อนบอสค่ะ",
-      "<b>9.</b> <b>Lake Bottom:</b> หลัง <b>บอส: Wendigo</b> ใช้ <b>Save Sphere</b> คุยกับทุกคน แล้วย้อนเก็บหีบ 2 ใบหลังเพื่อน (Lv. 2 Key Sphere ฯลฯ) ค่ะ",
-      "<b>10.</b> หมุด 9–10 (5,000 Gil, X-Potion ×2) อยู่ใน Macalania Hall ดูขั้นตอนในบทที่ 15 ค่ะ"
+     "olist": [
+      "<b>Woods South:</b> ใช้ <b>Save Sphere</b> หีบลับหัวมุม <b>Sleepy Cait Sith</b> (หมุด 1) และต่อไป <b>2,000 Gil</b> (หมุด 2) ค่ะ",
+      "<b>Central:</b> สุดทางเหนือหลังต้นไม้มี <b>Phoenix Down ×3</b> (หมุด 3) มินิเกมจับผีเสื้อ (หมุด 4) ให้ <b>Saturn Sigil</b> ค่ะ",
+      "<b>North:</b> หีบหลังต้นไม้ <b>Remedy</b> (หมุด 5) ค่ะ",
+      "<b>Lake Road:</b> <b>Save Sphere</b> + O'aka ระหว่างทางเก็บ <b>Al Bhed Primer Vol. XV</b> (หมุด 6) ค่ะ",
+      "<b>บอส: Spherimorph</b> ชนะได้ <b>Jecht's Sphere</b> แล้ว Jecht's Sphere ในพื้นที่ก่อนๆ จะโผล่ ควรย้อนไปเก็บอันที่ Besaid เป็นอย่างน้อยค่ะ",
+      "<b>Lake Agency Front:</b> <b>Al Bhed Primer Vol. XVI</b> (หมุด 8) หีบหลัง Clasko (หมุด 7) ยังเก็บไม่ได้รอบนี้ ใช้ <b>Save Sphere</b> ในเอเจนซีค่ะ",
+      "<b>บอส: Crawler</b> แล้วเข้า Macalania Temple (ดูบทที่ 15) ค่ะ",
+      "หลังออกจากวิหาร ที่ <b>Crevasse</b> มีทางแยกไปหีบ <b>Lv. 1 Key Sphere</b> (หมุด 11) และ <b>Save Sphere</b> ก่อนบอสค่ะ",
+      "<b>Lake Bottom:</b> หลัง <b>บอส: Wendigo</b> ใช้ <b>Save Sphere</b> คุยกับทุกคน แล้วย้อนเก็บหีบ 2 ใบหลังเพื่อน (Lv. 2 Key Sphere ฯลฯ) ค่ะ",
+      "หมุด 9–10 (5,000 Gil, X-Potion ×2) อยู่ใน Macalania Hall ดูขั้นตอนในบทที่ 15 ค่ะ"
      ]
     },
     {
@@ -2357,13 +2291,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/17-Macalania-Woods.html\">Jegged: Macalania Woods</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/18-Lake-Macalania.html\">Jegged: Lake Macalania</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a14.webp",
-     "caption": "แผนที่ Macalania Woods & ทะเลสาบ — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -2391,7 +2318,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a15-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Seymour: ใช้ Dispel หรือ Aerospark ของ Ixion ลบ Shell ให้ Rikku ขโมย Hi-Potion ขององครักษ์ค่ะ (FF Wiki)",
     "Dark Shiva (เฉพาะ International) ขวางทางเข้าวิหารหลังได้เรือเหาะค่ะ"
    ],
@@ -2412,25 +2338,21 @@
      "label": "FF Wiki: Dark Aeon",
      "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
     }
-   ]
-  },
-  {
-   "id": "a15-r",
-   "kind": "page",
-   "title": "15 · เส้นทาง & แมพ: Macalania Temple",
+   ],
+   "flow": false,
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Crevasse:</b> หีบหน้าวิหาร <b>Mega-Potion</b> ค่ะ",
-      "<b>2.</b> <b>Road:</b> ทหาร Al Bhed ตีนบันไดให้ <b>400 Gil</b> ค่ะ",
-      "<b>3.</b> <b>Hall:</b> <b>Save Sphere</b> Tromell ให้ Shell Targe หีบซ้าย <b>5,000 Gil</b> และหีบฝั่งตรงข้ามใกล้กล้อง <b>X-Potion ×2</b> ค่ะ",
-      "<b>4.</b> หีบท้ายห้อง <b>Remedy ×2</b> คนใกล้หีบให้ Hi-Potion ×2 และห้องข้างๆ ได้ Ether, Elixir, Phoenix Down ×3 ค่ะ",
-      "<b>5.</b> <b>บอส: Seymour (+ Guado Guardian)</b> แล้วใช้ <b>Save Sphere</b> ค่ะ",
-      "<b>6.</b> ประตูซ้าย Save Sphere → <b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Luck Sphere</b> ค่ะ",
-      "<b>7.</b> ออกจากวิหาร ที่ Road มี O'aka + <b>Save Sphere</b> แล้วไป Crevasse ต่อ (ดูบทที่ 14) ค่ะ"
+     "olist": [
+      "<b>Crevasse:</b> หีบหน้าวิหาร <b>Mega-Potion</b> ค่ะ",
+      "<b>Road:</b> ทหาร Al Bhed ตีนบันไดให้ <b>400 Gil</b> ค่ะ",
+      "<b>Hall:</b> <b>Save Sphere</b> Tromell ให้ Shell Targe หีบซ้าย <b>5,000 Gil</b> และหีบฝั่งตรงข้ามใกล้กล้อง <b>X-Potion ×2</b> ค่ะ",
+      "หีบท้ายห้อง <b>Remedy ×2</b> คนใกล้หีบให้ Hi-Potion ×2 และห้องข้างๆ ได้ Ether, Elixir, Phoenix Down ×3 ค่ะ",
+      "<b>บอส: Seymour (+ Guado Guardian)</b> แล้วใช้ <b>Save Sphere</b> ค่ะ",
+      "ประตูซ้าย Save Sphere → <b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Luck Sphere</b> ค่ะ",
+      "ออกจากวิหาร ที่ Road มี O'aka + <b>Save Sphere</b> แล้วไป Crevasse ต่อ (ดูบทที่ 14) ค่ะ"
      ]
     },
     {
@@ -2452,77 +2374,77 @@
     {
      "key": "a16-p1",
      "label": "#1 Sanubia Oasis – Remedy ×4",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p2",
      "label": "#2 Sanubia Oasis – เจอ Wakka",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p3",
      "label": "#3 Sanubia Oasis – Al Bhed Potion ×8",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p4",
      "label": "#4 Sanubia Desert East – เจอ Kimahri",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p5",
      "label": "#5 Sanubia Desert East – Rikku เข้าทีม",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p6",
      "label": "#6 Sanubia Desert East – Ether ×2",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p7",
      "label": "#7 Sanubia Desert East – Al Bhed Potion ×8",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p8",
      "label": "#8 Sanubia Desert East – Hi-Potion ×4",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p9",
      "label": "#9 Sanubia Central – Hi-Potion ×4",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p10",
      "label": "#10 Sanubia Central – X-Potion ×2",
-     "where": "ดูหมุด #10 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p11",
      "label": "#11 Sanubia Central – Mega-Potion ×2",
-     "where": "ดูหมุด #11 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p12",
      "label": "#12 Sanubia Central – Al Bhed Potion ×8",
-     "where": "ดูหมุด #12 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p13",
      "label": "#13 Sanubia Central – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #13 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #13 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p14",
      "label": "#14 Sanubia Central – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #14 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #14 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p15",
      "label": "#15 Sanubia Central – 10,000 Gil",
-     "where": "ดูหมุด #15 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #15 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-0",
@@ -2539,7 +2461,7 @@
     {
      "key": "a16-p18",
      "label": "#18 Sanubia West – Hi-Potion ×8",
-     "where": "ดูหมุด #18 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #18 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-3",
@@ -2550,22 +2472,22 @@
     {
      "key": "a16-p20",
      "label": "#20 Sanubia West – Megalixir ×3",
-     "where": "ดูหมุด #20 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #20 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p21",
      "label": "#21 Sanubia West – Mega-Potion ×3",
-     "where": "ดูหมุด #21 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #21 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p22",
      "label": "#22 Sanubia West – X-Potion ×2",
-     "where": "ดูหมุด #22 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #22 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-p23",
      "label": "#23 Sanubia West – Teleport Sphere ×2",
-     "where": "ดูหมุด #23 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #23 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a16-2",
@@ -2581,9 +2503,7 @@
      "backtrack": true
     }
    ],
-   "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a16-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ"
-   ],
+   "tips": [],
    "sources": [
     {
      "label": "FF Wiki: Bikanel",
@@ -2597,27 +2517,30 @@
      "label": "FF Wiki: Celestial Weapon",
      "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
     }
-   ]
-  },
-  {
-   "id": "a16-r",
-   "kind": "page",
-   "title": "16 · เส้นทาง & แมพ: Bikanel (Sanubia Desert)",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a16.webp",
+     "caption": "แผนที่ Bikanel (Sanubia Desert) — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Oasis:</b> <b>Save Sphere</b> ดำน้ำเปิดหีบซ้ายล่าง <b>Remedy ×4</b> (หมุด 1) แล้วไปหา <b>Wakka</b> (หมุด 2) หีบข้างเขาคือ Al Bhed First Aid Kit (หมุด 3) ค่ะ",
-      "<b>2.</b> <b>East:</b> เจอ <b>Kimahri</b> (หมุด 4) และ <b>Rikku</b> (หมุด 5) หีบข้าง Rikku <b>Ether ×2</b> (หมุด 6) และ <b>Al Bhed Potion ×8</b> (หมุด 7) ใช้ <b>Save Sphere</b> ค่ะ",
-      "<b>3.</b> ทางแยกซ้ายมีหีบ <b>Hi-Potion ×4</b> (หมุด 8) ค่ะ",
-      "<b>4.</b> <b>Central:</b> หีบกลางแผนที่ (หมุด 9) มุมตะวันตกสุด (หมุด 11) แล้วไป <b>Save Sphere</b> ทางเหนือ เก็บหีบใกล้ๆ และในคอกทางตะวันตก (หมุด 10, 12–15) ค่ะ",
-      "<b>5.</b> เหนือคอกมี <b>Al Bhed Primer Vol. XVII</b> (หมุด 16) แล้วกลับ Save Sphere ตรงขึ้นเหนือหาป้าย ใต้ป้ายมี <b>Primer Vol. XVIII</b> (หมุด 17) ค่ะ",
-      "<b>6.</b> <b>West:</b> เลียบซ้ายขึ้นเหนือ หน้าซอกมีหีบ <b>Hi-Potion ×8</b> (หมุด 18) ในวังทรายของซอกมี <b>Mercury Crest</b> (หมุด 19) ค่ะ",
-      "<b>7.</b> วังทรายตะวันออกเฉียงเหนือ: สู้ <b>Sandragora</b> ได้ <b>Megalixir ×3</b> (หมุด 20) แล้วตะวันตก <b>Mega-Potion ×3</b> (หมุด 21) เหนือ <b>X-Potion ×2</b> (หมุด 22) ค่ะ",
-      "<b>8.</b> วังทรายตะวันออก: สู้ Sandragora อีกตัวได้ <b>Teleport Sphere ×2</b> (หมุด 23) ค่ะ",
-      "<b>9.</b> <b>บอส: Zu</b> ระหว่างทางเข้า Home ค่ะ"
+     "olist": [
+      "<b>Oasis:</b> <b>Save Sphere</b> ดำน้ำเปิดหีบซ้ายล่าง <b>Remedy ×4</b> (หมุด 1) แล้วไปหา <b>Wakka</b> (หมุด 2) หีบข้างเขาคือ Al Bhed First Aid Kit (หมุด 3) ค่ะ",
+      "<b>East:</b> เจอ <b>Kimahri</b> (หมุด 4) และ <b>Rikku</b> (หมุด 5) หีบข้าง Rikku <b>Ether ×2</b> (หมุด 6) และ <b>Al Bhed Potion ×8</b> (หมุด 7) ใช้ <b>Save Sphere</b> ค่ะ",
+      "ทางแยกซ้ายมีหีบ <b>Hi-Potion ×4</b> (หมุด 8) ค่ะ",
+      "<b>Central:</b> หีบกลางแผนที่ (หมุด 9) มุมตะวันตกสุด (หมุด 11) แล้วไป <b>Save Sphere</b> ทางเหนือ เก็บหีบใกล้ๆ และในคอกทางตะวันตก (หมุด 10, 12–15) ค่ะ",
+      "เหนือคอกมี <b>Al Bhed Primer Vol. XVII</b> (หมุด 16) แล้วกลับ Save Sphere ตรงขึ้นเหนือหาป้าย ใต้ป้ายมี <b>Primer Vol. XVIII</b> (หมุด 17) ค่ะ",
+      "<b>West:</b> เลียบซ้ายขึ้นเหนือ หน้าซอกมีหีบ <b>Hi-Potion ×8</b> (หมุด 18) ในวังทรายของซอกมี <b>Mercury Crest</b> (หมุด 19) ค่ะ",
+      "วังทรายตะวันออกเฉียงเหนือ: สู้ <b>Sandragora</b> ได้ <b>Megalixir ×3</b> (หมุด 20) แล้วตะวันตก <b>Mega-Potion ×3</b> (หมุด 21) เหนือ <b>X-Potion ×2</b> (หมุด 22) ค่ะ",
+      "วังทรายตะวันออก: สู้ Sandragora อีกตัวได้ <b>Teleport Sphere ×2</b> (หมุด 23) ค่ะ",
+      "<b>บอส: Zu</b> ระหว่างทางเข้า Home ค่ะ"
      ]
     },
     {
@@ -2753,13 +2676,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/19-Sanubia-Desert.html\">Jegged: Sanubia Desert</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a16.webp",
-     "caption": "แผนที่ Bikanel (Sanubia Desert) — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -2780,7 +2696,7 @@
     {
      "key": "a17-p2",
      "label": "#2 Home Main Corridor – Al Bhed Potion ×4",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-1",
@@ -2791,17 +2707,17 @@
     {
      "key": "a17-p4",
      "label": "#4 Home Main Corridor – หีบปริศนา \"Treasure chest of dreams\"",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-p5",
      "label": "#5 Home Main Corridor – หีบรหัสผ่าน Al Bhed (Friend Sphere)",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-p6",
      "label": "#6 Home Main Corridor – Al Bhed Potion ×6",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-2",
@@ -2812,31 +2728,30 @@
     {
      "key": "a17-p8",
      "label": "#8 Home Main Corridor – หีบปริศนาตัวเลข (Special Sphere)",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-p9",
      "label": "#9 Home Main Corridor – หีบ Al Bhed Verification (Skill Sphere)",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-p10",
      "label": "#10 Home Main Corridor – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #10 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-p11",
      "label": "#11 Home Main Corridor – Lv. 4 Key Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a17-p12",
      "label": "#12 Home Environmental Controls – 10,000 Gil",
-     "where": "ดูหมุด #12 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a17-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Primer XIX–XXI เก็บได้ครั้งเดียวในเนื้อเรื่อง ถ้าพลาดต้องใช้ Compilation Sphere ค่ะ (FF Wiki)",
     "Dark Ifrit (เฉพาะ International) อยู่ทางเข้า Home เดิมหลังได้เรือเหาะค่ะ"
    ],
@@ -2857,26 +2772,29 @@
      "label": "FF Wiki: Dark Aeon",
      "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
     }
-   ]
-  },
-  {
-   "id": "a17-r",
-   "kind": "page",
-   "title": "17 · เส้นทาง & แมพ: Home (บ้าน Al Bhed)",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a17.webp",
+     "caption": "แผนที่ Home (บ้าน Al Bhed) — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>สำคัญ: Home กลับมาไม่ได้ Primer XIX–XXI พลาดแล้วพลาดเลย</b> ค่ะ",
-      "<b>2.</b> ด้านนอก: ฝั่งซ้ายเก็บ <b>Al Bhed Primer Vol. XIX</b> (หมุด 1) ใช้ <b>Save Sphere</b> ขวาประตูแล้วเข้าไปค่ะ",
-      "<b>3.</b> <b>Main Corridor:</b> ทางซ้ายสุดมี Save Sphere <b>อย่าเพิ่งเข้าประตูข้าง Save Sphere</b> จะไปต่อเนื้อเรื่องทันทีค่ะ",
-      "<b>4.</b> ห้องนอนแรก: สู้ Guado Guardian แล้วเก็บ <b>Primer Vol. XX</b> บนเตียง (หมุด 3) และหีบปริศนา 2 ใบ (หมุด 4–5) ค่ะ",
-      "<b>5.</b> กลับลงไป ทางกลางเปิดหีบ <b>Al Bhed Potion ×6</b> (หมุด 6) ทางขวาเก็บ <b>Primer Vol. XXI</b> (หมุด 7) แล้วสู้ Guado Guardian ค่ะ",
-      "<b>6.</b> ห้องนั้นมีหีบปริศนาตัวเลข (หมุด 8) และหีบ Verification (หมุด 9) ค่ะ",
-      "<b>7.</b> กลับ Save Sphere แล้วเข้าประตูซ้าย: หีบตีนบันได <b>Lv. 2 Key Sphere</b> (หมุด 10) และหีบซ่อนอีกฝั่ง <b>Lv. 4 Key Sphere</b> (หมุด 11) ค่ะ",
-      "<b>8.</b> <b>Environment Controls:</b> หีบซ้ายสุด <b>10,000 Gil</b> (หมุด 12) แล้วไป Airship Dock ค่ะ"
+     "olist": [
+      "<b>สำคัญ: Home กลับมาไม่ได้ Primer XIX–XXI พลาดแล้วพลาดเลย</b> ค่ะ",
+      "ด้านนอก: ฝั่งซ้ายเก็บ <b>Al Bhed Primer Vol. XIX</b> (หมุด 1) ใช้ <b>Save Sphere</b> ขวาประตูแล้วเข้าไปค่ะ",
+      "<b>Main Corridor:</b> ทางซ้ายสุดมี Save Sphere <b>อย่าเพิ่งเข้าประตูข้าง Save Sphere</b> จะไปต่อเนื้อเรื่องทันทีค่ะ",
+      "ห้องนอนแรก: สู้ Guado Guardian แล้วเก็บ <b>Primer Vol. XX</b> บนเตียง (หมุด 3) และหีบปริศนา 2 ใบ (หมุด 4–5) ค่ะ",
+      "กลับลงไป ทางกลางเปิดหีบ <b>Al Bhed Potion ×6</b> (หมุด 6) ทางขวาเก็บ <b>Primer Vol. XXI</b> (หมุด 7) แล้วสู้ Guado Guardian ค่ะ",
+      "ห้องนั้นมีหีบปริศนาตัวเลข (หมุด 8) และหีบ Verification (หมุด 9) ค่ะ",
+      "กลับ Save Sphere แล้วเข้าประตูซ้าย: หีบตีนบันได <b>Lv. 2 Key Sphere</b> (หมุด 10) และหีบซ่อนอีกฝั่ง <b>Lv. 4 Key Sphere</b> (หมุด 11) ค่ะ",
+      "<b>Environment Controls:</b> หีบซ้ายสุด <b>10,000 Gil</b> (หมุด 12) แล้วไป Airship Dock ค่ะ"
      ]
     },
     {
@@ -2957,13 +2875,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/20-Home.html\">Jegged: Home</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a17.webp",
-     "caption": "แผนที่ Home (บ้าน Al Bhed) — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -2981,12 +2892,12 @@
     {
      "key": "a18-p1",
      "label": "#1 Bevelle Underwater – Rematch",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a18-p2",
      "label": "#2 Bevelle Underwater – Avenger",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a18-0",
@@ -3014,7 +2925,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a18-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Evrae: ให้ Rikku เริ่มด้วย Overdrive Mix (Mighty G) เติมบัฟ ใช้ Wakka/Lulu ตีจากไกลค่ะ (FF Wiki)",
     "Seymour Natus: ติด Poison ได้ ใส่ Reflect ทั้งทีมกับตัวมันจะลดดาเมจค่ะ (FF Wiki)"
    ],
@@ -3043,25 +2953,28 @@
      "label": "FF Wiki: Al Bhed Primer",
      "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
     }
-   ]
-  },
-  {
-   "id": "a18-r",
-   "kind": "page",
-   "title": "18 · เส้นทาง & แมพ: Bevelle & Via Purifico",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a18.webp",
+     "caption": "แผนที่ Bevelle & Via Purifico — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>เรือเหาะ:</b> ใช้ <b>Save Sphere</b> ที่ Bridge เดินไปห้องสุดท้ายที่มี Save Sphere คุยกับ Al Bhed ทางซ้ายได้ Al Bhed Potion ×4 → <b>บอส: Evrae</b> ค่ะ",
-      "<b>2.</b> <b>Bevelle Priests' Passage:</b> เก็บ <b>Al Bhed Primer Vol. XXII</b> บนพื้น (<b>พลาดได้</b> กลับมาไม่ได้) ค่ะ",
-      "<b>3.</b> <b>Save Sphere</b> → <b>Cloister of Trials</b> (Destruction Sphere ใช้อัตโนมัติ) ได้ Bahamut ค่ะ",
-      "<b>4.</b> <b>Via Purifico (Yuna):</b> เดินตามแผนที่ในหน้า Jegged หา Kimahri (Mega-Potion) Lulu (Wht Magic Sphere) และหีบอื่นๆ ใช้วาร์ปเปิดทาง ค่ะ",
-      "<b>5.</b> <b>บอส: Isaaru</b> ค่ะ",
-      "<b>6.</b> <b>Via Purifico ใต้น้ำ (Tidus):</b> <b>Save Sphere</b> → <b>บอส: Evrae Altana</b> อย่าใช้ Trigger Command เปิดประตู จะได้หีบ <b>Rematch</b> (หมุด 1) และ <b>Avenger</b> (หมุด 2) ค่ะ",
-      "<b>7.</b> <b>Highbridge:</b> <b>Save Sphere</b> + O'aka → <b>บอส: Seymour Natus</b> (เลเวล Yuna ให้ได้ Reflect ก่อนจะง่ายขึ้น) ค่ะ"
+     "olist": [
+      "<b>เรือเหาะ:</b> ใช้ <b>Save Sphere</b> ที่ Bridge เดินไปห้องสุดท้ายที่มี Save Sphere คุยกับ Al Bhed ทางซ้ายได้ Al Bhed Potion ×4 → <b>บอส: Evrae</b> ค่ะ",
+      "<b>Bevelle Priests' Passage:</b> เก็บ <b>Al Bhed Primer Vol. XXII</b> บนพื้น (<b>พลาดได้</b> กลับมาไม่ได้) ค่ะ",
+      "<b>Save Sphere</b> → <b>Cloister of Trials</b> (Destruction Sphere ใช้อัตโนมัติ) ได้ Bahamut ค่ะ",
+      "<b>Via Purifico (Yuna):</b> เดินตามแผนที่ในหน้า Jegged หา Kimahri (Mega-Potion) Lulu (Wht Magic Sphere) และหีบอื่นๆ ใช้วาร์ปเปิดทาง ค่ะ",
+      "<b>บอส: Isaaru</b> ค่ะ",
+      "<b>Via Purifico ใต้น้ำ (Tidus):</b> <b>Save Sphere</b> → <b>บอส: Evrae Altana</b> อย่าใช้ Trigger Command เปิดประตู จะได้หีบ <b>Rematch</b> (หมุด 1) และ <b>Avenger</b> (หมุด 2) ค่ะ",
+      "<b>Highbridge:</b> <b>Save Sphere</b> + O'aka → <b>บอส: Seymour Natus</b> (เลเวล Yuna ให้ได้ Reflect ก่อนจะง่ายขึ้น) ค่ะ"
      ]
     },
     {
@@ -3092,13 +3005,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/21-Airship.html\">Jegged: Airship</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/22-Bevelle.html\">Jegged: Bevelle</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/23-Via-Purifico.html\">Jegged: Via Purifico</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a18.webp",
-     "caption": "แผนที่ Bevelle & Via Purifico — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -3113,22 +3019,22 @@
     {
      "key": "a19-p1",
      "label": "#1 Calm Lands – แคมป์ Rin's Travel Agency + Save Sphere",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-p2",
      "label": "#2 Calm Lands – 5,000 Gil",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-p3",
      "label": "#3 Calm Lands – 10,000 Gil",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-p4",
      "label": "#4 Calm Lands – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-0",
@@ -3139,17 +3045,17 @@
     {
      "key": "a19-p6",
      "label": "#6 Calm Lands – ครูฝึก Chocobo",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-p7",
      "label": "#7 Calm Lands – ดวลกับ Belgemine (คนเรียกเอออน)",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-p8",
      "label": "#8 Calm Lands Near Bridge – ทางเข้า Cavern of the Stolen Fayth",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a19-2",
@@ -3195,7 +3101,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a19-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Defender X: Armor Break ของ Auron, ใช้ Provoke ให้ Tidus ดึงการโจมตีค่ะ (FF Wiki)"
    ],
    "sources": [
@@ -3223,26 +3128,29 @@
      "label": "FF Wiki: Permanently missable content",
      "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
     }
-   ]
-  },
-  {
-   "id": "a19-r",
-   "kind": "page",
-   "title": "19 · เส้นทาง & แมพ: Calm Lands & Remiem Temple",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a19.webp",
+     "caption": "แผนที่ Calm Lands & Remiem Temple — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Macalania Woods (กลับมา):</b> หลังฉาก เปิดหีบ <b>Lucid Ring</b> และย้อนไปตะวันตกเก็บ <b>Jecht's Sphere</b> ได้ค่ะ",
-      "<b>2.</b> <b>Calm Lands South:</b> ไปตะวันออกเฉียงใต้สุดเปิดหีบ 2 ใบ (หมุด 2–3) ค่ะ",
-      "<b>3.</b> ไปแคมป์กลางแผนที่ (หมุด 1) ใช้ <b>Save Sphere</b> หลังแคมป์มีหีบ <b>Lv. 2 Key Sphere</b> (หมุด 4) ค่ะ",
-      "<b>4.</b> ตะวันตกสุดบนแหลมมี <b>Al Bhed Primer Vol. XXIII</b> (หมุด 5) ค่ะ",
-      "<b>5.</b> ครูฝึก Chocobo (หมุด 6) และดวล <b>Belgemine</b> (หมุด 7) ชนะได้ Power Sphere ×30 ค่ะ",
-      "<b>6.</b> <b>Remiem Temple:</b> อ้อมด้านซ้ายวิหารเก็บ <b>Al Bhed Primer Vol. XXIV</b> ค่ะ",
-      "<b>7.</b> <b>Calm Lands North:</b> <b>Save Sphere</b> → ข้ามสะพาน <b>บอส: Defender X</b> ค่ะ",
-      "<b>8.</b> ย้อนข้ามสะพาน ลงหุบเขา (ทางเข้า Cavern หมุด 8) ไปทางตะวันออกสุดทางมีดาบปักพื้น <b>Rusty Sword</b> (หมุด 9) ค่ะ"
+     "olist": [
+      "<b>Macalania Woods (กลับมา):</b> หลังฉาก เปิดหีบ <b>Lucid Ring</b> และย้อนไปตะวันตกเก็บ <b>Jecht's Sphere</b> ได้ค่ะ",
+      "<b>Calm Lands South:</b> ไปตะวันออกเฉียงใต้สุดเปิดหีบ 2 ใบ (หมุด 2–3) ค่ะ",
+      "ไปแคมป์กลางแผนที่ (หมุด 1) ใช้ <b>Save Sphere</b> หลังแคมป์มีหีบ <b>Lv. 2 Key Sphere</b> (หมุด 4) ค่ะ",
+      "ตะวันตกสุดบนแหลมมี <b>Al Bhed Primer Vol. XXIII</b> (หมุด 5) ค่ะ",
+      "ครูฝึก Chocobo (หมุด 6) และดวล <b>Belgemine</b> (หมุด 7) ชนะได้ Power Sphere ×30 ค่ะ",
+      "<b>Remiem Temple:</b> อ้อมด้านซ้ายวิหารเก็บ <b>Al Bhed Primer Vol. XXIV</b> ค่ะ",
+      "<b>Calm Lands North:</b> <b>Save Sphere</b> → ข้ามสะพาน <b>บอส: Defender X</b> ค่ะ",
+      "ย้อนข้ามสะพาน ลงหุบเขา (ทางเข้า Cavern หมุด 8) ไปทางตะวันออกสุดทางมีดาบปักพื้น <b>Rusty Sword</b> (หมุด 9) ค่ะ"
      ]
     },
     {
@@ -3308,13 +3216,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/24-Macalania-Woods-Revisited.html\">Jegged: Macalania Woods Revisited</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/25-The-Calm-Lands.html\">Jegged: The Calm Lands</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a19.webp",
-     "caption": "แผนที่ Calm Lands & Remiem Temple — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -3346,7 +3247,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a20-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Dark Yojimbo (เฉพาะ International) ต้องชนะ 5 ครั้งติดกัน ออกจากถ้ำหรือโหลดเกมจะรีเซ็ตนับใหม่ค่ะ (FF Wiki)"
    ],
    "sources": [
@@ -3366,21 +3266,24 @@
      "label": "FF Wiki: Dark Aeon",
      "url": "https://finalfantasy.fandom.com/wiki/Dark_Aeon"
     }
-   ]
-  },
-  {
-   "id": "a20-r",
-   "kind": "page",
-   "title": "20 · เส้นทาง & แมพ: Cavern of the Stolen Fayth",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a20.webp",
+     "caption": "แผนที่ Cavern of the Stolen Fayth — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> Jegged แนะนำให้มาที่นี่ช่วงท้ายเกมตอนเลเวลสูงแล้ว และเตรียมเงินไว้เยอะค่ะ",
-      "<b>2.</b> ทางเข้าอยู่หุบเขาใต้สะพาน Calm Lands (บทที่ 19 หมุด 8) เดินไปท้ายถ้ำเพื่อรับ <b>Yojimbo</b> ค่ะ",
-      "<b>3.</b> <b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้บอกลำดับเก็บหีบในถ้ำ หนูเลยไม่ได้ใส่ลำดับไว้ ดูรายการของในเช็กลิสต์ได้ค่ะ"
+     "olist": [
+      "Jegged แนะนำให้มาที่นี่ช่วงท้ายเกมตอนเลเวลสูงแล้ว และเตรียมเงินไว้เยอะค่ะ",
+      "ทางเข้าอยู่หุบเขาใต้สะพาน Calm Lands (บทที่ 19 หมุด 8) เดินไปท้ายถ้ำเพื่อรับ <b>Yojimbo</b> ค่ะ",
+      "<b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้บอกลำดับเก็บหีบในถ้ำ หนูเลยไม่ได้ใส่ลำดับไว้ ดูรายการของในเช็กลิสต์ได้ค่ะ"
      ]
     },
     {
@@ -3390,13 +3293,6 @@
     {
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/30-Final-Preparations-and-Endgame-Side-Quests.html\">Jegged: Final Preparations and Endgame Side Quests</a>",
      "class": "src"
-    }
-   ],
-   "maps": [
-    {
-     "file": "maps/a20.webp",
-     "caption": "แผนที่ Cavern of the Stolen Fayth — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
     }
    ]
   },
@@ -3414,22 +3310,22 @@
     {
      "key": "a21-p1",
      "label": "#1 Mt Gagazet Mountain Trail 1 – 20,000 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p2",
      "label": "#2 Mt Gagazet Mountain Trail 1 – Mega-Potion",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p3",
      "label": "#3 Mt Gagazet Mountain Trail 1 – Jecht's Sphere",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p4",
      "label": "#4 Mt Gagazet Mountain Trail 1 – Defending Bracer",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-2",
@@ -3440,12 +3336,12 @@
     {
      "key": "a21-p6",
      "label": "#6 Mt Gagazet Mountain Trail 2 – HP Sphere",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p7",
      "label": "#7 Mt Gagazet Mountain Trail 2 – Lv. 4 Key Sphere",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-1",
@@ -3456,27 +3352,27 @@
     {
      "key": "a21-p9",
      "label": "#9 Mt Gagazet Submerged 1 – บททดสอบที่ 1 (Lv. 1 Key Sphere)",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p10",
      "label": "#10 Mt Gagazet Submerged 2 – บททดสอบที่ 2 (Fortune Sphere)",
-     "where": "ดูหมุด #10 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p11",
      "label": "#11 Mt Gagazet Submerged 3 – Return Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p12",
      "label": "#12 Mt Gagazet Submerged 3 – Recovery Ring",
-     "where": "ดูหมุด #12 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-p13",
      "label": "#13 Mt Gagazet Cave 4 – ซอกที่เพิ่งเปิด (Pep Talk)",
-     "where": "ดูหมุด #13 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #13 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a21-0",
@@ -3492,7 +3388,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a21-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Seymour Flux: ภูมิต้าน Break ใช้ Holy/Flare/Ultima และ Holy Water แก้ Zombie ค่ะ (FF Wiki)",
     "Sanctuary Keeper: Dispel + Bio ใส่ Reflect ให้มัน Auron ใช้ Break ต่างๆ ค่ะ (FF Wiki)"
    ],
@@ -3521,28 +3416,31 @@
      "label": "FF Wiki: Permanently missable content",
      "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
     }
-   ]
-  },
-  {
-   "id": "a21-r",
-   "kind": "page",
-   "title": "21 · เส้นทาง & แมพ: Mt. Gagazet",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a21.webp",
+     "caption": "แผนที่ Mt. Gagazet — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>Mountain Gate:</b> <b>Save Sphere</b> → <b>บอส: Biran & Yenke Ronso</b> (ขโมย Lv. 3 Key Sphere ได้) ค่ะ",
-      "<b>2.</b> <b>Mountain Trail:</b> หีบขวาตอนเริ่ม <b>20,000 Gil</b> (หมุด 1) และหีบบนที่ราบซ้าย <b>Mega-Potion ×2</b> (หมุด 2) ค่ะ",
-      "<b>3.</b> <b>Jecht's Sphere</b> (หมุด 3) ที่ทางแยก Y ไปตะวันตก หีบ <b>Defending Bracer</b> (หมุด 4) และ Wantz (หมุด 5) ค่ะ",
-      "<b>4.</b> หีบด้านล่าง 2 ใบ <b>HP Sphere</b> (หมุด 6) และ <b>Lv. 4 Key Sphere</b> (หมุด 7) แล้ว <b>Save Sphere</b> ปลายทางค่ะ",
-      "<b>5.</b> <b>บอส: Seymour Flux</b> ค่ะ",
-      "<b>6.</b> <b>Prominence:</b> ก่อนถึง Save Sphere หีบซ่อนระหว่างเสามี <b>Saturn Crest</b> (หมุด 8) ค่ะ",
-      "<b>7.</b> <b>Cave:</b> <b>Save Sphere</b> → <b>Submerged Passage</b> เลี้ยวซ้าย ทำบททดสอบแรกได้ Lv. 1 Key Sphere (หมุด 9) ค่ะ",
-      "<b>8.</b> กลับ Save Sphere ขึ้นบันไดใหม่ไปทดสอบที่สอง ได้ <b>Fortune Sphere</b> (หมุด 10) ค่ะ",
-      "<b>9.</b> กลับ Save Sphere ขึ้นบันไดแล้วเลี้ยวขวา ว่ายน้ำสุดทางได้ <b>Return Sphere</b> (หมุด 11) และ <b>Recovery Ring</b> (หมุด 12) ค่ะ",
-      "<b>10.</b> ทางซ้ายตะวันตกเฉียงเหนือมีซอกที่เพิ่งเปิด (หมุด 13) แล้วขึ้นยอดเขา <b>Save Sphere</b> → <b>บอส: Sanctuary Keeper</b> ค่ะ"
+     "olist": [
+      "<b>Mountain Gate:</b> <b>Save Sphere</b> → <b>บอส: Biran & Yenke Ronso</b> (ขโมย Lv. 3 Key Sphere ได้) ค่ะ",
+      "<b>Mountain Trail:</b> หีบขวาตอนเริ่ม <b>20,000 Gil</b> (หมุด 1) และหีบบนที่ราบซ้าย <b>Mega-Potion ×2</b> (หมุด 2) ค่ะ",
+      "<b>Jecht's Sphere</b> (หมุด 3) ที่ทางแยก Y ไปตะวันตก หีบ <b>Defending Bracer</b> (หมุด 4) และ Wantz (หมุด 5) ค่ะ",
+      "หีบด้านล่าง 2 ใบ <b>HP Sphere</b> (หมุด 6) และ <b>Lv. 4 Key Sphere</b> (หมุด 7) แล้ว <b>Save Sphere</b> ปลายทางค่ะ",
+      "<b>บอส: Seymour Flux</b> ค่ะ",
+      "<b>Prominence:</b> ก่อนถึง Save Sphere หีบซ่อนระหว่างเสามี <b>Saturn Crest</b> (หมุด 8) ค่ะ",
+      "<b>Cave:</b> <b>Save Sphere</b> → <b>Submerged Passage</b> เลี้ยวซ้าย ทำบททดสอบแรกได้ Lv. 1 Key Sphere (หมุด 9) ค่ะ",
+      "กลับ Save Sphere ขึ้นบันไดใหม่ไปทดสอบที่สอง ได้ <b>Fortune Sphere</b> (หมุด 10) ค่ะ",
+      "กลับ Save Sphere ขึ้นบันไดแล้วเลี้ยวขวา ว่ายน้ำสุดทางได้ <b>Return Sphere</b> (หมุด 11) และ <b>Recovery Ring</b> (หมุด 12) ค่ะ",
+      "ทางซ้ายตะวันตกเฉียงเหนือมีซอกที่เพิ่งเปิด (หมุด 13) แล้วขึ้นยอดเขา <b>Save Sphere</b> → <b>บอส: Sanctuary Keeper</b> ค่ะ"
      ]
     },
     {
@@ -3628,13 +3526,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/26-Mt-Gagazet.html\">Jegged: Mt Gagazet</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/27-Mt-Gagazet-Cave.html\">Jegged: Mt Gagazet Cave</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a21.webp",
-     "caption": "แผนที่ Mt. Gagazet — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -3650,22 +3541,22 @@
     {
      "key": "a22-p1",
      "label": "#1 Zanarkand Dome Interior – 10,000 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a22-p2",
      "label": "#2 Zanarkand Dome Interior – Friend Sphere",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a22-p3",
      "label": "#3 Zanarkand Dome Interior – Lv. 3 Key Sphere",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a22-p4",
      "label": "#4 Zanarkand Dome Corridor – Luck Sphere",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a22-0",
@@ -3688,7 +3579,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a22-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Spectral Keeper: ยืนให้มีช่องว่างข้างแต่ละคน ใช้ Provoke และ Mental Break ค่ะ (FF Wiki)",
     "Yunalesca: <span class=\"mut\">ในหน้าที่อ่านมาไม่มีหัวข้อกลยุทธ์</span>"
    ],
@@ -3709,26 +3599,29 @@
      "label": "FF Wiki: Celestial Weapon",
      "url": "https://finalfantasy.fandom.com/wiki/Celestial_Weapon"
     }
-   ]
-  },
-  {
-   "id": "a22-r",
-   "kind": "page",
-   "title": "22 · เส้นทาง & แมพ: Zanarkand Ruins & Dome",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a22.webp",
+     "caption": "แผนที่ Zanarkand Ruins & Dome — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> กองไฟ: ใช้ <b>Save Sphere</b> ค่ะ",
-      "<b>2.</b> <b>Overpass:</b> หีบกลางทาง <b>Fortune Sphere</b> และแท่นข้างทาง <b>Spiritual Targe</b> ค่ะ",
-      "<b>3.</b> <b>Dome:</b> <b>Save Sphere</b> ทางซ้ายทางเข้า ค่ะ",
-      "<b>4.</b> <b>Interior:</b> ออกอุโมงค์แล้วยูเทิร์นขึ้นทางบน หีบ (หมุด 1) ผ่าน <b>Save Sphere</b> แล้วไปทางขวา <b>Friend Sphere</b> (หมุด 2) ค่ะ",
-      "<b>5.</b> ตอนเห็นภาพ Braska/Auron/Jecht ให้หันกลับลงชั้นล่าง หีบสุดทาง (หมุด 3) ค่ะ",
-      "<b>6.</b> <b>Corridor:</b> หีบขวา <b>Luck Sphere</b> (หมุด 4) ขึ้นบันได <b>Save Sphere</b> → <b>Cloister of Trials</b> ได้ <b>Magistral Rod</b> ค่ะ",
-      "<b>7.</b> <b>บอส: Spectral Keeper</b> แล้ว <b>บอส: Yunalesca</b> ค่ะ",
-      "<b>8.</b> <b>พลาดได้:</b> หลังชนะ Yunalesca เก็บ <b>Sun Crest</b> ท้ายห้องทันที ไม่งั้น Dark Bahamut จะมาขวางค่ะ"
+     "olist": [
+      "กองไฟ: ใช้ <b>Save Sphere</b> ค่ะ",
+      "<b>Overpass:</b> หีบกลางทาง <b>Fortune Sphere</b> และแท่นข้างทาง <b>Spiritual Targe</b> ค่ะ",
+      "<b>Dome:</b> <b>Save Sphere</b> ทางซ้ายทางเข้า ค่ะ",
+      "<b>Interior:</b> ออกอุโมงค์แล้วยูเทิร์นขึ้นทางบน หีบ (หมุด 1) ผ่าน <b>Save Sphere</b> แล้วไปทางขวา <b>Friend Sphere</b> (หมุด 2) ค่ะ",
+      "ตอนเห็นภาพ Braska/Auron/Jecht ให้หันกลับลงชั้นล่าง หีบสุดทาง (หมุด 3) ค่ะ",
+      "<b>Corridor:</b> หีบขวา <b>Luck Sphere</b> (หมุด 4) ขึ้นบันได <b>Save Sphere</b> → <b>Cloister of Trials</b> ได้ <b>Magistral Rod</b> ค่ะ",
+      "<b>บอส: Spectral Keeper</b> แล้ว <b>บอส: Yunalesca</b> ค่ะ",
+      "<b>พลาดได้:</b> หลังชนะ Yunalesca เก็บ <b>Sun Crest</b> ท้ายห้องทันที ไม่งั้น Dark Bahamut จะมาขวางค่ะ"
      ]
     },
     {
@@ -3769,13 +3662,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/28-Zanarkand-Ruins.html\">Jegged: Zanarkand Ruins</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a22.webp",
-     "caption": "แผนที่ Zanarkand Ruins & Dome — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -3795,67 +3681,67 @@
     {
      "key": "a23-p1",
      "label": "#1 Sin Sea of Sorrow – Phantom Ring",
-     "where": "ดูหมุด #1 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p2",
      "label": "#2 Sin Sea of Sorrow – Special Sphere",
-     "where": "ดูหมุด #2 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p3",
      "label": "#3 Sin Sea of Sorrow – Elixir",
-     "where": "ดูหมุด #3 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p4",
      "label": "#4 Sin Sea of Sorrow – Wizard Lance",
-     "where": "ดูหมุด #4 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p5",
      "label": "#5 Sin Sea of Sorrow – Lv. 3 Key Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p6",
      "label": "#6 Sin City of Dying Dreams – Lv. 4 Key Sphere",
-     "where": "ดูหมุด #6 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p7",
      "label": "#7 Sin City of Dying Dreams – Four-on-One",
-     "where": "ดูหมุด #7 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p8",
      "label": "#8 Sin City of Dying Dreams – Defending Bracer",
-     "where": "ดูหมุด #8 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p9",
      "label": "#9 Sin City of Dying Dreams – 20,000 Gil",
-     "where": "ดูหมุด #9 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p10",
      "label": "#10 Sin City of Dying Dreams – HP Sphere",
-     "where": "ดูหมุด #10 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p11",
      "label": "#11 Sin City of Dying Dreams – Defense Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p12",
      "label": "#12 Sin City of Dying Dreams – Megalixir",
-     "where": "ดูหมุด #12 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-p13",
      "label": "#13 Sin City of Dying Dreams – Laevatein",
-     "where": "ดูหมุด #13 บนแผนที่ในหัวข้อ \"เส้นทาง & แมพ\" ค่ะ"
+     "where": "ดูหมุด #13 บนแผนที่ด้านบนค่ะ"
     },
     {
      "key": "a23-0",
@@ -3871,7 +3757,6 @@
     }
    ],
    "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a23-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ",
     "Seymour Omnis: หมุนวงแหวน Mortiphasm (ตีกายภาพ = ทวนเข็ม, เวท = ตามเข็ม) แล้วใช้ Nul-spell ค่ะ (FF Wiki)",
     "ก่อนเข้า Sin สามารถใช้เรือเหาะทำเนื้อหาเสริมทั้งหมดได้ค่ะ"
    ],
@@ -3892,27 +3777,30 @@
      "label": "FF Wiki: Al Bhed Primer",
      "url": "https://finalfantasy.fandom.com/wiki/Al_Bhed_Primer"
     }
-   ]
-  },
-  {
-   "id": "a23-r",
-   "kind": "page",
-   "title": "23 · เส้นทาง & แมพ: เรือเหาะ & Sin",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a23.webp",
+     "caption": "แผนที่ เรือเหาะ & Sin — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> <b>บอส: Sin (Left/Right Fin) → Sinspawn Genais → Overdrive Sin</b> จากบนเรือเหาะ ค่ะ",
-      "<b>2.</b> <b>Sin - Near Airship:</b> ใช้ <b>Save Sphere</b> ค่ะ",
-      "<b>3.</b> <b>Sea of Sorrow:</b> หีบ 5 ใบ (หมุด 1–5) บางใบต้องอ้อมเพราะน้ำตก ระวัง Behemoth King ใช้ Meteor สวนตอนตาย ค่ะ",
-      "<b>4.</b> <b>Save Sphere</b> ท้าย Sea of Sorrow → <b>Garden of Pain: บอส Seymour Omnis</b> ค่ะ",
-      "<b>5.</b> <b>City of Dying Dreams:</b> หีบ (หมุด 6) ขึ้นลิฟต์ <b>Four-on-One</b> (หมุด 7) ทางเดินถัดไป <b>Defending Bracer</b> (หมุด 8) ค่ะ",
-      "<b>6.</b> ลานบ่อใหญ่: ลงทางลาด <b>20,000 Gil</b> (หมุด 9) ตามทางเดิน <b>HP Sphere</b> (หมุด 10) และ <b>Defense Sphere</b> (หมุด 11) ค่ะ",
-      "<b>7.</b> ทางสไลด์ลับทางใต้ของห้องพาไปชั้นล่าง หีบ (หมุด 12) และ <b>Laevatein</b> (หมุด 13) ค่ะ",
-      "<b>8.</b> <b>Tower of the Dead:</b> <b>Save Sphere</b> สุดท้ายก่อนฉากจบ (ยังกลับเรือเหาะได้) ค่ะ",
-      "<b>9.</b> <b>The Nucleus</b> → <b>บอส: Braska's Final Aeon</b> (2 ร่าง) → <b>Yu Yevon</b> ค่ะ"
+     "olist": [
+      "<b>บอส: Sin (Left/Right Fin) → Sinspawn Genais → Overdrive Sin</b> จากบนเรือเหาะ ค่ะ",
+      "<b>Sin - Near Airship:</b> ใช้ <b>Save Sphere</b> ค่ะ",
+      "<b>Sea of Sorrow:</b> หีบ 5 ใบ (หมุด 1–5) บางใบต้องอ้อมเพราะน้ำตก ระวัง Behemoth King ใช้ Meteor สวนตอนตาย ค่ะ",
+      "<b>Save Sphere</b> ท้าย Sea of Sorrow → <b>Garden of Pain: บอส Seymour Omnis</b> ค่ะ",
+      "<b>City of Dying Dreams:</b> หีบ (หมุด 6) ขึ้นลิฟต์ <b>Four-on-One</b> (หมุด 7) ทางเดินถัดไป <b>Defending Bracer</b> (หมุด 8) ค่ะ",
+      "ลานบ่อใหญ่: ลงทางลาด <b>20,000 Gil</b> (หมุด 9) ตามทางเดิน <b>HP Sphere</b> (หมุด 10) และ <b>Defense Sphere</b> (หมุด 11) ค่ะ",
+      "ทางสไลด์ลับทางใต้ของห้องพาไปชั้นล่าง หีบ (หมุด 12) และ <b>Laevatein</b> (หมุด 13) ค่ะ",
+      "<b>Tower of the Dead:</b> <b>Save Sphere</b> สุดท้ายก่อนฉากจบ (ยังกลับเรือเหาะได้) ค่ะ",
+      "<b>The Nucleus</b> → <b>บอส: Braska's Final Aeon</b> (2 ร่าง) → <b>Yu Yevon</b> ค่ะ"
      ]
     },
     {
@@ -3998,13 +3886,6 @@
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/31-Sin.html\">Jegged: Sin</a> · <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/32-Inside-Sin.html\">Jegged: Inside Sin</a>",
      "class": "src"
     }
-   ],
-   "maps": [
-    {
-     "file": "maps/a23.webp",
-     "caption": "แผนที่ เรือเหาะ & Sin — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
-    }
    ]
   },
   {
@@ -4027,9 +3908,7 @@
      "where": "เปิดหีบ 12 ใบครบทีละกลุ่มโดยไม่เจอ Mimic ได้ Warp Sphere ×99 ถ้าพลาดหีบจะหายถาวรค่ะ"
     }
    ],
-   "tips": [
-    "ดูเส้นทางทีละขั้นและแมพได้ที่ <a href=\"#a24-r\">เส้นทาง &amp; แมพ</a> ด้านล่างค่ะ"
-   ],
+   "tips": [],
    "sources": [
     {
      "label": "FF Wiki: Omega Ruins",
@@ -4043,20 +3922,23 @@
      "label": "FF Wiki: Permanently missable content",
      "url": "https://finalfantasy.fandom.com/wiki/Permanently_missable_content"
     }
-   ]
-  },
-  {
-   "id": "a24-r",
-   "kind": "page",
-   "title": "24 · เส้นทาง & แมพ: Omega Ruins (เสริม)",
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "maps/a24.webp",
+     "caption": "แผนที่ Omega Ruins (เสริม) — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Jegged.com"
+    }
+   ],
    "blocks": [
     {
      "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
     },
     {
-     "list": [
-      "<b>1.</b> เข้าได้ด้วยพิกัดลับบน NavMap ของเรือเหาะ (ดูหน้า Jegged) ค่ะ",
-      "<b>2.</b> <b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้เรียงลำดับเก็บหีบในพื้นที่นี้ หนูเลยไม่ใส่ลำดับไว้ค่ะ บอสเด่นคือ Ultima Weapon และ Omega Weapon"
+     "olist": [
+      "เข้าได้ด้วยพิกัดลับบน NavMap ของเรือเหาะ (ดูหน้า Jegged) ค่ะ",
+      "<b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้เรียงลำดับเก็บหีบในพื้นที่นี้ หนูเลยไม่ใส่ลำดับไว้ค่ะ บอสเด่นคือ Ultima Weapon และ Omega Weapon"
      ]
     },
     {
@@ -4066,13 +3948,6 @@
     {
      "p": "ลำดับเส้นทางจาก: <a href=\"https://jegged.com/Games/Final-Fantasy-X/Walkthrough/30-Final-Preparations-and-Endgame-Side-Quests.html\">Jegged: Final Preparations and Endgame Side Quests</a>",
      "class": "src"
-    }
-   ],
-   "maps": [
-    {
-     "file": "maps/a24.webp",
-     "caption": "แผนที่ Omega Ruins (เสริม) — หมุดเหลือง = หีบ/จุดเก็บของ · หมุดฟ้า = Al Bhed Primer (รายการหมุดอยู่ใต้แผนที่)",
-     "credit": "แผนที่จาก Jegged.com"
     }
    ]
   },
@@ -4537,7 +4412,7 @@
    "blocks": [
     {
      "list": [
-      "เส้นทางทีละขั้นของแต่ละบทอิงลำดับจาก walkthrough ของ Jegged.com ส่วนกล่อง Walkthrough แนวนอนเป็นแค่สรุปของสะสม ไม่ใช่ลำดับจริงค่ะ",
+      "เส้นทางทีละขั้นของแต่ละบทอิงลำดับจาก walkthrough ของ Jegged.com ค่ะ",
       "บางบอส (เช่น Chocobo Eater, Crawler, Yunalesca) แหล่งไม่มีหัวข้อกลยุทธ์ ข้อความที่ระบุว่าอนุมานคือการคาดเดาค่ะ"
      ]
     }

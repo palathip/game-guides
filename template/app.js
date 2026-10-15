@@ -59,7 +59,7 @@ const $=i=>document.getElementById(i),btn=$('syb'),st=$('sys'),dlg=$('syd');if(!
 const boxes=[...document.querySelectorAll('input[data-k]')],keys=new Set(boxes.map(c=>c.dataset.k));
 const ID_RE=/^[0-9a-f]{20,40}$/i,TK_RE=/^[A-Za-z0-9_]{20,255}$/;
 const cfg=()=>{try{const c=JSON.parse(localStorage.getItem(CF)||'null');return c&&ID_RE.test(c.id)&&TK_RE.test(c.tok)?c:null}catch(e){return null}};
-const say=(t,err)=>{st.textContent=t;st.classList.toggle('err',!!err)};
+const say=(t,err)=>{st.textContent=t;st.classList.toggle('err',!!err);const k=!t?'':err?'err':/กำลัง/.test(t)?'busy':/ออฟไลน์/.test(t)?'off':'ok';if(k)btn.dataset.s=k;else delete btn.dataset.s;btn.title=btn.ariaLabel=t?'ตั้งค่าซิงก์ · '+t:'ตั้งค่าซิงก์'};
 const hd=c=>({Authorization:'Bearer '+c.tok,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'});
 async function read(c){const r=await fetch(API+c.id,{headers:hd(c),cache:'no-store'});if(!r.ok)throw r.status;const j=await r.json(),f=j.files&&j.files[FN];
  if(!f||f.truncated)throw 'nofile';let o;try{o=JSON.parse(f.content||'{}')}catch(e){throw 'json'}return o&&typeof o==='object'&&!Array.isArray(o)?o:{}}

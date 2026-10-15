@@ -92,6 +92,10 @@ def validate(d):
             req(s, 'items', list, w); req(s, 'verses', int, w)
             items(s.get('items', []), w + '.items')
             for j, t in enumerate(s.get('tips', [])): check_inline(t, f'{w}.tips[{j}]', errs)
+            if 'flow' in s and not isinstance(s['flow'], bool): errs.append(f'{w}: "flow" must be true/false')
+            if 'blocks' in s:
+                if not isinstance(s['blocks'], list): errs.append(f'{w}: "blocks" must be a list')
+                else: [block_check(b, f'{w}.blocks[{j}]', errs, items) for j, b in enumerate(s['blocks'])]
             for j, x in enumerate(s.get('sources', [])):
                 if not re.match(r'^https?://', x.get('url', '')): errs.append(f'{w}.sources[{j}]: url must be http(s)')
         elif s.get('kind') == 'page':
@@ -106,11 +110,11 @@ def validate(d):
     return errs
 
 def block_check(b, w, errs, items):
-    k = [x for x in ('h2', 'h3', 'p', 'list', 'table', 'checklist', 'totals') if x in b]
-    if len(k) != 1: errs.append(f'{w}: block needs exactly one of h2/h3/p/list/table/checklist/totals'); return
+    k = [x for x in ('h2', 'h3', 'p', 'list', 'olist', 'table', 'checklist', 'totals') if x in b]
+    if len(k) != 1: errs.append(f'{w}: block needs exactly one of h2/h3/p/list/olist/table/checklist/totals'); return
     k = k[0]
     if k == 'p': check_inline(b['p'], w, errs)
-    if k == 'list': [check_inline(x, f'{w}.list', errs) for x in b['list']]
+    if k in ('list', 'olist'): [check_inline(x, f'{w}.{k}', errs) for x in b[k]]
     if k == 'checklist': items(b['checklist'], w + '.checklist')
     if k == 'table':
         t = b['table']
@@ -141,6 +145,7 @@ def render(d, base=ROOT):
             elif 'h3' in b: o.append(f'<h3>{E(b["h3"])}</h3>')
             elif 'p' in b: o.append((f'<p class="{E(b["class"])}">' if b.get('class') else '<p>') + b['p'] + '</p>')
             elif 'list' in b: o.append('<ul>' + ''.join(f'<li>{x}</li>' for x in b['list']) + '</ul>')
+            elif 'olist' in b: o.append('<ol>' + ''.join(f'<li>{x}</li>' for x in b['olist']) + '</ol>')
             elif 'table' in b: o.append(tbl(b['table']))
             elif 'checklist' in b: o.append(f'<ul class="ck">{checklist(b["checklist"])}</ul>')
             elif 'totals' in b: o.append('{{TOTALS}}')
@@ -150,6 +155,8 @@ def render(d, base=ROOT):
         op = '' if s.get('open') is False else ' open'
         if s['kind'] == 'chapter':
             its = s['items']; typed = [x for x in its if 'type' in x]; cnt(its)
+            for b in s.get('blocks', []):
+                if 'checklist' in b: cnt(b['checklist'])
             summ = {}
             for x in typed: summ[x['type']] = summ.get(x['type'], 0) + 1
             sm = ' '.join(f'{badge(t)}×{n}' for t, n in summ.items()) or f'<span class="mut">{E(ui["no_items_summary"])}</span>'
@@ -163,10 +170,10 @@ def render(d, base=ROOT):
             fallback = '<ol class="flx">' + ''.join(f'<li>{E(n["l"])}{(" · " + E(n["s"])) if n["s"] else ""}</li>' for n in nodes) + '</ol>'
             src = ' · '.join(f'<a href="{E(x["url"])}">{E(x["label"])}</a>' for x in s.get('sources', []))
             secs.append(f'''<details class="ch" id="{E(s['id'])}"{op}><summary><h2>{E(s['title'])}</h2><span class="cnt">{len(typed)} {E(ui['unit'])}</span></summary>
-<p class="sm">{sm}</p>{maps_html(s, base)}
-<h3>{E(ui['walkthrough'])}</h3><div class="lgk"><span style="--k:{C_SE}">{E(ui['legend_se'])}</span><span style="--k:{C_BOSS}">{E(ui['legend_boss'])}</span><span class="dash" style="--k:#f59e0b">{E(ui['legend_back'])}</span></div><p class="fhint">{E(ui['scroll_hint'])}</p><div class="flow" data-flow="{flow}">{fallback}</div>
+<p class="sm">{sm}</p>{maps_html(s, base)}{blocks(s.get('blocks', []))}
+''' + ('' if s.get('flow') is False else f'''<h3>{E(ui['walkthrough'])}</h3><div class="lgk"><span style="--k:{C_SE}">{E(ui['legend_se'])}</span><span style="--k:{C_BOSS}">{E(ui['legend_boss'])}</span><span class="dash" style="--k:#f59e0b">{E(ui['legend_back'])}</span></div><p class="fhint">{E(ui['scroll_hint'])}</p><div class="flow" data-flow="{flow}">{fallback}</div>
 <p class="lg">{E(ui['flow_note'])}</p>
-<h3>{E(ui['checklist'])}</h3><ul class="ck">{checklist(its) or f'<li class="mut">{E(ui["no_items"])}</li>'}</ul>
+''') + f'''<h3>{E(ui['checklist'])}</h3><ul class="ck">{checklist(its) or f'<li class="mut">{E(ui["no_items"])}</li>'}</ul>
 <h3>{E(ui['tips'])}</h3><ul>{''.join(f"<li>{t}</li>" for t in s.get('tips', []))}</ul>
 ''' + (f'<p class="src">{E(ui["sources"])} {src}</p>' if src else '') + '</details>')
         else:

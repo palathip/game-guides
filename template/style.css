@@ -126,3 +126,16 @@ figure.map{margin:24px 0}figure.map img{display:block;max-width:100%;height:auto
 .top .back{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-12px 0 4px -12px;color:#fff;border-radius:50%;transition:background .15s,transform .15s}.top .back:hover{background:rgba(255,255,255,.12)}.top .back:active{transform:scale(.92);background:rgba(255,255,255,.2)}
 .capd summary{cursor:pointer;min-height:44px;line-height:1.43;padding:12px 0}
 
+.sy{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:16px 0 0;padding-bottom:max(40px,env(safe-area-inset-bottom))}
+#syb,.sya button{font:400 17px var(--sans);min-height:44px;padding:0 22px;border-radius:9999px;border:0;cursor:pointer;background:var(--blue);color:#fff}
+#syb,.sya .sy2{background:var(--soft);color:var(--ink)}
+#sys{font:400 14px/1.43 var(--sans);color:var(--ink48)}#sys.err{color:#b3261e}
+#syd{width:min(560px,calc(100vw - 24px));max-height:calc(100dvh - 24px);border:0;border-radius:18px;padding:24px;background:var(--canvas);color:var(--ink);font-family:var(--sans)}
+#syd::backdrop{background:rgba(0,0,0,.4)}
+#syd h2{font:600 21px/1.3 var(--disp);margin:0 0 8px}#syd ol{padding-left:20px;margin:8px 0}#syd li{margin:4px 0}
+#syd code{background:var(--parch);border-radius:6px;padding:0 4px}
+#syd label{display:block;font:600 14px var(--sans);margin:12px 0 4px}
+#syd input{width:100%;min-height:44px;font:400 16px var(--sans);padding:0 12px;border:1px solid var(--chip);border-radius:12px;background:var(--pearl);color:var(--ink)}
+#syd :focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.sye{color:#b3261e;font:400 14px var(--sans);margin:8px 0 0;min-height:1em}
+.sya{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}

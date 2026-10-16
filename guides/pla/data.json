@@ -133,6 +133,31 @@
    ],
    "items": [
     {
+     "key": "s01-p1",
+     "label": "#1 Prelude Beach – จุดเริ่มเกม เก็บ Arc Phone",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s01-p2",
+     "label": "#2 The Wallflower – ร้านที่พักคืนแรก",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s01-p3",
+     "label": "#3 Galaxy Hall – พบ Cyllene รับภารกิจ",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s01-p4",
+     "label": "#4 ประตูหน้าหมู่บ้าน – สู้ Volo ครั้งแรก",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s01-p5",
+     "label": "#5 ลานฝึก (Training Grounds) – สู้ Rei/Akari ในบทต่อไป",
+     "where": "ดูหมุดหมายเลข 5 บนแผนที่ด้านบนค่ะ"
+    },
+    {
      "key": "s01-0",
      "type": "Key",
      "short": "Arc Phone",
@@ -160,6 +185,14 @@
     {
      "label": "Bulbapedia: Walkthrough Part 2",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2"
+    },
+    {
+     "label": "Bulbagarden Archives: Jubilife_Village_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Jubilife_Village_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -177,6 +210,53 @@
       "ออกไป Obsidian Fieldlands จับ <b>Bidoof, Starly และ Shinx</b> บน Aspiration Hill ให้ครบ แล้วกลับไปรายงานเพื่อผ่านบททดสอบค่ะ",
       "กลับหมู่บ้าน รับสูตรทำ Poké Ball ลองคราฟต์ที่โต๊ะทางตะวันออก แล้วรับ <b>Pokédex</b> จาก Laventon ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Prelude Beach",
+        "จุดเริ่มเกม เก็บ Arc Phone"
+       ],
+       [
+        "2",
+        "The Wallflower",
+        "ร้านที่พักคืนแรก"
+       ],
+       [
+        "3",
+        "Galaxy Hall",
+        "พบ Cyllene รับภารกิจ"
+       ],
+       [
+        "4",
+        "ประตูหน้าหมู่บ้าน",
+        "สู้ Volo ครั้งแรก"
+       ],
+       [
+        "5",
+        "ลานฝึก (Training Grounds)",
+        "สู้ Rei/Akari ในบทต่อไป"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Jubilife_Village_Map.png\">Bulbagarden Archives: Jubilife_Village_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -201,6 +281,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_1\">Bulbapedia: Walkthrough Part 1</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2\">Bulbapedia: Walkthrough Part 2</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s01.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Jubilife_Village_Map.png)"
+    }
    ]
   },
   {
@@ -213,6 +300,26 @@
     "Mai"
    ],
    "items": [
+    {
+     "key": "s02-p1",
+     "label": "#1 Fieldlands Camp – รายงาน Laventon",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s02-p2",
+     "label": "#2 Aspiration Hill – จับ Bidoof, Starly, Shinx และพบ Mai",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s02-p3",
+     "label": "#3 Deertrack Heights – สู้ alpha Kricketune",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s02-p4",
+     "label": "#4 Heights Camp – ค่ายที่เปิดหลังพบ Wyrdeer",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s02-0",
      "type": "Rank",
@@ -235,6 +342,14 @@
     {
      "label": "Bulbapedia: Walkthrough Part 3",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_3"
+    },
+    {
+     "label": "Bulbagarden Archives: Obsidian_Fieldlands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Obsidian_Fieldlands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -252,6 +367,48 @@
       "สู้กับ <b>alpha Kricketune</b> (แพ้ธาตุไฟ บิน และหิน) แล้ว <b>Wyrdeer</b> จะปรากฏตัวค่ะ",
       "หลังจากนั้นจะเปิด <b>Heights Camp</b> ให้วาร์ปมาได้ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Fieldlands Camp",
+        "รายงาน Laventon"
+       ],
+       [
+        "2",
+        "Aspiration Hill",
+        "จับ Bidoof, Starly, Shinx และพบ Mai"
+       ],
+       [
+        "3",
+        "Deertrack Heights",
+        "สู้ alpha Kricketune"
+       ],
+       [
+        "4",
+        "Heights Camp",
+        "ค่ายที่เปิดหลังพบ Wyrdeer"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Obsidian_Fieldlands_Map.png\">Bulbagarden Archives: Obsidian_Fieldlands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -278,6 +435,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2\">Bulbapedia: Walkthrough Part 2</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_3\">Bulbapedia: Walkthrough Part 3</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s02.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Obsidian_Fieldlands_Map.png)"
+    }
    ]
   },
   {
@@ -291,6 +455,26 @@
     "Kleavor"
    ],
    "items": [
+    {
+     "key": "s03-p1",
+     "label": "#1 Heights Camp – จุดออกเดินทาง รับ Celestica Flute",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p2",
+     "label": "#2 Tidewater Dam – ทางผ่านลงใต้",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p3",
+     "label": "#3 The Heartwood – ป่าทางตะวันออกเฉียงใต้",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p4",
+     "label": "#4 Grandtree Arena – สู้ Noble Kleavor",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s03-0",
      "type": "Ride",
@@ -313,6 +497,14 @@
     {
      "label": "Serebii: Noble Pokémon",
      "url": "https://www.serebii.net/legendsarceus/noblepokemon.shtml"
+    },
+    {
+     "label": "Bulbagarden Archives: Obsidian_Fieldlands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Obsidian_Fieldlands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -330,6 +522,48 @@
       "<b>บอส: Kleavor</b> ปา Balm ด้วย ZR ลดเกจด้านบน หลบด้วย Y เมื่อมีข้อความให้ส่งโปเกมอน ให้ปล่อยโปเกมอนออกไปสู้ ชนะแล้วบอสจะมึน ปา Balm ได้รัวๆ ค่ะ",
       "เกจหมดแล้วจะได้ <b>Insect Plate</b> กลับไปรายงาน Kamado ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Heights Camp",
+        "จุดออกเดินทาง รับ Celestica Flute"
+       ],
+       [
+        "2",
+        "Tidewater Dam",
+        "ทางผ่านลงใต้"
+       ],
+       [
+        "3",
+        "The Heartwood",
+        "ป่าทางตะวันออกเฉียงใต้"
+       ],
+       [
+        "4",
+        "Grandtree Arena",
+        "สู้ Noble Kleavor"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ ยกเว้นหมุด 2–4ที่ยังเป็นตำแหน่งโดยประมาณนะคะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Obsidian_Fieldlands_Map.png\">Bulbagarden Archives: Obsidian_Fieldlands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -355,6 +589,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_4\">Bulbapedia: Walkthrough Part 4</a> · <a href=\"https://www.serebii.net/legendsarceus/noblepokemon.shtml\">Serebii: Noble Pokémon</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s03.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Obsidian_Fieldlands_Map.png)"
+    }
    ]
   },
   {
@@ -368,6 +609,26 @@
     "Ursaluna"
    ],
    "items": [
+    {
+     "key": "s04-p1",
+     "label": "#1 Mirelands Camp – ค่ายหลักของ Mirelands",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p2",
+     "label": "#2 Solaceon Ruins – พบ Calaba และ Volo",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p3",
+     "label": "#3 จุดสู้ Coin – ทวง Wall Fragment คืน",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p4",
+     "label": "#4 Sludge Mound – สู้และได้ขี่ Ursaluna",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s04-0",
      "type": "Rank",
@@ -390,6 +651,14 @@
     {
      "label": "Serebii: Spiritomb Wisps",
      "url": "https://www.serebii.net/legendsarceus/spiritombwisp.shtml"
+    },
+    {
+     "label": "Bulbagarden Archives: Crimson_Mirelands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Crimson_Mirelands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -407,6 +676,48 @@
       "นำ Wall Fragment คืน Calaba แล้วไปพบเธอที่ <b>Sludge Mound</b> สู้กับ Ursaluna ค่ะ",
       "จะขี่ <b>Ursaluna</b> ได้ ใช้หาของที่ฝังดิน และได้ Earth Plate ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Mirelands Camp",
+        "ค่ายหลักของ Mirelands"
+       ],
+       [
+        "2",
+        "Solaceon Ruins",
+        "พบ Calaba และ Volo"
+       ],
+       [
+        "3",
+        "จุดสู้ Coin",
+        "ทวง Wall Fragment คืน"
+       ],
+       [
+        "4",
+        "Sludge Mound",
+        "สู้และได้ขี่ Ursaluna"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ ยกเว้นหมุด 3ที่ยังเป็นตำแหน่งโดยประมาณนะคะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Crimson_Mirelands_Map.png\">Bulbagarden Archives: Crimson_Mirelands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -432,6 +743,13 @@
     {
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_5\">Bulbapedia: Walkthrough Part 5</a> · <a href=\"https://www.serebii.net/legendsarceus/spiritombwisp.shtml\">Serebii: Spiritomb Wisps</a>",
      "class": "src"
+    }
+   ],
+   "maps": [
+    {
+     "file": "maps/s04.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Crimson_Mirelands_Map.png)"
     }
    ]
   },
@@ -465,6 +783,16 @@
    ],
    "items": [
     {
+     "key": "s05-p1",
+     "label": "#1 Scarlet Bog – เจอ Arezu",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s05-p2",
+     "label": "#2 Brava Arena – สู้ Noble Lilligant",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
      "key": "s05-0",
      "type": "Noble",
      "short": "Lilligant",
@@ -480,6 +808,14 @@
     {
      "label": "Bulbapedia: Lilligant",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)"
+    },
+    {
+     "label": "Bulbagarden Archives: Crimson_Mirelands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Crimson_Mirelands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -495,6 +831,38 @@
       "<b>บอส: Lilligant</b> มันจะแสดงจังหวะด้วยโน้ตเพลงแล้วกระโดด ห้ามรีบหลบ ให้กด Y ตอนมันใกล้ถึงพื้น ถ้าหลบถูกจังหวะครบจะได้โอกาสส่งโปเกมอนสู้ค่ะ",
       "เกจหมดแล้วจะได้ <b>Meadow Plate</b> ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Scarlet Bog",
+        "เจอ Arezu"
+       ],
+       [
+        "2",
+        "Brava Arena",
+        "สู้ Noble Lilligant"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Crimson_Mirelands_Map.png\">Bulbagarden Archives: Crimson_Mirelands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -518,6 +886,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_6\">Bulbapedia: Walkthrough Part 6</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)\">Bulbapedia: Lilligant</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s05.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Crimson_Mirelands_Map.png)"
+    }
    ]
   },
   {
@@ -531,6 +906,36 @@
     "Arcanine"
    ],
    "items": [
+    {
+     "key": "s06-p1",
+     "label": "#1 Coastlands Camp – สู้ Irida",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p2",
+     "label": "#2 Veilstone Cape – พบ Palina ที่ปลายแหลม",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p3",
+     "label": "#3 Aipom Hill – บ้าน Iscan",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p4",
+     "label": "#4 Deadwood Haunt – จับ Dusclops ตอนกลางคืน",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p5",
+     "label": "#5 Ginkgo Landing – ได้ขี่ Basculegion",
+     "where": "ดูหมุดหมายเลข 5 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p6",
+     "label": "#6 Firespit Island – สู้ Noble Arcanine",
+     "where": "ดูหมุดหมายเลข 6 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s06-0",
      "type": "Rank",
@@ -555,6 +960,14 @@
     {
      "label": "Bulbapedia: Walkthrough Part 7",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_7"
+    },
+    {
+     "label": "Bulbagarden Archives: Cobalt_Coastlands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Cobalt_Coastlands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -572,6 +985,58 @@
       "ขี่ไป <b>Firespit Island</b> สู้กับ Miss Fortunes ทั้งสามคน แล้วเริ่มสู้ Arcanine ค่ะ",
       "<b>บอส: Arcanine</b> ได้ <b>Flame Plate</b> เมื่อชนะค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Coastlands Camp",
+        "สู้ Irida"
+       ],
+       [
+        "2",
+        "Veilstone Cape",
+        "พบ Palina ที่ปลายแหลม"
+       ],
+       [
+        "3",
+        "Aipom Hill",
+        "บ้าน Iscan"
+       ],
+       [
+        "4",
+        "Deadwood Haunt",
+        "จับ Dusclops ตอนกลางคืน"
+       ],
+       [
+        "5",
+        "Ginkgo Landing",
+        "ได้ขี่ Basculegion"
+       ],
+       [
+        "6",
+        "Firespit Island",
+        "สู้ Noble Arcanine"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Cobalt_Coastlands_Map.png\">Bulbagarden Archives: Cobalt_Coastlands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -596,6 +1061,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_7\">Bulbapedia: Walkthrough Part 7</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s06.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Cobalt_Coastlands_Map.png)"
+    }
    ]
   },
   {
@@ -610,6 +1082,26 @@
     "Electrode"
    ],
    "items": [
+    {
+     "key": "s07-p1",
+     "label": "#1 Highlands Camp – ค่ายแรกใน Highlands",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s07-p2",
+     "label": "#2 Ancient Quarry – ทางผ่าน หลังสู้ Melli",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s07-p3",
+     "label": "#3 Clamberclaw Cliffs – สู้ Ingo ได้ขี่ Sneasler",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s07-p4",
+     "label": "#4 Moonview Arena – สู้ Noble Electrode",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s07-0",
      "type": "Rank",
@@ -634,6 +1126,14 @@
     {
      "label": "Bulbapedia: Walkthrough Part 8",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_8"
+    },
+    {
+     "label": "Bulbagarden Archives: Coronet_Highlands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Coronet_Highlands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -651,6 +1151,48 @@
       "ใช้ Sneasler ปีนหน้าผา (กด Y ข้างหน้าผา, B ปล่อยมือ) ไป <b>Moonview Arena</b> สู้กับ Melli อีกครั้ง (3 ตัวพร้อมกัน ให้จัดการ Skuntank ก่อน) ค่ะ",
       "<b>บอส: Electrode</b> ชนะแล้วได้ <b>Zap Plate</b> ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Highlands Camp",
+        "ค่ายแรกใน Highlands"
+       ],
+       [
+        "2",
+        "Ancient Quarry",
+        "ทางผ่าน หลังสู้ Melli"
+       ],
+       [
+        "3",
+        "Clamberclaw Cliffs",
+        "สู้ Ingo ได้ขี่ Sneasler"
+       ],
+       [
+        "4",
+        "Moonview Arena",
+        "สู้ Noble Electrode"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Coronet_Highlands_Map.png\">Bulbagarden Archives: Coronet_Highlands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -675,6 +1217,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_8\">Bulbapedia: Walkthrough Part 8</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s07.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Coronet_Highlands_Map.png)"
+    }
    ]
   },
   {
@@ -689,6 +1238,26 @@
     "Avalugg"
    ],
    "items": [
+    {
+     "key": "s08-p1",
+     "label": "#1 Snowfields Camp – ค่ายแรกที่มาถึงใน Icelands",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s08-p2",
+     "label": "#2 Avalugg's Legacy – สู้ Gaeric และ Noble Avalugg",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s08-p3",
+     "label": "#3 Pearl Settlement – ทางปีนผาขึ้นวัด",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s08-p4",
+     "label": "#4 Snowpoint Temple – สู้ Sabi ได้ขี่ Braviary",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s08-0",
      "type": "Rank",
@@ -713,6 +1282,14 @@
     {
      "label": "Bulbapedia: Walkthrough Part 9",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_9"
+    },
+    {
+     "label": "Bulbagarden Archives: Alabaster_Icelands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Alabaster_Icelands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -730,6 +1307,48 @@
       "ร่อนจากวัดไปเก็บ <b>Eternal Ice</b> บน Avalugg's Legacy แล้วเริ่มสู้ Avalugg ค่ะ",
       "<b>บอส: Avalugg</b> ชนะแล้วได้ <b>Icicle Plate</b> ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Snowfields Camp",
+        "ค่ายแรกที่มาถึงใน Icelands"
+       ],
+       [
+        "2",
+        "Avalugg's Legacy",
+        "สู้ Gaeric และ Noble Avalugg"
+       ],
+       [
+        "3",
+        "Pearl Settlement",
+        "ทางปีนผาขึ้นวัด"
+       ],
+       [
+        "4",
+        "Snowpoint Temple",
+        "สู้ Sabi ได้ขี่ Braviary"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ ยกเว้นหมุด 1ที่ยังเป็นตำแหน่งโดยประมาณนะคะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Alabaster_Icelands_Map.png\">Bulbagarden Archives: Alabaster_Icelands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -756,6 +1375,13 @@
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_9\">Bulbapedia: Walkthrough Part 9</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s08.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Alabaster_Icelands_Map.png)"
+    }
    ]
   },
   {
@@ -769,6 +1395,21 @@
     "Zoroark"
    ],
    "items": [
+    {
+     "key": "s09-p1",
+     "label": "#1 Lake Verity – สู้ alpha Goodra พบ Mesprit",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s09-p2",
+     "label": "#2 Lake Valor – สู้ Overqwil พบ Azelf",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s09-p3",
+     "label": "#3 Lake Acuity – สู้ Zoroark พบ Uxie",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s09-0",
      "type": "Key",
@@ -803,6 +1444,22 @@
     {
      "label": "Bulbapedia: Walkthrough Part 11",
      "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_11"
+    },
+    {
+     "label": "Bulbagarden Archives: Obsidian_Fieldlands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Obsidian_Fieldlands_Map.png"
+    },
+    {
+     "label": "Bulbagarden Archives: Crimson_Mirelands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Crimson_Mirelands_Map.png"
+    },
+    {
+     "label": "Bulbagarden Archives: Alabaster_Icelands_Map.png",
+     "url": "https://archives.bulbagarden.net/wiki/File:Alabaster_Icelands_Map.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hisui",
+     "url": "https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region"
     }
    ],
    "flow": false,
@@ -820,6 +1477,43 @@
       "<b>Lake Acuity</b> (Icelands): สู้ Zoroark (Hisui) แล้วตอบคำถามจำนวนตาของ Uxie คำตอบคือ <b>60131</b> ค่ะ",
       "ไปที่ Shrouded Ruins ใน Coronet Highlands เพื่อสร้าง <b>Red Chain</b> ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Lake Verity",
+        "สู้ alpha Goodra พบ Mesprit"
+       ],
+       [
+        "2",
+        "Lake Valor",
+        "สู้ Overqwil พบ Azelf"
+       ],
+       [
+        "3",
+        "Lake Acuity",
+        "สู้ Zoroark พบ Uxie"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://archives.bulbagarden.net/wiki/File:Obsidian_Fieldlands_Map.png\">Bulbagarden Archives: Obsidian_Fieldlands_Map.png</a> · <a href=\"https://archives.bulbagarden.net/wiki/File:Crimson_Mirelands_Map.png\">Bulbagarden Archives: Crimson_Mirelands_Map.png</a> · <a href=\"https://archives.bulbagarden.net/wiki/File:Alabaster_Icelands_Map.png\">Bulbagarden Archives: Alabaster_Icelands_Map.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -842,6 +1536,23 @@
     {
      "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_10\">Bulbapedia: Walkthrough Part 10</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_11\">Bulbapedia: Walkthrough Part 11</a>",
      "class": "src"
+    }
+   ],
+   "maps": [
+    {
+     "file": "maps/s09.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Obsidian_Fieldlands_Map.png)"
+    },
+    {
+     "file": "maps/s09b.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Crimson_Mirelands_Map.png)"
+    },
+    {
+     "file": "maps/s09c.webp",
+     "caption": "แผนที่พื้นที่ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Bulbagarden Archives (Alabaster_Icelands_Map.png)"
     }
    ]
   },

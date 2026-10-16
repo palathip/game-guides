@@ -1,0 +1,1073 @@
+{
+ "game": "pla",
+ "output": "PokemonLegendsArceus_Guide_TH.html",
+ "lang": "th",
+ "title": "Pokémon Legends: Arceus (Switch) – คู่มือเนื้อเรื่อง",
+ "heading": "🌀 Pokémon Legends: Arceus – คู่มือเนื้อเรื่อง",
+ "storage_key": "plaguide:",
+ "footer": "ทำโดยโซอี้ 🎮 · ต.ค. 2026 · ข้อมูลจาก Bulbapedia และ Serebii · แผนที่จาก Map Genie",
+ "ui": {
+  "search_placeholder": "ค้นหา เช่น Kleavor",
+  "verses": "{n}",
+  "no_verses": "เริ่มพื้นที่",
+  "start": "เริ่ม",
+  "end": "จบ",
+  "no_items_summary": "—"
+ },
+ "types": {
+  "Key": {
+   "label": "ของสำคัญ/ปลดล็อก",
+   "short": "Key",
+   "color": "#38bdf8"
+  },
+  "Ride": {
+   "label": "โปเกมอนขี่ (Ride)",
+   "short": "Ride",
+   "color": "#34d399"
+  },
+  "Noble": {
+   "label": "สงบ Noble",
+   "short": "Noble",
+   "color": "#f472b6"
+  },
+  "Rank": {
+   "label": "เลื่อนยศ",
+   "short": "Rank",
+   "color": "#fde047"
+  },
+  "Legend": {
+   "label": "ตำนาน",
+   "short": "Legend",
+   "color": "#a78bfa"
+  }
+ },
+ "intro": [
+  {
+   "p": "คู่มือนี้เรียงตามเนื้อเรื่องหลักของ Pokémon Legends: Arceus (Nintendo Switch) ตั้งแต่เริ่มเกมจนจับ Arceus ได้ ติ๊กช่องเมื่อผ่านจุดสำคัญได้เลยค่ะ ส่วนการเก็บของบนแผนที่ แนะนำให้ใช้ลิงก์ Map Genie ในแต่ละหัวข้อค่ะ"
+  },
+  {
+   "h2": "ความคืบหน้า"
+  },
+  {
+   "totals": true
+  }
+ ],
+ "picker": [
+  {
+   "title": "เนื้อเรื่อง",
+   "style": "main",
+   "items": [
+    {
+     "id": "s01",
+     "short": "01"
+    },
+    {
+     "id": "s02",
+     "short": "02"
+    },
+    {
+     "id": "s03",
+     "short": "03"
+    },
+    {
+     "id": "s04",
+     "short": "04"
+    },
+    {
+     "id": "s05",
+     "short": "05"
+    },
+    {
+     "id": "s06",
+     "short": "06"
+    },
+    {
+     "id": "s07",
+     "short": "07"
+    },
+    {
+     "id": "s08",
+     "short": "08"
+    },
+    {
+     "id": "s09",
+     "short": "09"
+    },
+    {
+     "id": "s10",
+     "short": "10"
+    },
+    {
+     "id": "s11b",
+     "short": "11"
+    },
+    {
+     "id": "s12",
+     "short": "12"
+    }
+   ]
+  },
+  {
+   "title": "อ้างอิง",
+   "style": "ref",
+   "items": [
+    {
+     "id": "std",
+     "short": "Distortion"
+    },
+    {
+     "id": "links",
+     "short": "ลิงก์"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s01",
+   "kind": "chapter",
+   "title": "01 – Jubilife Village และบททดสอบเข้า Survey Corps",
+   "verses": 0,
+   "enemies": [
+    "Volo (ครั้งแรก)"
+   ],
+   "items": [
+    {
+     "key": "s01-0",
+     "type": "Key",
+     "short": "Arc Phone",
+     "where": "ได้ที่ Prelude Beach ตอนเริ่มเกม"
+    },
+    {
+     "key": "s01-1",
+     "type": "Key",
+     "short": "โปเกมอนตัวแรก",
+     "where": "เลือกใน Galaxy Hall"
+    },
+    {
+     "key": "s01-2",
+     "type": "Key",
+     "short": "Pokédex",
+     "where": "ได้หลังผ่านบททดสอบ"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 1",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_1"
+    },
+    {
+     "label": "Bulbapedia: Walkthrough Part 2",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "เริ่มเกมที่ Prelude Beach เก็บ <b>Arc Phone</b> ที่เรืองแสงบนพื้น แล้วช่วย Professor Laventon จับโปเกมอน 3 ตัวที่วิ่งหนีค่ะ",
+      "เดินตาม Laventon เข้า Jubilife Village ไปที่ร้าน <b>The Wallflower</b> ทางตะวันตกเฉียงเหนือ (กดปุ่ม − เปิดแผนที่ได้ค่ะ)",
+      "นอนพักในห้อง แล้วเช้าวันรุ่งขึ้นไปพบ Cyllene ใน <b>Galaxy Hall</b> เธอจะให้ภารกิจ The Galaxy Team's Entry Trial ค่ะ",
+      "เลือกโปเกมอนตัวแรกจาก <b>Rowlet, Cyndaquil หรือ Oshawott</b> ทั้งสามตัวไม่มีตัวไหนดีกว่ากันชัดเจน เลือกตามที่ชอบได้เลยค่ะ",
+      "ที่ประตูหน้าหมู่บ้าน <b>Volo</b> จะชวนสู้ครั้งแรก ชนะแล้วได้ Potion ×5 ค่ะ",
+      "ออกไป Obsidian Fieldlands จับ <b>Bidoof, Starly และ Shinx</b> บน Aspiration Hill ให้ครบ แล้วกลับไปรายงานเพื่อผ่านบททดสอบค่ะ",
+      "กลับหมู่บ้าน รับสูตรทำ Poké Ball ลองคราฟต์ที่โต๊ะทางตะวันออก แล้วรับ <b>Pokédex</b> จาก Laventon ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "งานหลัก (Mission) จำเป็นต่อเนื้อเรื่อง ส่วนคำขอ (Request) เป็นงานเสริม ดูรายการได้จากแผนที่ใน Arc Phone แล้วกด Y ค่ะ",
+      "แผนที่แสดงหมุดนำทางไปจุดถัดไปของเนื้อเรื่องให้อยู่แล้ว เดินตามหมุดได้เลยค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Jubilife Village ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Jubilife_Village\">Bulbapedia: Jubilife Village (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_1\">Bulbapedia: Walkthrough Part 1</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2\">Bulbapedia: Walkthrough Part 2</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "kind": "chapter",
+   "title": "02 – Obsidian Fieldlands: งานวิจัยและ Wyrdeer",
+   "verses": 0,
+   "enemies": [
+    "alpha Kricketune",
+    "Mai"
+   ],
+   "items": [
+    {
+     "key": "s02-0",
+     "type": "Rank",
+     "short": "First Star",
+     "where": "แต้มวิจัย 500 แล้วรายงาน Cyllene"
+    },
+    {
+     "key": "s02-1",
+     "type": "Key",
+     "short": "Heights Camp",
+     "where": "เปิดหลังเจอ Wyrdeer"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 2",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2"
+    },
+    {
+     "label": "Bulbapedia: Walkthrough Part 3",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_3"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ทำ Research Task ในโปเกเด็กซ์ (กดลงบน D-pad) แต่ละโปเกมอนต้องได้ 10 ขั้นจึงจะครบ ข้อที่มีลูกศรแดงได้แต้มสองเท่าค่ะ",
+      "เก็บแต้มวิจัยให้ครบ <b>500 แต้ม</b> แล้วไปรายงาน Laventon ที่ Fieldlands Camp ตามด้วยเลื่อนยศกับ Cyllene เป็น <b>First Star</b> ค่ะ",
+      "ช่วงนี้สำรวจแค่ Aspiration Hill, Horseshoe Plains และ Floaro Gardens จะปลอดภัยกว่า เพราะ Sandgem Flats กับ Lake Verity มีโปเกมอนเลเวลสูงค่ะ",
+      "กลับหมู่บ้าน สู้กับ Rei/Akari ที่ลานฝึก แล้วรับภารกิจ A Request from Mai ค่ะ",
+      "ข้ามสะพานจาก Aspiration Hill ไปพบ <b>Mai</b> แล้วสู้กับเธอ จากนั้นเดินขึ้น Deertrack Path ตามแนวคบเพลิงไปถึง Deertrack Heights ค่ะ",
+      "สู้กับ <b>alpha Kricketune</b> (แพ้ธาตุไฟ บิน และหิน) แล้ว <b>Wyrdeer</b> จะปรากฏตัวค่ะ",
+      "หลังจากนั้นจะเปิด <b>Heights Camp</b> ให้วาร์ปมาได้ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "วิธีจับง่าย: ย่อตัวเข้าหาจากด้านหลังแล้วปาบอลใส่หลัง (back strike) จะจับติดง่ายขึ้นค่ะ",
+      "ปาเบอร์รี่ล่อให้โปเกมอนกินก่อนก็ช่วยให้จับง่ายขึ้น ถ้ามันโจมตีเรา ให้ปาโคลน (Ball of Mud) ให้มันมึนก่อนค่ะ",
+      "กด Y เพื่อหลบ เพราะโปเกมอนป่าโจมตีตัวผู้เล่นได้ ถ้าหมดแรงจะทำของในกระเป๋าหล่นค่ะ",
+      "Bulbapedia แนะนำให้โปเกมอนเลเวล 9 ขึ้นไปก่อนสู้กับ Rei/Akari ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Obsidian Fieldlands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Obsidian_Fieldlands\">Bulbapedia: Obsidian Fieldlands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_2\">Bulbapedia: Walkthrough Part 2</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_3\">Bulbapedia: Walkthrough Part 3</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "kind": "chapter",
+   "title": "03 – Noble Kleavor (Lord of the Woods)",
+   "verses": 0,
+   "enemies": [
+    "Lian",
+    "Irida",
+    "Kleavor"
+   ],
+   "items": [
+    {
+     "key": "s03-0",
+     "type": "Ride",
+     "short": "Wyrdeer",
+     "where": "ได้ Celestica Flute ที่ Heights Camp"
+    },
+    {
+     "key": "s03-1",
+     "type": "Noble",
+     "short": "Kleavor",
+     "where": "Grandtree Arena"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 4",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_4"
+    },
+    {
+     "label": "Serebii: Noble Pokémon",
+     "url": "https://www.serebii.net/legendsarceus/noblepokemon.shtml"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ไปห้องของ Commander Kamado ชั้น 3 ใน Galaxy Hall เพื่อรับภารกิจ The Frenzy of the Lord of the Woods ค่ะ",
+      "วาร์ปไป Heights Camp แล้วเดินลงใต้ผ่าน Nature's Pantry และ Tidewater Dam ไปทางตะวันออกเข้า <b>The Heartwood</b> จนถึง <b>Grandtree Arena</b> ค่ะ",
+      "สู้กับ <b>Lian</b> (ใช้ Goomy) แล้วกลับหมู่บ้านไปหา Laventon จะได้ไอเดียให้ปา Balm ใส่บอสค่ะ",
+      "ที่ Heights Camp จะได้ <b>Celestica Flute</b> และเรียก <b>Wyrdeer</b> ขี่ได้ (กด + เรียก, B วิ่ง, Y กระโดด) ค่ะ",
+      "กลับไป Grandtree Arena สู้กับ <b>Irida</b> (ใช้ Glaceon แพ้ธาตุไฟ ต่อสู้ หิน และเหล็ก) แล้วคุยกับ Lian เพื่อเริ่มสู้ Kleavor ค่ะ",
+      "<b>บอส: Kleavor</b> ปา Balm ด้วย ZR ลดเกจด้านบน หลบด้วย Y เมื่อมีข้อความให้ส่งโปเกมอน ให้ปล่อยโปเกมอนออกไปสู้ ชนะแล้วบอสจะมึน ปา Balm ได้รัวๆ ค่ะ",
+      "เกจหมดแล้วจะได้ <b>Insect Plate</b> กลับไปรายงาน Kamado ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Kleavor ธาตุแมลง/หิน แพ้ธาตุน้ำ หิน และเหล็ก ค่ะ",
+      "ตอนมันยืนชาร์จตาเป็นประกาย มันจะพุ่งเป็นเส้นตรง หลบตอนท้ายสุด แล้วล่อให้มันชนกำแพงจะได้จังหวะโจมตีค่ะ",
+      "ถ้าหมดแรงระหว่างสู้บอส เลือกสู้ต่อจากเดิมหรือกลับไปเตรียมตัวใหม่ได้ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Obsidian Fieldlands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Obsidian_Fieldlands\">Bulbapedia: Obsidian Fieldlands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_4\">Bulbapedia: Walkthrough Part 4</a> · <a href=\"https://www.serebii.net/legendsarceus/noblepokemon.shtml\">Serebii: Noble Pokémon</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "kind": "chapter",
+   "title": "04 – Crimson Mirelands: Ursaluna",
+   "verses": 0,
+   "enemies": [
+    "Volo",
+    "Coin (Toxicroak)",
+    "Ursaluna"
+   ],
+   "items": [
+    {
+     "key": "s04-0",
+     "type": "Rank",
+     "short": "Second Star",
+     "where": "1,800 แต้ม"
+    },
+    {
+     "key": "s04-1",
+     "type": "Ride",
+     "short": "Ursaluna",
+     "where": "Sludge Mound"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 5",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_5"
+    },
+    {
+     "label": "Serebii: Spiritomb Wisps",
+     "url": "https://www.serebii.net/legendsarceus/spiritombwisp.shtml"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "กลับหมู่บ้าน คืนนั้น Vessa จะให้ภารกิจตามหา <b>Spiritomb wisps</b> (งานเสริม) ค่ะ",
+      "เลื่อนยศเป็น <b>Second Star</b> (ต้องมี 1,800 แต้ม) จึงไป Crimson Mirelands ได้ ยศนี้ใช้ Feather Ball ได้ และโปเกมอนเลเวลไม่เกิน 30 จะเชื่อฟังค่ะ",
+      "สู้กับ Rei/Akari ที่ประตูหน้าหมู่บ้าน (Pikachu แพ้ธาตุดิน) แล้วเดินทางไป Crimson Mirelands ค่ะ",
+      "ไป <b>Solaceon Ruins</b> ทางเหนือ คุยกับ Calaba แล้ว Volo จะชวนสู้ (มี Gible) ค่ะ",
+      "ไปทางตะวันออกตามแม่น้ำจาก Mirelands Camp สู้กับ <b>Coin</b> แห่ง Miss Fortunes (Toxicroak) เพื่อเอา Wall Fragment คืนค่ะ",
+      "นำ Wall Fragment คืน Calaba แล้วไปพบเธอที่ <b>Sludge Mound</b> สู้กับ Ursaluna ค่ะ",
+      "จะขี่ <b>Ursaluna</b> ได้ ใช้หาของที่ฝังดิน และได้ Earth Plate ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Ursaluna ธาตุปกติ/ดิน แพ้ธาตุน้ำ หญ้า น้ำแข็ง และต่อสู้ ค่ะ",
+      "จุดบิดเบือนมิติ (space-time distortion) เริ่มเกิดหลังช่วงนี้ ดูรายละเอียดในหัวข้อ 11 ค่ะ",
+      "หลังได้ Ursaluna จะได้ส่วน Unown Research Notes มีโปเกมอน Unown ซ่อนอยู่ทั่วแผนที่ (เช็กตำแหน่งใน Map Genie ได้) ค่ะ",
+      "สลับโปเกมอนขี่ได้ด้วยปุ่มซ้าย/ขวาบน D-pad ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Crimson Mirelands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Crimson_Mirelands\">Bulbapedia: Crimson Mirelands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_5\">Bulbapedia: Walkthrough Part 5</a> · <a href=\"https://www.serebii.net/legendsarceus/spiritombwisp.shtml\">Serebii: Spiritomb Wisps</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "std",
+   "kind": "page",
+   "title": "จุดบิดเบือนมิติ (Space-time distortion)",
+   "blocks": [
+    {
+     "list": [
+      "เริ่มเกิดหลังสงบ Kleavor และเปิด Crimson Mirelands แล้วค่ะ",
+      "จะมีแจ้งเตือนว่ากำลังก่อตัวก่อน แล้วจะขึ้นบนแผนที่ เมื่อก่อตัวเสร็จจะอยู่ราว 4 นาทีแล้วหายไปค่ะ",
+      "ข้างในมีโปเกมอนหายากที่พบในป่าที่อื่นไม่ได้ และมีไอเทมหายากเกิดขึ้นค่ะ",
+      "ยิ่งอยู่ในพื้นที่เปิดนาน โอกาสเกิดจะสูงขึ้น Serebii ระบุว่าอยู่ครบ 40 นาทีจะการันตีว่าเกิดค่ะ",
+      "จุดบิดเบือนที่มีโปเกมอนตัวเริ่มต้น จะเกิดหลังจบเนื้อเรื่องเท่านั้นค่ะ"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.serebii.net/legendsarceus/space-timedistortions.shtml\">Serebii: Space-time Distortions</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Space-time_distortion\">Bulbapedia: Space-time distortion</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_5\">Bulbapedia Part 5</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "kind": "chapter",
+   "title": "05 – Noble Lilligant (Lady of the Ridge)",
+   "verses": 0,
+   "enemies": [
+    "Lilligant"
+   ],
+   "items": [
+    {
+     "key": "s05-0",
+     "type": "Noble",
+     "short": "Lilligant",
+     "where": "Brava Arena"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 6",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_6"
+    },
+    {
+     "label": "Bulbapedia: Lilligant",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "รายงาน Kamado แล้วรับภารกิจตามหา Arezu ที่หายไป ใช้ Ursaluna ช่วยดมกลิ่นตามหาค่ะ",
+      "เจอ Arezu ใกล้ <b>Scarlet Bog</b> (เธอข้อเท้าแพลง) ค่ะ",
+      "ไปที่ <b>Brava Arena</b> แจ้ง Adaman ว่าพร้อมสู้ Lilligant ค่ะ",
+      "<b>บอส: Lilligant</b> มันจะแสดงจังหวะด้วยโน้ตเพลงแล้วกระโดด ห้ามรีบหลบ ให้กด Y ตอนมันใกล้ถึงพื้น ถ้าหลบถูกจังหวะครบจะได้โอกาสส่งโปเกมอนสู้ค่ะ",
+      "เกจหมดแล้วจะได้ <b>Meadow Plate</b> ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Lilligant (ร่าง Hisui) ธาตุหญ้า/ต่อสู้ แพ้ธาตุบินแรงมาก (4 เท่า) และแพ้ธาตุไฟ น้ำแข็ง พิษ จิต และแฟรี่ ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Crimson Mirelands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Crimson_Mirelands\">Bulbapedia: Crimson Mirelands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_6\">Bulbapedia: Walkthrough Part 6</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)\">Bulbapedia: Lilligant</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "kind": "chapter",
+   "title": "06 – Cobalt Coastlands: Basculegion และ Noble Arcanine",
+   "verses": 0,
+   "enemies": [
+    "Irida",
+    "Miss Fortunes",
+    "Arcanine"
+   ],
+   "items": [
+    {
+     "key": "s06-0",
+     "type": "Rank",
+     "short": "Third Star",
+     "where": "ก่อนเข้า Coastlands"
+    },
+    {
+     "key": "s06-1",
+     "type": "Ride",
+     "short": "Basculegion",
+     "where": "Ginkgo Landing"
+    },
+    {
+     "key": "s06-2",
+     "type": "Noble",
+     "short": "Arcanine",
+     "where": "Firespit Island"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 7",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_7"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ต้องเป็นยศ <b>Third Star</b> ก่อน Cyllene จึงจะให้ไป Cobalt Coastlands ค่ะ",
+      "สู้กับ Irida ที่ค่าย (แพ้ก็เดินเรื่องต่อได้) แล้วขี่ Wyrdeer ไปปลายสุดของ <b>Veilstone Cape</b> พบ Palina ค่ะ",
+      "ไปบ้าน Iscan ที่ <b>Aipom Hill</b> เขาต้องการให้จับ <b>Dusclops</b> ที่ Deadwood Haunt ซึ่งออกตอนกลางคืนเท่านั้นค่ะ",
+      "นำ Dusclops ไปให้ Iscan ทำอาหาร Basculegion แล้วไปพบที่หาด <b>Ginkgo Landing</b> ค่ะ",
+      "จะขี่ <b>Basculegion</b> ข้ามทะเลได้ (กด Y กระโดดได้สองครั้ง และยังปาบอลได้ขณะขี่) ค่ะ",
+      "ขี่ไป <b>Firespit Island</b> สู้กับ Miss Fortunes ทั้งสามคน แล้วเริ่มสู้ Arcanine ค่ะ",
+      "<b>บอส: Arcanine</b> ได้ <b>Flame Plate</b> เมื่อชนะค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Arcanine (ร่าง Hisui) ธาตุไฟ/หิน แพ้ธาตุน้ำและดินแรงมาก (4 เท่า) และแพ้ธาตุต่อสู้กับหิน ค่ะ",
+      "ท่าพุ่งตรงกลางลานหลบง่ายกว่าท่ากระโดดทุบ หลังเกจลดลงครึ่งหนึ่ง มันจะทิ้งวงไฟกลางลาน ให้วิ่งอยู่ริมลานแทนค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Cobalt Coastlands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Cobalt_Coastlands\">Bulbapedia: Cobalt Coastlands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_7\">Bulbapedia: Walkthrough Part 7</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "kind": "chapter",
+   "title": "07 – Coronet Highlands: Sneasler และ Noble Electrode",
+   "verses": 0,
+   "enemies": [
+    "Adaman",
+    "Melli",
+    "Ingo",
+    "Electrode"
+   ],
+   "items": [
+    {
+     "key": "s07-0",
+     "type": "Rank",
+     "short": "Fourth Star",
+     "where": "ก่อนเข้า Highlands"
+    },
+    {
+     "key": "s07-1",
+     "type": "Ride",
+     "short": "Sneasler",
+     "where": "Clamberclaw Cliffs"
+    },
+    {
+     "key": "s07-2",
+     "type": "Noble",
+     "short": "Electrode",
+     "where": "Moonview Arena"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 8",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_8"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "สู้กับ Adaman หน้า Galaxy Hall (เขาส่งออกมาพร้อมกันสองตัว ให้ล้มตัวที่ไม่ใช่ Eevee ก่อน) แล้วพบ <b>Ingo</b> ที่ลานฝึกค่ะ",
+      "ต้องเป็นยศ <b>Fourth Star</b> จึงไป Coronet Highlands ได้ค่ะ",
+      "เดินตาม Ingo ผ่าน <b>Wayward Cave</b> ที่มืด ให้เดินตามเขาใกล้ๆ ค่ะ",
+      "สู้กับ Melli (Skuntank แพ้ธาตุดินอย่างเดียว) แล้วผ่าน <b>Ancient Quarry</b> ไปถึง <b>Clamberclaw Cliffs</b> ค่ะ",
+      "สู้กับ Ingo (เปิดด้วย Machoke) ชนะแล้วขี่ <b>Sneasler</b> ได้ และได้ Toxic Plate ค่ะ",
+      "ใช้ Sneasler ปีนหน้าผา (กด Y ข้างหน้าผา, B ปล่อยมือ) ไป <b>Moonview Arena</b> สู้กับ Melli อีกครั้ง (3 ตัวพร้อมกัน ให้จัดการ Skuntank ก่อน) ค่ะ",
+      "<b>บอส: Electrode</b> ชนะแล้วได้ <b>Zap Plate</b> ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Electrode (ร่าง Hisui) ธาตุไฟฟ้า/หญ้า แพ้ธาตุแมลง ไฟ พิษ และน้ำแข็ง ค่ะ",
+      "ลูก Energy Ball จะไล่ตามเรา และลูกไม้ที่ตกจากต้นจะระเบิด พอเกจลดลง ลูกบอลจะใหญ่ขึ้นและระเบิดกว้างขึ้นค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Coronet Highlands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Coronet_Highlands\">Bulbapedia: Coronet Highlands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_8\">Bulbapedia: Walkthrough Part 8</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "kind": "chapter",
+   "title": "08 – Alabaster Icelands: Braviary และ Noble Avalugg",
+   "verses": 0,
+   "enemies": [
+    "Gaeric",
+    "Sabi",
+    "Braviary",
+    "Avalugg"
+   ],
+   "items": [
+    {
+     "key": "s08-0",
+     "type": "Rank",
+     "short": "Fifth Star",
+     "where": "8,500 แต้ม"
+    },
+    {
+     "key": "s08-1",
+     "type": "Ride",
+     "short": "Braviary",
+     "where": "หลังคา Snowpoint Temple"
+    },
+    {
+     "key": "s08-2",
+     "type": "Noble",
+     "short": "Avalugg",
+     "where": "Avalugg's Legacy"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 9",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_9"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ต้องเป็นยศ <b>Fifth Star</b> (8,500 แต้ม) ยศนี้ทำให้โปเกมอนเลเวลไม่เกิน 65 เชื่อฟังค่ะ",
+      "ไปพบ Gaeric ที่ <b>Avalugg's Legacy</b> แล้วสู้กับเขา ต่อด้วยปีนภูเขาน้ำแข็งด้านหลังไปคุยกับ Sabi ค่ะ",
+      "ไป <b>Snowpoint Temple</b> โดยใช้ Sneasler ปีนผาข้าง Pearl Settlement หรือเดินทางขึ้นข้าง Glacier Terrace ค่ะ",
+      "ในวัด ให้เดินตามทิศที่รูปปั้นหันหน้าไปเพื่อไขปริศนา แล้วสู้กับ Sabi (3 ตัวพร้อมกัน) ค่ะ",
+      "ขึ้นไปบนหลังคาสู้กับ Braviary ชนะแล้วขี่ <b>Braviary</b> ร่อนบินได้ค่ะ",
+      "ร่อนจากวัดไปเก็บ <b>Eternal Ice</b> บน Avalugg's Legacy แล้วเริ่มสู้ Avalugg ค่ะ",
+      "<b>บอส: Avalugg</b> ชนะแล้วได้ <b>Icicle Plate</b> ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Avalugg (ร่าง Hisui) ธาตุน้ำแข็ง/หิน แพ้ธาตุต่อสู้และเหล็กแรงมาก (4 เท่า) และแพ้ธาตุน้ำ หญ้า ดิน และหิน ค่ะ",
+      "พลังป้องกันกายภาพสูงมาก แต่พลังป้องกันพิเศษต่ำ ใช้ท่าพิเศษจะได้ผลกว่าค่ะ",
+      "ลานสู้แคบ อ้อมไปหลังบอสไม่ได้ ให้กะจังหวะหลบลูกน้ำแข็งที่มาเป็นระลอก แล้วปา Balm ช่วงที่ว่างค่ะ",
+      "ระวังตกจากที่สูงขณะสลับโปเกมอนขี่กลางอากาศ เพราะจะโดนดาเมจค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และข้อมูลโปเกมอน"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (เลือกพื้นที่ Alabaster Icelands ในหน้าแผนที่)</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Alabaster_Icelands\">Bulbapedia: Alabaster Icelands (รายชื่อโปเกมอนที่พบ)</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/wildpokemon.shtml\">Serebii: จุดเกิดโปเกมอนป่า</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_9\">Bulbapedia: Walkthrough Part 9</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "kind": "chapter",
+   "title": "09 – ถูกขับออกจากหมู่บ้าน และทะเลสาบทั้งสาม",
+   "verses": 0,
+   "enemies": [
+    "alpha Goodra",
+    "Overqwil",
+    "Zoroark"
+   ],
+   "items": [
+    {
+     "key": "s09-0",
+     "type": "Key",
+     "short": "Mesprit's Plume",
+     "where": "Lake Verity"
+    },
+    {
+     "key": "s09-1",
+     "type": "Key",
+     "short": "Azelf's Fang",
+     "where": "Lake Valor"
+    },
+    {
+     "key": "s09-2",
+     "type": "Key",
+     "short": "Uxie's Claw",
+     "where": "Lake Acuity"
+    },
+    {
+     "key": "s09-3",
+     "type": "Key",
+     "short": "Red Chain",
+     "where": "Shrouded Ruins"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 10",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_10"
+    },
+    {
+     "label": "Bulbapedia: Walkthrough Part 11",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_11"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "คืนหนึ่งท้องฟ้าเปลี่ยนสี Kamado สงสัยว่าเราเป็นต้นเหตุจึงขับออกจากหมู่บ้าน (ภารกิจ Disaster Looming) ค่ะ",
+      "Volo พาไปที่พัก <b>Ancient Retreat</b> พบ Cogita ซึ่งให้ไปทำบททดสอบที่ทะเลสาบทั้งสามเพื่อสร้าง Red Chain ค่ะ",
+      "<b>เลือกเผ่าที่จะร่วมทาง</b> Adaman (Diamond) หรือ Irida (Pearl) เลือกแบบไหนก็ทำโปเกเด็กซ์ได้ครบค่ะ",
+      "<b>Lake Verity</b> (Fieldlands): สู้ alpha Goodra (Hisui) แล้วตอบคำถามของ Mesprit ค่ะ",
+      "<b>Lake Valor</b> (Mirelands): สู้ Overqwil (ควรจับไว้ เพราะการวิวัฒนาการ Qwilfish ใช้เวลานาน) แล้วปา Balm ใส่ Azelf ค่ะ",
+      "<b>Lake Acuity</b> (Icelands): สู้ Zoroark (Hisui) แล้วตอบคำถามจำนวนตาของ Uxie คำตอบคือ <b>60131</b> ค่ะ",
+      "ไปที่ Shrouded Ruins ใน Coronet Highlands เพื่อสร้าง <b>Red Chain</b> ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "ทำทะเลสาบได้ตามลำดับที่ชอบค่ะ",
+      "Zoroark ร่าง Hisui แพ้แค่ธาตุมืดอย่างเดียว และอันตรายถ้ามันใช้ Nasty Plot เพิ่มพลังค่ะ",
+      "ฝั่ง Adaman จะได้เจอ Palkia ก่อน ฝั่ง Irida จะได้เจอ Dialga ก่อน (ดูหัวข้อถัดไป) ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (ตำแหน่งทะเลสาบทั้งสาม)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_10\">Bulbapedia: Walkthrough Part 10</a> · <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_11\">Bulbapedia: Walkthrough Part 11</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "chapter",
+   "title": "10 – Mount Coronet: Dialga หรือ Palkia",
+   "verses": 0,
+   "enemies": [
+    "Beni",
+    "Kamado",
+    "Dialga/Palkia"
+   ],
+   "items": [
+    {
+     "key": "s10-0",
+     "type": "Legend",
+     "short": "Dialga / Palkia",
+     "where": "จับที่ Temple of Sinnoh"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 12",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_12"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ได้กลับเข้า Galaxy Team แล้ว เดินทางไป <b>Summit Camp</b> ใน Coronet Highlands ค่ะ",
+      "ขึ้น Cloudcap Pass ไป <b>Stone Portal</b> สู้กับ Beni กลางถ้ำค่ะ",
+      "ออกจากถ้ำเดินขึ้นไปหน้า Temple of Sinnoh ซื้อของจาก Volo ได้ แล้วสู้กับ <b>Commander Kamado</b> ค่ะ",
+      "ในวัด จะเจอ Dialga (ถ้าเลือก Diamond คือ Adaman) หรือ Palkia (ถ้าเลือก Pearl คือ Irida) ค่ะ",
+      "ต้อง<b>จับ</b>ให้ได้จึงจะเดินเรื่องต่อ ถ้าเผลอล้มมันหรือแพ้ จะได้กลับไปเริ่มที่ทางเข้าค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Kamado เปิดด้วย Braviary ร่าง Hisui ทุกครั้ง ล้มให้ได้ในทีเดียวจะดีที่สุดค่ะ",
+      "เตรียม Max Potion และ Revive ไว้ก่อนขึ้นวัด เพราะต้องสู้ต่อกันหลายครั้งค่ะ (หนูอนุมานจากลำดับการสู้)"
+     ]
+    },
+    {
+     "h3": "แผนที่"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui (Coronet Highlands)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_12\">Bulbapedia: Walkthrough Part 12</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s11b",
+   "kind": "chapter",
+   "title": "11 – Origin Forme และฉากจบเนื้อเรื่องหลัก",
+   "verses": 0,
+   "enemies": [
+    "Miss Fortunes",
+    "Origin Dialga/Palkia"
+   ],
+   "items": [
+    {
+     "key": "s11b-0",
+     "type": "Key",
+     "short": "Origin Ball",
+     "where": "Galaxy Hall"
+    },
+    {
+     "key": "s11b-1",
+     "type": "Legend",
+     "short": "ร่าง Origin",
+     "where": "Temple of Sinnoh"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Bulbapedia: Walkthrough Part 13",
+     "url": "https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_13"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "Laventon ขอ Plate ที่สะสมมา แล้วให้ไปหาแร่ <b>Origin Ore</b> ที่ <b>Primeval Grotto</b> ค่ะ",
+      "สู้กับ Miss Fortunes ในถ้ำ แล้ว Lian จะช่วยขุดแร่ให้ค่ะ",
+      "กลับ Galaxy Hall รวม Red Chain ที่แตก Origin Ore และ Poké Ball สร้างเป็น <b>Origin Ball</b> ค่ะ",
+      "กลับไป Temple of Sinnoh ผ่าน Summit Camp และ Stone Portal ค่ะ",
+      "<b>บอส: Dialga/Palkia ร่าง Origin</b> (ตัวที่ไม่ได้จับ) หลบท่าและปา Time Balm/Space Balm ลดเกจ เกจหมดแล้วจะปา Origin Ball จับได้เลยค่ะ",
+      "จบภารกิจ The Counterpart ขึ้นเครดิตจบเกมค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "ท่าแรกเป็นอุกกาบาตตกทีละลูก ให้วิ่งวนรอบบอสแล้วปา Balm ต่อเนื่อง ตามด้วยวงแหวน 3 วงที่ยิงมาตามพื้นค่ะ"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_Legends:_Arceus/Part_13\">Bulbapedia: Walkthrough Part 13</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "kind": "chapter",
+   "title": "12 – หลังจบเกม: Plates, Volo และ Arceus",
+   "verses": 0,
+   "enemies": [
+    "Volo",
+    "Giratina",
+    "Arceus"
+   ],
+   "items": [
+    {
+     "key": "s12-0",
+     "type": "Key",
+     "short": "Plate 17 แผ่น",
+     "where": "ภารกิจ Plate"
+    },
+    {
+     "key": "s12-1",
+     "type": "Legend",
+     "short": "Giratina",
+     "where": "Temple of Sinnoh หลังชนะ Volo"
+    },
+    {
+     "key": "s12-2",
+     "type": "Legend",
+     "short": "Arceus",
+     "where": "ภารกิจสุดท้าย"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Serebii: Missions",
+     "url": "https://www.serebii.net/legendsarceus/missions.shtml"
+    },
+    {
+     "label": "Serebii: Volo",
+     "url": "https://www.serebii.net/legendsarceus/volo.shtml"
+    },
+    {
+     "label": "Serebii: Arceus",
+     "url": "https://www.serebii.net/legendsarceus/arceus.shtml"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "วันรุ่งขึ้น Cyllene ให้ศึกษาตำนาน Dialga กับ Palkia แล้ว Volo จะพาไปหา Cogita เพื่อรับคำใบ้ตามหา Plate ค่ะ",
+      "ทำภารกิจ Plate ตามคำใบ้: ทะเลสาบทั้งสาม, Firespit Island, Moonview Arena, Snowpoint Temple และ Prelude Beach ค่ะ",
+      "เมื่อได้ Plate 17 แผ่น ไปที่ Temple of Sinnoh <b>Volo</b> จะเผยตัวและท้าสู้ (โปเกมอนเลเวล 68 หกตัว) แล้วตามด้วย <b>Giratina</b> ค่ะ",
+      "ชนะแล้ว Celestica Flute จะกลายเป็น <b>Azure Flute</b> ค่ะ",
+      "<b>ต้องจับโปเกมอนทุกตัวในภูมิภาค</b> (ยกเว้น Arceus) ก่อน จึงจะเล่นภารกิจสุดท้ายต่อได้ค่ะ",
+      "<b>บอส: Arceus</b> ปา Mysterious Balm หลบลูกพลังที่ไล่ตาม คลื่นกระแทก และคลื่นพลังขนาดใหญ่ ชนะแล้วได้ <b>Legend Plate</b> ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "หลังชนะ Arceus จะสู้ซ้ำกับ Dialga และ Palkia ที่แรงขึ้นได้ทั้งสองตัว และกลับไปสู้ Arceus เลเวล 100 ได้อีกค่ะ",
+      "Volo มี Garchomp, Lucario, Togekiss, Spiritomb, Roserade และ Arcanine ร่าง Hisui จัดทีมหลายธาตุไว้รับมือค่ะ",
+      "รายละเอียดการสู้ทีละบท Bulbapedia ยังไม่ได้เขียน (หน้า Part 14–17 ว่าง) หัวข้อนี้จึงอ้างอิงจาก Serebii ค่ะ"
+     ]
+    },
+    {
+     "h3": "เช็กลิสต์โปเกเด็กซ์"
+    },
+    {
+     "list": [
+      "<a href=\"https://www.serebii.net/legendsarceus/hisuipokedex.shtml\">Serebii: Hisui Pokédex</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Hisui_Pok%C3%A9dex_number\">Bulbapedia: รายชื่อตามเลข Hisui Pokédex</a>",
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/checklist\">Map Genie: Checklist</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูลเส้นทาง: <a href=\"https://www.serebii.net/legendsarceus/missions.shtml\">Serebii: Missions</a> · <a href=\"https://www.serebii.net/legendsarceus/volo.shtml\">Serebii: Volo</a> · <a href=\"https://www.serebii.net/legendsarceus/arceus.shtml\">Serebii: Arceus</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "links",
+   "kind": "page",
+   "title": "ลิงก์แผนที่และข้อมูล",
+   "blocks": [
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/maps/hisui-region\">Map Genie: แผนที่ Hisui แบบติ๊กของได้</a> (ทุกพื้นที่อยู่ในแผนที่เดียว)",
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/guides/wisps\">Map Genie: Spiritomb Wisps</a>",
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/guides/unown-pokemon\">Map Genie: Unown</a>",
+      "<a href=\"https://mapgenie.io/pokemon-legends-arceus/guides/pokemon\">Map Genie: โปเกมอน</a>",
+      "<a href=\"https://www.serebii.net/legendsarceus/noblepokemon.shtml\">Serebii: Noble Pokémon</a>",
+      "<a href=\"https://bulbapedia.bulbagarden.net/wiki/Ride_Pok%C3%A9mon\">Bulbapedia: Ride Pokémon</a>"
+     ]
+    }
+   ]
+  }
+ ]
+}

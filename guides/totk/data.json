@@ -1,0 +1,1130 @@
+{
+ "game": "totk",
+ "output": "ZeldaTOTK_Guide_TH.html",
+ "lang": "th",
+ "title": "The Legend of Zelda: Tears of the Kingdom (Switch) – คู่มือเนื้อเรื่อง",
+ "heading": "🗡️ Zelda: Tears of the Kingdom – คู่มือเนื้อเรื่อง",
+ "storage_key": "totkguide:",
+ "footer": "ทำโดยโซอี้ 🎮 · ต.ค. 2026 · ข้อมูลจาก Zelda Dungeon และ IGN · แผนที่จาก Map Genie",
+ "ui": {
+  "search_placeholder": "ค้นหา เช่น Colgera",
+  "verses": "{n}",
+  "no_verses": "เริ่มบท",
+  "start": "เริ่ม",
+  "end": "จบ",
+  "no_items_summary": "—"
+ },
+ "types": {
+  "Ability": {
+   "label": "พลังใหม่",
+   "short": "Ability",
+   "color": "#34d399"
+  },
+  "Key": {
+   "label": "ของสำคัญ/ปลดล็อก",
+   "short": "Key",
+   "color": "#38bdf8"
+  },
+  "Sage": {
+   "label": "ปลุก Sage",
+   "short": "Sage",
+   "color": "#a78bfa"
+  }
+ },
+ "intro": [
+  {
+   "p": "คู่มือนี้เรียงตามเนื้อเรื่องหลักของ The Legend of Zelda: Tears of the Kingdom (Nintendo Switch) ตั้งแต่เกาะลอยฟ้าจนถึงศึกสุดท้าย ติ๊กช่องเมื่อผ่านจุดสำคัญได้เลยค่ะ ส่วนการเก็บของบนแผนที่ ใช้ลิงก์ Map Genie ในแต่ละหัวข้อนะคะ"
+  },
+  {
+   "p": "เหตุการณ์ 4 ภาค (บทที่ 03–06) ทำลำดับไหนก่อนก็ได้ค่ะ",
+   "class": "note"
+  },
+  {
+   "h2": "ความคืบหน้า"
+  },
+  {
+   "totals": true
+  }
+ ],
+ "picker": [
+  {
+   "title": "เนื้อเรื่อง",
+   "style": "main",
+   "items": [
+    {
+     "id": "s01",
+     "short": "01"
+    },
+    {
+     "id": "s02",
+     "short": "02"
+    },
+    {
+     "id": "s03",
+     "short": "03"
+    },
+    {
+     "id": "s04",
+     "short": "04"
+    },
+    {
+     "id": "s05",
+     "short": "05"
+    },
+    {
+     "id": "s06",
+     "short": "06"
+    },
+    {
+     "id": "s07",
+     "short": "07"
+    },
+    {
+     "id": "s08",
+     "short": "08"
+    },
+    {
+     "id": "s09",
+     "short": "09"
+    },
+    {
+     "id": "s10",
+     "short": "10"
+    }
+   ]
+  },
+  {
+   "title": "อ้างอิง",
+   "style": "ref",
+   "items": [
+    {
+     "id": "depths",
+     "short": "Depths"
+    },
+    {
+     "id": "shrines",
+     "short": "ศาลเจ้า"
+    },
+    {
+     "id": "koroks",
+     "short": "Korok"
+    },
+    {
+     "id": "lightroots",
+     "short": "Lightroot"
+    },
+    {
+     "id": "armor",
+     "short": "ชุดเกราะ"
+    },
+    {
+     "id": "links",
+     "short": "ลิงก์"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s01",
+   "kind": "chapter",
+   "title": "01 – Great Sky Island (บทฝึกบนเกาะลอยฟ้า)",
+   "verses": 0,
+   "enemies": [],
+   "items": [
+    {
+     "key": "s01-0",
+     "type": "Key",
+     "short": "Purah Pad",
+     "where": "ได้จาก Steward Construct ที่ Garden of Time"
+    },
+    {
+     "key": "s01-1",
+     "type": "Ability",
+     "short": "Ultrahand",
+     "where": "ได้ที่ Ukouh Shrine ศาลเจ้าแห่งแรก"
+    },
+    {
+     "key": "s01-2",
+     "type": "Ability",
+     "short": "Fuse",
+     "where": "ได้ที่ In-isa Shrine"
+    },
+    {
+     "key": "s01-3",
+     "type": "Ability",
+     "short": "Ascend",
+     "where": "ได้ที่ Gutanbac Shrine"
+    },
+    {
+     "key": "s01-4",
+     "type": "Ability",
+     "short": "Recall",
+     "where": "ได้จากนิมิตของเซลด้าใน Temple of Time แล้วฝึกใช้ใน Nachoyah Shrine"
+    },
+    {
+     "key": "s01-5",
+     "type": "Key",
+     "short": "Heart Container",
+     "where": "ถวาย Light of Blessing 4 ดวงที่ Goddess Statue ใน Temple of Time"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Great Sky Island",
+     "url": "https://www.zeldadungeon.net/wiki/Great_Sky_Island"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: The Closed Door",
+     "url": "https://www.zeldadungeon.net/wiki/The_Closed_Door"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Find Princess Zelda",
+     "url": "https://www.zeldadungeon.net/wiki/Find_Princess_Zelda"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Nachoyah Shrine",
+     "url": "https://www.zeldadungeon.net/wiki/Nachoyah_Shrine"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ตื่นขึ้นบนเกาะลอยฟ้า Great Sky Island คุยกับ Steward Construct ที่ Garden of Time จะได้ <b>Purah Pad</b> และเควสต์ Find Princess Zelda ค่ะ",
+      "เดินไปที่ Temple of Time แต่ประตูยังเปิดไม่ได้ Rauru จะปรากฏตัวและบอกให้ไปศาลเจ้าบนเกาะ (สังเกตแสงสีเขียววนอยู่เหนือศาลเจ้า) ค่ะ",
+      "เข้า <b>Ukouh Shrine</b> รับ <b>Ultrahand</b> (จับ ยก และติดสิ่งของเข้าด้วยกัน)",
+      "เข้า <b>In-isa Shrine</b> รับ <b>Fuse</b> (รวมวัสดุเข้ากับอาวุธ โล่ หรือลูกธนู)",
+      "เข้า <b>Gutanbac Shrine</b> รับ <b>Ascend</b> (ทะลุเพดานขึ้นไปด้านบน)",
+      "ครบ 3 ศาลเจ้าแล้วกลับไป Temple of Time ประตูจะเปิด แล้วนิมิตของเซลด้าจะมอบพลัง <b>Recall</b> (ย้อนเวลาการเคลื่อนที่ของวัตถุ) ค่ะ",
+      "ไปศาลเจ้าสุดท้าย <b>Nachoyah Shrine</b> ฝึกใช้ Recall ให้ได้ Light of Blessing ดวงที่ 4",
+      "กลับไปถวาย Light of Blessing 4 ดวงที่ Goddess Statue ใน Temple of Time ได้ Heart Container แล้วเปิดประตูด้านในสุด แตะแสงที่แท่นบูชา จะได้เควสต์ To the Kingdom of Hyrule ค่ะ",
+      "กระโดดจากเกาะลงสู่พื้นดิน Hyrule ได้เลยค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "พลังทั้ง 4 อย่าง (Ultrahand, Fuse, Ascend, Recall) ใช้ไปตลอดทั้งเกม ลองเล่นกับมันให้คล่องตั้งแต่ตอนนี้นะคะ",
+      "บนเกาะมีเครื่องจ่ายอุปกรณ์ Zonai (Device Dispenser) 2 จุด ให้ Flame Emitter, Fan, Wing และ Portable Pot ค่ะ",
+      "ชุด Archaic Warm Greaves ที่ได้บนเกาะช่วยกันหนาวได้ เหมาะกับช่วงที่หนาวบนเกาะค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Great_Sky_Island\">Zelda Dungeon Wiki: Great Sky Island</a> · <a href=\"https://www.zeldadungeon.net/wiki/The_Closed_Door\">Zelda Dungeon Wiki: The Closed Door</a> · <a href=\"https://www.zeldadungeon.net/wiki/Find_Princess_Zelda\">Zelda Dungeon Wiki: Find Princess Zelda</a> · <a href=\"https://www.zeldadungeon.net/wiki/Nachoyah_Shrine\">Zelda Dungeon Wiki: Nachoyah Shrine</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "kind": "chapter",
+   "title": "02 – Lookout Landing, Skyview Tower และร่มร่อน",
+   "verses": 0,
+   "enemies": [],
+   "items": [
+    {
+     "key": "s02-0",
+     "type": "Key",
+     "short": "Paraglider",
+     "where": "Purah มอบให้ที่ Lookout Landing Skyview Tower"
+    },
+    {
+     "key": "s02-1",
+     "type": "Key",
+     "short": "แผนที่ภาคกลาง",
+     "where": "ยิงตัวขึ้นจาก Skyview Tower แล้วสแกนแผนที่"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Crisis at Hyrule Castle",
+     "url": "https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle"
+    },
+    {
+     "label": "IGN: TOTK Walkthrough",
+     "url": "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ลงมาถึงพื้นดินแล้วเดินไป <b>Lookout Landing</b> หน้าปราสาท Hyrule คุยกับ Purah จะได้เควสต์ Crisis at Hyrule Castle ค่ะ",
+      "ไปพบ Captain Hoz บน First Gatehouse ใกล้ปราสาท จะเห็นร่างที่ดูเหมือนเซลด้าลอยขึ้นฟ้าแล้วหายไปเป็นแสง",
+      "กลับไปรายงาน Purah เธอจะให้ไปพบที่ <b>Lookout Landing Skyview Tower</b>",
+      "วาง Purah Pad ที่เครื่องในหอ Purah จะมอบ <b>ร่มร่อน (Paraglider)</b> ให้ แล้วตรวจที่พื้นเพื่อยิงตัวขึ้นฟ้าและสแกนแผนที่บริเวณนั้นค่ะ",
+      "กลับไปหา Purah ที่ห้องวิจัยใน Lookout Landing เธอจะมอบเควสต์ <b>Regional Phenomena</b> และปักจุดเหตุการณ์ 4 ภาคบนแผนที่ (Rito, Zora, Goron, Gerudo) ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "Skyview Tower แต่ละแห่งจะเปิดแผนที่ของบริเวณนั้น ไปเปิดหอใกล้ๆ ก่อนออกเดินทางจะช่วยหาทางได้ง่ายขึ้นค่ะ",
+      "เหตุการณ์ 4 ภาคทำลำดับไหนก่อนก็ได้ คู่มือนี้เรียงตามลำดับในเกมที่ Zelda Dungeon แสดงไว้ (Rito → Zora → Goron → Gerudo) ค่ะ",
+      "บอสในวิหารพลังชีวิตจะเพิ่มขึ้นตามจำนวนวิหารที่ผ่านไปแล้ว (ยกเว้น Colgera) ตามข้อมูลของ Zelda Dungeon ค่ะ",
+      "จริงๆ แล้วไปสู้บอสใหญ่ใต้ปราสาทได้ตั้งแต่ลงจากเกาะ แต่จะยากมากถ้ายังไม่ได้พลังจาก Sage ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle\">Zelda Dungeon Wiki: Crisis at Hyrule Castle</a> · <a href=\"https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough\">IGN: TOTK Walkthrough</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "kind": "chapter",
+   "title": "03 – Rito Village และ Wind Temple",
+   "verses": 0,
+   "enemies": [
+    "Colgera"
+   ],
+   "items": [
+    {
+     "key": "s03-0",
+     "type": "Sage",
+     "short": "Vow of Tulin",
+     "where": "ได้หลังชนะ Colgera ใน Wind Temple"
+    },
+    {
+     "key": "s03-1",
+     "type": "Key",
+     "short": "Heart Container",
+     "where": "ได้จาก Colgera"
+    }
+   ],
+   "tips": [
+    "Colgera เกาะเป็นงูบินที่มีเกราะหนามด้านบน ตีจากด้านบนไม่เข้า ต้อง<b>ยิงธนูทำลายจุดน้ำแข็งที่ตัว</b>ทั้ง 3 จุดค่ะ",
+    "รอให้มันสะบัดหนามยิงใส่ แล้วจุดอ่อนด้านบนจะเปิด ยิงลูกธนูที่ติด Fire Fruit หรือ Bomb Flower นัดเดียวก็พอ หรือใช้ Keese Eyeball ให้ลูกธนูวิ่งตามเป้าค่ะ",
+    "ระหว่างร่อนในด่านนี้ไม่ต้องห่วงสตามินา เพราะจะเติมเต็มทันทีเมื่อหยุดร่อน",
+    "ช่วงที่ 2 มันจะสร้างพายุหมุน ให้ร่อนหลบพายุแล้วยิงจุดอ่อนต่อแบบเดิมค่ะ"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Tulin of Rito Village",
+     "url": "https://www.zeldadungeon.net/wiki/Tulin_of_Rito_Village"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Colgera",
+     "url": "https://www.zeldadungeon.net/wiki/Colgera"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ไปที่ Rito Village (ภาค Hebra) ขึ้นไปบนสุดของหมู่บ้าน คุยกับ Tulin, Teba และ Saki ค่ะ",
+      "Teba จะให้ไปหา Harth ที่ Hebra Trailhead Lodge (สังเกตกองไฟคู่ทางทิศเหนือ) แล้วตามกองไฟขึ้นเขาไปเรื่อยๆ",
+      "เข้า Hebra South Summit Cave เผาหนามด้วย Fire Fruit แล้วใช้ร่มร่อนลอยตามลมร้อนขึ้นไป ช่วงห้องสูงให้จุดไฟแล้วทิ้ง Hylian Pine Cone เพื่อให้ลมร้อนแรงขึ้นค่ะ",
+      "ออกจากถ้ำไปที่ต้นสนต้นเดียวบนยอด Talonto Peak (ระวัง Boss Bokoblin ระหว่างทาง) จะเจอ Tulin",
+      "ใช้ลมของ Tulin ร่อนไปยิง Aerocuda ที่ขโมยธนูของเขา แล้วสู้กับ Bokoblin ที่ตามมาค่ะ",
+      "ไปที่ Hebra Peak แล้วใช้ลมของ Tulin ร่อนขึ้นไปยังเกาะลอยฟ้า ใช้ Ascend ไต่ขึ้นไปจนถึง Rising Island Chain",
+      "ไต่เกาะต่อไปเรื่อยๆ ผ่าน Mayaumekis Shrine และ Kahatanaum Shrine แล้วกระโดดข้ามเรือลอยฟ้าจนขึ้นไปบนก้อนเมฆ แล้วดิ่งลงไปที่เรือ Stormwind Ark (Wind Temple) ค่ะ",
+      "ใน Wind Temple ต้องปลดล็อก 5 จุด แล้วใช้เครื่องกลางลำเรือเปิดฝาดาดฟ้า",
+      "สู้กับบอส <b>Colgera</b> ชนะแล้ว Tulin จะได้เป็น Sage of Wind ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "พลังของ Tulin (Power of Wind) ช่วยให้ร่อนได้ไกลขึ้นมาก ใช้ข้ามหุบเขาได้ดีค่ะ",
+      "Hebra หนาวมาก เตรียมชุดกันหนาวหรืออาหารกันหนาวก่อนขึ้นเขานะคะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Tulin_of_Rito_Village\">Zelda Dungeon Wiki: Tulin of Rito Village</a> · <a href=\"https://www.zeldadungeon.net/wiki/Colgera\">Zelda Dungeon Wiki: Colgera</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "kind": "chapter",
+   "title": "04 – Zora's Domain และ Water Temple",
+   "verses": 0,
+   "enemies": [
+    "Sludge Like",
+    "Mucktorok"
+   ],
+   "items": [
+    {
+     "key": "s04-0",
+     "type": "Key",
+     "short": "King's Scale ×5",
+     "where": "ได้จาก King Dorephan ที่ Pristine Sanctum"
+    },
+    {
+     "key": "s04-1",
+     "type": "Sage",
+     "short": "Vow of Sidon",
+     "where": "ได้หลังชนะ Mucktorok ใน Water Temple"
+    },
+    {
+     "key": "s04-2",
+     "type": "Key",
+     "short": "Heart Container",
+     "where": "ได้จาก Mucktorok"
+    }
+   ],
+   "tips": [
+    "<b>Sludge Like</b>: ใช้พลังน้ำของ Sidon ยิงลูกน้ำใส่จนโคลนหลุด รอมันอ้าปากแล้วตีลูกสีม่วงข้างใน มันจะล้มลงให้โจมตีได้ ทำซ้ำจนชนะค่ะ",
+    "<b>Mucktorok</b>: ใช้น้ำโจมตีใส่ (พลังของ Sidon, ลูกธนูติด Splash Fruit หรือ Chuchu Jelly, อาวุธติด Opal) 1–2 ครั้ง ตัวจริงจะโผล่ออกมาวิ่งหนี ตามไปตีให้ล้มแล้วรุมโจมตีได้เลยค่ะ",
+    "ช่วงที่ 2 มันจะสาดโคลนทั่วลาน ใช้น้ำล้างโคลนให้มากที่สุด เพราะมันจะมุดโคลนกระโดดไปมาได้ ลูกธนูติด Eyeball ช่วยให้โดนง่ายขึ้นค่ะ",
+    "อาวุธของ Zora จะแรงขึ้นเมื่อเปียก เหมาะกับบอสนี้มากค่ะ"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Sidon of the Zora",
+     "url": "https://www.zeldadungeon.net/wiki/Sidon_of_the_Zora"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Mucktorok",
+     "url": "https://www.zeldadungeon.net/wiki/Mucktorok"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ไปที่ Zora's Domain พบ Yona แล้วโยน Splash Fruit ใส่รูปปั้นกลางเมืองที่เปื้อนโคลนเพื่อจบเควสต์ The Sludge-Covered Statue ค่ะ",
+      "ขึ้นไปพบ Sidon ที่ Mipha Court บนยอด Ploymus Mountain เขาจะให้ไปหา Jiahto ที่ทะเลสาบ Toto Lake",
+      "ที่ Toto Lake ล้างโคลนออกจากแผ่นหินที่แตก แล้วใช้ Ultrahand ประกอบชิ้นกลับเข้าที่ (เควสต์ The Broken Slate)",
+      "ไปหา King Dorephan ที่ Pristine Sanctum หลังน้ำตก Mikau Lake (เดินทะลุน้ำตกเข้าไปได้เลย) จะได้ <b>King's Scale 5 ชิ้น</b> ค่ะ",
+      "กลับไปบอก Sidon แล้วไปทางตะวันออกหาน้ำที่ตกลงมาจากเกาะลอยฟ้า สวมชุด Zora ว่ายขึ้นสะพานน้ำไปยัง Floating Scales Island",
+      "ยืนมุมตะวันตกเฉียงใต้ของเกาะ ติด King's Scale กับลูกธนูแล้วยิงผ่านรอยแยกบนฟ้า จะเกิดเสาแสงที่ East Reservoir Lake ค่ะ",
+      "กลับไปหา Sidon จะถูก <b>Sludge Like</b> โจมตี สู้ร่วมกับ Sidon ให้ชนะ",
+      "ไปที่ East Reservoir Lake Sidon จะสร้างน้ำวน กระโดดลงไปใน Ancient Zora Waterworks ระเบิดหินในวงสีเขียวอมฟ้าทุกวงให้น้ำไหล แล้วแตะเครื่องตรงกลาง จะเกิดน้ำตกให้ว่ายขึ้นไปยัง Wellspring Island ค่ะ",
+      "ใน Water Temple เปิดก๊อกน้ำ 5 จุดเพื่อล้างโคลน แล้วสู้กับ <b>Mucktorok</b> ชนะแล้ว Sidon จะได้เป็น Sage of Water ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "ชุด Zora ช่วยให้ว่ายขึ้นน้ำตกได้ เป็นของสำคัญมากในภาคนี้ค่ะ",
+      "พลังของ Sidon (Power of Water) สร้างฟองน้ำป้องกันตัว และทำให้อาวุธแรงขึ้นด้วยน้ำค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Sidon_of_the_Zora\">Zelda Dungeon Wiki: Sidon of the Zora</a> · <a href=\"https://www.zeldadungeon.net/wiki/Mucktorok\">Zelda Dungeon Wiki: Mucktorok</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "kind": "chapter",
+   "title": "05 – Goron City และ Fire Temple",
+   "verses": 0,
+   "enemies": [
+    "Yunobo (ถูกควบคุม)",
+    "Moragia",
+    "Marbled Gohma"
+   ],
+   "items": [
+    {
+     "key": "s05-0",
+     "type": "Sage",
+     "short": "Vow of Yunobo",
+     "where": "ได้หลังชนะ Marbled Gohma ใน Fire Temple"
+    },
+    {
+     "key": "s05-1",
+     "type": "Key",
+     "short": "Heart Container",
+     "where": "ได้จาก Marbled Gohma"
+    }
+   ],
+   "tips": [
+    "<b>Marbled Gohma ช่วงที่ 1</b>: วิ่งหลบขาที่กระทืบลงมา แล้วยิง Yunobo ใส่ขา ทำลายขาได้ 2 ข้างมันจะล้มลง จากนั้นยิงธนูหรือปีนขึ้นไปตีที่ตาค่ะ",
+    "<b>ช่วงที่ 2</b>: มันจะไต่ขึ้นเพดานแล้วทิ้งหินเป็นวงที่จะระเบิด ใช้ Yunobo ทำลายหิน หรือแทรกตัวออกจากวงหิน",
+    "ยิง Yunobo ใส่กำแพง ให้เขาไถลขึ้นไปชนมันบนเพดาน มันจะตกลงมาให้รุมโจมตีได้ค่ะ"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Yunobo of Goron City",
+     "url": "https://www.zeldadungeon.net/wiki/Yunobo_of_Goron_City"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Marbled Gohma",
+     "url": "https://www.zeldadungeon.net/wiki/Marbled_Gohma"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ไปที่ Goron City (ภาค Eldin) จะเห็นชาว Goron ติดใจ Marbled Rock Roast คุยกับ Bludo และ Yunobo ค่ะ",
+      "ตาม Yunobo ไปที่ YunoboCo HQ ทางเหนือของเมือง แล้วสู้กับ Yunobo ที่ถูกควบคุม หลบตอนเขาพุ่งชน ให้เขาชนกำแพงแล้วตีจนหน้ากากแตก",
+      "ใช้พลังของ Yunobo ยิงทำลายหินเพื่อออกจากถ้ำ แล้วมุ่งหน้าไป Death Mountain ข้าม Bridge of Eldin",
+      "วางรางรถด้วยรถเหมืองติดพัดลม ขึ้นภูเขาไปเรื่อยๆ ใช้พลังของ Yunobo ยิงศัตรูและหินที่ขวางทาง (ระหว่างทางมี Sitsum Shrine) ค่ะ",
+      "<b>Moragia</b> จะโผล่จากปากปล่อง ใช้ Wing ที่ติดพัดลม 4 ตัวและแบตเตอรี่ใหญ่ 2 ลูกบินเข้าไปใกล้ แล้วยิง Yunobo ใส่หัวทั้ง 3 หัวให้แตกค่ะ",
+      "กระโดดลง Death Mountain Chasm ไปที่ Depths เปิด Mustis Lightroot แล้วไปทางตะวันตกผ่าน Misisi Lightroot จนถึง Fire Temple",
+      "ใน Fire Temple ปลดล็อก 5 จุดด้วยความช่วยเหลือของ Yunobo แล้วทำลายหินบนเพดาน",
+      "สู้กับ <b>Marbled Gohma</b> ชนะแล้ว Yunobo จะได้เป็น Sage of Fire ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "พลังของ Yunobo (Power of Fire) ยิงตัวเขาออกไปชนทำลายหินและศัตรู ใช้ได้ทั้งในวิหารและข้างนอกค่ะ",
+      "Death Mountain ร้อนจนไฟติดตัว ต้องสวมชุด Flamebreaker หรือกินอาหาร/ยากันไฟก่อนขึ้นนะคะ",
+      "Fire Temple อยู่ใน Depths ซึ่งมืดสนิท พก Brightbloom Seed ไปด้วยค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Yunobo_of_Goron_City\">Zelda Dungeon Wiki: Yunobo of Goron City</a> · <a href=\"https://www.zeldadungeon.net/wiki/Marbled_Gohma\">Zelda Dungeon Wiki: Marbled Gohma</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "kind": "chapter",
+   "title": "06 – Gerudo Town และ Lightning Temple",
+   "verses": 0,
+   "enemies": [
+    "Gibdo",
+    "Queen Gibdo"
+   ],
+   "items": [
+    {
+     "key": "s06-0",
+     "type": "Sage",
+     "short": "Vow of Riju",
+     "where": "ได้หลังชนะ Queen Gibdo ใน Lightning Temple"
+    },
+    {
+     "key": "s06-1",
+     "type": "Key",
+     "short": "Heart Container",
+     "where": "ได้จาก Queen Gibdo"
+    }
+   ],
+   "tips": [
+    "<b>Queen Gibdo ช่วงที่ 1</b>: โจมตีด้วยไฟ สายฟ้า หรือแสง เพื่อให้มันลงมาที่พื้น (สายฟ้าของ Riju หรือลูกธนูติด Fire/Electric Keese Eyeball ที่วิ่งตามเป้า) อาวุธระยะประชิดใช้ไม่ได้จนกว่ามันจะล้มลงค่ะ",
+    "ตอนอยู่ที่พื้น โจมตีเพิ่มอีกรอบ (เช่นสายฟ้าของ Riju อีกครั้ง) มันจะล้มลง แล้วรีบเข้าไปตีด้วยอาวุธที่แรงที่สุด",
+    "หลบพายุทรายที่มันปล่อยออกมาโดยเคลื่อนที่ตลอดเวลาค่ะ",
+    "<b>ช่วงที่ 2</b>: รังทราย 4 รังจะปล่อย Gibdo ออกมาไม่หยุด ทำลายรังด้วยสายฟ้าของ Riju หรือลูกธนูติด Bomb Flower ในวิหารนี้รังที่แตกจะกลายเป็นเสาแสงทำร้ายบอสได้ค่ะ"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Riju of Gerudo Town",
+     "url": "https://www.zeldadungeon.net/wiki/Riju_of_Gerudo_Town"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Queen Gibdo",
+     "url": "https://www.zeldadungeon.net/wiki/Queen_Gibdo"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "เข้าไปใน Gerudo Shelter ใต้ Gerudo Town (ทางหนึ่งคือทางลับหลังบัลลังก์ตามที่เขียนใน Riju's Diary) คุยกับ Buliara เธอจะบอกว่า Riju ไปฝึกที่ North Gerudo Ruins ค่ะ",
+      "ออกจากเมืองทางตะวันตกเฉียงเหนือ หาหินที่ตกลงมาจากฟ้า ใช้ Recall แล้วยืนบนหินขึ้นไปบนฟ้า จากนั้นร่อนไปทางตะวันออกเฉียงเหนือถึง North Gerudo Ruins",
+      "ช่วย Riju ฝึก โดยยิงธนูนำทางให้สายฟ้าของเธอลงที่เป้าค่ะ",
+      "ไปช่วยที่ Kara Kara Bazaar สู้กับฝูง Gibdo รอให้สายฟ้าของ Riju ชาร์จแล้วยิงธนู แล้วยิงทำลายรัง Gibdo",
+      "กลับ Gerudo Town คุยกับ Captain Teake เพื่อวางกำลังทหารและสิ่งกีดขวาง แล้วคุยกับ Riju เพื่อเริ่มป้องกันเมือง ทำลายรัง Gibdo ทั้ง 3 รังรอบเมืองค่ะ",
+      "ดูภาพฝาผนังใน Gerudo Shelter แล้วไปตามเสาสีแดง 3 ต้นทางตะวันตกเฉียงใต้ของบัลลังก์ ทำให้แสงสะท้อนเชื่อมกันเป็นสามเหลี่ยม",
+      "ไปที่จุดกลางสามเหลี่ยม ยิงธนูใส่วัตถุให้ Riju ปล่อยสายฟ้า Lightning Temple จะโผล่ขึ้นมาจากทราย",
+      "ใช้สายฟ้าของ Riju ทำลายรังใหญ่หน้าวิหาร สู้กับ Queen Gibdo รอบแรกจนมันหนีขึ้นไปบนวิหาร แล้วยิงสายฟ้าเปิดประตูม่วงเข้าไปค่ะ",
+      "ในวิหารชาร์จแบตเตอรี่ 4 จุด แล้วขึ้นลิฟต์ไปห้องบอส สู้กับ <b>Queen Gibdo</b> ชนะแล้ว Riju จะได้เป็น Sage of Lightning ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "พลังของ Riju (Power of Lightning) ทำให้ลูกธนูปล่อยสายฟ้าเป็นวงกว้าง เหมาะกับศัตรูเป็นกลุ่มค่ะ",
+      "ทะเลทรายกลางวันร้อน กลางคืนหนาว เตรียมชุดหรืออาหารให้พร้อมค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Riju_of_Gerudo_Town\">Zelda Dungeon Wiki: Riju of Gerudo Town</a> · <a href=\"https://www.zeldadungeon.net/wiki/Queen_Gibdo\">Zelda Dungeon Wiki: Queen Gibdo</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "kind": "chapter",
+   "title": "07 – ปราสาท Hyrule ใต้จันทร์สีแดง และตามหา Sage คนที่ห้า",
+   "verses": 0,
+   "enemies": [
+    "Phantom Ganon"
+   ],
+   "items": [
+    {
+     "key": "s07-0",
+     "type": "Key",
+     "short": "เควสต์ Find the Fifth Sage",
+     "where": "Purah มอบให้ที่ Lookout Landing หลังชนะ Phantom Ganon"
+    }
+   ],
+   "tips": [
+    "Phantom Ganon มาเป็นกลุ่ม เตรียมอาหารฟื้นหัวใจและอาวุธสำรองให้พร้อมก่อนเข้าห้อง Sanctum (หนูอนุมานเอง ยังไม่มีแหล่งข้อมูลเรื่องทิปสู้ค่ะ)"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Crisis at Hyrule Castle",
+     "url": "https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Find the Fifth Sage",
+     "url": "https://www.zeldadungeon.net/wiki/Find_the_Fifth_Sage"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Destroy Ganondorf",
+     "url": "https://www.zeldadungeon.net/wiki/Destroy_Ganondorf"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ผ่านเหตุการณ์ครบ 4 ภาคแล้วกลับไปที่ Lookout Landing ทุกคนจะตกใจว่ามีคนเห็นเซลด้า ขึ้นไปหา Purah ที่กล้องส่องทางไกล จันทร์จะกลายเป็นสีแดงและเห็นเซลด้ายืนอยู่บนปราสาทค่ะ",
+      "ขึ้นไปบนแกนปราสาท Hyrule ที่ลอยอยู่ ไล่ตามภาพของเซลด้าที่มีกองทัพปีศาจโผล่ตามมา จนถึงห้อง Sanctum",
+      "เซลด้าตัวปลอมเผยว่าเป็นหุ่นเชิดของ Ganondorf แล้วกลายเป็น <b>Phantom Ganon</b> ต้องสู้กับ Phantom Ganon เป็นกลุ่มค่ะ",
+      "กลับไปรายงาน Purah ที่ Lookout Landing จะได้เควสต์ Find the Fifth Sage",
+      "ไปคุยกับ Paya และ Tauro ที่ Kakariko Village เพื่อเริ่มเควสต์ Secret of the Ring Ruins แล้วตามเบาะแสไปยัง Dragonhead Island บนฟ้าเหนือภาค Faron ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "ถ้าทำ Spirit Temple เสร็จก่อนสู้ Phantom Ganon ที่ปราสาท เควสต์ทั้งสองจะจบพร้อมกันตอนประชุมที่ Lookout Landing ค่ะ",
+      "ถ้าข้ามการสู้ Phantom Ganon ที่ปราสาท จะต้องไปสู้ Phantom Ganon 2 ระลอกระลอกละ 5 ตัวตอนสู้บอสใหญ่แทนค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle\">Zelda Dungeon Wiki: Crisis at Hyrule Castle</a> · <a href=\"https://www.zeldadungeon.net/wiki/Find_the_Fifth_Sage\">Zelda Dungeon Wiki: Find the Fifth Sage</a> · <a href=\"https://www.zeldadungeon.net/wiki/Destroy_Ganondorf\">Zelda Dungeon Wiki: Destroy Ganondorf</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "kind": "chapter",
+   "title": "08 – Dragonhead Island, Construct Factory และ Spirit Temple",
+   "verses": 0,
+   "enemies": [
+    "Seized Construct"
+   ],
+   "items": [
+    {
+     "key": "s08-0",
+     "type": "Key",
+     "short": "หน้ากากของ Mineru",
+     "where": "บน Dragonhead Island ต้องมี Heart Container อย่างน้อย 10 ดวงจึงเปิดประตูได้"
+    },
+    {
+     "key": "s08-1",
+     "type": "Key",
+     "short": "หุ่น Mineru's Construct",
+     "where": "ประกอบที่ Construct Factory ใน Depths"
+    },
+    {
+     "key": "s08-2",
+     "type": "Sage",
+     "short": "Vow of Mineru",
+     "where": "ได้หลังชนะ Seized Construct ใน Spirit Temple"
+    },
+    {
+     "key": "s08-3",
+     "type": "Key",
+     "short": "Heart Container",
+     "where": "ได้จาก Seized Construct"
+    }
+   ],
+   "tips": [
+    "ลานสู้มีรั้วไฟฟ้ารอบด้าน วิธีหลักคือ<b>ผลักบอสเข้าชนรั้วไฟฟ้า</b> เพราะบอสมีพลังชีวิตสูงมาก (20,000) ตีด้วยอาวุธธรรมดาไม่ไหวค่ะ",
+    "ใช้หุ่นของ Mineru ยกการ์ดตอนบอสเหวี่ยงแขน แล้วต่อยกลับ 3 ครั้งให้กระเด็นเข้ารั้ว ควรติดของที่ไม่ใช่อาวุธยิงไว้ที่แขนข้างหนึ่งค่ะ",
+    "อีกวิธีคือติด Cannon ที่แขนข้างหนึ่งยิงให้บอสมึนก่อน แล้วต่อยด้วยแขนอีกข้าง",
+    "ช่วงที่ 2 บอสจะงอกแขนเพิ่มและบินยิงใส่ ยกการ์ดรอให้ลงมา หรือยิงสวนด้วย Cannon หรือลูกธนูติด Bomb Flower/Shock Fruit แล้วต่อยเข้ารั้วต่อค่ะ"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Guidance from Ages Past",
+     "url": "https://www.zeldadungeon.net/wiki/Guidance_from_Ages_Past"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Seized Construct",
+     "url": "https://www.zeldadungeon.net/wiki/Seized_Construct"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Find the Fifth Sage",
+     "url": "https://www.zeldadungeon.net/wiki/Find_the_Fifth_Sage"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "บน Dragonhead Island เปิดประตูใหญ่ (ต้องมี <b>Heart Container อย่างน้อย 10 ดวง</b>) จะพบหน้ากากของ Mineru และเริ่มเควสต์ Guidance from Ages Past ค่ะ",
+      "ใต้บันไดมี Wing, Steering Stick และ Fan ประกอบเข้าด้วยกันแล้วติดหน้ากากไว้ด้วย ร่อนลงสู่พื้นดิน",
+      "ถือหน้ากากไปที่รูปปั้นที่แสงสีเขียวชี้ จะเปิดทางลงไปที่ Tobio's Hollow Chasm แล้ววางหน้ากากบนแท่นให้พาลงไป Depths",
+      "ตามแสงสีเขียวไปที่ <b>Construct Factory</b> ใช้ Ultrahand วางหน้ากากตรงตำแหน่งหัวของหุ่นค่ะ",
+      "ไปเก็บชิ้นส่วนแขนและขาจากโกดัง 4 แห่งรอบโรงงาน ประกอบให้ครบจะได้ขี่หุ่น Mineru's Construct",
+      "ขี่หุ่นไปทางตะวันออกเฉียงใต้ถึง <b>Spirit Temple</b> แล้วสู้กับ <b>Seized Construct</b>",
+      "ชนะแล้วเก็บหินลับบนแท่น Mineru จะได้เป็น Sage of Spirit และเริ่มเควสต์ Trail of the Master Sword ค่ะ",
+      "กลับไปรายงาน Purah ที่ Lookout Landing เพื่อจบเควสต์ Find the Fifth Sage"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "หุ่นของ Mineru ติดอาวุธหรืออุปกรณ์ Zonai ที่แขนได้ และเรียกมาช่วยได้ตลอดหลังจบบทนี้ค่ะ",
+      "หลังจบบทนี้ Spirit Temple จะมีหุ่นช่างตีเหล็กขายอาวุธ Mighty Zonaite แลกกับ Zonaite ค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Guidance_from_Ages_Past\">Zelda Dungeon Wiki: Guidance from Ages Past</a> · <a href=\"https://www.zeldadungeon.net/wiki/Seized_Construct\">Zelda Dungeon Wiki: Seized Construct</a> · <a href=\"https://www.zeldadungeon.net/wiki/Find_the_Fifth_Sage\">Zelda Dungeon Wiki: Find the Fifth Sage</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "kind": "chapter",
+   "title": "09 – Korok Forest และดาบ Master Sword",
+   "verses": 0,
+   "enemies": [
+    "Gloom Spawn",
+    "Phantom Ganon"
+   ],
+   "items": [
+    {
+     "key": "s09-0",
+     "type": "Key",
+     "short": "Master Sword",
+     "where": "ดึงจากหัวของ Light Dragon ต้องมีสตามินาอย่างน้อย 2 วง"
+    }
+   ],
+   "tips": [],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Trail of the Master Sword",
+     "url": "https://www.zeldadungeon.net/wiki/Trail_of_the_Master_Sword"
+    },
+    {
+     "label": "Zelda Dungeon Wiki: Recovering the Hero's Sword",
+     "url": "https://www.zeldadungeon.net/wiki/Recovering_the_Hero%27s_Sword"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "Lost Woods มีหมอกขวางเข้าไม่ได้ ให้ลงไป Depths จากทาง Minshi Woods ค่ะ",
+      "ใน Depths เดินไปทางตะวันตกเฉียงเหนือถึง Korok Grove ใกล้ Rikonasum Lightroot มีจุด Ascend ให้ทะลุขึ้นไปโผล่ใน Korok Forest",
+      "ทุกอย่างในป่าแข็งเป็นหิน ลงไปที่ Deku Tree Chasm ใต้ต้น Great Deku Tree แล้วสู้กับ <b>Gloom Spawn</b> และ <b>Phantom Ganon</b> ค่ะ",
+      "คุยกับ Great Deku Tree เขาจะทำให้ Purah Pad ติดตามดาบ Master Sword ที่เคลื่อนที่อยู่บนฟ้าได้",
+      "ดูตำแหน่ง Light Dragon บนแผนที่ แล้วยิงตัวขึ้นจาก Skyview Tower ใกล้ๆ ร่อนลงบนหลังมังกร",
+      "เดินไปที่หัวมังกรแล้วดึง <b>Master Sword</b> (ต้องมีสตามินาอย่างน้อย 2 วงเต็ม) จะได้ดาบและความทรงจำสุดท้าย Zelda's Wish ค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "ไปเอาดาบได้ก่อนตามเนื้อเรื่องก็ได้ ถ้ามีดาบอยู่แล้ว เควสต์จะจบทันทีค่ะ",
+      "สตามินา 2 วงหมายถึงต้องเพิ่ม Stamina Vessel อีก 5 ครั้งจากค่าเริ่มต้น แลกได้ที่ Goddess Statue ด้วย Light of Blessing จากศาลเจ้าค่ะ"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Trail_of_the_Master_Sword\">Zelda Dungeon Wiki: Trail of the Master Sword</a> · <a href=\"https://www.zeldadungeon.net/wiki/Recovering_the_Hero%27s_Sword\">Zelda Dungeon Wiki: Recovering the Hero's Sword</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "kind": "chapter",
+   "title": "10 – ใต้ปราสาท Hyrule และศึกสุดท้ายกับ Ganondorf",
+   "verses": 0,
+   "enemies": [
+    "Demon King's Army",
+    "Demon King Ganondorf",
+    "Demon Dragon"
+   ],
+   "items": [
+    {
+     "key": "s10-0",
+     "type": "Key",
+     "short": "จบเกม",
+     "where": "ชนะ Demon Dragon"
+    }
+   ],
+   "tips": [
+    "<b>ช่วงที่ 1</b>: Ganondorf สู้ตัวเดียว เขาหลบแบบ Perfect Dodge ได้ ถ้าหลบทันจนเกิด Flurry Rush จะจบเร็วค่ะ",
+    "<b>ช่วงที่ 2</b>: เลือดเยอะขึ้นและมีร่างแยก Sage จะกลับมาช่วย ถ้า Flurry Rush ไม่คล่อง ให้ใจเย็นแล้วเข้าไปตีตอนเขาสลับอาวุธ",
+    "พอเลือดลดครึ่ง เขาจะเรียกร่างแยกยิง Gloom ใส่ ถ้าไล่ตามให้วิ่งหนี ถ้าเป็นวงล้อมให้รีบวิ่งออกก่อนวงปิดค่ะ",
+    "<b>Demon Dragon</b>: หลบหางและลูก Gloom ระหว่างดิ่งลงไปทำลายจุดบนหลัง แล้วกดตามปุ่มบนจอเพื่อปิดฉากค่ะ"
+   ],
+   "sources": [
+    {
+     "label": "Zelda Dungeon Wiki: Destroy Ganondorf",
+     "url": "https://www.zeldadungeon.net/wiki/Destroy_Ganondorf"
+    },
+    {
+     "label": "IGN: TOTK Walkthrough",
+     "url": "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough"
+    }
+   ],
+   "flow": false,
+   "blocks": [
+    {
+     "h3": "เส้นทางทีละขั้น (ตามลำดับการเล่นจริง)"
+    },
+    {
+     "olist": [
+      "ทำครบทั้ง 5 Sage และได้ Master Sword แล้วคุยกับ Purah ที่ Lookout Landing จะได้เควสต์ Destroy Ganondorf ค่ะ",
+      "กระโดดลง Hyrule Castle Chasm (เปิด Camobatures Lightroot ระหว่างทาง) แล้วลงไปเรื่อยๆ ทางเดินยาวนี้มีศัตรูเยอะ เช่น Like Like, Horriblin, Lynel และ Gibdo",
+      "ช่วงล่างสุดพลังของ Sage จะใช้ไม่ได้ ให้ทุบผนังที่ระเบิดได้แล้วเดินต่อจนถึง Imprisoning Chamber แล้วกระโดดลงไปที่ Gloom's Lair ค่ะ",
+      "ก่อนกระโดดลงช่วงต่อไป มีขอบผาที่เหมาะกับการวาง Travel Medallion เพื่อกลับไปเตรียมตัวได้ค่ะ",
+      "สู้กับกองทัพปีศาจ 4 ระลอก (Bokoblin, Lizalfos, Gibdo, Moblin) ร่วมกับ Sage ตัวจริง ถ้ายังไม่ได้สู้บอสวิหารตัวไหน จะต้องสู้ตรงนี้ค่ะ",
+      "เดินไปจนสุดทางที่ Gloom's Origin เพื่อเริ่มสู้กับ <b>Demon King Ganondorf</b> (3 ช่วง)",
+      "ช่วงสุดท้าย Ganondorf จะกลายเป็น <b>Demon Dragon</b> บนฟ้า ขี่หัว Light Dragon ขึ้นไปแล้วดิ่งลงทำลายจุดเรืองแสง 4 จุดบนหลัง แล้วทำลายหินลับที่หน้าผากเพื่อจบเกมค่ะ"
+     ]
+    },
+    {
+     "h3": "จุดสำคัญ"
+    },
+    {
+     "list": [
+      "ศึกนี้ Gloom จะลดหัวใจสูงสุดลงเรื่อยๆ เตรียมอาหารที่ทำจาก <b>Sundelion</b> หรือ <b>Sun Pumpkin</b> ไปเยอะๆ ค่ะ",
+      "Master Sword จะไม่หมดพลังในศึกนี้ และจะชาร์จเต็มถ้าหมดมาจากด่านก่อนหน้า"
+     ]
+    },
+    {
+     "h3": "แผนที่และลิงก์"
+    },
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+     ]
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Destroy_Ganondorf\">Zelda Dungeon Wiki: Destroy Ganondorf</a> · <a href=\"https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough\">IGN: TOTK Walkthrough</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "depths",
+   "kind": "page",
+   "title": "Depths เบื้องต้น",
+   "open": true,
+   "blocks": [
+    {
+     "list": [
+      "Depths คือโลกใต้ดินที่มืดสนิท แสงจากข้างบนส่องลงมาไม่ถึง ใช้ Brightbloom Seed คบไฟ หรืออุปกรณ์ Zonai Light ส่องทางค่ะ",
+      "ภูมิประเทศเป็นกลับด้านกับพื้นดิน ที่สูงข้างบนจะเป็นที่ต่ำข้างล่าง และแม่น้ำหรือทะเลสาบข้างบนจะเป็นเสาหินที่ผ่านไม่ได้",
+      "Gloom (คราบสีม่วง) ลดหัวใจสูงสุด และจะฟื้นเองไม่ได้ ต้องยืนใต้ Lightroot ที่เปิดแล้ว หรือกินอาหารจาก Sundelion/Sun Pumpkin ค่ะ",
+      "มีชุดกัน Gloom (Hood/Tunic/Gaiters of the Depths) แลกได้ด้วย Poe ที่ Bargainer Statue ใน Depths",
+      "ฐาน Yiga ใน Depths มีหีบที่ให้ Yiga Schematic สำหรับ Autobuild ค่ะ"
+     ]
+    },
+    {
+     "p": "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Depths\">Zelda Dungeon Wiki: Depths</a> · <a href=\"https://www.zeldadungeon.net/wiki/Tears_of_the_Kingdom_Armor\">Zelda Dungeon Wiki: TOTK Armor</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "shrines",
+   "kind": "page",
+   "title": "ศาลเจ้า (Shrine of Light)",
+   "open": true,
+   "blocks": [
+    {
+     "list": [
+      "มีศาลเจ้าทั้งหมด <b>152 แห่ง</b> ตามข้อมูลของ Zelda Dungeon ค่ะ",
+      "ทุกศาลเจ้าให้ Light of Blessing 1 ดวง ครบ 4 ดวงแลกที่ Goddess Statue เป็น Heart Container หรือ Stamina Vessel ได้",
+      "ศาลเจ้าบนพื้นดินแต่ละแห่งจะคู่กับ Lightroot ใน Depths ที่อยู่ตรงข้างล่างค่ะ",
+      "ทำศาลเจ้าครบทุกแห่งแล้วจะได้ Ancient Hero's Aspect ที่ Temple of Time"
+     ]
+    },
+    {
+     "p": "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/tears-of-the-kingdom-walkthrough/\">Zelda Dungeon: TOTK Walkthrough</a> · <a href=\"https://www.zeldadungeon.net/wiki/Category:Tears_of_the_Kingdom_Shrines\">Zelda Dungeon Wiki: รายชื่อศาลเจ้า</a> · <a href=\"https://www.zeldadungeon.net/wiki/Tears_of_the_Kingdom_Armor\">Zelda Dungeon Wiki: TOTK Armor</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "koroks",
+   "kind": "page",
+   "title": "เมล็ด Korok",
+   "open": true,
+   "blocks": [
+    {
+     "list": [
+      "มี Korok Seed ทั้งหมด <b>1,000 เมล็ด</b> ตามข้อมูลของ Zelda Dungeon ค่ะ",
+      "นำไปแลกกับ Hestu เพื่อเพิ่มช่องเก็บอาวุธ ธนู และโล่ ใช้ทั้งหมด <b>421 เมล็ด</b> เพื่อขยายจนเต็ม",
+      "ช่องอาวุธสูงสุด 19 ช่อง ช่องธนู 14 ช่อง และช่องโล่ 20 ช่อง"
+     ]
+    },
+    {
+     "p": "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/tears-of-the-kingdom-walkthrough/\">Zelda Dungeon: TOTK Walkthrough</a> · <a href=\"https://www.zeldadungeon.net/wiki/Korok_Seed\">Zelda Dungeon Wiki: Korok Seed</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "lightroots",
+   "kind": "page",
+   "title": "Lightroot",
+   "open": true,
+   "blocks": [
+    {
+     "list": [
+      "Lightroot มี <b>120 ต้น</b> ใน Depths (หนูนับจากรายชื่อในหน้า Zelda Dungeon Wiki ค่ะ)",
+      "ชื่อ Lightroot คือชื่อศาลเจ้าคู่กันที่สะกดกลับหลัง และส่วนใหญ่อยู่ใต้ศาลเจ้าพอดี จึงใช้ตำแหน่งศาลเจ้าบนพื้นดินหา Lightroot ได้ค่ะ",
+      "ข้อยกเว้นมี 3 ต้นใน Depths Labyrinth ได้แก่ Kuhsagi, Ikatoayam และ Sisustom ที่ไม่ได้อยู่ใต้ศาลเจ้าของตัวเอง",
+      "เปิดแล้วจะส่องสว่างรอบๆ เปิดแผนที่บริเวณนั้น ใช้เป็นจุดวาร์ป และฟื้นหัวใจที่โดน Gloom ได้",
+      "เปิดครบทุกต้นจะได้ Dispelling Darkness Medal (ไม่มีประโยชน์ในการเล่น เป็นของที่ระลึกค่ะ)"
+     ]
+    },
+    {
+     "p": "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Lightroot\">Zelda Dungeon Wiki: Lightroot</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "armor",
+   "kind": "page",
+   "title": "ชุดเกราะที่ควรรู้จัก",
+   "open": true,
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "ชุด",
+       "ความสามารถ",
+       "หาได้จาก (ตัวอย่าง)"
+      ],
+      "rows": [
+       [
+        "Snowquill Set",
+        "กันหนาว",
+        "มีราคาขายในร้าน (หนูอนุมานว่าเป็นร้านใน Rito Village)"
+       ],
+       [
+        "Flamebreaker Set",
+        "กันไฟ (Flame Guard)",
+        "มีราคาขายในร้าน (หนูอนุมานว่าเป็นร้านใน Goron City)"
+       ],
+       [
+        "Zora Set",
+        "ว่ายเร็ว ว่ายขึ้นน้ำตก",
+        "เสื้อซ่อมโดย Yona (เควสต์ Restoring the Zora Armor) หมวกที่ Floating Scales Island กางเกงที่ Ancient Zora Waterworks"
+       ],
+       [
+        "Desert Voe Set",
+        "กันร้อน",
+        "มีราคาขายในร้าน (หนูอนุมานว่าเป็นร้านใน Gerudo Town)"
+       ],
+       [
+        "Rubber Set",
+        "กันไฟฟ้า",
+        "ในถ้ำ เช่น Sarjon Woods Cave, Whistling Hill Cave"
+       ],
+       [
+        "Climbing Set",
+        "ปีนเร็ว",
+        "ในถ้ำ เช่น Ploymus Mountain Cave"
+       ],
+       [
+        "Miner Set",
+        "เรืองแสงในที่มืด",
+        "ในเหมืองของ Depths"
+       ],
+       [
+        "Hood/Tunic/Gaiters of the Depths",
+        "กัน Gloom",
+        "แลก Poe ที่ Bargainer Statue"
+       ],
+       [
+        "Zonaite Set",
+        "ประหยัดพลังงานอุปกรณ์ Zonai",
+        "บนเกาะลอยฟ้า เช่น Lightcast Island"
+       ],
+       [
+        "Barbarian Set",
+        "เพิ่มพลังโจมตี",
+        "ในถ้ำ เช่น Robred Dropoff Cave"
+       ],
+       [
+        "Ancient Hero's Aspect",
+        "พลังป้องกันสูงมาก",
+        "Temple of Time หลังทำศาลเจ้าครบ"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "อัปเกรดชุดได้ 4 ขั้นด้วยวัตถุดิบตามที่ระบุในหน้าอ้างอิง (ผู้อัปเกรดคือ Great Fairy ข้อนี้หนูอ้างจากความรู้เดิม ยังไม่ได้เช็กกับแหล่งข้อมูลค่ะ)"
+    },
+    {
+     "p": "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>"
+    },
+    {
+     "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Tears_of_the_Kingdom_Armor\">Zelda Dungeon Wiki: TOTK Armor</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "links",
+   "kind": "page",
+   "title": "ลิงก์รวม",
+   "open": true,
+   "blocks": [
+    {
+     "list": [
+      "<a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">Map Genie: แผนที่ Hyrule ของ TOTK (หน้าเดียวรวมทุกชั้น ให้เลือกชั้นฟ้า/พื้นดิน/Depths และพื้นที่เองในหน้าแผนที่)</a>",
+      "<a href=\"https://www.zeldadungeon.net/tears-of-the-kingdom-walkthrough/\">Zelda Dungeon: TOTK Walkthrough</a>",
+      "<a href=\"https://www.zeldadungeon.net/tears-of-the-kingdom-interactive-map/\">Zelda Dungeon: แผนที่แบบโต้ตอบ</a>",
+      "<a href=\"https://www.zeldadungeon.net/wiki/Category:Tears_of_the_Kingdom_Main_Quests\">Zelda Dungeon Wiki: รายการเควสต์หลัก</a>",
+      "<a href=\"https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough\">IGN: TOTK Walkthrough</a>"
+     ]
+    },
+    {
+     "p": "หมายเหตุ: คู่มือนี้ไม่มีแผนที่ของตัวเอง ใช้ Map Genie สำหรับติ๊กเก็บของบนแผนที่นะคะ ลำดับวิหารเลือกได้อิสระ และบางขั้นตอนสรุปจากหน้าเควสต์ของ Zelda Dungeon ที่ยังเขียนไม่ครบค่ะ",
+     "class": "note"
+    }
+   ]
+  }
+ ]
+}

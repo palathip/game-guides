@@ -207,6 +207,10 @@
      ]
     },
     {
+     "p": "บทนี้ยังไม่มีแผนที่ เพราะยังหาภาพแผนที่ของชั้นฟ้าหรือ Depths ที่ใช้ได้ไม่เจอค่ะ ดูตำแหน่งได้จากลิงก์ Map Genie ด้านล่างนะคะ",
+     "class": "src"
+    },
+    {
      "h3": "จุดสำคัญ"
     },
     {
@@ -238,6 +242,21 @@
    "enemies": [],
    "items": [
     {
+     "key": "s02-p1",
+     "label": "#1 Hyrule Castle – ปราสาทที่ลอยขึ้นฟ้า (มองจากด้านล่าง)",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s02-p2",
+     "label": "#2 First Gatehouse – ประตูทิศใต้ของปราสาท พบ Captain Hoz",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s02-p3",
+     "label": "#3 Lookout Landing – พบ Purah และ Skyview Tower รับร่มร่อน",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
      "key": "s02-0",
      "type": "Key",
      "short": "Paraglider",
@@ -259,6 +278,14 @@
     {
      "label": "IGN: TOTK Walkthrough",
      "url": "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Hyrule_Field_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Hyrule_Field_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -274,6 +301,43 @@
       "วาง Purah Pad ที่เครื่องในหอ Purah จะมอบ <b>ร่มร่อน (Paraglider)</b> ให้ แล้วตรวจที่พื้นเพื่อยิงตัวขึ้นฟ้าและสแกนแผนที่บริเวณนั้นค่ะ",
       "กลับไปหา Purah ที่ห้องวิจัยใน Lookout Landing เธอจะมอบเควสต์ <b>Regional Phenomena</b> และปักจุดเหตุการณ์ 4 ภาคบนแผนที่ (Rito, Zora, Goron, Gerudo) ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Hyrule Castle",
+        "ปราสาทที่ลอยขึ้นฟ้า (มองจากด้านล่าง)"
+       ],
+       [
+        "2",
+        "First Gatehouse",
+        "ประตูทิศใต้ของปราสาท พบ Captain Hoz"
+       ],
+       [
+        "3",
+        "Lookout Landing",
+        "พบ Purah และ Skyview Tower รับร่มร่อน"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Hyrule_Field_Map_Area.png\">Zelda Wiki: TotK_Hyrule_Field_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -298,6 +362,13 @@
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle\">Zelda Dungeon Wiki: Crisis at Hyrule Castle</a> · <a href=\"https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough\">IGN: TOTK Walkthrough</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s02.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Hyrule_Field_Map_Area.png)"
+    }
    ]
   },
   {
@@ -309,6 +380,31 @@
     "Colgera"
    ],
    "items": [
+    {
+     "key": "s03-p1",
+     "label": "#1 Rito Village – คุยกับ Tulin, Teba และ Saki",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p2",
+     "label": "#2 Hebra Trailhead Lodge – พบ Harth แล้วตามกองไฟขึ้นเขา",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p3",
+     "label": "#3 Hebra South Summit Cave – ถ้ำลมร้อน",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p4",
+     "label": "#4 Talonto Peak – พบ Tulin ที่ต้นสนบนยอด",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s03-p5",
+     "label": "#5 Hebra Peak – ร่อนขึ้นไปยัง Wind Temple",
+     "where": "ดูหมุดหมายเลข 5 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s03-0",
      "type": "Sage",
@@ -336,6 +432,14 @@
     {
      "label": "Zelda Dungeon Wiki: Colgera",
      "url": "https://www.zeldadungeon.net/wiki/Colgera"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Hebra_Mountains_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Hebra_Mountains_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -355,6 +459,53 @@
       "ใน Wind Temple ต้องปลดล็อก 5 จุด แล้วใช้เครื่องกลางลำเรือเปิดฝาดาดฟ้า",
       "สู้กับบอส <b>Colgera</b> ชนะแล้ว Tulin จะได้เป็น Sage of Wind ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Rito Village",
+        "คุยกับ Tulin, Teba และ Saki"
+       ],
+       [
+        "2",
+        "Hebra Trailhead Lodge",
+        "พบ Harth แล้วตามกองไฟขึ้นเขา"
+       ],
+       [
+        "3",
+        "Hebra South Summit Cave",
+        "ถ้ำลมร้อน"
+       ],
+       [
+        "4",
+        "Talonto Peak",
+        "พบ Tulin ที่ต้นสนบนยอด"
+       ],
+       [
+        "5",
+        "Hebra Peak",
+        "ร่อนขึ้นไปยัง Wind Temple"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ ยกเว้นหมุด 3–5ที่ยังเป็นตำแหน่งโดยประมาณ อาจคลาดจากจุดจริงเล็กน้อยนะคะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Hebra_Mountains_Map_Area.png\">Zelda Wiki: TotK_Hebra_Mountains_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -377,6 +528,13 @@
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Tulin_of_Rito_Village\">Zelda Dungeon Wiki: Tulin of Rito Village</a> · <a href=\"https://www.zeldadungeon.net/wiki/Colgera\">Zelda Dungeon Wiki: Colgera</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s03.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Hebra_Mountains_Map_Area.png)"
+    }
    ]
   },
   {
@@ -389,6 +547,31 @@
     "Mucktorok"
    ],
    "items": [
+    {
+     "key": "s04-p1",
+     "label": "#1 Zora's Domain – รูปปั้นเปื้อนโคลน พบ Yona",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p2",
+     "label": "#2 Mipha Court – พบ Sidon",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p3",
+     "label": "#3 Toto Lake – ซ่อมแผ่นหิน The Broken Slate",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p4",
+     "label": "#4 Mikau Lake / Pristine Sanctum – รับ King's Scale จาก King Dorephan",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s04-p5",
+     "label": "#5 น้ำตกจากฟ้า – ทางขึ้นไป Water Temple",
+     "where": "ดูหมุดหมายเลข 5 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s04-0",
      "type": "Key",
@@ -422,6 +605,14 @@
     {
      "label": "Zelda Dungeon Wiki: Mucktorok",
      "url": "https://www.zeldadungeon.net/wiki/Mucktorok"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Lanayru_Great_Spring_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Lanayru_Great_Spring_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -441,6 +632,53 @@
       "ไปที่ East Reservoir Lake Sidon จะสร้างน้ำวน กระโดดลงไปใน Ancient Zora Waterworks ระเบิดหินในวงสีเขียวอมฟ้าทุกวงให้น้ำไหล แล้วแตะเครื่องตรงกลาง จะเกิดน้ำตกให้ว่ายขึ้นไปยัง Wellspring Island ค่ะ",
       "ใน Water Temple เปิดก๊อกน้ำ 5 จุดเพื่อล้างโคลน แล้วสู้กับ <b>Mucktorok</b> ชนะแล้ว Sidon จะได้เป็น Sage of Water ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Zora's Domain",
+        "รูปปั้นเปื้อนโคลน พบ Yona"
+       ],
+       [
+        "2",
+        "Mipha Court",
+        "พบ Sidon"
+       ],
+       [
+        "3",
+        "Toto Lake",
+        "ซ่อมแผ่นหิน The Broken Slate"
+       ],
+       [
+        "4",
+        "Mikau Lake / Pristine Sanctum",
+        "รับ King's Scale จาก King Dorephan"
+       ],
+       [
+        "5",
+        "น้ำตกจากฟ้า",
+        "ทางขึ้นไป Water Temple"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ ยกเว้นหมุด 5ที่ยังเป็นตำแหน่งโดยประมาณ อาจคลาดจากจุดจริงเล็กน้อยนะคะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Lanayru_Great_Spring_Map_Area.png\">Zelda Wiki: TotK_Lanayru_Great_Spring_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -463,6 +701,13 @@
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Sidon_of_the_Zora\">Zelda Dungeon Wiki: Sidon of the Zora</a> · <a href=\"https://www.zeldadungeon.net/wiki/Mucktorok\">Zelda Dungeon Wiki: Mucktorok</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s04.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Lanayru_Great_Spring_Map_Area.png)"
+    }
    ]
   },
   {
@@ -476,6 +721,26 @@
     "Marbled Gohma"
    ],
    "items": [
+    {
+     "key": "s05-p1",
+     "label": "#1 Goron City – พบ Bludo และ Yunobo",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s05-p2",
+     "label": "#2 YunoboCo HQ – สู้ Yunobo ที่ถูกควบคุม",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s05-p3",
+     "label": "#3 Bridge of Eldin – ทางไป Death Mountain",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s05-p4",
+     "label": "#4 ปากปล่อง Death Mountain – สู้ Moragia แล้วไป Fire Temple",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s05-0",
      "type": "Sage",
@@ -502,6 +767,14 @@
     {
      "label": "Zelda Dungeon Wiki: Marbled Gohma",
      "url": "https://www.zeldadungeon.net/wiki/Marbled_Gohma"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Death_Mountain_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Death_Mountain_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -520,6 +793,48 @@
       "ใน Fire Temple ปลดล็อก 5 จุดด้วยความช่วยเหลือของ Yunobo แล้วทำลายหินบนเพดาน",
       "สู้กับ <b>Marbled Gohma</b> ชนะแล้ว Yunobo จะได้เป็น Sage of Fire ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Goron City",
+        "พบ Bludo และ Yunobo"
+       ],
+       [
+        "2",
+        "YunoboCo HQ",
+        "สู้ Yunobo ที่ถูกควบคุม"
+       ],
+       [
+        "3",
+        "Bridge of Eldin",
+        "ทางไป Death Mountain"
+       ],
+       [
+        "4",
+        "ปากปล่อง Death Mountain",
+        "สู้ Moragia แล้วไป Fire Temple"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ ยกเว้นหมุด 1–3ที่ยังเป็นตำแหน่งโดยประมาณ อาจคลาดจากจุดจริงเล็กน้อยนะคะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Death_Mountain_Map_Area.png\">Zelda Wiki: TotK_Death_Mountain_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -543,6 +858,13 @@
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Yunobo_of_Goron_City\">Zelda Dungeon Wiki: Yunobo of Goron City</a> · <a href=\"https://www.zeldadungeon.net/wiki/Marbled_Gohma\">Zelda Dungeon Wiki: Marbled Gohma</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s05.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Death_Mountain_Map_Area.png)"
+    }
    ]
   },
   {
@@ -555,6 +877,26 @@
     "Queen Gibdo"
    ],
    "items": [
+    {
+     "key": "s06-p1",
+     "label": "#1 Gerudo Town – พบ Buliara ใน Gerudo Shelter",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p2",
+     "label": "#2 North Gerudo Ruins – ฝึกกับ Riju",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p3",
+     "label": "#3 Kara Kara Bazaar – สู้ฝูง Gibdo",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s06-p4",
+     "label": "#4 Lightning Temple – วิหารสายฟ้า (ทางเข้าอยู่ฝั่งตะวันออกเฉียงเหนือ)",
+     "where": "ดูหมุดหมายเลข 4 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s06-0",
      "type": "Sage",
@@ -582,6 +924,14 @@
     {
      "label": "Zelda Dungeon Wiki: Queen Gibdo",
      "url": "https://www.zeldadungeon.net/wiki/Queen_Gibdo"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Gerudo_Desert_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Gerudo_Desert_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -601,6 +951,48 @@
       "ใช้สายฟ้าของ Riju ทำลายรังใหญ่หน้าวิหาร สู้กับ Queen Gibdo รอบแรกจนมันหนีขึ้นไปบนวิหาร แล้วยิงสายฟ้าเปิดประตูม่วงเข้าไปค่ะ",
       "ในวิหารชาร์จแบตเตอรี่ 4 จุด แล้วขึ้นลิฟต์ไปห้องบอส สู้กับ <b>Queen Gibdo</b> ชนะแล้ว Riju จะได้เป็น Sage of Lightning ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Gerudo Town",
+        "พบ Buliara ใน Gerudo Shelter"
+       ],
+       [
+        "2",
+        "North Gerudo Ruins",
+        "ฝึกกับ Riju"
+       ],
+       [
+        "3",
+        "Kara Kara Bazaar",
+        "สู้ฝูง Gibdo"
+       ],
+       [
+        "4",
+        "Lightning Temple",
+        "วิหารสายฟ้า (ทางเข้าอยู่ฝั่งตะวันออกเฉียงเหนือ)"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Gerudo_Desert_Map_Area.png\">Zelda Wiki: TotK_Gerudo_Desert_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -623,6 +1015,13 @@
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Riju_of_Gerudo_Town\">Zelda Dungeon Wiki: Riju of Gerudo Town</a> · <a href=\"https://www.zeldadungeon.net/wiki/Queen_Gibdo\">Zelda Dungeon Wiki: Queen Gibdo</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s06.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Gerudo_Desert_Map_Area.png)"
+    }
    ]
   },
   {
@@ -634,6 +1033,21 @@
     "Phantom Ganon"
    ],
    "items": [
+    {
+     "key": "s07-p1",
+     "label": "#1 Lookout Landing – กล้องส่องทางไกลของ Purah",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s07-p2",
+     "label": "#2 Hyrule Castle – ไล่ตามเซลด้าไปห้อง Sanctum สู้ Phantom Ganon",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s07-p3",
+     "label": "#3 Kakariko Village – พบ Paya และ Tauro เริ่ม Secret of the Ring Ruins",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s07-0",
      "type": "Key",
@@ -656,6 +1070,18 @@
     {
      "label": "Zelda Dungeon Wiki: Destroy Ganondorf",
      "url": "https://www.zeldadungeon.net/wiki/Destroy_Ganondorf"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Hyrule_Field_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Hyrule_Field_Map_Area.png"
+    },
+    {
+     "label": "Zelda Wiki: TotK_West_Necluda_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_West_Necluda_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -671,6 +1097,43 @@
       "กลับไปรายงาน Purah ที่ Lookout Landing จะได้เควสต์ Find the Fifth Sage",
       "ไปคุยกับ Paya และ Tauro ที่ Kakariko Village เพื่อเริ่มเควสต์ Secret of the Ring Ruins แล้วตามเบาะแสไปยัง Dragonhead Island บนฟ้าเหนือภาค Faron ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Lookout Landing",
+        "กล้องส่องทางไกลของ Purah"
+       ],
+       [
+        "2",
+        "Hyrule Castle",
+        "ไล่ตามเซลด้าไปห้อง Sanctum สู้ Phantom Ganon"
+       ],
+       [
+        "3",
+        "Kakariko Village",
+        "พบ Paya และ Tauro เริ่ม Secret of the Ring Ruins"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Hyrule_Field_Map_Area.png\">Zelda Wiki: TotK_Hyrule_Field_Map_Area.png</a> · <a href=\"https://zeldawiki.wiki/wiki/File:TotK_West_Necluda_Map_Area.png\">Zelda Wiki: TotK_West_Necluda_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -692,6 +1155,18 @@
     {
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Crisis_at_Hyrule_Castle\">Zelda Dungeon Wiki: Crisis at Hyrule Castle</a> · <a href=\"https://www.zeldadungeon.net/wiki/Find_the_Fifth_Sage\">Zelda Dungeon Wiki: Find the Fifth Sage</a> · <a href=\"https://www.zeldadungeon.net/wiki/Destroy_Ganondorf\">Zelda Dungeon Wiki: Destroy Ganondorf</a>",
      "class": "src"
+    }
+   ],
+   "maps": [
+    {
+     "file": "maps/s07.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Hyrule_Field_Map_Area.png)"
+    },
+    {
+     "file": "maps/s07b.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_West_Necluda_Map_Area.png)"
     }
    ]
   },
@@ -767,6 +1242,10 @@
      ]
     },
     {
+     "p": "บทนี้ยังไม่มีแผนที่ เพราะยังหาภาพแผนที่ของชั้นฟ้าหรือ Depths ที่ใช้ได้ไม่เจอค่ะ ดูตำแหน่งได้จากลิงก์ Map Genie ด้านล่างนะคะ",
+     "class": "src"
+    },
+    {
      "h3": "จุดสำคัญ"
     },
     {
@@ -800,6 +1279,21 @@
    ],
    "items": [
     {
+     "key": "s09-p1",
+     "label": "#1 Minshi Woods – ทางลง Depths",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s09-p2",
+     "label": "#2 Korok Forest / Great Deku Tree – สู้ Gloom Spawn และ Phantom Ganon",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s09-p3",
+     "label": "#3 Lost Woods – ป่าหมอกรอบ Korok Forest เข้าไม่ได้จากพื้นดิน",
+     "where": "ดูหมุดหมายเลข 3 บนแผนที่ด้านบนค่ะ"
+    },
+    {
      "key": "s09-0",
      "type": "Key",
      "short": "Master Sword",
@@ -815,6 +1309,14 @@
     {
      "label": "Zelda Dungeon Wiki: Recovering the Hero's Sword",
      "url": "https://www.zeldadungeon.net/wiki/Recovering_the_Hero%27s_Sword"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Great_Hyrule_Forest_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Great_Hyrule_Forest_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -831,6 +1333,43 @@
       "ดูตำแหน่ง Light Dragon บนแผนที่ แล้วยิงตัวขึ้นจาก Skyview Tower ใกล้ๆ ร่อนลงบนหลังมังกร",
       "เดินไปที่หัวมังกรแล้วดึง <b>Master Sword</b> (ต้องมีสตามินาอย่างน้อย 2 วงเต็ม) จะได้ดาบและความทรงจำสุดท้าย Zelda's Wish ค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Minshi Woods",
+        "ทางลง Depths"
+       ],
+       [
+        "2",
+        "Korok Forest / Great Deku Tree",
+        "สู้ Gloom Spawn และ Phantom Ganon"
+       ],
+       [
+        "3",
+        "Lost Woods",
+        "ป่าหมอกรอบ Korok Forest เข้าไม่ได้จากพื้นดิน"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Great_Hyrule_Forest_Map_Area.png\">Zelda Wiki: TotK_Great_Hyrule_Forest_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -853,6 +1392,13 @@
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Trail_of_the_Master_Sword\">Zelda Dungeon Wiki: Trail of the Master Sword</a> · <a href=\"https://www.zeldadungeon.net/wiki/Recovering_the_Hero%27s_Sword\">Zelda Dungeon Wiki: Recovering the Hero's Sword</a>",
      "class": "src"
     }
+   ],
+   "maps": [
+    {
+     "file": "maps/s09.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Great_Hyrule_Forest_Map_Area.png)"
+    }
    ]
   },
   {
@@ -866,6 +1412,16 @@
     "Demon Dragon"
    ],
    "items": [
+    {
+     "key": "s10-p1",
+     "label": "#1 Lookout Landing – รับเควสต์ Destroy Ganondorf",
+     "where": "ดูหมุดหมายเลข 1 บนแผนที่ด้านบนค่ะ"
+    },
+    {
+     "key": "s10-p2",
+     "label": "#2 Hyrule Castle Chasm – กระโดดลงไปใต้ปราสาท",
+     "where": "ดูหมุดหมายเลข 2 บนแผนที่ด้านบนค่ะ"
+    },
     {
      "key": "s10-0",
      "type": "Key",
@@ -887,6 +1443,14 @@
     {
      "label": "IGN: TOTK Walkthrough",
      "url": "https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough"
+    },
+    {
+     "label": "Zelda Wiki: TotK_Hyrule_Field_Map_Area.png",
+     "url": "https://zeldawiki.wiki/wiki/File:TotK_Hyrule_Field_Map_Area.png"
+    },
+    {
+     "label": "Map Genie: แผนที่ Hyrule ของ TOTK",
+     "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
     }
    ],
    "flow": false,
@@ -904,6 +1468,38 @@
       "เดินไปจนสุดทางที่ Gloom's Origin เพื่อเริ่มสู้กับ <b>Demon King Ganondorf</b> (3 ช่วง)",
       "ช่วงสุดท้าย Ganondorf จะกลายเป็น <b>Demon Dragon</b> บนฟ้า ขี่หัว Light Dragon ขึ้นไปแล้วดิ่งลงทำลายจุดเรืองแสง 4 จุดบนหลัง แล้วทำลายหินลับที่หน้าผากเพื่อจบเกมค่ะ"
      ]
+    },
+    {
+     "h3": "รายการหมุดบนแผนที่"
+    },
+    {
+     "table": {
+      "head": [
+       "#",
+       "สถานที่",
+       "สิ่งที่ทำ"
+      ],
+      "rows": [
+       [
+        "1",
+        "Lookout Landing",
+        "รับเควสต์ Destroy Ganondorf"
+       ],
+       [
+        "2",
+        "Hyrule Castle Chasm",
+        "กระโดดลงไปใต้ปราสาท"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ตำแหน่งหมุดเทียบกับ <a href=\"https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule\">แผนที่ Map Genie</a> แล้วค่ะ",
+     "class": "src"
+    },
+    {
+     "p": "ภาพแผนที่จาก: <a href=\"https://zeldawiki.wiki/wiki/File:TotK_Hyrule_Field_Map_Area.png\">Zelda Wiki: TotK_Hyrule_Field_Map_Area.png</a>",
+     "class": "src"
     },
     {
      "h3": "จุดสำคัญ"
@@ -925,6 +1521,13 @@
     {
      "p": "แหล่งข้อมูล: <a href=\"https://www.zeldadungeon.net/wiki/Destroy_Ganondorf\">Zelda Dungeon Wiki: Destroy Ganondorf</a> · <a href=\"https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Walkthrough\">IGN: TOTK Walkthrough</a>",
      "class": "src"
+    }
+   ],
+   "maps": [
+    {
+     "file": "maps/s10.webp",
+     "caption": "แผนที่ภาคนี้ — หมุดเหลือง = จุดสำคัญบนเส้นทางเนื้อเรื่อง (รายการหมุดอยู่ใต้แผนที่)",
+     "credit": "แผนที่จาก Zelda Wiki (TotK_Hyrule_Field_Map_Area.png)"
     }
    ]
   },

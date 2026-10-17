@@ -3,13 +3,13 @@
  "game": "bayonetta3",
  "output": "Bayonetta3_Guide_TH.html",
  "lang": "th",
- "title": "Bayonetta 3 – คู่มือฉบับโซอี้",
- "heading": "🦋 Bayonetta 3 (Switch) – คู่มือเดินด่าน & ของสะสม ฉบับโซอี้",
+ "title": "Bayonetta 3 – คู่มือเดินด่านและของสะสม",
+ "heading": "🦋 Bayonetta 3 (Switch) – คู่มือเดินด่านและของสะสม",
  "storage_key": "b3guide:",
  "footer": "ทำโดยโซอี้ 🎮 · ต.ค. 2026",
  "ui": {
-  "search_placeholder": "ค้นหา เช่น Cat, Record, Ch7…",
-  "empty": "ไม่พบผลลัพธ์ ลองคำอื่นดูนะคะ"
+  "search_placeholder": "ค้นหา เช่น แมว, Record, Ch7…",
+  "empty": "ไม่พบผลลัพธ์ ลองค้นด้วยคำอื่น"
  },
  "types": {
   "Medal": {
@@ -48,7 +48,7 @@
    "color": "#60a5fa"
   },
   "Light": {
-   "label": "Heavenly Light (ด่านท้าทาย→ข้อมูลศัตรู)",
+   "label": "Heavenly Light (ด่านท้าทาย ปลดข้อมูลศัตรู)",
    "short": "Light",
    "color": "#fde047"
   },
@@ -85,11 +85,7 @@
  },
  "intro": [
   {
-   "p": "สวัสดีค่ะพี่บูม หนูโซอี้รวบรวมคู่มือ Bayonetta 3 ให้แล้วนะคะ ✨ ทุกข้อมูลมีลิงก์แหล่งท้ายแต่ละบท อะไรที่แหล่งขัดกันหรือหาไม่เจอ หนูเขียนบอกไว้ตรงๆ ในหัวข้อ <a href=\"#notes\">ข้อขัดแย้ง/ช่องว่าง</a> ค่ะ ติ๊กช่องได้เลย เบราว์เซอร์จะจำไว้ให้ค่ะ"
-  },
-  {
-   "p": "🎮 <b>สำหรับคนเวียนหัวง่าย:</b> ผู้เล่นใน <a href=\"https://www.reddit.com/r/Bayonetta/comments/yorp4r/this_games_camera_is_a_nightmare/\">Reddit</a> แนะนำให้ปรับ <b>Camera Speed</b> ในเมนู,<b>เพิ่มระยะกล้อง (camera distance)</b> ให้ไม่ติดตัวละคร และ<b>ปิด camera tracking</b> เพื่อคุมกล้องเอง — เป็นคำแนะนำจากผู้เล่น ไม่ใช่ข้อมูลทางการนะคะ หนูยังไม่พบตัวเลือกปิด motion blur/screen shake ในเกม (motion blur ปรับได้เฉพาะ Photo Mode) พักทุก 20–30 นาทีด้วยนะคะ 💜",
-   "class": "note"
+   "p": "คู่มือ Bayonetta 3 (Switch) เรียงตามบท ท้ายแต่ละบทมีลิงก์แหล่งข้อมูล จุดที่แหล่งข้อมูลขัดกันหรือยังหาข้อมูลไม่เจอ รวมไว้ในหัวข้อ <a href=\"#notes\">ข้อขัดแย้ง/ช่องว่าง</a> ติ๊กช่องเมื่อเก็บของได้แล้ว เบราว์เซอร์จะจำไว้ให้"
   },
   {
    "h2": "รวมของสะสมที่นับได้ (100% Guides)"
@@ -234,9 +230,9 @@
    ],
    "items": [],
    "tips": [
-    "ด่านนี้ไม่มีของสะสมเลยค่ะ (NL)",
-    "Verse 2 เป็นด่านสอนใช้ Gomorrah — กด R เพื่อกัด (Gripping Bite) Cumulonimbus 3 ครั้งได้ Bewitchment (NL)",
-    "สู้ Kraken (Verse 3): หลบบ่อหมึกรอบตัวมันกับหมึกที่พ่นออกมา แนะนำตีระยะไกลและใช้ Infernal Demon เยอะๆ และให้ Gomorrah ตีหนวดยึดสมอ 5 ครั้งเพื่อ Bewitchment (NL)"
+    "ด่านนี้ไม่มีของสะสม (NL)",
+    "Verse 2 เป็นด่านสอนใช้ Gomorrah: กด R เพื่อกัด (Gripping Bite) Cumulonimbus ครบ 3 ครั้งจะได้ Bewitchment (NL)",
+    "สู้ Kraken (Verse 3): หลบบ่อหมึกรอบตัวมันและหมึกที่มันพ่นออกมา ตีจากระยะไกลและใช้ Infernal Demon บ่อยๆ ให้ Gomorrah ตีหนวดที่ยึดสมอไว้ 5 ครั้งเพื่อรับ Bewitchment (NL)"
    ],
    "sources": [
     {
@@ -262,172 +258,149 @@
     {
      "key": "c1-0",
      "type": "Medal",
-     "where": "มองหาบันไดพังด้านล่าง ลงไปจนสุดแล้วทุบ \"หีบ\" ที่ก้นบันไดเพื่อรับ Medallion Shard ค่ะ",
-     "en": "From the very start, turn around 180º and go to the cliff on your left. Now look for some broken stairs below you. Go to the bottom of them and break the “chest” at the bottom to get the medallion shard.",
+     "where": "จากจุดเริ่มด่าน หันหลัง 180° ไปที่หน้าผาทางซ้าย มองหาบันไดพังด้านล่าง ลงไปจนสุดแล้วทุบ \"หีบ\" ที่ก้นบันไดเพื่อรับ Medallion Shard",
      "short": "จุดเริ่ม หันหลัง 180° ไปหน้าผาซ้าย",
      "backtrack": true
     },
     {
      "key": "c1-1",
      "type": "Fig",
-     "where": "ก่อนเดินขึ้นเนินตามทางหลัก ให้ไปทางซ้ายตรงก่อนถึงทาง แล้วกระโดดลงไปจะเจอกล่องค่ะ",
-     "en": "At the very start, before heading up the hill to continue on the main path, head to the left just before the path and drop down to find the box.",
+     "where": "ก่อนเดินขึ้นเนินตามทางหลัก ให้ไปทางซ้ายก่อนถึงทางขึ้น แล้วกระโดดลงไปจะเจอกล่อง",
      "short": "จุดเริ่ม ก่อนขึ้นเนิน ไปทางซ้ายแล้วกระโดดลง"
     },
     {
      "key": "c1-2",
      "type": "Echo",
-     "where": "หลังเดินขึ้นเนินจากจุดเริ่ม ทำลายกำแพงของอาคารทรงกลมทางขวาค่ะ",
-     "en": "Destroy the wall of the round building to the right after going up the hill from the start.",
+     "where": "หลังเดินขึ้นเนินจากจุดเริ่ม ทำลายกำแพงของอาคารทรงกลมทางขวา",
      "short": "ขึ้นเนินแล้ว ทุบกำแพงอาคารทรงกลมทางขวา"
     },
     {
      "key": "c1-3",
      "type": "Card",
-     "where": "หลังขึ้นเนิน มองไปทางขวาจะเห็นอาคารทรงกลม Card Pack อยู่บนกิ่งไม้อีกฝั่งของอาคารค่ะ",
-     "en": "After going up the hill, look to the right to find a round building.  The card pack will be on a branch the other side.",
+     "where": "หลังขึ้นเนิน มองไปทางขวาจะเห็นอาคารทรงกลม Card Pack อยู่บนกิ่งไม้อีกฝั่งของอาคาร",
      "short": "อาคารทรงกลมทางขวา อยู่บนกิ่งไม้อีกฝั่ง"
     },
     {
      "key": "c1-4",
      "type": "BWH",
-     "where": "หันหลังจากจุด Card Pack เดินเข้าแสงสีม่วงแล้วทำชาเลนจ์ให้ผ่านเพื่อรับ Broken Witch Heart ค่ะ",
-     "en": "From the card pack, turn around and go in to the purple light and finish the challenge to get the Broken Witch Heart.",
+     "where": "หันหลังจากจุด Card Pack เดินเข้าแสงสีม่วงแล้วทำชาเลนจ์ให้ผ่านเพื่อรับ Broken Witch Heart",
      "short": "จาก Card Pack หันหลัง เข้าแสงม่วงทำชาเลนจ์",
      "backtrack": true
     },
     {
      "key": "c1-5",
      "type": "Card",
-     "where": "เดินไปทางน้ำตก กระโดดขึ้นแท่นกลมแท่นแรก แล้วไต่ตามแท่นขึ้นไปจนถึงยอดเพื่อเก็บ Card Pack ค่ะ",
-     "en": "Go towards the waterfall and jump on to the first round platform. Follow the platforms to the top to get the card pack.",
+     "where": "เดินไปทางน้ำตก กระโดดขึ้นแท่นกลมแท่นแรก แล้วไต่ตามแท่นขึ้นไปจนถึงยอดเพื่อเก็บ Card Pack",
      "short": "แท่นกลมใกล้น้ำตก ไต่ขึ้นไปจนสุด"
     },
     {
      "key": "c1-6",
      "type": "BWH",
-     "where": "เดินต่อจนเจอการต่อสู้อีกรอบ จบแล้วชิดซ้ายไปจนสุดทางจะเจอกุญแจยักษ์ ถือกุญแจกลับไปที่ตีนน้ำตกในพื้นที่ก่อนหน้าเพื่อเปิดหีบที่มี Broken Witch Heart ค่ะ",
-     "en": "Continue through the level until you have another battle with enemies. After the battle stick to the left and go to the end to find a massive key. Take this key back to the bottom of the waterfall in the previous area to access the chest with the broken witch heart.",
+     "where": "เดินต่อจนเจอการต่อสู้อีกรอบ จบแล้วชิดซ้ายไปจนสุดทางจะเจอกุญแจยักษ์ ถือกุญแจกลับไปที่ตีนน้ำตกในพื้นที่ก่อนหน้าเพื่อเปิดหีบที่มี Broken Witch Heart",
      "short": "หลังสู้รอบถัดไป ชิดซ้ายเอากุญแจยักษ์",
      "backtrack": true
     },
     {
      "key": "c1-7",
      "type": "แมว",
-     "where": "พอได้ควบคุม Bayonetta ใน Shibuya ให้ไปทางซ้ายที่มีเศษซากใต้ตึก จะเจอแมวดำ จับแมวได้ก็จะได้ Umbran Tear ค่ะ",
-     "en": "Once you take control of Bayonetta in Shibuya, go to the left and where you can find some ruble under a building. Here you will find a black cat. Once you catch the cat you will get the Umbran Tear.",
+     "where": "พอได้ควบคุม Bayonetta ใน Shibuya ให้ไปทางซ้ายที่มีเศษซากใต้ตึก จะเจอแมวดำ จับแมวได้ก็จะได้ Umbran Tear",
      "short": "Shibuya ไปทางซ้าย แมวดำใต้ซากตึก"
     },
     {
      "key": "c1-8",
      "type": "BMP",
-     "where": "จากจุดที่เริ่มควบคุม Bayonetta ใน Shibuya ไปทางขวาแล้วทำชาเลนจ์ให้ผ่านเพื่อรับ Pearl ค่ะ",
-     "en": "From where you start controlling Bayonetta in Shibuya, go to the right and finish the challenge to get the Pearl.",
+     "where": "จากจุดที่เริ่มควบคุม Bayonetta ใน Shibuya ไปทางขวาแล้วทำชาเลนจ์ให้ผ่านเพื่อรับ Pearl",
      "short": "Shibuya ไปทางขวา ทำชาเลนจ์"
     },
     {
      "key": "c1-9",
      "type": "Echo",
-     "where": "จากจุดเริ่ม Shibuya ขึ้นถนนที่สองทางขวา จะเจอศัตรูชนิดใหม่ พอไปถึงตัวมันจะควบคุมการไหลของเวลาได้ ให้ย้อนเวลาจนเศษซากตึกกลายเป็นแท่น แล้วไต่ขึ้นยอดตึกเพื่อเก็บของค่ะ",
-     "en": "From the start of Shibuya, go up the 2nd street to the right. Here you will encounter a new type of enemy. Once you get to the enemy you will be able to control the flow of time. Use it to go back in time up to the point where the rubble from the building form platforms allowing you to get to the top of the building to get the collectible.",
+     "where": "จากจุดเริ่ม Shibuya ขึ้นถนนที่สองทางขวา จะเจอศัตรูชนิดใหม่ พอไปถึงตัวมันจะควบคุมการไหลของเวลาได้ ให้ย้อนเวลาจนเศษซากตึกกลายเป็นแท่น แล้วไต่ขึ้นยอดตึกเพื่อเก็บของ",
      "short": "ถนนที่ 2 ทางขวา ใช้ศัตรูย้อนเวลาสร้างทางขึ้นตึก",
      "backtrack": true
     },
     {
      "key": "c1-10",
      "type": "Fig",
-     "where": "อยู่ทางขวาของศัตรูที่ช่วยเปลี่ยนการไหลของเวลาค่ะ",
-     "en": "To the right of the enemy that allows you to change the flow of time.",
+     "where": "อยู่ทางขวาของศัตรูที่ช่วยเปลี่ยนการไหลของเวลา",
      "short": "ทางขวาของศัตรูที่ควบคุมเวลาได้"
     },
     {
      "key": "c1-11",
      "type": "Fig",
-     "where": "อยู่ในช่วงรถไฟ ทางซ้ายของทางเข้าตึก 101 ค่ะ",
-     "en": "In the train section to the left of the entrance to the 101 tower.",
+     "where": "อยู่ในช่วงรถไฟ ทางซ้ายของทางเข้าตึก 101",
      "short": "ช่วงรถไฟ ทางซ้ายของทางเข้าตึก 101"
     },
     {
      "key": "c1-12",
      "type": "Light",
-     "where": "พอถึงลานนอกตึก 101 กระโดดขึ้นตึกทางซ้าย ไต่ขึ้นที่สูงแล้วร่อนไปตึกอีกฝั่งถนน จะเจอแสง ทำชาเลนจ์ให้ผ่านเพื่อปลดข้อมูล \"Affinity\" ใน \"The Hierarchy Of Laguna\" ค่ะ",
-     "en": "Once you get to the area outside the 101 tower, jump up to the building on your left. Then get to the high part and glide all the way to the building on the other side of the road. Here you will find a light. Complete the challenge to unlock the \"Affinity\" entry in \"The Hierarchy Of Laguna\".",
+     "where": "พอถึงลานนอกตึก 101 กระโดดขึ้นตึกทางซ้าย ไต่ขึ้นที่สูงแล้วร่อนไปตึกอีกฝั่งถนน จะเจอแสง ทำชาเลนจ์ให้ผ่านเพื่อปลดข้อมูล \"Affinity\" ใน \"The Hierarchy Of Laguna\"",
      "short": "นอกตึก 101 ร่อนข้ามถนนไปตึกฝั่งตรงข้าม"
     },
     {
      "key": "c1-13",
      "type": "Card",
-     "where": "อยู่ทางขวาของ Heavenly Light ค่ะ",
-     "en": "To the right of the heavenly light.",
+     "where": "อยู่ทางขวาของ Heavenly Light",
      "short": "ทางขวาของ Heavenly Light"
     },
     {
      "key": "c1-14",
      "type": "Fig",
-     "where": "จากจุดก่อนหน้า กระโดดขึ้นรถไฟที่ลอยอยู่ แล้วไปหลังคาชั้นล่างของตึก 101 ต่อด้วยป้ายโฆษณา แล้วขึ้นยอดตึกเพื่อเก็บของค่ะ",
-     "en": "From the previous collectible, jump on to the floating train. Then jump to the lower roof of the 101 tower. Next jump on to the billboard and then on to the top of the tower to find the collectible.",
+     "where": "จากจุดก่อนหน้า กระโดดขึ้นรถไฟที่ลอยอยู่ แล้วไปหลังคาชั้นล่างของตึก 101 ต่อด้วยป้ายโฆษณา แล้วขึ้นยอดตึกเพื่อเก็บของ",
      "short": "รถไฟลอย → หลังคาตึก 101 → ป้าย → ยอดตึก"
     },
     {
      "key": "c1-15",
      "type": "Card",
-     "where": "กระโดดลงไปที่ทางเข้าตึก 101 แล้วขึ้นบันไดด้านข้างจะเจอ Card Pack ค่ะ",
-     "en": "Jump down to the entrance to of the 101 tower. Now go up the stairs on the side to find the card pack.",
+     "where": "กระโดดลงไปที่ทางเข้าตึก 101 แล้วขึ้นบันไดด้านข้างจะเจอ Card Pack",
      "short": "ลงไปทางเข้าตึก 101 ขึ้นบันไดด้านข้าง"
     },
     {
      "key": "c1-16",
      "type": "คางคก",
-     "where": "พอออกมาอีกฝั่งของตึก 101 จะเจอคางคกบนป้ายกลมทางขวาค่ะ",
-     "en": "After coming out the other side of tower 101 you will find the frog on the round sign to the right.",
+     "where": "พอออกมาอีกฝั่งของตึก 101 จะเจอคางคกบนป้ายกลมทางขวา",
      "short": "ออกอีกฝั่งตึก 101 คางคกบนป้ายกลมทางขวา"
     },
     {
      "key": "c1-17",
      "type": "BWH",
-     "where": "ทำชาเลนจ์ที่อยู่ปลายถนนทางซ้ายของร้านค้าให้ผ่านค่ะ",
-     "en": "Finish the challenge found down the street to the left of the shop.",
+     "where": "ทำชาเลนจ์ที่อยู่ปลายถนนทางซ้ายของร้านค้าให้ผ่าน",
      "short": "ชาเลนจ์ปลายถนนทางซ้ายของร้านค้า"
     },
     {
      "key": "c1-18",
      "type": "Card",
-     "where": "พอเข้าอุโมงค์ท่อระบายน้ำ จะเจอ Card Pack ทางขวาใกล้ๆ จุดเริ่มค่ะ",
-     "en": "Once you get in to the sewer tunnels you will find a card pack on your right close to the start.",
+     "where": "พอเข้าอุโมงค์ท่อระบายน้ำ จะเจอ Card Pack ทางขวาใกล้ๆ จุดเริ่ม",
      "short": "อุโมงค์ท่อระบายน้ำ ทางขวาใกล้จุดเริ่ม"
     },
     {
      "key": "c1-19",
      "type": "อีกา",
-     "where": "เห็นได้ชัดอยู่อีกฝั่งของลานกลมในท่อระบายน้ำ ต้องไล่จับเหมือนตอนจับแมวค่ะ",
-     "en": "In plain sight on the other side of the open round area in the sewers. You will have to chase it like you did with the cat.",
+     "where": "เห็นได้ชัดอยู่อีกฝั่งของลานกลมในท่อระบายน้ำ ต้องไล่จับเหมือนตอนจับแมว",
      "short": "ลานกลมในท่อ อีกาอีกฝั่ง ต้องไล่จับ"
     },
     {
      "key": "c1-20",
      "type": "Fig",
-     "where": "อยู่บนบันไดเหล็กที่ลงไปจากบริเวณที่เจออีกาค่ะ",
-     "en": "On the metal stairs that head down from the area with the bird.",
+     "where": "อยู่บนบันไดเหล็กที่ลงไปจากบริเวณที่เจออีกา",
      "short": "บันไดเหล็กที่ลงจากจุดอีกา"
     },
     {
      "key": "c1-21",
      "type": "Echo",
-     "where": "อยู่ในห้องใหญ่ที่มีเสาในท่อระบายน้ำค่ะ",
-     "en": "In the big room with columns in the sewers.",
+     "where": "อยู่ในห้องใหญ่ที่มีเสาในท่อระบายน้ำ",
      "short": "ห้องใหญ่ที่มีเสาในท่อระบายน้ำ"
     },
     {
      "key": "c1-22",
      "type": "WH",
-     "where": "จับแมลงในกล่องบนรางรถไฟ อันนี้พลาดยากเพราะเกมจะขึ้นสอนให้ค่ะ",
-     "en": "Catch the bug in the box on the train tracks. This one is hard to miss since the game will show you a tutorial.",
+     "where": "จับแมลงในกล่องบนรางรถไฟ อันนี้พลาดยากเพราะเกมจะขึ้นสอนให้",
      "short": "จับแมลงในกล่องบนรางรถไฟ"
     }
    ],
    "tips": [
-    "Pannus: ตีให้ตายโดยไม่ให้มันแยกร่าง = Bewitchment (Bewitchments (fandom))",
-    "Verse 4 อยู่ใน Chaotic Rift — หลังจบเกมมีกุญแจสีน้ำเงินของ Old Picture Book อยู่ที่นี่ (NL)"
+    "Pannus: กำจัดมันให้ได้ก่อนที่มันจะแยกร่าง จะได้ Bewitchment (Bewitchments (fandom))",
+    "Verse 4 อยู่ใน Chaotic Rift หลังจบเกมจะมีกุญแจสีน้ำเงินของ Old Picture Book อยู่ที่นี่ (NL)"
    ],
    "sources": [
     {
@@ -456,127 +429,110 @@
     {
      "key": "c2-0",
      "type": "Light",
-     "where": "เห็นได้ชัดอยู่ทางขวาทันทีที่เริ่มบทค่ะ",
-     "en": "In plain sight to the right as soon as you start the chapter.",
+     "where": "เห็นได้ชัดอยู่ทางขวาทันทีที่เริ่มบท",
      "short": "เห็นชัดทางขวาตอนเริ่มบท"
     },
     {
      "key": "c2-1",
      "type": "Rec",
-     "where": "อยู่ตอนต้นบท บนชานชาลารถไฟแห่งหนึ่งค่ะ",
-     "en": "At the very start of the chapter on one of the train platforms.",
+     "where": "อยู่ตอนต้นบท บนชานชาลารถไฟแห่งหนึ่ง",
      "short": "ต้นบท บนชานชาลารถไฟ"
     },
     {
      "key": "c2-2",
      "type": "Fig",
-     "where": "อยู่ในรถไฟ ฝั่งตรงข้ามกับของชิ้นก่อนหน้าค่ะ",
-     "en": "Inside the train on the opposite side from the previous collectible.",
+     "where": "อยู่ในรถไฟ ฝั่งตรงข้ามกับของชิ้นก่อนหน้า",
      "short": "ในรถไฟ ฝั่งตรงข้ามของชิ้นก่อน"
     },
     {
      "key": "c2-3",
      "type": "BWH",
-     "where": "กระโดดลงลานโล่ง เดินผ่านอาคารทรงกลมจะเห็นหีบกลางถนน เก็บเศษให้ครบเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "Drop down in to the open area and go past the round building. Here you will see a chest in the road. Collect the fragments to get the heart piece.",
+     "where": "กระโดดลงลานโล่ง เดินผ่านอาคารทรงกลมจะเห็นหีบกลางถนน เก็บเศษให้ครบเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ลงลานโล่ง ผ่านอาคารกลม หีบกลางถนน"
     },
     {
      "key": "c2-4",
      "type": "อีกา",
-     "where": "อยู่บนอาคารทรงกลมกลางลานโล่งแรกค่ะ",
-     "en": "On the round building in the center of the first open area.",
+     "where": "อยู่บนอาคารทรงกลมกลางลานโล่งแรก",
      "short": "บนอาคารกลมกลางลานโล่งแรก"
     },
     {
      "key": "c2-5",
      "type": "BWH",
-     "where": "มองหา Scurrier บนตึกทางซ้าย (มองจากจุดที่เจออีกา) แล้วตีมันเพื่อรับ Witch Heart ค่ะ",
-     "en": "Look for a scurrier on the building to your left (from where the crow was). Then hit it to get the witch heart.",
+     "where": "มองหา Scurrier บนตึกทางซ้าย (มองจากจุดที่เจออีกา) แล้วตีมันเพื่อรับ Witch Heart",
      "short": "Scurrier บนตึกซ้าย (จากจุดอีกา)"
     },
     {
      "key": "c2-6",
      "type": "Card",
-     "where": "อยู่ในลานโล่ง ข้างๆ ตึกใหญ่ทางขวาของรถบรรทุกค่ะ (ต้นฉบับพิมพ์ผิดเป็น \"nect\" ซึ่งหมายถึง \"next\" = ข้างๆ)",
-     "en": "In the open area, nect to the big building to the right of the trucks.",
+     "where": "อยู่ในลานโล่ง ข้างตึกใหญ่ทางขวาของรถบรรทุก",
      "short": "ลานโล่ง ข้างตึกใหญ่ทางขวาของรถบรรทุก"
     },
     {
      "key": "c2-7",
      "type": "แมว",
-     "where": "อยู่ข้างรถบรรทุกในลานโล่งแรกค่ะ",
-     "en": "Next to the trucks in the first open area.",
+     "where": "อยู่ข้างรถบรรทุกในลานโล่งแรก",
      "short": "ข้างรถบรรทุกในลานโล่งแรก"
     },
     {
      "key": "c2-8",
      "type": "BMP",
-     "where": "ในลานเดียวกัน ปีนตึกทางขวาของจอยักษ์ ขึ้นไปถึงยอดจะเจอชาเลนจ์หลังป้ายโฆษณา ทำให้ผ่านเพื่อเก็บของค่ะ",
-     "en": "In the same open area, climb the building just to the right of the massive screen. Once at the top you can find a challenge behind the billboards. Finish the challenge to get the collectible.",
+     "where": "ในลานเดียวกัน ปีนตึกทางขวาของจอยักษ์ ขึ้นไปถึงยอดจะเจอชาเลนจ์หลังป้ายโฆษณา ทำให้ผ่านเพื่อเก็บของ",
      "short": "ปีนตึกขวาของจอยักษ์ ชาเลนจ์หลังป้าย"
     },
     {
      "key": "c2-9",
      "type": "BWH",
-     "where": "ใช้ร่างอัญเชิญแมงมุมทุบหีบที่อยู่เหนือเปลวไฟ ข้างตึกทางซ้ายในลานโล่งแรกค่ะ",
-     "en": "Use the spider summon to break the chest above the flames found next to the building to the left in the first open area.",
+     "where": "ใช้ร่างอัญเชิญแมงมุมทุบหีบที่อยู่เหนือเปลวไฟ ข้างตึกทางซ้ายในลานโล่งแรก",
      "short": "ให้แมงมุมทุบหีบเหนือเปลวไฟ"
     },
     {
      "key": "c2-10",
      "type": "BWH",
-     "where": "จากร้านค้า หันหลังกลับไปจุดที่สู้ครั้งก่อน ชิดตึกทางซ้ายจะเจอตรอกที่มีชาเลนจ์ ทำให้ผ่านเพื่อรับ Witch Heart ค่ะ",
-     "en": "From the shop, turn around and head back to where you had the previous fight. Here stick to the building on your left to find an alley with a challenge. Finish the challenge to get the witch heart.",
+     "where": "จากร้านค้า หันหลังกลับไปจุดที่สู้ครั้งก่อน ชิดตึกทางซ้ายจะเจอตรอกที่มีชาเลนจ์ ทำให้ผ่านเพื่อรับ Witch Heart",
      "short": "จากร้านค้าย้อนกลับ ชาเลนจ์ในตรอกซ้าย",
      "backtrack": true
     },
     {
      "key": "c2-11",
      "type": "BWH",
-     "where": "ระหว่างช่วงควบคุมแมงมุม จะเห็นหีบบนลานจอดเฮลิคอปเตอร์ทางขวา ชิ้นส่วนหัวใจอยู่ในหีบค่ะ",
-     "en": "During the section where you control the spider you will see a chest on a helipad to the right. The heart piece is in the chest.",
+     "where": "ระหว่างช่วงควบคุมแมงมุม จะเห็นหีบบนลานจอดเฮลิคอปเตอร์ทางขวา ชิ้นส่วนหัวใจอยู่ในหีบ",
      "short": "ช่วงคุมแมงมุม หีบบนลานจอดฮ. ทางขวา"
     },
     {
      "key": "c2-12",
      "type": "Echo",
-     "where": "ไม่นานหลังลานจอดเฮลิคอปเตอร์ จะเห็นทางด่วนที่ตะแคงอยู่ทางซ้าย ไปจนสุดทางจะเจอของข้างๆ ศัตรูค่ะ",
-     "en": "Soon after the helipad you will see a highway on it’s side to your left. Go to the end of it to find the collectible next to some enemies.",
+     "where": "ไม่นานหลังลานจอดเฮลิคอปเตอร์ จะเห็นทางด่วนที่ตะแคงอยู่ทางซ้าย ไปจนสุดทางจะเจอของข้างๆ ศัตรู",
      "short": "หลังลานจอดฮ. ทางด่วนตะแคงทางซ้าย"
     },
     {
      "key": "c2-13",
      "type": "Fig",
-     "where": "ต่อมาในช่วงแมงมุม จะข้ามตึกที่ล้มเป็น \"สะพาน\" ฟิกเกอร์อยู่ด้านข้างของตึกนั้นค่ะ",
-     "en": "A bit later on during the spider section you will go across a building that makes a \"bridge\" the figure can be found on the side of the building.",
+     "where": "ต่อมาในช่วงแมงมุม จะข้ามตึกที่ล้มเป็น \"สะพาน\" ฟิกเกอร์อยู่ด้านข้างของตึกนั้น",
      "short": "ช่วงแมงมุม ข้างตึกที่เป็น \"สะพาน\""
     },
     {
      "key": "c2-14",
      "type": "Fig",
-     "where": "อยู่ทางซ้ายทันทีที่เข้าลานจอดรถพร้อมแมงมุมค่ะ",
-     "en": "To the left as soon as you get in to the parking lot with the spider.",
+     "where": "อยู่ทางซ้ายทันทีที่เข้าลานจอดรถพร้อมแมงมุม",
      "short": "เข้าลานจอดรถกับแมงมุม ทางซ้าย"
     },
     {
      "key": "c2-15",
      "type": "Fig",
-     "where": "พอจบช่วงแมงมุม หันหลังแล้วตีกล่องบนกองซาก จากนั้นไต่ตามแท่นไปเก็บของค่ะ",
-     "en": "As soon as you finish the spider section, turn around and hit the box on top of the rubble. Then follow the platforms to get the collectible.",
+     "where": "พอจบช่วงแมงมุม หันหลังแล้วตีกล่องบนกองซาก จากนั้นไต่ตามแท่นไปเก็บของ",
      "short": "จบช่วงแมงมุม หันหลังตีกล่องบนซาก",
      "backtrack": true
     },
     {
      "key": "c2-16",
      "type": "คางคก",
-     "where": "พอจบช่วงแมงมุม เดินไปข้างหน้านิดหน่อยแล้วมองกองซากทางซ้ายจะเจอคางคกค่ะ",
-     "en": "As soon as you finish the spider section, head forward a little and look to the rubble on your left to find the frog.",
+     "where": "พอจบช่วงแมงมุม เดินไปข้างหน้านิดหน่อยแล้วมองกองซากทางซ้ายจะเจอคางคก",
      "short": "จบช่วงแมงมุม เดินหน้านิด คางคกบนซากซ้าย"
     }
    ],
    "tips": [
-    "ช่วงขี่ Phantasmaraneae: ใช้ Massive Web หยุด Asperatus 3 ครั้ง = Bewitchment (Bewitchments (fandom))"
+    "ช่วงขี่ Phantasmaraneae: ใช้ Massive Web หยุด Asperatus 3 ครั้งจะได้ Bewitchment (Bewitchments (fandom))"
    ],
    "sources": [
     {
@@ -607,164 +563,141 @@
     {
      "key": "c3-0",
      "type": "Fig",
-     "where": "ที่ปลายแท่นที่สอง (แท่นที่มีต้นไม้ 3 ต้น) กระโดดลงไปจะเจอ Figure Box ค่ะ",
-     "en": "At the end of the second platform (the one with the 3 trees on it) drop down to find the figure box.",
+     "where": "ที่ปลายแท่นที่สอง (แท่นที่มีต้นไม้ 3 ต้น) กระโดดลงไปจะเจอ Figure Box",
      "short": "ปลายแท่นที่ 2 (มีต้นไม้ 3 ต้น) กระโดดลง"
     },
     {
      "key": "c3-1",
      "type": "Light",
-     "where": "จากจุดก่อนหน้า กระโดดไปแท่นทางขวา ทุบสี่เหลี่ยมให้แท่นโผล่ แล้วตามแท่นเข้าไปในถ้ำจะเจอ Heavenly Light ค่ะ",
-     "en": "From the previous collectible, jump across to the platform to the right. Here break the square to get some platforms to spawn. Follow the platforms in to a cave where you will find the heavenly light.",
+     "where": "จากจุดก่อนหน้า กระโดดไปแท่นทางขวา ทุบสี่เหลี่ยมให้แท่นโผล่ แล้วตามแท่นเข้าไปในถ้ำจะเจอ Heavenly Light",
      "short": "แท่นทางขวา ทุบสี่เหลี่ยม ตามแท่นเข้าถ้ำ"
     },
     {
      "key": "c3-2",
      "type": "Fig",
-     "where": "อยู่ในรถไฟ เลยจาก Heavenly Light ก่อนหน้าไปนิดเดียวค่ะ",
-     "en": "Inside the train just past the previous Heavenly light.",
+     "where": "อยู่ในรถไฟ เลยจาก Heavenly Light ก่อนหน้าไปนิดเดียว",
      "short": "ในรถไฟ ถัดจาก Heavenly Light"
     },
     {
      "key": "c3-3",
      "type": "คางคก",
-     "where": "อยู่เลยรถไฟที่เจอของชิ้นก่อนไปนิดเดียวค่ะ",
-     "en": "Just past the train where the previous collectible was found.",
+     "where": "อยู่เลยรถไฟที่เจอของชิ้นก่อนไปนิดเดียว",
      "short": "เลยรถไฟของชิ้นก่อนไปนิด"
     },
     {
      "key": "c3-4",
      "type": "BMP",
-     "where": "กลับไปจุดเริ่มด่าน ไปที่แท่นที่สองที่มีต้นไม้ 3 ต้น จะเห็นหีบลอยไปมาทางซ้าย ทุบเพื่อรับ Moon Pearl ค่ะ",
-     "en": "Return to the start of the level and go to the second platform with the 3 trees on it. Here you will see a chest floating around to your left. Break it to get the Moon Pearl.",
+     "where": "กลับไปจุดเริ่มด่าน ไปที่แท่นที่สองที่มีต้นไม้ 3 ต้น จะเห็นหีบลอยไปมาทางซ้าย ทุบเพื่อรับ Moon Pearl",
      "short": "กลับจุดเริ่ม แท่นต้นไม้ 3 ต้น หีบลอยซ้าย",
      "backtrack": true
     },
     {
      "key": "c3-5",
      "type": "อีกา",
-     "where": "จากหีบก่อนหน้า ขึ้นเนินทางขวาจะเจออีกาค่ะ",
-     "en": "From the previous chest, head up the hill to the right where you will find the crow.",
+     "where": "จากหีบก่อนหน้า ขึ้นเนินทางขวาจะเจออีกา",
      "short": "จากหีบ ขึ้นเนินทางขวา"
     },
     {
      "key": "c3-6",
      "type": "BMP",
-     "where": "จากจุดอีกา ขึ้นไปพื้นที่ถัดไป แล้วกระโดดขึ้นหลังคาตึกทางซ้ายจะเจอชาเลนจ์ค่ะ",
-     "en": "From the crow, head up to the next area. Then jump on to the roof of the building to your left to find the challenge.",
+     "where": "จากจุดอีกา ขึ้นไปพื้นที่ถัดไป แล้วกระโดดขึ้นหลังคาตึกทางซ้ายจะเจอชาเลนจ์",
      "short": "จากอีกาขึ้นไป ชาเลนจ์บนหลังคาซ้าย"
     },
     {
      "key": "c3-7",
      "type": "Echo",
-     "where": "กระโดดลงทางซ้ายของตึกที่ได้ของชิ้นก่อน แล้วไปจนสุดตึก ของอยู่ตรงหัวมุมค่ะ",
-     "en": "Jump off the left side of the building where you got the previous collectible. Then go to the end of the building to find the collectible around the corner.",
+     "where": "กระโดดลงทางซ้ายของตึกที่ได้ของชิ้นก่อน แล้วไปจนสุดตึก ของอยู่ตรงหัวมุม",
      "short": "กระโดดลงซ้ายของตึก เลี้ยวหัวมุมปลายตึก"
     },
     {
      "key": "c3-8",
      "type": "Card",
-     "where": "ไม่นานหลังชิ้นก่อนจะถึงลานโล่งกว้างมาก ที่ปลายลานมี Card Pack ข้างตึกทางขวาค่ะ",
-     "en": "Soon after the previous collectible you will come to a massive open area. At the end of the open area you can find a pack of cards next to the building on the right.",
+     "where": "ไม่นานหลังชิ้นก่อนจะถึงลานโล่งกว้างมาก ที่ปลายลานมี Card Pack ข้างตึกทางขวา",
      "short": "ลานโล่งกว้าง ปลายลาน ข้างตึกขวา"
     },
     {
      "key": "c3-9",
      "type": "Rec",
-     "where": "อยู่ระหว่างตึกฝั่งตรงข้ามถนน ก่อนเดินขึ้นเนินที่เห็นมอนสเตอร์ยักษ์ค่ะ",
-     "en": "Inbetween the buildings on the other side of the street just before going up the hill where you see the massive monster.",
+     "where": "อยู่ระหว่างตึกฝั่งตรงข้ามถนน ก่อนเดินขึ้นเนินที่เห็นมอนสเตอร์ยักษ์",
      "short": "ระหว่างตึกฝั่งตรงข้าม ก่อนขึ้นเนินเจอมอนสเตอร์ยักษ์"
     },
     {
      "key": "c3-10",
      "type": "แมว",
-     "where": "พอขึ้นเนินที่เห็นมอนสเตอร์ยักษ์ จะเห็นแมวข้างตึกยาวทางซ้ายค่ะ",
-     "en": "Just after going up the hill where you see the massive monster you will see the cat next to the long building to your left.",
+     "where": "พอขึ้นเนินที่เห็นมอนสเตอร์ยักษ์ จะเห็นแมวข้างตึกยาวทางซ้าย",
      "short": "ขึ้นเนินแล้ว แมวข้างตึกยาวซ้าย"
     },
     {
      "key": "c3-11",
      "type": "BWH",
-     "where": "ไปจนสุดตึกยาวที่เห็นแมวครั้งแรก แล้วมองหลังตึกทางขวาจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "Go to the end of the long building where you first see the cat. Then look behind the buildings to your right to find a challange. Finish the challenge to get the heart piece.",
+     "where": "ไปจนสุดตึกยาวที่เห็นแมวครั้งแรก แล้วมองหลังตึกทางขวาจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ปลายตึกยาว ชาเลนจ์หลังตึกขวา"
     },
     {
      "key": "c3-12",
      "type": "BWH",
-     "where": "จากชาเลนจ์ก่อนหน้า ย้อนผ่านตึกเล็กๆ แล้วเดินตรงไปจะเจอหีบ เปิดแล้วมีศัตรูออกมา ล้มมันเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "From the previous challenge, head back through the small buildings and then go straight to find a chest. Open the chest to reveal an enemy. Deaft it to get the heart piece.",
+     "where": "จากชาเลนจ์ก่อนหน้า ย้อนผ่านตึกเล็กๆ แล้วเดินตรงไปจะเจอหีบ เปิดแล้วมีศัตรูออกมา ล้มมันเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ย้อนผ่านตึกเล็ก เดินตรง หีบมีศัตรู"
     },
     {
      "key": "c3-13",
      "type": "BWH",
-     "where": "กระโดดขึ้นหลังคาตึกทางซ้าย (มองจากหีบก่อนหน้า) จะเจอ Scurrier ฆ่ามันเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "Jump up to the roof of the building to your left (from the previous chest). Here you will find a scurrier. Kill it to get the heart piece.",
+     "where": "กระโดดขึ้นหลังคาตึกทางซ้าย (มองจากหีบก่อนหน้า) จะเจอ Scurrier ฆ่ามันเพื่อรับชิ้นส่วนหัวใจ",
      "short": "หลังคาตึกซ้าย (จากหีบ) Scurrier"
     },
     {
      "key": "c3-14",
      "type": "Fig",
-     "where": "อยู่ที่มุมหลังเต็นท์ทางซ้าย ทันทีที่เข้าพื้นที่บอสค่ะ",
-     "en": "In the corner behind the tents on your left as soon as you enter the boss area.",
+     "where": "อยู่ที่มุมหลังเต็นท์ทางซ้าย ทันทีที่เข้าพื้นที่บอส",
      "short": "เข้าสนามบอส มุมหลังเต็นท์ซ้าย"
     },
     {
      "key": "c3-15",
      "type": "Fig",
-     "where": "อยู่ที่มุมถัดไปจากชิ้นก่อน ถ้าเดินวนพื้นที่ตามเข็มนาฬิกาค่ะ",
-     "en": "Found in the next corner after the previous collectible if you go around the area clockwise.",
+     "where": "อยู่ที่มุมถัดไปจากชิ้นก่อน ถ้าเดินวนพื้นที่ตามเข็มนาฬิกา",
      "short": "มุมถัดไป (เดินตามเข็มนาฬิกา)"
     },
     {
      "key": "c3-16",
      "type": "Echo",
-     "where": "ในพื้นที่สู้บอส กระโดดขึ้นทางขวาแล้วใช้ศัตรูย้อนเวลา ย้อนประมาณครึ่งทางให้ชิ้นส่วนสะพานพังกลายเป็นแท่น แล้วไต่ขึ้นไปเก็บของด้านบนค่ะ",
-     "en": "In the area where you fight the boss, jump up to the right and use the enemy to rewind time. Go back in time about half way so that the parts of the broken bridge make platforms that you can jump up to get the collectible on top.",
+     "where": "ในพื้นที่สู้บอส กระโดดขึ้นทางขวาแล้วใช้ศัตรูย้อนเวลา ย้อนประมาณครึ่งทางให้ชิ้นส่วนสะพานพังกลายเป็นแท่น แล้วไต่ขึ้นไปเก็บของด้านบน",
      "short": "สนามบอส ขึ้นขวา ย้อนเวลาครึ่งทาง",
      "backtrack": true
     },
     {
      "key": "c3-17",
      "type": "BWH",
-     "where": "ในพื้นที่สู้บอสจะเห็นหีบอยู่อีกฝั่งของม่านหมอก ให้อัญเชิญ demon แล้วสั่งตีหีบ โดยยืนชิดกำแพงหมอกให้มากที่สุดค่ะ",
-     "en": "In the area where you fight the boss, you will see a chest on the other side of the mist. To get it, use a summon and get him/her to attack the chest while standing as close to the mist wall as possible.",
+     "where": "ในพื้นที่สู้บอสจะเห็นหีบอยู่อีกฝั่งของม่านหมอก ให้อัญเชิญ demon แล้วสั่งตีหีบ โดยยืนชิดกำแพงหมอกให้มากที่สุด",
      "short": "สนามบอส หีบหลังหมอก ให้ demon ตี"
     },
     {
      "key": "c3-18",
      "type": "BWH",
-     "where": "อยู่ในหีบทางซ้ายของตึก ก่อนถึงร้านค้าค่ะ",
-     "en": "In a chest to the left of the building just before you reach the shop.",
+     "where": "อยู่ในหีบทางซ้ายของตึก ก่อนถึงร้านค้า",
      "short": "หีบซ้ายของตึก ก่อนถึงร้านค้า"
     },
     {
      "key": "c3-19",
      "type": "Card",
-     "where": "อยู่หลังเต็นท์ข้างร้านค้าค่ะ",
-     "en": "Behind the tents next to the shop.",
+     "where": "อยู่หลังเต็นท์ข้างร้านค้า",
      "short": "หลังเต็นท์ข้างร้านค้า"
     },
     {
      "key": "c3-20",
      "type": "Card",
-     "where": "อยู่บนตึกหนึ่งทางซ้าย ไม่นานหลังเริ่มช่วงที่เล่นเป็นตัวละครใหม่บนหลังคาค่ะ",
-     "en": "On one of the buildings to the left soon after starting the section with the new character in the rooftops.",
+     "where": "อยู่บนตึกหนึ่งทางซ้าย ไม่นานหลังเริ่มช่วงที่เล่นเป็นตัวละครใหม่บนหลังคา",
      "short": "ช่วงตัวละครใหม่บนหลังคา ตึกซ้าย"
     },
     {
      "key": "c3-21",
      "type": "Fig",
-     "where": "หลังคัตซีนในช่วงวิ่งหนีหมอก จะเห็นของชัดๆ อยู่บนภาพจิตรกรรมฝาผนังสไตล์ตะวันออกค่ะ",
-     "en": "After a cutscene during the section where you are running from the mist, you can find the collectible in plain sight on an oriental looking mural.",
+     "where": "หลังคัตซีนในช่วงวิ่งหนีหมอก จะเห็นของชัดๆ อยู่บนภาพจิตรกรรมฝาผนังสไตล์ตะวันออก",
      "short": "ช่วงหนีหมอก หลังคัตซีน บนภาพจิตรกรรมแนวตะวันออก"
     },
     {
      "key": "c3-22",
      "type": "Fig",
-     "where": "หลังผ่านตึกสไตล์ตะวันออกจะกระโดดข้ามตึกระฟ้า ชิดซ้ายไว้จะเจอของหลังสิ่งก่อสร้างเล็กๆ บนหลังคาค่ะ",
-     "en": "After the oriental buildings you will jump across some skyscrapers. Keep to the left and you will find the collectible behind a little structure on a roof.",
+     "where": "หลังผ่านตึกสไตล์ตะวันออกจะกระโดดข้ามตึกระฟ้า ชิดซ้ายไว้จะเจอของหลังสิ่งก่อสร้างเล็กๆ บนหลังคา",
      "short": "ข้ามตึกระฟ้า ชิดซ้าย หลังสิ่งก่อสร้างบนหลังคา"
     }
    ],
@@ -799,29 +732,25 @@
     {
      "key": "s1-0",
      "type": "Echo",
-     "where": "ทันทีที่กระโดดลงหลุมหลังศัตรูตัวใหญ่ ให้ไปทางซ้ายในน้ำจะเจอของค่ะ",
-     "en": "As soon as you drop down the hole behind the big enemy, go to the left in the water to find the collectible.",
+     "where": "ทันทีที่กระโดดลงหลุมหลังศัตรูตัวใหญ่ ให้ไปทางซ้ายในน้ำจะเจอของ",
      "short": "ลงหลุมหลังศัตรูยักษ์ ไปซ้ายในน้ำ"
     },
     {
      "key": "s1-1",
      "type": "Echo",
-     "where": "จากชิ้นก่อน ลงตรงไปแล้วเลี้ยวซ้ายจะเจอทางน้ำลับ (นับเป็นชาเลนจ์ด้วย) ของอยู่ด้านล่างค่ะ",
-     "en": "Go straight down from the previous collectible and go left to find the secret water passage (this is also a challenge). Down here you will find the collectible.",
+     "where": "จากชิ้นก่อน ลงตรงไปแล้วเลี้ยวซ้ายจะเจอทางน้ำลับ (นับเป็นชาเลนจ์ด้วย) ของอยู่ด้านล่าง",
      "short": "ลงตรงต่อ ไปซ้าย ทางน้ำลับ"
     },
     {
      "key": "s1-2",
      "type": "Fig",
-     "where": "หลังขึ้นจากน้ำและกดสวิตช์ให้กล่องเลื่อนมาให้ปีน ขึ้นไป 2 ชั้นแล้วไปทางซ้ายที่มีเลเซอร์ ใช้ช่องระบายอากาศไปเก็บของค่ะ",
-     "en": "After getting out of the water and using a switch that moves some boxes that you can climb up, go up 2 floors and go left where the lasers are. Use the vents to get to the collectible.",
+     "where": "หลังขึ้นจากน้ำและกดสวิตช์ให้กล่องเลื่อนมาให้ปีน ขึ้นไป 2 ชั้นแล้วไปทางซ้ายที่มีเลเซอร์ ใช้ช่องระบายอากาศไปเก็บของ",
      "short": "ขึ้น 2 ชั้น ไปซ้ายโซนเลเซอร์ ใช้ช่องลม"
     },
     {
      "key": "s1-3",
      "type": "Fig",
-     "where": "หลังทุบกล่องบนเพดานเพื่อปิดเลเซอร์ (ไม่นานหลังชิ้นก่อน) ใช้ลิฟต์ลงไป 2 ชั้นจะเจอของชิ้นสุดท้ายค่ะ",
-     "en": "After breaking a box on the ceiling to disable some lasers (soon after the previous collectible), use the lift to go down 2 floors where you will find the final collectible.",
+     "where": "หลังทุบกล่องบนเพดานเพื่อปิดเลเซอร์ (ไม่นานหลังชิ้นก่อน) ใช้ลิฟต์ลงไป 2 ชั้นจะเจอของชิ้นสุดท้าย",
      "short": "ปิดเลเซอร์ แล้วลงลิฟต์ 2 ชั้น"
     }
    ],
@@ -858,241 +787,208 @@
     {
      "key": "c4-0",
      "type": "Card",
-     "where": "จากจุดเริ่มด่าน ชิดขวาไว้จนเจอทางขึ้นระหว่างภูเขา จะเจอของชิ้นแรกของด่านค่ะ",
-     "en": "From the start of the level, stick to the right until you can go up a path inbetween the mountains. here you will find the first collectible of the level.",
+     "where": "จากจุดเริ่มด่าน ชิดขวาไว้จนเจอทางขึ้นระหว่างภูเขา จะเจอของชิ้นแรกของด่าน",
      "short": "จุดเริ่ม ชิดขวา ขึ้นทางระหว่างภูเขา"
     },
     {
      "key": "c4-1",
      "type": "BWH",
-     "where": "จากชิ้นก่อน กลับมาทางหลักแล้วชิดซ้ายจนเห็นหีบ เปิดใช้งานแล้วเก็บเศษให้ครบเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "From the previous collectible go back to the main path. Here stick to the left until you see a chest. Activate it and collect all the fragmentes to get the heart piece.",
+     "where": "จากชิ้นก่อน กลับมาทางหลักแล้วชิดซ้ายจนเห็นหีบ เปิดใช้งานแล้วเก็บเศษให้ครบเพื่อรับชิ้นส่วนหัวใจ",
      "short": "กลับทางหลัก ชิดซ้าย หีบเก็บเศษ",
      "backtrack": true
     },
     {
      "key": "c4-2",
      "type": "Card",
-     "where": "หลังกระโดดข้ามสะพานพัง (ไม่นานหลังชิ้นก่อน) ลงทางซ้ายไปจะเจอ Card Pack ด้านล่างค่ะ",
-     "en": "After jumping across the broken bridge soon after the previous collectible, go down the path on your left to find a card pack at the bottom.",
+     "where": "หลังกระโดดข้ามสะพานพัง (ไม่นานหลังชิ้นก่อน) ลงทางซ้ายไปจะเจอ Card Pack ด้านล่าง",
      "short": "ข้ามสะพานพัง ลงทางซ้ายจนสุด"
     },
     {
      "key": "c4-3",
      "type": "BWH",
-     "where": "อยู่ในหีบที่อยู่ใต้ Card Pack ชิ้นก่อนพอดีค่ะ",
-     "en": "In the chest just below the previous card pack.",
+     "where": "อยู่ในหีบที่อยู่ใต้ Card Pack ชิ้นก่อนพอดี",
      "short": "หีบใต้ Card Pack ชิ้นก่อน"
     },
     {
      "key": "c4-4",
      "type": "BMP",
-     "where": "เดินต่อจะเห็นผนึกทางขวา (จำไว้) แล้วขึ้นลิฟต์ ด้านบนไปทางซ้ายอ้อมต้นไม้บนหินจะเจอกุญแจอีกฝั่ง ถือกลับมาเปิดผนึก ข้างในมีหีบที่มีของค่ะ",
-     "en": "Continue forward after the previous collectible where you will see a seal to your right (remember this). Then go up the elevator. At the top go left and around the tree on a rock to find a key on the other side. Now go back to the seal that you can now open with the key to find a chest containing the collectible.",
+     "where": "เดินต่อจะเห็นผนึกทางขวา (จำไว้) แล้วขึ้นลิฟต์ ด้านบนไปทางซ้ายอ้อมต้นไม้บนหินจะเจอกุญแจอีกฝั่ง ถือกลับมาเปิดผนึก ข้างในมีหีบที่มีของ",
      "short": "ผนึกทางขวา → ลิฟต์ → กุญแจหลังต้นไม้ → กลับมาเปิด",
      "backtrack": true
     },
     {
      "key": "c4-5",
      "type": "Echo",
-     "where": "อยู่บนต้นไม้บนก้อนหินที่ได้กุญแจเปิดผนึกค่ะ",
-     "en": "Found on the tree on the rock where you got the key to open the seal.",
+     "where": "อยู่บนต้นไม้บนก้อนหินที่ได้กุญแจเปิดผนึก",
      "short": "บนต้นไม้บนหินที่ได้กุญแจ"
     },
     {
      "key": "c4-6",
      "type": "Fig",
-     "where": "ทุบซากปรักหักพังใต้ต้นไม้ที่เจอของชิ้นก่อนค่ะ",
-     "en": "Break the ruin under the tree where the previous collectible was.",
+     "where": "ทุบซากปรักหักพังใต้ต้นไม้ที่เจอของชิ้นก่อน",
      "short": "ทุบซากใต้ต้นไม้เดิม"
     },
     {
      "key": "c4-7",
      "type": "Medal",
-     "where": "ในพื้นที่เดียวกัน (หลังสะพานพัง) จะเห็นเสา 2 ต้น ต้นหนึ่งมีรูปพระจันทร์ อีกต้นรูปพระอาทิตย์ ขึ้นทางซ้ายของเสาแล้วกระโดดไปแท่นทางขวา ทำลายโครงหินเพื่อรับเหรียญตราค่ะ",
-     "en": "In the area where you got the previous collectible (just after the broken bridge) you will see 2 columns, 1 with a moon and 1 with a sun. Here go up the path on the left of the columns and jump across the the platform on the right to get the medallion by destroying the rocky structure.",
+     "where": "ในพื้นที่เดียวกัน (หลังสะพานพัง) จะเห็นเสา 2 ต้น ต้นหนึ่งมีรูปพระจันทร์ อีกต้นรูปพระอาทิตย์ ขึ้นทางซ้ายของเสาแล้วกระโดดไปแท่นทางขวา ทำลายโครงหินเพื่อรับเหรียญตรา",
      "short": "เสาพระจันทร์/พระอาทิตย์ ขึ้นซ้าย กระโดดไปแท่นขวา"
     },
     {
      "key": "c4-8",
      "type": "BWH",
-     "where": "จากชิ้นก่อน กระโดดกลับอีกฝั่งแล้วเดินตรงไปทางทะเล จะเจอหีบลอย ทำลายเพื่อรับของค่ะ",
-     "en": "From the previous collectible, jump back across to the other side and continue straight (towards the sea). Here you will find a floating chest. Destroy it to get the collectible.",
+     "where": "จากชิ้นก่อน กระโดดกลับอีกฝั่งแล้วเดินตรงไปทางทะเล จะเจอหีบลอย ทำลายเพื่อรับของ",
      "short": "กระโดดกลับ เดินตรงไปทางทะเล หีบลอย"
     },
     {
      "key": "c4-9",
      "type": "BWH",
-     "where": "หลังผ่านประตูสีฟ้าที่ต้องให้ demon ตี จะเห็นวงดอกไม้ข้างหน้าทางขวา เก็บดอกไม้ให้ Scurrier โผล่ ตีมันเพื่อรับเศษหัวใจค่ะ",
-     "en": "After going through the blue door that you have to hit with your summons, you will see a circle of flowers in front of you to the right. Get them to get a Scurrier to spawn. Hit it to get the broken heart piece.",
+     "where": "หลังผ่านประตูสีฟ้าที่ต้องให้ demon ตี จะเห็นวงดอกไม้ข้างหน้าทางขวา เก็บดอกไม้ให้ Scurrier โผล่ ตีมันเพื่อรับเศษหัวใจ",
      "short": "หลังประตูฟ้า วงดอกไม้ขวา → Scurrier"
     },
     {
      "key": "c4-10",
      "type": "Fig",
-     "where": "อยู่บนแท่นที่อยู่เหนือชิ้นก่อนพอดีค่ะ",
-     "en": "Found on the platform just above the previous collectible.",
+     "where": "อยู่บนแท่นที่อยู่เหนือชิ้นก่อนพอดี",
      "short": "แท่นเหนือชิ้นก่อน"
     },
     {
      "key": "c4-11",
      "type": "Fig",
-     "where": "พอถึงกำแพงเชิงเทินของปราสาท ให้ลงทางซ้ายหลังเครื่องยิงหินตัวที่สอง (ตัวที่พัง) จะเจอของด้านล่างค่ะ",
-     "en": "Once you get to the castle rampart drop off to the left just after the 2nd trebuchet (the broken one) to find the collectible below.",
+     "where": "พอถึงกำแพงเชิงเทินของปราสาท ให้ลงทางซ้ายหลังเครื่องยิงหินตัวที่สอง (ตัวที่พัง) จะเจอของด้านล่าง",
      "short": "กำแพงปราสาท ลงซ้ายหลังเครื่องยิงหินตัวที่ 2"
     },
     {
      "key": "c4-12",
      "type": "BWH",
-     "where": "ในพื้นที่ที่ต้องสู้กับศัตรู (หลังชิ้นก่อน) กระโดดขึ้นหอคอยทางซ้าย ชิ้นส่วนหัวใจอยู่ในหีบค่ะ",
-     "en": "In the area where you have to fight some enemies (just after the previous collectible), jump up to the tower on the left to find the heart piece in the chest.",
+     "where": "ในพื้นที่ที่ต้องสู้กับศัตรู (หลังชิ้นก่อน) กระโดดขึ้นหอคอยทางซ้าย ชิ้นส่วนหัวใจอยู่ในหีบ",
      "short": "พื้นที่สู้ ขึ้นหอคอยซ้าย หีบ"
     },
     {
      "key": "c4-13",
      "type": "Card",
-     "where": "จากหีบ อ้อมไปทางซ้ายของประตู แล้วที่ปลายกำแพงกระโดดขึ้นหอคอยจะเจอของค่ะ",
-     "en": "From the chest, go around the left side of the gate. Then at the end of the wall jump up to the tower where you will find the collectible.",
+     "where": "จากหีบ อ้อมไปทางซ้ายของประตู แล้วที่ปลายกำแพงกระโดดขึ้นหอคอยจะเจอของ",
      "short": "อ้อมซ้ายของประตู ขึ้นหอคอยปลายกำแพง"
     },
     {
      "key": "c4-14",
      "type": "Echo",
-     "where": "ในพื้นที่เดียวกัน กระโดดขึ้นกำแพงทางขวาของประตูที่ใช้ไปต่อค่ะ",
-     "en": "In the same area as the previous collectible, jump up to the wall to the right of the gate that you would use to continue.",
+     "where": "ในพื้นที่เดียวกัน กระโดดขึ้นกำแพงทางขวาของประตูที่ใช้ไปต่อ",
      "short": "กำแพงขวาของประตูทางไปต่อ"
     },
     {
      "key": "c4-15",
      "type": "อีกา",
-     "where": "พอถึงกำแพงปราสาท (หลังเชิงเทินถล่มใต้เท้า) ไปทางซ้ายแล้วปีนอ้อมด้านข้างด้วยแท่นไม้ ถึงด้านบนมองขวาจะเจออีกาค่ะ",
-     "en": "Once you get to the castle walls (just after the rampart collapses below you), go left and climb around the side using the wooden platforms. At the top look right to find the crow.",
+     "where": "พอถึงกำแพงปราสาท (หลังเชิงเทินถล่มใต้เท้า) ไปทางซ้ายแล้วปีนอ้อมด้านข้างด้วยแท่นไม้ ถึงด้านบนมองขวาจะเจออีกา",
      "short": "กำแพงปราสาท ไปซ้าย ปีนแท่นไม้ มองขวา"
     },
     {
      "key": "c4-16",
      "type": "BMP",
-     "where": "จากจุดอีกา อ้อมหอคอยทวนเข็มนาฬิกาจะเจอหีบ ตีแล้วเก็บเศษเพื่อรับ Pearl ค่ะ",
-     "en": "From the crowm, continue around the tower anti-clockwise to find a chest. Hit it and collect the fragments to get the pearl.",
+     "where": "จากจุดอีกา อ้อมหอคอยทวนเข็มนาฬิกาจะเจอหีบ ตีแล้วเก็บเศษเพื่อรับ Pearl",
      "short": "จากอีกา อ้อมหอคอยทวนเข็ม หีบเก็บเศษ"
     },
     {
      "key": "c4-17",
      "type": "Fig",
-     "where": "เห็นได้ชัดในพื้นที่เหนือหีบก่อนหน้าค่ะ",
-     "en": "In plain sight in the area above the previous chest.",
+     "where": "เห็นได้ชัดในพื้นที่เหนือหีบก่อนหน้า",
      "short": "เห็นชัดเหนือหีบก่อน"
     },
     {
      "key": "c4-18",
      "type": "Fig",
-     "where": "อยู่บนยอดหอคอยในพื้นที่เดียวกัน ขึ้นได้ด้วยแท่นไม้จากจุดที่เจออีกาค่ะ",
-     "en": "On top of the tower in the same area as the previous collectibles. You can get up there by using the wooden platforms from where the crow was.",
+     "where": "อยู่บนยอดหอคอยในพื้นที่เดียวกัน ขึ้นได้ด้วยแท่นไม้จากจุดที่เจออีกา",
      "short": "ยอดหอคอยเดิม ขึ้นจากแท่นไม้ตรงอีกา"
     },
     {
      "key": "c4-19",
      "type": "BMP",
-     "where": "พอเข้าในกำแพงปราสาทที่มีลาวาทางขวา ลอดรูบนกำแพงจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับ Moon Shard ค่ะ",
-     "en": "Once you get inside the castle walls with the lava on your right. Go through the hole in the wall to find a challenge. Finish the challenge to get the Moon Shard.",
+     "where": "พอเข้าในกำแพงปราสาทที่มีลาวาทางขวา ลอดรูบนกำแพงจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับ Moon Shard",
      "short": "ในกำแพงปราสาท ลาวาขวา ลอดรูกำแพง"
     },
     {
      "key": "c4-20",
      "type": "BWH",
-     "where": "ทันทีหลังสู้บอสกับร่างอัญเชิญรถไฟ จะอยู่บนเชิงเทินอีกช่วง กระโดดไปทางขวาจะเจอหีบที่มีชิ้นส่วน Witch Heart ค่ะ",
-     "en": "Straight after the boss fight with the train summon you will be on another section of the ramparts. Here jump across to the right where you will find a chest to the right. The chest contains the witch heart piece.",
+     "where": "ทันทีหลังสู้บอสกับร่างอัญเชิญรถไฟ จะอยู่บนเชิงเทินอีกช่วง กระโดดไปทางขวาจะเจอหีบที่มีชิ้นส่วน Witch Heart",
      "short": "หลังบอสรถไฟ กระโดดขวา หีบ"
     },
     {
      "key": "c4-21",
      "type": "Card",
-     "where": "อยู่บนแท่นเหนือชิ้นก่อนหน้าค่ะ",
-     "en": "On top of the platform above the previous collectible.",
+     "where": "อยู่บนแท่นเหนือชิ้นก่อนหน้า",
      "short": "บนแท่นเหนือชิ้นก่อน"
     },
     {
      "key": "c4-22",
      "type": "แมว",
-     "where": "อยู่ใต้ Card Pack ชิ้นก่อน ทำให้บันไดล้มแล้วไล่แมวตามเข็มนาฬิกา จนมันลงจากบันไดก็จับได้ค่ะ",
-     "en": "Just below the previous card pack. Knock the ladder down and the chase the cat around clockwise until he/she goes of the ladder where you will be able to catch it.",
+     "where": "อยู่ใต้ Card Pack ชิ้นก่อน ทำให้บันไดล้มแล้วไล่แมวตามเข็มนาฬิกา จนมันลงจากบันไดก็จับได้",
      "short": "ใต้ Card Pack ล้มบันได ไล่ตามเข็ม"
     },
     {
      "key": "c4-23",
      "type": "BMP",
-     "where": "จากจุดแมว กลับไปที่เชิงเทินแล้วกระโดดข้ามหอคอยฝั่งตรงข้าม ปลายทางตีหีบแล้วเก็บเศษค่ะ",
-     "en": "From the cat, go back to the ramparts and jump across the towers on the opposite side. At the end hit the chest and collect the fragments.",
+     "where": "จากจุดแมว กลับไปที่เชิงเทินแล้วกระโดดข้ามหอคอยฝั่งตรงข้าม ปลายทางตีหีบแล้วเก็บเศษ",
      "short": "กลับเชิงเทิน ข้ามหอคอยฝั่งตรงข้าม หีบ",
      "backtrack": true
     },
     {
      "key": "c4-24",
      "type": "คางคก",
-     "where": "อยู่หลังประตูทางซ้ายของเชิงเทิน ถัดจากชิ้นก่อนค่ะ",
-     "en": "Behind the door on the left of the rampart just after the previous collectible.",
+     "where": "อยู่หลังประตูทางซ้ายของเชิงเทิน ถัดจากชิ้นก่อน",
      "short": "หลังประตูซ้ายของเชิงเทิน"
     },
     {
      "key": "c4-25",
      "type": "Fig",
-     "where": "เห็นได้ชัดบนลาวาทางขวา ทันทีหลังชิ้นก่อนค่ะ",
-     "en": "On the lava to your right in plain sight straight after the previous collectible.",
+     "where": "เห็นได้ชัดบนลาวาทางขวา ทันทีหลังชิ้นก่อน",
      "short": "บนลาวาทางขวา เห็นชัด"
     },
     {
      "key": "c4-26",
      "type": "Echo",
-     "where": "ไม่นานหลังชิ้นก่อนต้องสู้กับกลุ่มศัตรู แล้วกระโดดขึ้นหอคอยทางขวา ตีสี่เหลี่ยมให้แท่นโผล่เพื่อไปเก็บของค่ะ",
-     "en": "Soon after the previous collectible, you will have to fight a group of enemies. Here jump up to the tower on the right and hit the square to spawn some platforms allowing you to get to the collectible.",
+     "where": "ไม่นานหลังชิ้นก่อนต้องสู้กับกลุ่มศัตรู แล้วกระโดดขึ้นหอคอยทางขวา ตีสี่เหลี่ยมให้แท่นโผล่เพื่อไปเก็บของ",
      "short": "หลังสู้กลุ่มศัตรู ขึ้นหอคอยขวา ตีสี่เหลี่ยม"
     },
     {
      "key": "c4-27",
      "type": "Light",
-     "where": "เห็นได้ชัดที่ปลายกำแพงพังหลังชิ้นก่อนค่ะ",
-     "en": "In plain sight at the end of the broken wall after the previous collectible.",
+     "where": "เห็นได้ชัดที่ปลายกำแพงพังหลังชิ้นก่อน",
      "short": "ปลายกำแพงพัง เห็นชัด"
     },
     {
      "key": "c4-28",
      "type": "Fig",
-     "where": "อยู่บนหลังคาตรงหน้าในพื้นที่ที่มี Heavenly Light ค่ะ",
-     "en": "On the roof straight in front of you in the area with the Heavenly Light.",
+     "where": "อยู่บนหลังคาตรงหน้าในพื้นที่ที่มี Heavenly Light",
      "short": "หลังคาตรงหน้า ในโซน Heavenly Light"
     },
     {
      "key": "c4-29",
      "type": "BWH",
-     "where": "ทำชาเลนจ์สีม่วงในพื้นที่ด้านหลังร้านค้าให้ผ่านค่ะ",
-     "en": "Finish the purple challenge in the area just behind the shop.",
+     "where": "ทำชาเลนจ์สีม่วงในพื้นที่ด้านหลังร้านค้าให้ผ่าน",
      "short": "ชาเลนจ์ม่วงหลังร้านค้า"
     },
     {
      "key": "c4-30",
      "type": "Echo",
-     "where": "อยู่บนหอคอยทางซ้ายที่มีพ็อดซึ่งต้องใช้รถไฟทำลายค่ะ",
-     "en": "On the left tower where the pods are that you have to destroy with the train.",
+     "where": "อยู่บนหอคอยทางซ้ายที่มีพ็อดซึ่งต้องใช้รถไฟทำลาย",
      "short": "หอคอยซ้ายที่มีพ็อดให้รถไฟทำลาย"
     },
     {
      "key": "c4-31",
      "type": "BWH",
-     "where": "ไม่นานหลังชิ้นก่อน ต้องใช้ศัตรูที่เลื่อนเวลาได้เพื่อขึ้นไปด้านบน ให้ใช้มันสร้างแท่นจากเศษซากเพื่อเข้ารูในตึกทางขวา ข้างในมีหีบที่มีชิ้นส่วนหัวใจค่ะ",
-     "en": "Soon after the previous collectible you will have to use a time shifting enemy to get to the area above. Use this enemy to get inside the hole in the building to the right by forming platforms with the debris. Inside you will find the chest with the heart piece inside.",
+     "where": "ไม่นานหลังชิ้นก่อน ต้องใช้ศัตรูที่เลื่อนเวลาได้เพื่อขึ้นไปด้านบน ให้ใช้มันสร้างแท่นจากเศษซากเพื่อเข้ารูในตึกทางขวา ข้างในมีหีบที่มีชิ้นส่วนหัวใจ",
      "short": "ใช้ศัตรูเลื่อนเวลา สร้างแท่นเข้ารูตึกขวา"
     },
     {
      "key": "c4-32",
      "type": "Fig",
-     "where": "หลังชิ้นก่อนจะใช้แท่นไม้แขวนโซ่ขึ้นไปพื้นที่ด้านบน ครึ่งทางจะเห็นของอยู่ด้านข้างค่ะ",
-     "en": "After the previous collectible you will use some wooden platforms on chains to go to the upper area. Half way up you will see a collectible on the side.",
+     "where": "หลังชิ้นก่อนจะใช้แท่นไม้แขวนโซ่ขึ้นไปพื้นที่ด้านบน ครึ่งทางจะเห็นของอยู่ด้านข้าง",
      "short": "แท่นไม้แขวนโซ่ ครึ่งทางขึ้น ด้านข้าง"
     }
    ],
    "tips": [
-    "Virga: ทำลายส่วน (Break) 1 ครั้ง = Bewitchment (Bewitchments (fandom))",
-    "Lotus Field ใน Ginnungagap ช่วงต้นบท: หลังจบเกมมีกุญแจสีเขียวของ Old Picture Book (NL — ดูหมายเหตุข้อขัดแย้งด้านล่าง)"
+    "Virga: ทำลายส่วน (Break) 1 ครั้งจะได้ Bewitchment (Bewitchments (fandom))",
+    "Lotus Field ใน Ginnungagap ช่วงต้นบท: หลังจบเกมจะมีกุญแจสีเขียวของ Old Picture Book (NL; ดูหมายเหตุในหัวข้อข้อขัดแย้ง)"
    ],
    "sources": [
     {
@@ -1121,174 +1017,150 @@
     {
      "key": "c5-0",
      "type": "Card",
-     "where": "เข้าประตูทางขวาทันทีที่เริ่มบทจะเจอ Card Pack ค่ะ",
-     "en": "Go through the door to the right as soon as you start the chapter to find the card pack.",
+     "where": "เข้าประตูทางขวาทันทีที่เริ่มบทจะเจอ Card Pack",
      "short": "ประตูขวาตอนเริ่มบท"
     },
     {
      "key": "c5-1",
      "type": "BMP",
-     "where": "ทำชาเลนจ์ในพื้นที่เดียวกับชิ้นก่อนให้ผ่านค่ะ",
-     "en": "Finish the challenge in the same area as the previous collectible.",
+     "where": "ทำชาเลนจ์ในพื้นที่เดียวกับชิ้นก่อนให้ผ่าน",
      "short": "ชาเลนจ์ในพื้นที่เดียวกัน"
     },
     {
      "key": "c5-2",
      "type": "Light",
-     "where": "ออกไปที่ลานแรก แล้วลอดอุโมงค์ฝั่งตรงข้ามจะเจอชาเลนจ์ค่ะ",
-     "en": "Go back out to the first courtyard and go through the tunnel on the opposite side to find the challenge.",
+     "where": "ออกไปที่ลานแรก แล้วลอดอุโมงค์ฝั่งตรงข้ามจะเจอชาเลนจ์",
      "short": "กลับลานแรก ลอดอุโมงค์ฝั่งตรงข้าม",
      "backtrack": true
     },
     {
      "key": "c5-3",
      "type": "แมว",
-     "where": "จากจุดเริ่มบท เดินตรงผ่านกำแพงพัง แล้วชิดซ้ายจะเห็นแมว ไล่ให้มันลงบันไดไปเรื่อยๆ จนติดมุมที่ประตูค่ะ",
-     "en": "From the start of the chapter go straight through the broken wall. Then stick to the left where you will see the cat. Always make it go down stairs until it gets cornered by a door.",
+     "where": "จากจุดเริ่มบท เดินตรงผ่านกำแพงพัง แล้วชิดซ้ายจะเห็นแมว ไล่ให้มันลงบันไดไปเรื่อยๆ จนติดมุมที่ประตู",
      "short": "ผ่านกำแพงพัง ชิดซ้าย ไล่แมวลงบันได"
     },
     {
      "key": "c5-4",
      "type": "Fig",
-     "where": "ขึ้นไป 1 ชั้นจากประตูที่ต้อนแมวไว้ค่ะ",
-     "en": "Go up 1 floor from the door where you trap the cat.",
+     "where": "ขึ้นไป 1 ชั้นจากประตูที่ต้อนแมวไว้",
      "short": "ขึ้น 1 ชั้นจากประตูที่ต้อนแมว"
     },
     {
      "key": "c5-5",
      "type": "Fig",
-     "where": "กลับขึ้นไปจุดที่แมวเริ่ม ปีนขึ้นหอคอยใหญ่แล้วอ้อมไปอีกฝั่งเพื่อเก็บของค่ะ (ต้นฉบับหัวข้อเป็น Figure Box แต่เนื้อความเขียนว่า card pack)",
-     "en": "Go back up to where the cats starts. Here climb up the big to the big tower and go around the other side to get the card pack.",
+     "where": "กลับขึ้นไปจุดที่แมวเริ่ม ปีนขึ้นหอคอยใหญ่แล้วอ้อมไปอีกฝั่งเพื่อเก็บของ (100% Guides ตั้งหัวข้อเป็น Figure Box แต่เนื้อความเขียนว่า Card Pack)",
      "short": "กลับจุดแมวเริ่ม ปีนหอคอยใหญ่ อ้อมอีกฝั่ง",
      "backtrack": true
     },
     {
      "key": "c5-6",
      "type": "Fig",
-     "where": "อ้อมหอคอยต่อจากชิ้นก่อน มองหาระเบียงด้านล่างที่มีของวางอยู่ค่ะ",
-     "en": "Continue around the tower from the previous collectible and look for a balcony below with the collectible on it.",
+     "where": "อ้อมหอคอยต่อจากชิ้นก่อน มองหาระเบียงด้านล่างที่มีของวางอยู่",
      "short": "อ้อมหอคอยต่อ ระเบียงด้านล่าง"
     },
     {
      "key": "c5-7",
      "type": "Card",
-     "where": "กระโดดลงจากระเบียง มองหาอุโมงค์ขนานกัน 2 อุโมงค์ เข้าอุโมงค์ซ้ายแล้วอ้อมหอคอยทางซ้ายจะเจอ Card Pack ค่ะ",
-     "en": "Jump down from the balcony, then look for 2 parallel tunnels. Go through the left tunnel and then go around the tower on your left to find the card pack.",
+     "where": "กระโดดลงจากระเบียง มองหาอุโมงค์ขนานกัน 2 อุโมงค์ เข้าอุโมงค์ซ้ายแล้วอ้อมหอคอยทางซ้ายจะเจอ Card Pack",
      "short": "ลงจากระเบียง อุโมงค์คู่ เข้าซ้าย อ้อมหอคอยซ้าย"
     },
     {
      "key": "c5-8",
      "type": "คางคก",
-     "where": "อยู่บนหอคอยเหนืออุโมงค์ที่เพิ่งเดินผ่านมาค่ะ",
-     "en": "Found on the tower above the tunnels you just came through.",
+     "where": "อยู่บนหอคอยเหนืออุโมงค์ที่เพิ่งเดินผ่านมา",
      "short": "บนหอคอยเหนืออุโมงค์ที่เพิ่งผ่าน"
     },
     {
      "key": "c5-9",
      "type": "Card",
-     "where": "กระโดดลงลานด้านล่าง ผ่านกำแพงพังแล้วเลี้ยวขวาให้เร็วที่สุด ของอยู่บนระเบียงค่ะ",
-     "en": "Jump down in to the courtyard below, then go through the broken wall and go right as soon as soon as you can to find the collectible on the balcony.",
+     "where": "กระโดดลงลานด้านล่าง ผ่านกำแพงพังแล้วเลี้ยวขวาให้เร็วที่สุด ของอยู่บนระเบียง",
      "short": "ลงลาน ผ่านกำแพงพัง เลี้ยวขวา ระเบียง"
     },
     {
      "key": "c5-10",
      "type": "Fig",
-     "where": "อยู่บนกำแพงพังที่อยู่ตรงหน้าชิ้นก่อนค่ะ",
-     "en": "On the broken wall in front of the previous collectible.",
+     "where": "อยู่บนกำแพงพังที่อยู่ตรงหน้าชิ้นก่อน",
      "short": "บนกำแพงพังตรงหน้าชิ้นก่อน"
     },
     {
      "key": "c5-11",
      "type": "Card",
-     "where": "กระโดดลงลานแล้วเข้าซุ้มสุดท้ายทางขวาจะเจอของค่ะ",
-     "en": "Jump down to the courtyard and enter the last alcove on your right to find the collectible.",
+     "where": "กระโดดลงลานแล้วเข้าซุ้มสุดท้ายทางขวาจะเจอของ",
      "short": "ลงลาน ซุ้มสุดท้ายทางขวา"
     },
     {
      "key": "c5-12",
      "type": "Rec",
-     "where": "อยู่ในห้องที่ตกลงไปตอนพื้นพังระหว่างการต่อสู้ค่ะ",
-     "en": "In the room that you land in during the fight where the floor breaks.",
+     "where": "อยู่ในห้องที่ตกลงไปตอนพื้นพังระหว่างการต่อสู้",
      "short": "ห้องที่ตกลงไปตอนพื้นพังระหว่างสู้"
     },
     {
      "key": "c5-13",
      "type": "Card",
-     "where": "อยู่ทางซ้ายทันทีที่ออกจากตึกที่เจอ Record ค่ะ",
-     "en": "To your left as soon as you leave the building where the record was.",
+     "where": "อยู่ทางซ้ายทันทีที่ออกจากตึกที่เจอ Record",
      "short": "ออกจากตึกที่มี Record ทางซ้าย"
     },
     {
      "key": "c5-14",
      "type": "Fig",
-     "where": "หลังช่วงที่ตัวติดไฟแล้วต้องวิ่งไปหาน้ำ จะอยู่ในถ้ำ พอได้ควบคุม Viola หลังสู้เสร็จให้หันหลังจะเจอของค่ะ",
-     "en": "After the part where you catch fire and have to run to the water you will be in a cave. As soon as you gain control of Viola after the fight, turn around to find the collectible.",
+     "where": "หลังช่วงที่ตัวติดไฟแล้วต้องวิ่งไปหาน้ำ จะอยู่ในถ้ำ พอได้ควบคุม Viola หลังสู้เสร็จให้หันหลังจะเจอของ",
      "short": "หลังวิ่งหนีไฟไปน้ำ ในถ้ำ หันหลัง",
      "backtrack": true
     },
     {
      "key": "c5-15",
      "type": "BWH",
-     "where": "ออกจากถ้ำทางออกข้างชิ้นก่อน แล้วลงบันไดจะเจอชาเลนจ์ด้านล่าง ทำให้ผ่านเพื่อรับของค่ะ",
-     "en": "Leave the cave through the exit next to the previous collectible. Then go down the stairs to find a challenge at the bottom. Finish the challenge to get the collectible.",
+     "where": "ออกจากถ้ำทางออกข้างชิ้นก่อน แล้วลงบันไดจะเจอชาเลนจ์ด้านล่าง ทำให้ผ่านเพื่อรับของ",
      "short": "ออกถ้ำ ลงบันได ชาเลนจ์ด้านล่าง"
     },
     {
      "key": "c5-16",
      "type": "BMP",
-     "where": "กลับเข้าถ้ำแล้วไปทางซ้าย ทุบหีบใต้สะพานที่สองเพื่อรับ Pearl ค่ะ",
-     "en": "Go back in to the cave and take the path on the left. Then break the chest under the second bridge to get the pearl.",
+     "where": "กลับเข้าถ้ำแล้วไปทางซ้าย ทุบหีบใต้สะพานที่สองเพื่อรับ Pearl",
      "short": "กลับเข้าถ้ำ ทางซ้าย หีบใต้สะพานที่ 2",
      "backtrack": true
     },
     {
      "key": "c5-17",
      "type": "Fig",
-     "where": "ไม่นานหลังผ่านสะพาน มองไปทางขวาจะเจอของก่อนออกจากถ้ำค่ะ",
-     "en": "Soon after the bridges, look to your right to find the collectible before leaving the cave.",
+     "where": "ไม่นานหลังผ่านสะพาน มองไปทางขวาจะเจอของก่อนออกจากถ้ำ",
      "short": "หลังสะพาน มองขวา ก่อนออกถ้ำ"
     },
     {
      "key": "c5-18",
      "type": "Card",
-     "where": "อยู่บนหลังคาเหนือหัวทันทีที่ออกจากถ้ำค่ะ",
-     "en": "On the roof above you as soon as you exit the cave.",
+     "where": "อยู่บนหลังคาเหนือหัวทันทีที่ออกจากถ้ำ",
      "short": "บนหลังคาเหนือหัวตอนออกถ้ำ"
     },
     {
      "key": "c5-19",
      "type": "Fig",
-     "where": "หลังลงกลับมาทางหลักจะมีการต่อสู้สั้นๆ จบแล้วลงไปทางด้านล่างสุดจะเจอของค่ะ",
-     "en": "After dropping back down to the main path you will have a small battle. After the battle, drop down to the bottom path to find the collectible.",
+     "where": "หลังลงกลับมาทางหลักจะมีการต่อสู้สั้นๆ จบแล้วลงไปทางด้านล่างสุดจะเจอของ",
      "short": "ลงทางหลัก สู้เล็กน้อย แล้วลงทางล่างสุด",
      "backtrack": true
     },
     {
      "key": "c5-20",
      "type": "BWH",
-     "where": "จากชิ้นก่อน หันหลังแล้วทุบหีบลอยค่ะ",
-     "en": "From the previous collectible, turn around and break the floating chest.",
+     "where": "จากชิ้นก่อน หันหลังแล้วทุบหีบลอย",
      "short": "หันหลังจากชิ้นก่อน ทุบหีบลอย",
      "backtrack": true
     },
     {
      "key": "c5-21",
      "type": "อีกา",
-     "where": "จะเห็นอีกาบนทางหลัก ก่อนถึงร้านค้าค่ะ",
-     "en": "You will see the crow on the main path just before the shop.",
+     "where": "จะเห็นอีกาบนทางหลัก ก่อนถึงร้านค้า",
      "short": "บนทางหลัก ก่อนถึงร้านค้า"
     },
     {
      "key": "c5-22",
      "type": "BMP",
-     "where": "ตีลูกแก้วในพื้นที่ร้านค้าแล้วทำไทม์ไทรอัลให้ผ่านเพื่อรับ Moon Pearl ค่ะ",
-     "en": "Hit the orb in the area where the shop is and finish the time trial to get the moon pearl.",
+     "where": "ตีลูกแก้วในพื้นที่ร้านค้าแล้วทำไทม์ไทรอัลให้ผ่านเพื่อรับ Moon Pearl",
      "short": "ตีลูกแก้วที่ร้านค้า ทำไทม์ไทรอัล"
     }
    ],
    "tips": [
-    "บทนี้เล่นเป็น Viola: Break Volutus 1 ครั้ง = Bewitchment (Bewitchments (fandom))",
-    "ผู้เล่นใน Reddit บ่นว่ากล้องหมุนหนักตอนสู้ \"งู\" ในบทนี้ — ถ้าเวียนหัวพักบ่อยๆ นะคะ (ความเห็นผู้เล่น ไม่ใช่ข้อมูลทางการ)"
+    "บทนี้เล่นเป็น Viola: Break Volutus 1 ครั้งจะได้ Bewitchment (Bewitchments (fandom))"
    ],
    "sources": [
     {
@@ -1318,144 +1190,124 @@
     {
      "key": "c6-0",
      "type": "Fig",
-     "where": "อยู่ทางซ้ายทันทีที่เริ่มด่านค่ะ",
-     "en": "To your left as soon as you start the level.",
+     "where": "อยู่ทางซ้ายทันทีที่เริ่มด่าน",
      "short": "ทางซ้ายตอนเริ่มด่าน"
     },
     {
      "key": "c6-1",
      "type": "Fig",
-     "where": "อยู่บนหอคอยทางขวาของลานที่เริ่มบทค่ะ",
-     "en": "On the tower to the right of the courtyard where you start the chapter.",
+     "where": "อยู่บนหอคอยทางขวาของลานที่เริ่มบท",
      "short": "หอคอยขวาของลานจุดเริ่ม"
     },
     {
      "key": "c6-2",
      "type": "Light",
-     "where": "ลอดซุ้มโค้งทางขวาของลาน ข้างหอคอยที่ได้ของชิ้นก่อนค่ะ",
-     "en": "Go through the arch to the right of the courtyard next to the tower where you got the previous collectible.",
+     "where": "ลอดซุ้มโค้งทางขวาของลาน ข้างหอคอยที่ได้ของชิ้นก่อน",
      "short": "ลอดซุ้มโค้งขวาของลาน ข้างหอคอย"
     },
     {
      "key": "c6-3",
      "type": "แมว",
-     "where": "อยู่ใกล้ Heavenly Light ไล่มันไปจนถึงกังหันน้ำแล้วจับได้ด้านบนค่ะ",
-     "en": "Close to the Heavenly Light. Chase it to the waterwheel to catch it on top.",
+     "where": "อยู่ใกล้ Heavenly Light ไล่มันไปจนถึงกังหันน้ำแล้วจับได้ด้านบน",
      "short": "ใกล้ Heavenly Light ไล่ไปกังหันน้ำ"
     },
     {
      "key": "c6-4",
      "type": "Card",
-     "where": "อยู่บนตึกเหนือจุดที่แมวเริ่มค่ะ",
-     "en": "On top of the building above where the cat starts.",
+     "where": "อยู่บนตึกเหนือจุดที่แมวเริ่ม",
      "short": "บนตึกเหนือจุดที่แมวเริ่ม"
     },
     {
      "key": "c6-5",
      "type": "BMP",
-     "where": "อยู่ในหีบบนประตูใหญ่ที่เป็นทางออกจากลานแรกค่ะ",
-     "en": "In a chest on top of the main gate leaving the first courtyard.",
+     "where": "อยู่ในหีบบนประตูใหญ่ที่เป็นทางออกจากลานแรก",
      "short": "หีบบนประตูใหญ่ทางออกลานแรก"
     },
     {
      "key": "c6-6",
      "type": "Card",
-     "where": "อยู่หลังกำแพงเตี้ยๆ ทางซ้าย ก่อนถึงหอคอยใหญ่ที่ต้องทำลายค่ะ",
-     "en": "Behind one of the small walls on the left just before the big tower that you destroy.",
+     "where": "อยู่หลังกำแพงเตี้ยๆ ทางซ้าย ก่อนถึงหอคอยใหญ่ที่ต้องทำลาย",
      "short": "หลังกำแพงเตี้ยซ้าย ก่อนหอคอยที่ต้องทำลาย"
     },
     {
      "key": "c6-7",
      "type": "Fig",
-     "where": "อยู่หลังหอคอยที่ผลักล้มค่ะ",
-     "en": "Behind the tower that you knock over.",
+     "where": "อยู่หลังหอคอยที่ผลักล้ม",
      "short": "หลังหอคอยที่ผลักล้ม"
     },
     {
      "key": "c6-8",
      "type": "BWH",
-     "where": "หลังข้ามหอคอยที่ล้ม ทุบกล่องทางซ้ายให้แท่นโผล่เพื่อข้ามลาวา แล้วไปทางซ้ายเปิด \"Time Shifter\" เลื่อนเวลาไปประมาณครึ่งทางให้เกิดทางเข้าตึกอีกฝั่งของลาวา ของอยู่ในนั้นค่ะ",
-     "en": "After going across the collapsed tower smash the box on the left to spawn some platforms to get to the other side of the lava. Here go left and activate the \"Time Shifter\". Advance time about half way to make a path in to the building on the other side of the lava where you can find the collectible.",
+     "where": "หลังข้ามหอคอยที่ล้ม ทุบกล่องทางซ้ายให้แท่นโผล่เพื่อข้ามลาวา แล้วไปทางซ้ายเปิด \"Time Shifter\" เลื่อนเวลาไปประมาณครึ่งทางให้เกิดทางเข้าตึกอีกฝั่งของลาวา ของอยู่ในนั้น",
      "short": "ข้ามหอคอยล้ม ทุบกล่อง ข้ามลาวา Time Shifter ครึ่งทาง"
     },
     {
      "key": "c6-9",
      "type": "Fig",
-     "where": "กลับไปที่ Time Shifter แล้วเลื่อนเวลาไปจนสุด จากนั้นกระโดดลงก้นบ่อลาวาเพื่อเก็บฟิกเกอร์ค่ะ",
-     "en": "Go back to the time shifter and advance time all the way. Now jump down to the bottom of the lava pit to get the figure.",
+     "where": "กลับไปที่ Time Shifter แล้วเลื่อนเวลาไปจนสุด จากนั้นกระโดดลงก้นบ่อลาวาเพื่อเก็บฟิกเกอร์",
      "short": "Time Shifter เลื่อนสุด ลงก้นบ่อลาวา",
      "backtrack": true
     },
     {
      "key": "c6-10",
      "type": "BWH",
-     "where": "กลับไปจุดที่ใช้แท่นข้ามลาวา แปลงร่างแมงมุมไปที่กล่องข้างหินกลางบ่อลาวา ตีแล้วเก็บเศษให้ครบเพื่อรับ Witch Heart ค่ะ",
-     "en": "Return to the area where you used the platforms to cross the lava. Here use the spider transformation to go to the box next to the rock in the center of the lava pool. Hit it and collect all the fragments to get the witch heart.",
+     "where": "กลับไปจุดที่ใช้แท่นข้ามลาวา แปลงร่างแมงมุมไปที่กล่องข้างหินกลางบ่อลาวา ตีแล้วเก็บเศษให้ครบเพื่อรับ Witch Heart",
      "short": "กลับจุดข้ามลาวา แปลงแมงมุมไปกล่องข้างหินกลางลาวา",
      "backtrack": true
     },
     {
      "key": "c6-11",
      "type": "Fig",
-     "where": "กลับไปอีกฝั่งของลาวา (ฝั่งที่มี Time Shifter) คราวนี้ไปทางขวา ตีกล่องให้แท่นเลื่อนโผล่ ขึ้นแท่นไปจะเจอของลอยกลางอากาศข้างหินกลางลาวาค่ะ",
-     "en": "Return to the other side of the lava (the side the time shifter was on) and this time go right. Hit the box to get a moving platform to spawn. Get on the moving platform to find the collectible in the air next to the rock in the middle of the lava.",
+     "where": "กลับไปอีกฝั่งของลาวา (ฝั่งที่มี Time Shifter) คราวนี้ไปทางขวา ตีกล่องให้แท่นเลื่อนโผล่ ขึ้นแท่นไปจะเจอของลอยกลางอากาศข้างหินกลางลาวา",
      "short": "ฝั่ง Time Shifter ไปขวา ตีกล่อง ขึ้นแท่นเลื่อน",
      "backtrack": true
     },
     {
      "key": "c6-12",
      "type": "อีกา",
-     "where": "จากร้านค้า (อยู่บนทางหลัก) ขึ้นหลังคาตึกปลายทางขวาจะเจออีกาด้านบนค่ะ",
-     "en": "From the shop (found on the main path) go to the roof of the building at the end to your right to find the crow on top.",
+     "where": "จากร้านค้า (อยู่บนทางหลัก) ขึ้นหลังคาตึกปลายทางขวาจะเจออีกาด้านบน",
      "short": "จากร้านค้า หลังคาตึกปลายทางขวา"
     },
     {
      "key": "c6-13",
      "type": "Light",
-     "where": "จากร้านค้าไปทางขวา จะเจอ Heavenly Light ในลานทางซ้ายค่ะ",
-     "en": "From the shop, go to the right to find the heavenly light in the courtyard to your left.",
+     "where": "จากร้านค้าไปทางขวา จะเจอ Heavenly Light ในลานทางซ้าย",
      "short": "จากร้านค้าไปขวา ในลานทางซ้าย"
     },
     {
      "key": "c6-14",
      "type": "Fig",
-     "where": "อยู่บนหอคอยข้าง Heavenly Light ค่ะ",
-     "en": "On the tower next to the heavenly light.",
+     "where": "อยู่บนหอคอยข้าง Heavenly Light",
      "short": "หอคอยข้าง Heavenly Light"
     },
     {
      "key": "c6-15",
      "type": "BMP",
-     "where": "จากชิ้นก่อน ลงบันไดจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับของค่ะ",
-     "en": "From the previous collectible, head down the stairs to find a challenge. Finish the challenge to get the collectible.",
+     "where": "จากชิ้นก่อน ลงบันไดจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับของ",
      "short": "ลงบันได ชาเลนจ์"
     },
     {
      "key": "c6-16",
      "type": "BMP",
-     "where": "ลงบันไดต่อจากชาเลนจ์ก่อนหน้า แล้วใช้ demon ทุบกล่องลอยค่ะ",
-     "en": "Continue down the stairs from the previous challenge. Then break the floating box with your summons.",
+     "where": "ลงบันไดต่อจากชาเลนจ์ก่อนหน้า แล้วใช้ demon ทุบกล่องลอย",
      "short": "ลงบันไดต่อ ให้ demon ทุบกล่องลอย"
     },
     {
      "key": "c6-17",
      "type": "คางคก",
-     "where": "อยู่บนรูปปั้นใหญ่หลังสะพานถล่มใต้เท้าค่ะ",
-     "en": "On the big statue after the bridge breaks under you.",
+     "where": "อยู่บนรูปปั้นใหญ่หลังสะพานถล่มใต้เท้า",
      "short": "รูปปั้นใหญ่หลังสะพานถล่ม"
     },
     {
      "key": "c6-18",
      "type": "Card",
-     "where": "อยู่ทางขวาของชิ้นก่อนค่ะ",
-     "en": "To the right of the previous collectible.",
+     "where": "อยู่ทางขวาของชิ้นก่อน",
      "short": "ทางขวาของชิ้นก่อน"
     },
     {
      "key": "c6-19",
      "type": "BWH",
-     "where": "หลังขึ้นลิฟต์ไม้ ไปทางขวาจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับชิ้นส่วน Witch Heart ค่ะ",
-     "en": "After going up the wooden lifts, go right to find a challenge. Finish the challenge to get the Witch Heart piece.",
+     "where": "หลังขึ้นลิฟต์ไม้ ไปทางขวาจะเจอชาเลนจ์ ทำให้ผ่านเพื่อรับชิ้นส่วน Witch Heart",
      "short": "ขึ้นลิฟต์ไม้แล้วไปขวา ชาเลนจ์"
     }
    ],
@@ -1490,22 +1342,19 @@
     {
      "key": "s2-0",
      "type": "Echo",
-     "where": "อยู่ข้างประตูใหญ่ที่เปิดด้วยสวิตช์แรก ตรงที่ศัตรูยักษ์พังกำแพง พลาดยากค่ะ",
-     "en": "This one is found next to the big main door that you open with the first switch where the giant enemy breaks the wall. Hard to miss.",
+     "where": "อยู่ข้างประตูใหญ่ที่เปิดด้วยสวิตช์แรก ตรงที่ศัตรูยักษ์พังกำแพง พลาดยาก",
      "short": "ข้างประตูใหญ่ที่เปิดด้วยสวิตช์แรก"
     },
     {
      "key": "s2-1",
      "type": "Light",
-     "where": "หลังลงน้ำครั้งแรก ไปทางซ้ายผ่านใบมีดแล้วลอดรูบนกำแพงซ้าย จะพาไปถึง Heavenly Light ค่ะ",
-     "en": "After dropping down in to the water for the first time, head to the left past the blades and go through the hole on the left wall. This will take you to the Heavenly Light.",
+     "where": "หลังลงน้ำครั้งแรก ไปทางซ้ายผ่านใบมีดแล้วลอดรูบนกำแพงซ้าย จะพาไปถึง Heavenly Light",
      "short": "ลงน้ำครั้งแรก ไปซ้ายผ่านใบมีด ลอดรูกำแพงซ้าย"
     },
     {
      "key": "s2-2",
      "type": "Fig",
-     "where": "กลับไปโซนน้ำแล้วไปทางขวา จะเห็นฟิกเกอร์ชัดๆ ค่ะ",
-     "en": "Go back to the water area and go right to find the Figure Pack in plain sight.",
+     "where": "กลับไปโซนน้ำแล้วไปทางขวา จะเห็นฟิกเกอร์ชัดๆ",
      "short": "กลับโซนน้ำ ไปขวา เห็นชัด",
      "backtrack": true
     }
@@ -1540,172 +1389,148 @@
     {
      "key": "c7-0",
      "type": "Echo",
-     "where": "ตอนเริ่มด่าน ปีนแท่นทางขวาขึ้นไปจะเจอของค่ะ",
-     "en": "At the very start of the level, climb up the platforms to your right to find the collectible.",
+     "where": "ตอนเริ่มด่าน ปีนแท่นทางขวาขึ้นไปจะเจอของ",
      "short": "ต้นด่าน ปีนแท่นทางขวา"
     },
     {
      "key": "c7-1",
      "type": "BWH",
-     "where": "เดินไปทางหอคอยสูงจนเห็นแท่นลอยทางขวา กระโดดขึ้นแล้วทำลายหีบบนแท่นลอยอีกอันค่ะ",
-     "en": "Go towards the tall tower until you see a floating platform on your right. Jump on it and then destroy the chest on the other floating platform.",
+     "where": "เดินไปทางหอคอยสูงจนเห็นแท่นลอยทางขวา กระโดดขึ้นแล้วทำลายหีบบนแท่นลอยอีกอัน",
      "short": "ไปทางหอคอยสูง แท่นลอยขวา ทุบหีบแท่นถัดไป"
     },
     {
      "key": "c7-2",
      "type": "Card",
-     "where": "อยู่บนต้นไม้ข้างหอคอยเดี่ยว ใต้แท่นลอยที่ได้ของชิ้นก่อนค่ะ",
-     "en": "On the tree next to the lone tower under the floating platforms where you got the previous collectible.",
+     "where": "อยู่บนต้นไม้ข้างหอคอยเดี่ยว ใต้แท่นลอยที่ได้ของชิ้นก่อน",
      "short": "ต้นไม้ข้างหอคอยเดี่ยว ใต้แท่นลอย"
     },
     {
      "key": "c7-3",
      "type": "Card",
-     "where": "ข้ามสะพานแคบกลับมาแล้วทุบกำแพงหอคอยทางขวา Card Pack อยู่ข้างในค่ะ",
-     "en": "Go back across the thin bridge and break the wall of the tower on your right. You will find the card pack inside.",
+     "where": "ข้ามสะพานแคบกลับมาแล้วทุบกำแพงหอคอยทางขวา Card Pack อยู่ข้างใน",
      "short": "ข้ามสะพานแคบกลับ ทุบกำแพงหอคอยขวา",
      "backtrack": true
     },
     {
      "key": "c7-4",
      "type": "Fig",
-     "where": "ปีนด้านนอกหอคอยขึ้นไปจนเห็นสะพานพังที่มี Figure Box อยู่ปลายสะพานค่ะ",
-     "en": "Now climb the outside of the tower until you see a broken bridge with a figure box at the end.",
+     "where": "ปีนด้านนอกหอคอยขึ้นไปจนเห็นสะพานพังที่มี Figure Box อยู่ปลายสะพาน",
      "short": "ปีนนอกหอคอย สะพานพัง ปลายสะพาน"
     },
     {
      "key": "c7-5",
      "type": "BMP",
-     "where": "จากชิ้นก่อน กระโดดลงทางขวาของสะพาน จะเห็นชาเลนจ์สีม่วงข้างหน้า ทำให้ผ่านเพื่อรับ Pearl ค่ะ",
-     "en": "From the previous collectible, jump off the right side of the bridge. You should see a purple challenge in the area up ahead. Finish it to get the pearl.",
+     "where": "จากชิ้นก่อน กระโดดลงทางขวาของสะพาน จะเห็นชาเลนจ์สีม่วงข้างหน้า ทำให้ผ่านเพื่อรับ Pearl",
      "short": "กระโดดลงขวาของสะพาน ชาเลนจ์ม่วงข้างหน้า"
     },
     {
      "key": "c7-6",
      "type": "BMP",
-     "where": "กลับไปตึกเดี่ยวอีกฝั่งสะพานแคบ ทุบกำแพงจะเจอกุญแจ ถือไปที่ผนึกใต้น้ำตกข้างชาเลนจ์ม่วงเพื่อรับ Pearl ค่ะ",
-     "en": "Go back to where the lone building was across the thin bridge and break the walls to find a key. Now take the key to the seal under the waterfall next to the purple challenge to get the pearl.",
+     "where": "กลับไปตึกเดี่ยวอีกฝั่งสะพานแคบ ทุบกำแพงจะเจอกุญแจ ถือไปที่ผนึกใต้น้ำตกข้างชาเลนจ์ม่วงเพื่อรับ Pearl",
      "short": "ทุบกำแพงตึกเดี่ยว เอากุญแจไปผนึกใต้น้ำตก",
      "backtrack": true
     },
     {
      "key": "c7-7",
      "type": "BWH",
-     "where": "บนทางหลักต้องอ้อมภูเขาทางซ้าย (หลังเห็นประตูหิน) จะเห็นบล็อก เปิดใช้งานแล้วเก็บเศษเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "On the main path you will have to go around a mountain on the left side (after seeing the stone door). In this area you will see a block. Activate it and collect the fragments to get he heart piece.",
+     "where": "บนทางหลักต้องอ้อมภูเขาทางซ้าย (หลังเห็นประตูหิน) จะเห็นบล็อก เปิดใช้งานแล้วเก็บเศษเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ทางหลัก อ้อมภูเขาซ้าย บล็อกเก็บเศษ"
     },
     {
      "key": "c7-8",
      "type": "Card",
-     "where": "อยู่ทางซ้าย ก่อนกระโดดลงไปพื้นที่ที่มีซุ้มโค้งค่ะ",
-     "en": "On your left just before you jump down to the area with the arches.",
+     "where": "อยู่ทางซ้าย ก่อนกระโดดลงไปพื้นที่ที่มีซุ้มโค้ง",
      "short": "ทางซ้าย ก่อนลงไปโซนซุ้มโค้ง"
     },
     {
      "key": "c7-9",
      "type": "Medal",
-     "where": "กระโดดลงพื้นที่ซุ้มโค้งแล้วปีนบันไดพังทางขวา ทุบลูกบาศก์เพื่อรับ Shard ค่ะ",
-     "en": "Jump down to the area with the arches and climb up the broken stairs to your right. Here break the cube to get the shard.",
+     "where": "กระโดดลงพื้นที่ซุ้มโค้งแล้วปีนบันไดพังทางขวา ทุบลูกบาศก์เพื่อรับ Shard",
      "short": "โซนซุ้มโค้ง ปีนบันไดพังขวา ทุบลูกบาศก์"
     },
     {
      "key": "c7-10",
      "type": "BWH",
-     "where": "ช่วงขี่ Cheshire (ต้นฉบับเขียน Chester) จะผ่านหุบเขาเล็ก อีกฝั่งเป็นลานโล่งมีศัตรูบินตัวเล็ก ให้สังเกตหาง Cheshire ยิ่งขยับเร็วยิ่งใกล้ของลับ ขุดทางซ้ายของจุดออกหุบเขาเพื่อหาหีบค่ะ",
-     "en": "During the part where you are riding Chester you will go through a small valley. On the other side you will come to and open area with little flying enemies. As soon as you get to this area wtach for chesters tale to move. The faster it moves the closer the secret is. Go just to the left of where you exit the valley to dig for a chest.",
+     "where": "ช่วงขี่ Cheshire จะผ่านหุบเขาเล็ก อีกฝั่งเป็นลานโล่งมีศัตรูบินตัวเล็ก ให้สังเกตหาง Cheshire ยิ่งขยับเร็วยิ่งใกล้ของลับ ขุดทางซ้ายของจุดออกหุบเขาเพื่อหาหีบ",
      "short": "ขี่ Cheshire ออกหุบเขา ดูหาง ขุดทางซ้าย"
     },
     {
      "key": "c7-11",
      "type": "Fig",
-     "where": "พื้นที่เดียวกับชิ้นก่อน อยู่ทางขวาตอนออกจากหุบเขาค่ะ",
-     "en": "Same area as the previous collectible. To the right as you exit the valley.",
+     "where": "พื้นที่เดียวกับชิ้นก่อน อยู่ทางขวาตอนออกจากหุบเขา",
      "short": "พื้นที่เดียวกัน ขวาของจุดออกหุบเขา"
     },
     {
      "key": "c7-12",
      "type": "อีกา",
-     "where": "พอได้ควบคุม Viola หลังขุดน้ำขึ้นมาแล้ว ย้อนกลับไปทางหุบเขาที่มากับ Cheshire ก่อนเข้าหุบเขาจะเห็นช่องหินทางซ้าย ลอดผ่านไปออกอีกฝั่งจะเห็นอีกาชัดๆ ค่ะ",
-     "en": "Once you start to control Viola after digging up the water, head back towards the valley you came through with Chester. Just before enterting the valley you will see another gap in the rocks to the left that you can go through to get to another area. Go through the area and go out the other side to find the crow in plain sight.",
+     "where": "พอได้ควบคุม Viola หลังขุดน้ำขึ้นมาแล้ว ย้อนกลับไปทางหุบเขาที่มากับ Cheshire ก่อนเข้าหุบเขาจะเห็นช่องหินทางซ้าย ลอดผ่านไปออกอีกฝั่งจะเห็นอีกาชัดๆ",
      "short": "คุม Viola หลังขุดน้ำ ย้อนไปหุบเขา ช่องหินซ้าย",
      "backtrack": true
     },
     {
      "key": "c7-13",
      "type": "Light",
-     "where": "เห็นได้ชัดถัดจากจุดอีกาค่ะ",
-     "en": "In plain sight just after the crow.",
+     "where": "เห็นได้ชัดถัดจากจุดอีกา",
      "short": "เห็นชัด ถัดจากอีกา"
     },
     {
      "key": "c7-14",
      "type": "BWH",
-     "where": "ข้าง Heavenly Light มีประตูวิหารใหญ่ เปิดโดยทำลายชิ้นเสาเล็กข้างรูปงูทางซ้าย เข้าไปขึ้นชั้นบนสุด เปิดหีบแล้วล้มศัตรูเพื่อรับของค่ะ",
-     "en": "Next to the heavenly light you will see a massive temple door. Open it by destroying the small pillar fragemnt next to the left snake. Once inside you to the top floor and defeat the enemy after opening the chest to get the collectible.",
+     "where": "ข้าง Heavenly Light มีประตูวิหารใหญ่ เปิดโดยทำลายชิ้นเสาเล็กข้างรูปงูทางซ้าย เข้าไปขึ้นชั้นบนสุด เปิดหีบแล้วล้มศัตรูเพื่อรับของ",
      "short": "ประตูวิหาร ทุบเสาข้างงูซ้าย ขึ้นชั้นบนสุด"
     },
     {
      "key": "c7-15",
      "type": "Fig",
-     "where": "อยู่ข้างชิ้นก่อนพอดีค่ะ",
-     "en": "Right next to the previous collectible.",
+     "where": "อยู่ข้างชิ้นก่อนพอดี",
      "short": "ข้างชิ้นก่อน"
     },
     {
      "key": "c7-16",
      "type": "คางคก",
-     "where": "หลังร้านค้า (ทางเนื้อเรื่องหลัก) จะเห็นน้ำตกทราย 3 สาย คางคกอยู่บนหินหลังสายซ้ายสุดค่ะ",
-     "en": "After the shop (main story path) you will see 3 sandfalls. The Frog can be found on a rock behind the left most one.",
+     "where": "หลังร้านค้า (ทางเนื้อเรื่องหลัก) จะเห็นน้ำตกทราย 3 สาย คางคกอยู่บนหินหลังสายซ้ายสุด",
      "short": "หลังร้านค้า น้ำตกทราย 3 สาย หินหลังสายซ้าย"
     },
     {
      "key": "c7-17",
      "type": "Echo",
-     "where": "เดินต่อหลังน้ำตก ใช้ขอบกระโดดขึ้นชั้นบน ตีลูกบาศก์ให้แท่นโผล่ แล้วใช้แท่นเก็บของด้านบนค่ะ",
-     "en": "Continue behind the waterfalls and use the ledges to jump up to the upper area. Here hit the square cube to spawn some platforms. Use the platforms to get the collectible above you.",
+     "where": "เดินต่อหลังน้ำตก ใช้ขอบกระโดดขึ้นชั้นบน ตีลูกบาศก์ให้แท่นโผล่ แล้วใช้แท่นเก็บของด้านบน",
      "short": "หลังน้ำตก ขึ้นชั้นบน ตีลูกบาศก์ ตามแท่น"
     },
     {
      "key": "c7-18",
      "type": "BWH",
-     "where": "ทำชาเลนจ์สีม่วงข้างชิ้นก่อนให้ผ่านค่ะ",
-     "en": "Finish the purple challenge next to the previous collectible.",
+     "where": "ทำชาเลนจ์สีม่วงข้างชิ้นก่อนให้ผ่าน",
      "short": "ชาเลนจ์ม่วงข้างชิ้นก่อน"
     },
     {
      "key": "c7-19",
      "type": "BMP",
-     "where": "อยู่บนยอดหอคอยในพื้นที่ล่างที่มีน้ำตกทรายค่ะ",
-     "en": "On top of the tower in the lower area where the sandfalls are.",
+     "where": "อยู่บนยอดหอคอยในพื้นที่ล่างที่มีน้ำตกทราย",
      "short": "ยอดหอคอยโซนล่างที่มีน้ำตกทราย"
     },
     {
      "key": "c7-20",
      "type": "แมว",
-     "where": "อยู่ใต้หอคอยพอดี ไล่แมวไปที่แท่นกลางพื้นที่แล้วจับได้ค่ะ",
-     "en": "Just below the tower. Chase the cat to the plaform in the middle of the area to catch it.",
+     "where": "อยู่ใต้หอคอยพอดี ไล่แมวไปที่แท่นกลางพื้นที่แล้วจับได้",
      "short": "ใต้หอคอย ไล่แมวไปแท่นกลาง"
     },
     {
      "key": "c7-21",
      "type": "BWH",
-     "where": "ทำลายลูกบาศก์ลอยทางขวาของจุดที่แมวเริ่ม (ใกล้น้ำตกทราย) ค่ะ",
-     "en": "Destroy the floating cube to the right of where the cat started (close to the sandfalls).",
+     "where": "ทำลายลูกบาศก์ลอยทางขวาของจุดที่แมวเริ่ม (ใกล้น้ำตกทราย)",
      "short": "ทุบลูกบาศก์ลอย ขวาของจุดแมว"
     },
     {
      "key": "c7-22",
      "type": "Rec",
-     "where": "อยู่บนแท่นใกล้ขอบทางซ้ายของพื้นที่ทรายดูดค่ะ",
-     "en": "On a platform close to the edge on the left of the quicksand area.",
+     "where": "อยู่บนแท่นใกล้ขอบทางซ้ายของพื้นที่ทรายดูด",
      "short": "แท่นริมซ้ายของโซนทรายดูด"
     },
     {
      "key": "c7-23",
      "type": "BMP",
-     "where": "อยู่บนยอดหอคอยปลายพื้นที่ทรายดูดค่ะ",
-     "en": "On top of the tower at the end of the quicksand area.",
+     "where": "อยู่บนยอดหอคอยปลายพื้นที่ทรายดูด",
      "short": "ยอดหอคอยปลายโซนทรายดูด"
     }
    ],
@@ -1740,157 +1565,135 @@
     {
      "key": "c8-0",
      "type": "Card",
-     "where": "ตอนเริ่มด่าน อยู่ในซากปรักหักพังเล็กๆ ทางขวาค่ะ",
-     "en": "At the start of the level in the small ruin on the right.",
+     "where": "ตอนเริ่มด่าน อยู่ในซากปรักหักพังเล็กๆ ทางขวา",
      "short": "ต้นด่าน ในซากเล็กทางขวา"
     },
     {
      "key": "c8-1",
      "type": "BMP",
-     "where": "ทำชาเลนจ์สีม่วงในตึกข้างซากที่ได้ของชิ้นก่อนให้ผ่านค่ะ",
-     "en": "Finish the purple challenge in the building next to the ruin where you got the previous collectible.",
+     "where": "ทำชาเลนจ์สีม่วงในตึกข้างซากที่ได้ของชิ้นก่อนให้ผ่าน",
      "short": "ชาเลนจ์ม่วงในตึกข้างซาก"
     },
     {
      "key": "c8-2",
      "type": "Light",
-     "where": "อยู่ทางซ้ายของตึกที่มีชาเลนจ์ก่อนหน้าค่ะ",
-     "en": "To the left of the building where the previous challenge was.",
+     "where": "อยู่ทางซ้ายของตึกที่มีชาเลนจ์ก่อนหน้า",
      "short": "ซ้ายของตึกชาเลนจ์"
     },
     {
      "key": "c8-3",
      "type": "คางคก",
-     "where": "อยู่หลังน้ำตกในพื้นที่เดียวกับชิ้นก่อนค่ะ",
-     "en": "Behind the waterfall in the same area as the previous collectible.",
+     "where": "อยู่หลังน้ำตกในพื้นที่เดียวกับชิ้นก่อน",
      "short": "หลังน้ำตก พื้นที่เดียวกัน"
     },
     {
      "key": "c8-4",
      "type": "Echo",
-     "where": "จากน้ำตก หันหลังเดินระหว่างตึก 2 หลัง แล้วไปขวาจะเจอลูกบาศก์ ตีให้แท่นโผล่เพื่อไปเก็บ Echoes of Memory ค่ะ",
-     "en": "From the waterfall turn around and go inbetween the 2 buildings. Then go right to find a cube. Hit the cube to spawn some platfomrs to get the Echoes of Memory.",
+     "where": "จากน้ำตก หันหลังเดินระหว่างตึก 2 หลัง แล้วไปขวาจะเจอลูกบาศก์ ตีให้แท่นโผล่เพื่อไปเก็บ Echoes of Memory",
      "short": "จากน้ำตกหันหลัง ระหว่างตึก 2 หลัง ไปขวา ตีลูกบาศก์",
      "backtrack": true
     },
     {
      "key": "c8-5",
      "type": "BWH",
-     "where": "ใช้แท่นเดียวกับชิ้นก่อนขึ้นไปยอด ตีลูกบาศก์แล้วทำไทม์ไทรอัลให้ผ่านเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "Using the same platforms as the previous collectible, reach the top and hit the cube. Finish the time trial to get the heart piece.",
+     "where": "ใช้แท่นเดียวกับชิ้นก่อนขึ้นไปยอด ตีลูกบาศก์แล้วทำไทม์ไทรอัลให้ผ่านเพื่อรับชิ้นส่วนหัวใจ",
      "short": "แท่นเดิมขึ้นยอด ตีลูกบาศก์ ไทม์ไทรอัล"
     },
     {
      "key": "c8-6",
      "type": "Card",
-     "where": "อยู่หลังน้ำตกทางซ้ายของลานโล่งแรก (ลานที่อยู่หลังหอคอย) ค่ะ",
-     "en": "Behind the waterfall on the left side of the first open area (the one behind the tower).",
+     "where": "อยู่หลังน้ำตกทางซ้ายของลานโล่งแรก (ลานที่อยู่หลังหอคอย)",
      "short": "หลังน้ำตกซ้ายของลานแรก (หลังหอคอย)"
     },
     {
      "key": "c8-7",
      "type": "Fig",
-     "where": "อยู่บนยอดหอคอยฝั่งขวาใกล้ชิ้นก่อนค่ะ",
-     "en": "On top of the right hand side tower close to the previous collectible.",
+     "where": "อยู่บนยอดหอคอยฝั่งขวาใกล้ชิ้นก่อน",
      "short": "ยอดหอคอยขวาใกล้ชิ้นก่อน"
     },
     {
      "key": "c8-8",
      "type": "BMP",
-     "where": "กระโดดลงแท่นที่มีน้ำใต้หอคอยข้างหอคอยที่ได้ของชิ้นก่อน ตีกล่องแล้วทำไทม์ไทรอัลให้ผ่านค่ะ",
-     "en": "Jump down to the platform with water on it below the tower next to the one where you got the previous collectible. Here hit the box and complete the time trial.",
+     "where": "กระโดดลงแท่นที่มีน้ำใต้หอคอยข้างหอคอยที่ได้ของชิ้นก่อน ตีกล่องแล้วทำไทม์ไทรอัลให้ผ่าน",
      "short": "แท่นมีน้ำใต้หอคอย ตีกล่อง ไทม์ไทรอัล"
     },
     {
      "key": "c8-9",
      "type": "Rec",
-     "where": "ข้ามไปอีกฝั่งของพื้นที่แรก (ฝั่งที่ใช้แท่นลอยไปเก็บ Echoes of Memory กับ Broken Witch Heart) แล้วเข้าถ้ำ ใช้ Time Shifter เลื่อนแท่นที่อยู่ไกลให้ใกล้พอจะขึ้นทัน พอขึ้นแล้วปล่อยให้เวลาหมด แท่นจะพาไปถึงแท่นที่มี Record ค่ะ",
-     "en": "Cross over to the other side of the first area (to where you used the floating platforms to get the echoes of memory & broken witch hear) and enter the cave. Here use the time shifter to move the far platform close enough so that you have time to get on it. Once on it, let the time run out to get to the platform with the record on it.",
+     "where": "ข้ามไปอีกฝั่งของพื้นที่แรก (ฝั่งที่ใช้แท่นลอยไปเก็บ Echoes of Memory กับ Broken Witch Heart) แล้วเข้าถ้ำ ใช้ Time Shifter เลื่อนแท่นที่อยู่ไกลให้ใกล้พอจะขึ้นทัน พอขึ้นแล้วปล่อยให้เวลาหมด แท่นจะพาไปถึงแท่นที่มี Record",
      "short": "ข้ามไปถ้ำอีกฝั่ง ใช้ Time Shifter ดึงแท่นไกล"
     },
     {
      "key": "c8-10",
      "type": "Fig",
-     "where": "จากแท่นที่มี Record กระโดดร่อนไปที่กล่องลอยที่เห็นชัดๆ ค่ะ",
-     "en": "From the platform with the record, jump and glide to the floating box in plain sight.",
+     "where": "จากแท่นที่มี Record กระโดดร่อนไปที่กล่องลอยที่เห็นชัดๆ",
      "short": "จากแท่น Record ร่อนไปกล่องลอย"
     },
     {
      "key": "c8-11",
      "type": "BWH",
-     "where": "พอออกจากถ้ำใกล้ชิ้นก่อน มองหา \"หีบ\" ใหญ่ลอยเหนือทราย ใช้ demon ทำลายเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "Once you exit the cave near the previous collectible. Look for a big \"chest\" floating above the sand. Destroy it with a summon to get the heart piece.",
+     "where": "พอออกจากถ้ำใกล้ชิ้นก่อน มองหา \"หีบ\" ใหญ่ลอยเหนือทราย ใช้ demon ทำลายเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ออกถ้ำ \"หีบ\" ใหญ่ลอยเหนือทราย ให้ demon ทุบ"
     },
     {
      "key": "c8-12",
      "type": "Fig",
-     "where": "เดินตามสะพานย้อนกลับไปทางจุดเริ่มด่าน ของอยู่ใต้สะพานช่วงสุดท้ายค่ะ",
-     "en": "Follow the bridge back towards the start of the level to find the collectible under the last section of the bridge.",
+     "where": "เดินตามสะพานย้อนกลับไปทางจุดเริ่มด่าน ของอยู่ใต้สะพานช่วงสุดท้าย",
      "short": "ตามสะพานกลับทางจุดเริ่ม ใต้ช่วงสุดท้าย",
      "backtrack": true
     },
     {
      "key": "c8-13",
      "type": "BMP",
-     "where": "ขึ้นไปสะพานชั้นบน (ปลายที่ใกล้จุดเริ่ม) จะเห็นหีบตรงหน้าอีกฝั่ง ทุบเพื่อรับชิ้นส่วน Pearl ค่ะ",
-     "en": "Go up to the upper part of the bridge (the end that is close to the start) to see a chest striaght ahead on the opposite side. Break it to get the pearl piece.",
+     "where": "ขึ้นไปสะพานชั้นบน (ปลายที่ใกล้จุดเริ่ม) จะเห็นหีบตรงหน้าอีกฝั่ง ทุบเพื่อรับชิ้นส่วน Pearl",
      "short": "ขึ้นสะพานชั้นบน (ฝั่งจุดเริ่ม) หีบฝั่งตรงข้าม"
     },
     {
      "key": "c8-14",
      "type": "อีกา",
-     "where": "ไปกลางสะพาน (ตรงร้านค้า) แล้วกระโดดลงทางขวาจะเจออีกาค่ะ",
-     "en": "Go to the middle of the bridge (where the shop is) and jump down to your right to find the crow.",
+     "where": "ไปกลางสะพาน (ตรงร้านค้า) แล้วกระโดดลงทางขวาจะเจออีกา",
      "short": "กลางสะพาน (ร้านค้า) กระโดดลงขวา"
     },
     {
      "key": "c8-15",
      "type": "Card",
-     "where": "อยู่ใต้สะพานช่วงสุดท้ายค่ะ",
-     "en": "Under the last section of the bridge.",
+     "where": "อยู่ใต้สะพานช่วงสุดท้าย",
      "short": "ใต้สะพานช่วงสุดท้าย"
     },
     {
      "key": "c8-16",
      "type": "Echo",
-     "where": "ไปทางซ้ายทันทีที่เข้าวิหารใต้ดิน (หลังได้ demon ตัวใหม่) ค่ะ",
-     "en": "Go left as soon as you enter the underground temple (just after getting the new summon).",
+     "where": "ไปทางซ้ายทันทีที่เข้าวิหารใต้ดิน (หลังได้ demon ตัวใหม่)",
      "short": "เข้าวิหารใต้ดิน ไปซ้าย"
     },
     {
      "key": "c8-17",
      "type": "Fig",
-     "where": "อยู่ฝั่งขวาของห้องใหญ่ที่มีศัตรูพ็อด เมื่อขึ้นชั้นบนของวิหารค่ะ",
-     "en": "To the right side of the big room with pod enemies once you go upstairs in the temple.",
+     "where": "อยู่ฝั่งขวาของห้องใหญ่ที่มีศัตรูพ็อด เมื่อขึ้นชั้นบนของวิหาร",
      "short": "ห้องใหญ่ที่มีพ็อด ชั้นบน ฝั่งขวา"
     },
     {
      "key": "c8-18",
      "type": "BWH",
-     "where": "ใช้ demon ทุบ \"หีบใหญ่\" ในห้องเดียวกับชิ้นก่อนค่ะ",
-     "en": "Break the \"big chest\" with a summon in the same room as the previous collectible.",
+     "where": "ใช้ demon ทุบ \"หีบใหญ่\" ในห้องเดียวกับชิ้นก่อน",
      "short": "ให้ demon ทุบ \"หีบใหญ่\" ห้องเดียวกัน"
     },
     {
      "key": "c8-19",
      "type": "แมว",
-     "where": "อยู่บนเสาในห้องเดียวกับของชิ้นก่อนๆ ค่ะ",
-     "en": "On the pillars in the same room as the previous collectibles.",
+     "where": "อยู่บนเสาในห้องเดียวกับของชิ้นก่อนๆ",
      "short": "บนเสาในห้องเดียวกัน"
     },
     {
      "key": "c8-20",
      "type": "Fig",
-     "where": "เดินต่อในวิหารจนถึงห้องที่เต็มไปด้วยพิษ ตีรูปปั้นแรกทางขวาให้ห้องลับเปิด ของอยู่ในนั้นค่ะ",
-     "en": "Continue through the temple until you get to a room filled with poison. Here hit the first statue on the right to reveal a secret room where you can find the collectible.",
+     "where": "เดินต่อในวิหารจนถึงห้องที่เต็มไปด้วยพิษ ตีรูปปั้นแรกทางขวาให้ห้องลับเปิด ของอยู่ในนั้น",
      "short": "ห้องพิษ ตีรูปปั้นแรกขวา ห้องลับ"
     },
     {
      "key": "c8-21",
      "type": "BWH",
-     "where": "ทำแบบเดียวกันกับรูปปั้นแรกทางซ้ายของห้องพิษ แล้วทำชาเลนจ์สีม่วงให้ผ่านเพื่อรับของค่ะ",
-     "en": "Now do the same and break the first statue on the left side of the poison room. Here finish the purple challenge to get the collectible.",
+     "where": "ทำแบบเดียวกันกับรูปปั้นแรกทางซ้ายของห้องพิษ แล้วทำชาเลนจ์สีม่วงให้ผ่านเพื่อรับของ",
      "short": "ห้องพิษ ทุบรูปปั้นแรกซ้าย ชาเลนจ์ม่วง"
     }
    ],
@@ -1923,184 +1726,158 @@
     {
      "key": "c9-0",
      "type": "Fig",
-     "where": "กระโดดลงหน้าผาตรงหน้าทางขวา ของอยู่ด้านล่างค่ะ",
-     "en": "Drop down the cliff right in front of you to your right to find the collectible below.",
+     "where": "กระโดดลงหน้าผาตรงหน้าทางขวา ของอยู่ด้านล่าง",
      "short": "ลงหน้าผาตรงหน้าทางขวา"
     },
     {
      "key": "c9-1",
      "type": "Card",
-     "where": "อยู่บนยอดหินสูงในพื้นที่เดียวกับชิ้นก่อนค่ะ",
-     "en": "On top of the tall rock in the same area as the previous collectible.",
+     "where": "อยู่บนยอดหินสูงในพื้นที่เดียวกับชิ้นก่อน",
      "short": "ยอดหินสูงพื้นที่เดียวกัน"
     },
     {
      "key": "c9-2",
      "type": "คางคก",
-     "where": "อยู่ในพุ่มไม้บนแท่นที่สอง ขึ้นไปทางซ้ายของแท่นเล็กๆ ที่มีน้ำค่ะ",
-     "en": "In a bush on the send platform up to the left of all little platforms with water on them.",
+     "where": "อยู่ในพุ่มไม้บนแท่นที่สอง ขึ้นไปทางซ้ายของแท่นเล็กๆ ที่มีน้ำ",
      "short": "ในพุ่มไม้ แท่นที่ 2 ขึ้นซ้ายของแท่นมีน้ำ"
     },
     {
      "key": "c9-3",
      "type": "Light",
-     "where": "เห็นได้ชัดในพื้นที่ด้านบนสุดของแท่นที่มีน้ำค่ะ",
-     "en": "In plain sight in the area at the top of all the platforms with water on them.",
+     "where": "เห็นได้ชัดในพื้นที่ด้านบนสุดของแท่นที่มีน้ำ",
      "short": "เห็นชัด ยอดแท่นที่มีน้ำ"
     },
     {
      "key": "c9-4",
      "type": "Echo",
-     "where": "อยู่หลังน้ำตกทางขวาของ Heavenly Light ค่ะ",
-     "en": "Behind the waterfall to the right of the heavenly light.",
+     "where": "อยู่หลังน้ำตกทางขวาของ Heavenly Light",
      "short": "หลังน้ำตก ขวาของ Heavenly Light"
     },
     {
      "key": "c9-5",
      "type": "BMP",
-     "where": "อยู่ด้านข้างหอคอยในพื้นที่ที่มีของ 2 ชิ้นก่อนค่ะ",
-     "en": "On the side of the tower in the area where the previous 2 collectibles were.",
+     "where": "อยู่ด้านข้างหอคอยในพื้นที่ที่มีของ 2 ชิ้นก่อน",
      "short": "ด้านข้างหอคอย พื้นที่ 2 ชิ้นก่อน"
     },
     {
      "key": "c9-6",
      "type": "Inf",
-     "where": "เห็นได้ชัดทันทีที่เข้าตึกที่มีนกบินอยู่รอบๆ ค่ะ",
-     "en": "In plain sight as soon as you enter the building with the birds around it.",
+     "where": "เห็นได้ชัดทันทีที่เข้าตึกที่มีนกบินอยู่รอบๆ",
      "short": "เข้าตึกที่มีนกบินรอบ เห็นชัด"
     },
     {
      "key": "c9-7",
      "type": "BWH",
-     "where": "จากชิ้นก่อน ขึ้นบันไดแล้วออกไประเบียงผ่านแนวเสา ทำชาเลนจ์สีม่วงให้ผ่านเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "From the previous collectible, go up the stairs and out on to the balcony through the columns. Finish the purple challenge to get the heart piece.",
+     "where": "จากชิ้นก่อน ขึ้นบันไดแล้วออกไประเบียงผ่านแนวเสา ทำชาเลนจ์สีม่วงให้ผ่านเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ขึ้นบันได ออกระเบียงผ่านเสา ชาเลนจ์ม่วง"
     },
     {
      "key": "c9-8",
      "type": "Card",
-     "where": "กระโดดจากปลายขวาของระเบียง (ตรงบันไดขึ้นชั้นถัดไป) ไปลงแท่นอีกฝั่งของช่องว่าง ของอยู่หลังหอคอยค่ะ",
-     "en": "Jump off the right end of the balconies (where the stairs are to go to the next level) and land on the flatform on the other side of the gap. The collectible is behind the tower.",
+     "where": "กระโดดจากปลายขวาของระเบียง (ตรงบันไดขึ้นชั้นถัดไป) ไปลงแท่นอีกฝั่งของช่องว่าง ของอยู่หลังหอคอย",
      "short": "กระโดดจากปลายขวาระเบียง หลังหอคอยอีกฝั่ง"
     },
     {
      "key": "c9-9",
      "type": "Fig",
-     "where": "ปีนภูเขาหลังชิ้นก่อนขึ้นไป จะเจอ Figure Box ใกล้บันไดที่พาขึ้นข้างวิหารค่ะ",
-     "en": "Climb up the mountain behind the previous collectible to find the figure box close to the stairs that take you up the side of the temple.",
+     "where": "ปีนภูเขาหลังชิ้นก่อนขึ้นไป จะเจอ Figure Box ใกล้บันไดที่พาขึ้นข้างวิหาร",
      "short": "ปีนเขาหลังชิ้นก่อน ใกล้บันไดข้างวิหาร"
     },
     {
      "key": "c9-10",
      "type": "Rec",
-     "where": "พอเข้าวิหารหลังคัตซีน จะเจอ Record ระหว่างเลื่อย 2 อันทางขวาค่ะ",
-     "en": "Once you enter the temple after the cutscene you will find the record inbetween 2 saws on the right side.",
+     "where": "พอเข้าวิหารหลังคัตซีน จะเจอ Record ระหว่างเลื่อย 2 อันทางขวา",
      "short": "เข้าวิหารหลังคัตซีน ระหว่างเลื่อย 2 อันทางขวา"
     },
     {
      "key": "c9-11",
      "type": "BMP",
-     "where": "อยู่ในหีบที่มุมขวาของห้องเดียวกันค่ะ",
-     "en": "In the right corner of the same room in a chest.",
+     "where": "อยู่ในหีบที่มุมขวาของห้องเดียวกัน",
      "short": "หีบมุมขวาห้องเดียวกัน"
     },
     {
      "key": "c9-12",
      "type": "BWH",
-     "where": "ในห้องถัดไปที่มีลม ร่อนขึ้นผ่านประตูทางขวาจะเจอไทม์ไทรอัล ทำให้ผ่านเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "In the next room with the wind, glide up through the door on the right to find a time trial. Finish the time trial to get the heart piece.",
+     "where": "ในห้องถัดไปที่มีลม ร่อนขึ้นผ่านประตูทางขวาจะเจอไทม์ไทรอัล ทำให้ผ่านเพื่อรับชิ้นส่วนหัวใจ",
      "short": "ห้องลมถัดไป ร่อนขึ้นประตูขวา ไทม์ไทรอัล"
     },
     {
      "key": "c9-13",
      "type": "Echo",
-     "where": "ในห้องหลังการต่อสู้ครั้งถัดไป ไปทางขวาจะเจอของในรูบนพื้นค่ะ",
-     "en": "In the room after the next fight, go right and find the collectible in a hole in the floor.",
+     "where": "ในห้องหลังการต่อสู้ครั้งถัดไป ไปทางขวาจะเจอของในรูบนพื้น",
      "short": "หลังสู้ ห้องถัดไป ไปขวา ในรูบนพื้น"
     },
     {
      "key": "c9-14",
      "type": "อีกา",
-     "where": "อยู่บนโครงสร้างเหนือประตูใหญ่ในห้องเดียวกันค่ะ",
-     "en": "In the same room on the structure above the big door.",
+     "where": "อยู่บนโครงสร้างเหนือประตูใหญ่ในห้องเดียวกัน",
      "short": "บนโครงเหนือประตูใหญ่ ห้องเดียวกัน"
     },
     {
      "key": "c9-15",
      "type": "Fig",
-     "where": "ทันทีที่ออกจากห้องกังหันลม ไปทางขวาจะเจอของหลังเศษซากค่ะ",
-     "en": "As soon as you leave the windmill room, go right to find the pack behind the debris.",
+     "where": "ทันทีที่ออกจากห้องกังหันลม ไปทางขวาจะเจอของหลังเศษซาก",
      "short": "ออกห้องกังหัน ไปขวา หลังเศษซาก"
     },
     {
      "key": "c9-16",
      "type": "Fig",
-     "where": "หลังตกทะลุพื้น ทุบคริสตัลสีม่วงแล้วร่อนไปพื้นที่ถัดไป ก่อนเข้าประตูให้ปีนขึ้นทางซ้ายจะเจอของด้านบนค่ะ",
-     "en": "After falling through the floor, break the purple crystals and glide to the next area. Before going through the door climb up to the left to find the pack at the top.",
+     "where": "หลังตกทะลุพื้น ทุบคริสตัลสีม่วงแล้วร่อนไปพื้นที่ถัดไป ก่อนเข้าประตูให้ปีนขึ้นทางซ้ายจะเจอของด้านบน",
      "short": "ตกพื้น ทุบคริสตัลม่วง ร่อน ปีนซ้ายก่อนเข้าประตู"
     },
     {
      "key": "c9-17",
      "type": "Echo",
-     "where": "อยู่ทางขวาในห้องปริศนาน้ำหนักค่ะ",
-     "en": "To the right in the room with the weight puzzle.",
+     "where": "อยู่ทางขวาในห้องปริศนาน้ำหนัก",
      "short": "ขวาในห้องปริศนาตาชั่ง"
     },
     {
      "key": "c9-18",
      "type": "แมว",
-     "where": "อยู่ที่มุมขวาสุดของห้องปริศนาน้ำหนักค่ะ",
-     "en": "In the far right corner of the weight puzzle room.",
+     "where": "อยู่ที่มุมขวาสุดของห้องปริศนาน้ำหนัก",
      "short": "มุมขวาสุดห้องตาชั่ง"
     },
     {
      "key": "c9-19",
      "type": "Fig",
-     "where": "อยู่บนบันไดซ้ายสุดในห้องปริศนาน้ำหนักค่ะ",
-     "en": "On the far left stairs in the weight puzzle room.",
+     "where": "อยู่บนบันไดซ้ายสุดในห้องปริศนาน้ำหนัก",
      "short": "บันไดซ้ายสุดห้องตาชั่ง"
     },
     {
      "key": "c9-20",
      "type": "Card",
-     "where": "ในห้องถัดไป ผ่านประตูที่ถูกปิดกั้นทางขวาแล้วมองขวาจะเจอของค่ะ",
-     "en": "In the next room go through the blocked door to the right and look right to get the collectible.",
+     "where": "ในห้องถัดไป ผ่านประตูที่ถูกปิดกั้นทางขวาแล้วมองขวาจะเจอของ",
      "short": "ห้องถัดไป ประตูที่ถูกปิดทางขวา มองขวา"
     },
     {
      "key": "c9-21",
      "type": "BWH",
-     "where": "ทำชาเลนจ์สีม่วงในห้องเดียวกับชิ้นก่อนให้ผ่านค่ะ",
-     "en": "Finish the purple trial in the same room as the previous collectible.",
+     "where": "ทำชาเลนจ์สีม่วงในห้องเดียวกับชิ้นก่อนให้ผ่าน",
      "short": "ชาเลนจ์ม่วงห้องเดียวกัน"
     },
     {
      "key": "c9-22",
      "type": "Fig",
-     "where": "จากของชิ้นก่อนๆ ลงบันไดไปห้องถัดไป ของอยู่ทางขวาค่ะ",
-     "en": "From the previous collectibles, go down the stairs to the next room. Here you will find the collectible on your right.",
+     "where": "จากของชิ้นก่อนๆ ลงบันไดไปห้องถัดไป ของอยู่ทางขวา",
      "short": "ลงบันไดไปห้องถัดไป ทางขวา"
     },
     {
      "key": "c9-23",
      "type": "Fig",
-     "where": "ในถ้ำถัดจากชิ้นก่อน (ก่อนฉากไล่ล่า) มีแท่นล่องหนทางซ้าย (กลับมาพร้อม Mictlantecuhtli เพื่อเผยแท่นได้) ของอยู่อีกฝั่งค่ะ",
-     "en": "In the cave straight after the previous collectible (just before the chase scene) you will find some invisible platforms on your left (you can return here with Mictlantecuhtli to reveal them) the collectible can be found on the other side.",
+     "where": "ในถ้ำถัดจากชิ้นก่อน (ก่อนฉากไล่ล่า) มีแท่นล่องหนทางซ้าย (กลับมาพร้อม Mictlantecuhtli เพื่อเผยแท่นได้) ของอยู่อีกฝั่ง",
      "short": "ถ้ำก่อนฉากไล่ล่า แท่นล่องหนซ้าย (ใช้ Mictlantecuhtli)",
      "backtrack": true
     },
     {
      "key": "c9-24",
      "type": "Card",
-     "where": "ระหว่างวิ่งหนีหมอก พอเลี้ยวหัวมุมจะเห็น Card Pack ชัดๆ เหนือบันไดค่ะ",
-     "en": "While running away from the mist you will see a card pack in plain sight above some stairs after going around a corner.",
+     "where": "ระหว่างวิ่งหนีหมอก พอเลี้ยวหัวมุมจะเห็น Card Pack ชัดๆ เหนือบันได",
      "short": "ช่วงหนีหมอก เลี้ยวหัวมุม เหนือบันได"
     },
     {
      "key": "c9-25",
      "type": "Card",
-     "where": "หลังช่วงหนีหมอก จะข้ามสะพานโดยให้ demon หมุนกังหันลม พอข้ามแล้วมองขวาจะเจอของค่ะ",
-     "en": "After the part where you run away from the mist, you will cross a bridge by using the summon to activate the windmills. As soon as you cross the bridge look to your right to find the collectible.",
+     "where": "หลังช่วงหนีหมอก จะข้ามสะพานโดยให้ demon หมุนกังหันลม พอข้ามแล้วมองขวาจะเจอของ",
      "short": "หลังหนีหมอก ข้ามสะพานด้วยกังหัน มองขวา"
     }
    ],
@@ -2166,140 +1943,121 @@
     {
      "key": "c10-0",
      "type": "Fig",
-     "where": "ตอนเริ่มบท เดินไปข้างหน้าไม่กี่ก้าวแล้วไปทางขวาจะเห็นแท่นด้านล่าง ไต่ตามแท่นขึ้นไปจะเจอ Figure Box ค่ะ",
-     "en": "At the start of the chapter, take a few steps forwards and then go right to find a platform below you. Here follow the platforms up to find the figure box.",
+     "where": "ตอนเริ่มบท เดินไปข้างหน้าไม่กี่ก้าวแล้วไปทางขวาจะเห็นแท่นด้านล่าง ไต่ตามแท่นขึ้นไปจะเจอ Figure Box",
      "short": "ต้นบท เดินหน้านิด ไปขวา ไต่แท่นขึ้น"
     },
     {
      "key": "c10-1",
      "type": "BMP",
-     "where": "ทำชาเลนจ์สีม่วงข้างชิ้นก่อนให้ผ่านค่ะ",
-     "en": "Finish the purple challenge next to the previous collectible.",
+     "where": "ทำชาเลนจ์สีม่วงข้างชิ้นก่อนให้ผ่าน",
      "short": "ชาเลนจ์ม่วงข้างชิ้นก่อน"
     },
     {
      "key": "c10-2",
      "type": "Echo",
-     "where": "กลับลงไปแท่นล่างสุดแล้วเหยียบให้แท่นอื่นโผล่ (ชุดเดียวกับที่ใช้ไปเก็บ Figure Box) ลงไปแท่นล่างที่เพิ่งโผล่เพื่อเอากุญแจผนึก แล้วเดินตรงจากจุดเริ่มบทจนเห็นหอคอย ทุบกำแพงหอคอย เข้าไปขึ้นลิฟต์ถึงยอดจะเจอ Echoes of Memory ลอยอยู่เหนือหัว จากนั้นอ้อมหอคอยอีกหลังไปหาผนึกที่เปิดด้วยกุญแจได้ Broken Witch Heart อยู่ในหีบข้างในค่ะ",
-     "en": "Go back down to the bottom platform and step on it to get the other platforms to appear (same platforms used to get the figure box). Now go down to the bottom platforms that just appeared to get the seal key. Now continue stright from the start of the chapter until you see a tower. Hit the walls of the tower to break them. Inside take the lift to the top where you will find the Echoes Of Memory floating above you.Then go around another tower to find the seal that can  be opened with the key. The Broken witch heart will be in the chest inside.",
+     "where": "กลับลงไปแท่นล่างสุดแล้วเหยียบให้แท่นอื่นโผล่ (ชุดเดียวกับที่ใช้ไปเก็บ Figure Box) ลงไปแท่นล่างที่เพิ่งโผล่เพื่อเอากุญแจผนึก แล้วเดินตรงจากจุดเริ่มบทจนเห็นหอคอย ทุบกำแพงหอคอย เข้าไปขึ้นลิฟต์ถึงยอดจะเจอ Echoes of Memory ลอยอยู่เหนือหัว จากนั้นอ้อมหอคอยอีกหลังไปหาผนึกที่เปิดด้วยกุญแจได้ Broken Witch Heart อยู่ในหีบข้างใน",
      "short": "เหยียบแท่นล่างสุด เอากุญแจ → หอคอย ขึ้นลิฟต์",
      "backtrack": true
     },
     {
      "key": "c10-3",
      "type": "BWH",
-     "where": "(รายการเดียวกับข้างบน) กลับลงไปแท่นล่างสุดแล้วเหยียบให้แท่นอื่นโผล่ ลงไปเอากุญแจผนึก ไปหอคอยที่เดินตรงจากจุดเริ่ม แล้วอ้อมหอคอยอีกหลังไปหาผนึกที่เปิดด้วยกุญแจ Broken Witch Heart อยู่ในหีบข้างในค่ะ",
-     "en": "Go back down to the bottom platform and step on it to get the other platforms to appear (same platforms used to get the figure box). Now go down to the bottom platforms that just appeared to get the seal key. Now continue stright from the start of the chapter until you see a tower. Hit the walls of the tower to break them. Inside take the lift to the top where you will find the Echoes Of Memory floating above you.Then go around another tower to find the seal that can  be opened with the key. The Broken witch heart will be in the chest inside.",
+     "where": "(ของชิ้นนี้อยู่ในรายการเดียวกับข้างบน) กลับลงไปแท่นล่างสุดแล้วเหยียบให้แท่นอื่นโผล่ ลงไปเอากุญแจผนึก ไปหอคอยที่เดินตรงจากจุดเริ่ม แล้วอ้อมหอคอยอีกหลังไปหาผนึกที่เปิดด้วยกุญแจ Broken Witch Heart อยู่ในหีบข้างใน",
      "short": "เหยียบแท่นล่างสุด เอากุญแจ → อ้อมหอคอย เปิดผนึก",
      "backtrack": true
     },
     {
      "key": "c10-4",
      "type": "BMP",
-     "where": "จากชิ้นก่อน หันหลังแล้วกระโดดไปสะพานพังทางขวา ทำไทม์ไทรอัลให้ผ่านเพื่อรับ Moon Pearl ค่ะ",
-     "en": "From the previous collectible, turn around and jump to the broken bridge on the right side. Finish the time trial to get the moon pearl.",
+     "where": "จากชิ้นก่อน หันหลังแล้วกระโดดไปสะพานพังทางขวา ทำไทม์ไทรอัลให้ผ่านเพื่อรับ Moon Pearl",
      "short": "หันหลัง กระโดดไปสะพานพังขวา ไทม์ไทรอัล",
      "backtrack": true
     },
     {
      "key": "c10-5",
      "type": "Card",
-     "where": "กลับขึ้นไปจุดเริ่มไทม์ไทรอัล ผ่านภูเขาด้านหลังแล้วกระโดดลงจะเจอ Card Pack ค่ะ",
-     "en": "Go back up to where you started the time trial and go through the mountains behind it. Then drop down to find the card pack.",
+     "where": "กลับขึ้นไปจุดเริ่มไทม์ไทรอัล ผ่านภูเขาด้านหลังแล้วกระโดดลงจะเจอ Card Pack",
      "short": "กลับจุดเริ่มไทม์ไทรอัล ผ่านภูเขาด้านหลัง กระโดดลง",
      "backtrack": true
     },
     {
      "key": "c10-6",
      "type": "Echo",
-     "where": "อยู่ใต้ Card Pack พอดีค่ะ",
-     "en": "Just below the card pack.",
+     "where": "อยู่ใต้ Card Pack พอดี",
      "short": "ใต้ Card Pack"
     },
     {
      "key": "c10-7",
      "type": "อีกา",
-     "where": "อยู่ทางขวาของชิ้นก่อนค่ะ",
-     "en": "To the right of the previous collectible.",
+     "where": "อยู่ทางขวาของชิ้นก่อน",
      "short": "ขวาของชิ้นก่อน"
     },
     {
      "key": "c10-8",
      "type": "Fig",
-     "where": "ทุบกำแพงตึกเล็กซ้ายสุดใต้สะพาน (ตึกที่อยู่ใต้จุดที่เปิดผนึกด้วยกุญแจ) ค่ะ",
-     "en": "Break the wall of the left most little building under the bridge (the one under where you opened the seal with the key).",
+     "where": "ทุบกำแพงตึกเล็กซ้ายสุดใต้สะพาน (ตึกที่อยู่ใต้จุดที่เปิดผนึกด้วยกุญแจ)",
      "short": "ทุบกำแพงตึกเล็กซ้ายสุดใต้สะพาน"
     },
     {
      "key": "c10-9",
      "type": "Medal",
-     "where": "ออกไปข้างนอกแล้วทำลายกำแพงหอคอยเล็กทางซ้าย Shard อยู่ข้างในค่ะ",
-     "en": "Now go back outside and destroy the wall of the small tower on your left to find the shard inside.",
+     "where": "ออกไปข้างนอกแล้วทำลายกำแพงหอคอยเล็กทางซ้าย Shard อยู่ข้างใน",
      "short": "ออกข้างนอก ทุบกำแพงหอคอยเล็กซ้าย",
      "backtrack": true
     },
     {
      "key": "c10-10",
      "type": "Card",
-     "where": "หลังการต่อสู้ใน Ginnungagap กระโดดข้ามแท่นทางขวาค่ะ",
-     "en": "After the fight in Ginnungagap jump across the platforms to your right.",
+     "where": "หลังการต่อสู้ใน Ginnungagap กระโดดข้ามแท่นทางขวา",
      "short": "หลังสู้ใน Ginnungagap ข้ามแท่นทางขวา"
     },
     {
      "key": "c10-11",
      "type": "Card",
-     "where": "พอถึง Paris ชิดซ้ายไว้จนเห็นร้านที่ให้ Cheshire (ต้นฉบับเขียน Chester) พังได้ Card Pack อยู่ข้างในค่ะ",
-     "en": "Once you arrive in Paris stick to your left until you see a shop that you can break with Chester. The card pack is inside.",
+     "where": "พอถึง Paris ชิดซ้ายไว้จนเห็นร้านที่ให้ Cheshire พังได้ Card Pack อยู่ข้างใน",
      "short": "ถึง Paris ชิดซ้าย ให้ Cheshire พังร้าน"
     },
     {
      "key": "c10-12",
      "type": "Light",
-     "where": "อยู่ทางขวาทันทีที่ถึง Paris ค่ะ",
-     "en": "On your right once you arrive in Paris.",
+     "where": "อยู่ทางขวาทันทีที่ถึง Paris",
      "short": "ถึง Paris ทางขวา"
     },
     {
      "key": "c10-13",
      "type": "แมว",
-     "where": "จากจุดเริ่มช่วง Paris ชิดขวาจะเห็นแมวข้างทางลงรถไฟใต้ดิน พอเข้าใกล้มันจะกระโดดลงไป ให้รีบวิ่งไปทางลงรถไฟใต้ดินอีกฝั่งถนนแล้วรอดักค่ะ",
-     "en": "From the start of the Paris section, stick to the right. You will then see the cat next to a subway entrance. Once you get close the cat will  jump down in to the subway. Quickly run across to the subway entrance on the other side of the road and wait for it.",
+     "where": "จากจุดเริ่มช่วง Paris ชิดขวาจะเห็นแมวข้างทางลงรถไฟใต้ดิน พอเข้าใกล้มันจะกระโดดลงไป ให้รีบวิ่งไปทางลงรถไฟใต้ดินอีกฝั่งถนนแล้วรอดัก",
      "short": "ชิดขวา แมวข้างทางลงรถไฟใต้ดิน ไปดักอีกฝั่ง"
     },
     {
      "key": "c10-14",
      "type": "Fig",
-     "where": "พังร้านทางขวาใกล้ปลายถนนหลัก ก่อนถึง Arc de Triomphe ค่ะ",
-     "en": "Break the shop on the right close to the end of the main street just before the Arc de Triomphe.",
+     "where": "พังร้านทางขวาใกล้ปลายถนนหลัก ก่อนถึง Arc de Triomphe",
      "short": "พังร้านขวาใกล้ปลายถนน ก่อน Arc de Triomphe"
     },
     {
      "key": "c10-15",
      "type": "BWH",
-     "where": "ตีลูกบาศก์ข้างชิ้นก่อน แล้วใช้แท่นขึ้นไปทำไทม์ไทรอัลให้ผ่านเพื่อรับ Witch Heart ค่ะ",
-     "en": "Hit the cube next to the previous collectible, then use the platforms to get up to the time trial. Complete it to get the witch heart.",
+     "where": "ตีลูกบาศก์ข้างชิ้นก่อน แล้วใช้แท่นขึ้นไปทำไทม์ไทรอัลให้ผ่านเพื่อรับ Witch Heart",
      "short": "ตีลูกบาศก์ข้างชิ้นก่อน ขึ้นแท่น ไทม์ไทรอัล"
     },
     {
      "key": "c10-16",
      "type": "Echo",
-     "where": "เดินตามถนนหลักต่อโดยชิดซ้าย จะเจอของในทางลงรถไฟใต้ดินค่ะ",
-     "en": "Continue down the main street as you stick to the left to find the collectible in a subway entrance.",
+     "where": "เดินตามถนนหลักต่อโดยชิดซ้าย จะเจอของในทางลงรถไฟใต้ดิน",
      "short": "ไปตามถนนหลักชิดซ้าย ในทางลงรถไฟใต้ดิน"
     },
     {
      "key": "c10-17",
      "type": "BWH",
-     "where": "จากชิ้นก่อน หันหลังแล้วเข้าตรอกทางขวา มองขวาจะเจอชาเลนจ์สีม่วง ทำให้ผ่านเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "From the previous collectible, turn around and go down the alley on your right. Then look right to find a purple challenge. Finish it to get the heart piece.",
+     "where": "จากชิ้นก่อน หันหลังแล้วเข้าตรอกทางขวา มองขวาจะเจอชาเลนจ์สีม่วง ทำให้ผ่านเพื่อรับชิ้นส่วนหัวใจ",
      "short": "หันหลัง เข้าตรอกขวา ชาเลนจ์ม่วงทางขวา",
      "backtrack": true
     },
     {
      "key": "c10-18",
      "type": "คางคก",
-     "where": "เดินผ่านตรอกข้างชาเลนจ์ก่อนหน้า แล้วพังประตูโรงรถทางขวาจะเจอ Umbran Tear ค่ะ",
-     "en": "Go through the alley next to the previous challenge. Then break the garage door on the right to find the Umbran Tear.",
+     "where": "เดินผ่านตรอกข้างชาเลนจ์ก่อนหน้า แล้วพังประตูโรงรถทางขวาจะเจอ Umbran Tear",
      "short": "ผ่านตรอกข้างชาเลนจ์ พังประตูโรงรถขวา"
     }
    ],
@@ -2334,115 +2092,99 @@
     {
      "key": "c11-0",
      "type": "Fig",
-     "where": "อยู่หลังเศษซากทางซ้าย ก่อนออกไปลานโล่งแรกค่ะ",
-     "en": "Behind the debris on your left just before you come out to the first open area.",
+     "where": "อยู่หลังเศษซากทางซ้าย ก่อนออกไปลานโล่งแรก",
      "short": "หลังเศษซากซ้าย ก่อนออกลานโล่งแรก"
     },
     {
      "key": "c11-1",
      "type": "Light",
-     "where": "อยู่ทางซ้ายในลานโล่งแรก (ถัดจากชิ้นก่อน) ค่ะ",
-     "en": "To your left in the first open area (just after the previous collectible).",
+     "where": "อยู่ทางซ้ายในลานโล่งแรก (ถัดจากชิ้นก่อน)",
      "short": "ซ้ายในลานโล่งแรก"
     },
     {
      "key": "c11-2",
      "type": "อีกา",
-     "where": "ไปฝั่งขวาของลานโล่งโดยชิดตึกทางขวาจะเห็นอีกาค่ะ",
-     "en": "Now go to the right side of the open area sticking to the right buildings to see the crow.",
+     "where": "ไปฝั่งขวาของลานโล่งโดยชิดตึกทางขวาจะเห็นอีกา",
      "short": "ฝั่งขวาของลาน ชิดตึกขวา"
     },
     {
      "key": "c11-3",
      "type": "Card",
-     "where": "อยู่หลังรถบัสฝั่งตรงข้ามถนนจากจุดที่อีกาเริ่มค่ะ",
-     "en": "Behind the bus on the opposite side of the road from where the crow starts.",
+     "where": "อยู่หลังรถบัสฝั่งตรงข้ามถนนจากจุดที่อีกาเริ่ม",
      "short": "หลังรถบัสฝั่งตรงข้ามจุดอีกา"
     },
     {
      "key": "c11-4",
      "type": "Card",
-     "where": "อยู่หลังรถบัสที่ปลายถนนในลานโล่งแรกค่ะ",
-     "en": "Behind the bus at the end of the road in the first open area.",
+     "where": "อยู่หลังรถบัสที่ปลายถนนในลานโล่งแรก",
      "short": "หลังรถบัสปลายถนนในลานแรก"
     },
     {
      "key": "c11-5",
      "type": "Rec",
-     "where": "ตอนเริ่มพื้นที่ใต้ดินมืด ใช้ Mictlantecuhtli ส่องให้เห็นรอบๆ แล้วไปทางซ้ายเข้าโถงจะเจอ Record ค่ะ",
-     "en": "At the start of the dark underground area, use the Mictlantecuhtli summon to reveal the surrounding area. Now go left and enter the hall to find the record.",
+     "where": "ตอนเริ่มพื้นที่ใต้ดินมืด ใช้ Mictlantecuhtli ส่องให้เห็นรอบๆ แล้วไปทางซ้ายเข้าโถงจะเจอ Record",
      "short": "ใต้ดินมืด ใช้ Mictlantecuhtli ส่อง ไปซ้ายเข้าโถง"
     },
     {
      "key": "c11-6",
      "type": "คางคก",
-     "where": "อยู่ในพื้นที่มืดเดียวกัน หลังเสาทางขวาด้านหลังค่ะ",
-     "en": "In the same dark area behind the column on the right at the back.",
+     "where": "อยู่ในพื้นที่มืดเดียวกัน หลังเสาทางขวาด้านหลัง",
      "short": "พื้นที่มืดเดิม หลังเสาขวาด้านหลัง"
     },
     {
      "key": "c11-7",
      "type": "BWH",
-     "where": "ทันทีที่กลับขึ้นมาบนพื้นดิน หันหลังแล้วตีกล่อง ใช้แท่นขึ้นไปยอดแล้วทุบ \"ลูกบาศก์\" จะมีหีบลอยโผล่มา ต้องใช้ demon ทุบค่ะ",
-     "en": "As soon as you come back above ground, turn around and hit the box. Then use the platforms to get to the top where you will have to break the \"cube\". This will spawna floating chest that you will then have to break with your summons.",
+     "where": "ทันทีที่กลับขึ้นมาบนพื้นดิน หันหลังแล้วตีกล่อง ใช้แท่นขึ้นไปยอดแล้วทุบ \"ลูกบาศก์\" จะมีหีบลอยโผล่มา ต้องใช้ demon ทุบ",
      "short": "ขึ้นพื้นดิน หันหลังตีกล่อง ขึ้นแท่น ทุบลูกบาศก์",
      "backtrack": true
     },
     {
      "key": "c11-8",
      "type": "Echo",
-     "where": "ขณะยังอยู่บนแท่นของชิ้นก่อน หันหลังแล้วร่อนไปเก็บ Echoes of Memory ที่อยู่สูงค่ะ",
-     "en": "While still on the platforms from the previous collectible, turn around and glide to the high up echoes of memory.",
+     "where": "ขณะยังอยู่บนแท่นของชิ้นก่อน หันหลังแล้วร่อนไปเก็บ Echoes of Memory ที่อยู่สูง",
      "short": "บนแท่นเดิม หันหลังร่อนไปที่สูง",
      "backtrack": true
     },
     {
      "key": "c11-9",
      "type": "BMP",
-     "where": "หลังลงจากชิ้นก่อน เข้าถนนทางตันทางซ้ายจะเจอชาเลนจ์ที่ปลายถนน ทำให้ผ่านเพื่อรับของค่ะ",
-     "en": "After dropping down from the previous collectible, go down the dead end street to your left to find a challenge at the end. Finish the challenge to get the collectible.",
+     "where": "หลังลงจากชิ้นก่อน เข้าถนนทางตันทางซ้ายจะเจอชาเลนจ์ที่ปลายถนน ทำให้ผ่านเพื่อรับของ",
      "short": "ลงมา ถนนตันซ้าย ชาเลนจ์ปลายถนน"
     },
     {
      "key": "c11-10",
      "type": "แมว",
-     "where": "อยู่ถนนเดียวกับชาเลนจ์ แมวอยู่บนกันสาดเหนือหน้าต่าง ไล่ไปเรื่อยๆ จนมันไม่มีกันสาดให้กระโดดต่อค่ะ",
-     "en": "In the same street as the challenge. You can find the cat on one of the awnings above the windows. Just keep chasing the cat until it has no awnings left to jump to.",
+     "where": "อยู่ถนนเดียวกับชาเลนจ์ แมวอยู่บนกันสาดเหนือหน้าต่าง ไล่ไปเรื่อยๆ จนมันไม่มีกันสาดให้กระโดดต่อ",
      "short": "ถนนเดียวกับชาเลนจ์ แมวบนกันสาด"
     },
     {
      "key": "c11-11",
      "type": "BWH",
-     "where": "ตามถนนทางซ้ายของร้านค้า (ทางหลัก) จะเห็นโรงรถใกล้ปลายถนนฝั่งซ้าย พังเข้าไปจะเจอชาเลนจ์ที่ให้ Witch Heart ค่ะ",
-     "en": "Down the street to the left of the shop (main path) you will see a garage close to the end of the left. Break it to find the challenge that gives you the witch heart.",
+     "where": "ตามถนนทางซ้ายของร้านค้า (ทางหลัก) จะเห็นโรงรถใกล้ปลายถนนฝั่งซ้าย พังเข้าไปจะเจอชาเลนจ์ที่ให้ Witch Heart",
      "short": "ถนนซ้ายของร้านค้า พังโรงรถใกล้ปลาย"
     },
     {
      "key": "c11-12",
      "type": "BWH",
-     "where": "ในพื้นที่ถัดไป ใช้ \"time shifter\" ทำให้ศัตรูกลายเป็นแท่น กดกระโดดบนตัวมันจะรีเซ็ตดับเบิลจัมป์ ใช้ไต่ไปเก็บชิ้นส่วนหัวใจค่ะ",
-     "en": "In the next area use the \"time shifter\" to make platforms out of the enemies. Pressing the jump button on them will reset your double jump. Use them to get the heart piece.",
+     "where": "ในพื้นที่ถัดไป ใช้ \"time shifter\" ทำให้ศัตรูกลายเป็นแท่น กดกระโดดบนตัวมันจะรีเซ็ตดับเบิลจัมป์ ใช้ไต่ไปเก็บชิ้นส่วนหัวใจ",
      "short": "ใช้ time shifter ทำศัตรูเป็นแท่น รีเซ็ตดับเบิลจัมป์"
     },
     {
      "key": "c11-13",
      "type": "Fig",
-     "where": "หลังสู้บอสที่วงเวียน เดินตามถนนหลักแล้วมองขวาจะเจอของหลังส่วนที่พังของตึกค่ะ",
-     "en": "After the boss at the roundabout go down the main street and look to your right to find the collectible behind a broken part of the building.",
+     "where": "หลังสู้บอสที่วงเวียน เดินตามถนนหลักแล้วมองขวาจะเจอของหลังส่วนที่พังของตึก",
      "short": "หลังบอสวงเวียน ถนนหลัก มองขวา ตึกพัง"
     },
     {
      "key": "c11-14",
      "type": "BMP",
-     "where": "ระหว่างช่วงบิน ทันทีที่เข้าส่วน 2D ให้ทำลายหีบเพื่อรับของค่ะ (ต้นฉบับหัวข้อเป็น Broken Moon Pearl แต่เนื้อความเขียนว่า heart piece)",
-     "en": "During the flying section, as soon as you go in to the 2D part destroy the chest to get the heart piece.",
+     "where": "ระหว่างช่วงบิน พอเข้าส่วน 2D ให้ทำลายหีบเพื่อรับของ (100% Guides ตั้งหัวข้อเป็น Broken Moon Pearl แต่เนื้อความเขียนว่าชิ้นส่วนหัวใจ)",
      "short": "ช่วงบิน เข้าโหมด 2D ทุบหีบ"
     },
     {
      "key": "c11-15",
      "type": "Light",
-     "where": "ในส่วน 2D ชิดด้านล่างไว้หลังผ่านท่อใหญ่ๆ จะได้ของค่ะ",
-     "en": "In the 2D section stick to the bottom after some big pipes to get the collectible.",
+     "where": "ในส่วน 2D ชิดด้านล่างไว้หลังผ่านท่อใหญ่ๆ จะได้ของ",
      "short": "ช่วง 2D ชิดล่าง หลังท่อใหญ่"
     }
    ],
@@ -2478,114 +2220,98 @@
     {
      "key": "c12-0",
      "type": "BMP",
-     "where": "ตอนเริ่มบท หันหลังแล้วทำชาเลนจ์ให้ผ่านค่ะ",
-     "en": "At the start of the chapter turn around and finish the challenge.",
+     "where": "ตอนเริ่มบท หันหลังแล้วทำชาเลนจ์ให้ผ่าน",
      "short": "ต้นบท หันหลัง ทำชาเลนจ์",
      "backtrack": true
     },
     {
      "key": "c12-1",
      "type": "Fig",
-     "where": "อยู่บนแท่นทางขวาของจุดที่มี Verse 2 ค่ะ",
-     "en": "On a platform to the right of where Verse 2 is.",
+     "where": "อยู่บนแท่นทางขวาของจุดที่มี Verse 2",
      "short": "แท่นทางขวาของจุด Verse 2"
     },
     {
      "key": "c12-2",
      "type": "Fig",
-     "where": "ถัดจาก Verse 2 อยู่หลังรถบัสคว่ำทางซ้ายค่ะ",
-     "en": "Just after verse 2 behind the turned bus on the left.",
+     "where": "ถัดจาก Verse 2 อยู่หลังรถบัสคว่ำทางซ้าย",
      "short": "หลัง Verse 2 หลังรถบัสคว่ำซ้าย"
     },
     {
      "key": "c12-3",
      "type": "คางคก",
-     "where": "จากชิ้นก่อน ร่อนข้ามเหวทางซ้ายไปแท่นเดี่ยว คางคกอยู่ที่นั่นค่ะ",
-     "en": "From the previous collectible glide over the chasm on your left to get to the lone platform. The frog will be here.",
+     "where": "จากชิ้นก่อน ร่อนข้ามเหวทางซ้ายไปแท่นเดี่ยว คางคกอยู่ที่นั่น",
      "short": "ร่อนข้ามเหวซ้ายไปแท่นเดี่ยว"
     },
     {
      "key": "c12-4",
      "type": "Card",
-     "where": "จากชิ้นก่อน ใช้แท่นทางขวากระโดดขึ้นทางหลัก พอขึ้นถนนจะเห็นโรงรถ พังประตูจะเจอ Card Pack ค่ะ",
-     "en": "From the previous collectible, jump up to the main path by using the platforms on your right. As soon as you get on the road you will see a garage. Breakthe door to find the card pack.",
+     "where": "จากชิ้นก่อน ใช้แท่นทางขวากระโดดขึ้นทางหลัก พอขึ้นถนนจะเห็นโรงรถ พังประตูจะเจอ Card Pack",
      "short": "ขึ้นทางหลักด้วยแท่นขวา พังประตูโรงรถ"
     },
     {
      "key": "c12-5",
      "type": "Light",
-     "where": "เดินเข้าตรอกทางขวาของประตูโรงรถที่ได้ชิ้นก่อน จะเห็น Heavenly Light ชัดๆ ค่ะ",
-     "en": "Go down the alley to the right of the garage door where the previous collectible was. You will see the Heavenly light in plain sight.",
+     "where": "เดินเข้าตรอกทางขวาของประตูโรงรถที่ได้ชิ้นก่อน จะเห็น Heavenly Light ชัดๆ",
      "short": "ตรอกขวาของโรงรถ เห็นชัด"
     },
     {
      "key": "c12-6",
      "type": "อีกา",
-     "where": "อยู่ในลานเดียวกับ Heavenly Light ค่ะ",
-     "en": "In the same courtyard as the heavenly light.",
+     "where": "อยู่ในลานเดียวกับ Heavenly Light",
      "short": "ลานเดียวกับ Heavenly Light"
     },
     {
      "key": "c12-7",
      "type": "Fig",
-     "where": "อยู่ทางซ้ายของจุดที่อีกาเริ่มค่ะ",
-     "en": "To the left of where the crow started.",
+     "where": "อยู่ทางซ้ายของจุดที่อีกาเริ่ม",
      "short": "ซ้ายของจุดอีกาเริ่ม"
     },
     {
      "key": "c12-8",
      "type": "BWH",
-     "where": "หลังการต่อสู้ตามเนื้อเรื่องครั้งถัดไป กระโดดลงทางซ้ายจะเจอลูกบาศก์ ตีแล้วทำไทม์ไทรอัลให้ผ่านเพื่อรับชิ้นส่วนหัวใจค่ะ",
-     "en": "After the next story fight, jump down to the left to find a cube. Hit the cube and finish the time trial to get the heart piece.",
+     "where": "หลังการต่อสู้ตามเนื้อเรื่องครั้งถัดไป กระโดดลงทางซ้ายจะเจอลูกบาศก์ ตีแล้วทำไทม์ไทรอัลให้ผ่านเพื่อรับชิ้นส่วนหัวใจ",
      "short": "หลังสู้ตามเนื้อเรื่อง ลงซ้าย ตีลูกบาศก์ ไทม์ไทรอัล"
     },
     {
      "key": "c12-9",
      "type": "Fig",
-     "where": "เดินตามทางหลักจนเห็นเหวทางซ้ายที่มีซุ้มโค้งอีกฝั่ง (จุดเดียวกับแมว) พังรถหลังแมวไปจนสุดแล้วพังรถตำรวจจะเจอฟิกเกอร์ค่ะ",
-     "en": "Continue on the main path until you see a chasm on your left with an arch on the other side (same place at the cat). Destoy the vehicles behind the cat and go all the way to the end and destoy the cop car to find the figure.",
+     "where": "เดินตามทางหลักจนเห็นเหวทางซ้ายที่มีซุ้มโค้งอีกฝั่ง (จุดเดียวกับแมว) พังรถหลังแมวไปจนสุดแล้วพังรถตำรวจจะเจอฟิกเกอร์",
      "short": "เหวซ้ายมีซุ้มโค้ง พังรถจนสุด พังรถตำรวจ"
     },
     {
      "key": "c12-10",
      "type": "แมว",
-     "where": "จะได้ไล่แมวผ่านพื้นที่ที่พังรถไปตอนชิ้นก่อนค่ะ",
-     "en": "You will chace the cat trhough the area where you destroyed the vehicles for the previous collectible.",
+     "where": "จะได้ไล่แมวผ่านพื้นที่ที่พังรถไปตอนชิ้นก่อน",
      "short": "ไล่แมวผ่านพื้นที่ที่พังรถ"
     },
     {
      "key": "c12-11",
      "type": "Echo",
-     "where": "อยู่ทางซ้ายของร้านค้าค่ะ",
-     "en": "To the left of the shop.",
+     "where": "อยู่ทางซ้ายของร้านค้า",
      "short": "ซ้ายของร้านค้า"
     },
     {
      "key": "c12-12",
      "type": "BWH",
-     "where": "ทำชาเลนจ์ทางขวาของร้านค้าให้ผ่านค่ะ",
-     "en": "Finish the challenge that can be found to the right of the shop.",
+     "where": "ทำชาเลนจ์ทางขวาของร้านค้าให้ผ่าน",
      "short": "ชาเลนจ์ขวาของร้านค้า"
     },
     {
      "key": "c12-13",
      "type": "Fig",
-     "where": "อยู่อีกฝั่งของซุ้มโค้งข้างร้านค้าค่ะ",
-     "en": "The other side of the arch next to the shop.",
+     "where": "อยู่อีกฝั่งของซุ้มโค้งข้างร้านค้า",
      "short": "อีกฝั่งซุ้มโค้งข้างร้านค้า"
     },
     {
      "key": "c12-14",
      "type": "Card",
-     "where": "ระหว่างศัตรูคลื่นที่สองใน Verse 6 ให้พังประตูทางขวาในช่วงใต้ดินค่ะ",
-     "en": "During the second wave of enemies in verse 6 break the gate on the right in the underground section.",
+     "where": "ระหว่างศัตรูคลื่นที่สองใน Verse 6 ให้พังประตูทางขวาในช่วงใต้ดิน",
      "short": "Verse 6 คลื่นที่ 2 พังประตูขวาช่วงใต้ดิน"
     },
     {
      "key": "c12-15",
      "type": "Fig",
-     "where": "ทำลายเฮลิคอปเตอร์ตรงหน้าขณะขี่มังกรค่ะ",
-     "en": "Destroy the helicopter infront of you while riding the dragon.",
+     "where": "ทำลายเฮลิคอปเตอร์ตรงหน้าขณะขี่มังกร",
      "short": "ขี่มังกร ทำลายเฮลิคอปเตอร์ตรงหน้า"
     }
    ],
@@ -2620,15 +2346,13 @@
     {
      "key": "s4-0",
      "type": "Light",
-     "where": "ประมาณ 40 วินาทีหลังเริ่ม Side Chapter ให้ชิดด้านบนของจอเพื่อเปิดใช้ Heavenly Light ค่ะ",
-     "en": "About 40 seconds in to the side chapter, stick to the top of the screen to activate the heavenly light.",
+     "where": "ประมาณ 40 วินาทีหลังเริ่ม Side Chapter ให้ชิดด้านบนของจอเพื่อเปิดใช้ Heavenly Light",
      "short": "ราว 40 วินาที ชิดบนจอ"
     },
     {
      "key": "s4-1",
      "type": "Fig",
-     "where": "ประมาณ 1 นาทีกว่าหลังชิ้นก่อน ให้ชิดด้านล่างของจอค่ะ",
-     "en": "About 1 minute+ after the previous collectible, stick to the bottom of the screen.",
+     "where": "ประมาณ 1 นาทีกว่าหลังชิ้นก่อน ให้ชิดด้านล่างของจอ",
      "short": "1 นาทีกว่าหลังชิ้นก่อน ชิดล่างจอ"
     }
    ],
@@ -2663,36 +2387,32 @@
     {
      "key": "c13-0",
      "type": "BMP",
-     "where": "ตอนเริ่มบท หันหลังแล้วทำชาเลนจ์ให้ผ่านค่ะ",
-     "en": "Turn around at the start and finish the challenge.",
+     "where": "ตอนเริ่มบท หันหลังแล้วทำชาเลนจ์ให้ผ่าน",
      "short": "ต้นบท หันหลัง ทำชาเลนจ์",
      "backtrack": true
     },
     {
      "key": "c13-1",
      "type": "แมว",
-     "where": "หลังพื้นช่วงแรกถล่มใต้เท้า มองไปทางซ้ายจะเจอแมวบนแท่นค่ะ",
-     "en": "After the first section that falls beneath you, look to your left to find the cat on the platform.",
+     "where": "หลังพื้นช่วงแรกถล่มใต้เท้า มองไปทางซ้ายจะเจอแมวบนแท่น",
      "short": "หลังพื้นช่วงแรกถล่ม มองซ้าย แมวบนแท่น"
     },
     {
      "key": "c13-2",
      "type": "คางคก",
-     "where": "อยู่บนหินสีชมพูที่มีลำแสงพุ่งออกด้านบน ในพื้นที่เดียวกับแมวค่ะ",
-     "en": "On the pink stone with a beam of light coming out the top in the same area as the cat.",
+     "where": "อยู่บนหินสีชมพูที่มีลำแสงพุ่งออกด้านบน ในพื้นที่เดียวกับแมว",
      "short": "หินชมพูมีลำแสง พื้นที่เดียวกับแมว"
     },
     {
      "key": "c13-3",
      "type": "อีกา",
-     "where": "หลังขึ้นทางวนก้นหอยจะเจออีกาด้านบน ไปรอที่พุ่มไม้สีฟ้าให้อีกามาถึง ตรงนั้นจับง่ายค่ะ",
-     "en": "After going up a spiral you will find the crow at the top. Go ahead and wait at the blue bush for the crow to get there. This is an easy place to catch it.",
+     "where": "หลังขึ้นทางวนก้นหอยจะเจออีกาด้านบน ไปรอที่พุ่มไม้สีฟ้าให้อีกามาถึง ตรงนั้นจับง่าย",
      "short": "ขึ้นทางวน อีกาด้านบน รอที่พุ่มฟ้า"
     }
    ],
    "tips": [
     "หลบท่าขยายร่างของ Dark Adam (Bewitchments (fandom))",
-    "Verse 1 (พื้นถล่ม): หลังจบเกมมีกุญแจสีแดงของ Old Picture Book — กระโดดไป 2 แท่นข้างหน้าแล้วกลับมาที่พื้นวนก้นหอย ให้แท่นพังเผยกุญแจ (NL)"
+    "Verse 1 (พื้นถล่ม): หลังจบเกมจะมีกุญแจสีแดงของ Old Picture Book กระโดดไปข้างหน้า 2 แท่นแล้วกลับมาที่พื้นวนก้นหอย แท่นจะพังและเผยกุญแจออกมา (NL)"
    ],
    "sources": [
     {
@@ -2804,7 +2524,7 @@
         "Alruna",
         "Alraune",
         "Earth",
-        "ผ่าน Phenomenal Remnant 3 (fandom) — NL ตารางเขียน Ch1 แต่คอมเมนต์ใน NL แก้เป็น Ch3"
+        "ผ่าน Phenomenal Remnant 3 (fandom) ตารางของ NL เขียน Ch1 แต่คอมเมนต์ใน NL แก้เป็น Ch3"
        ],
        [
         "Cruel Altea",
@@ -2820,7 +2540,7 @@
        ],
        [
         "Handguns",
-        "— ไม่มี",
+        "ไม่มี",
         "None",
         "จบเกมระดับใดก็ได้"
        ],
@@ -2864,7 +2584,7 @@
      }
     },
     {
-     "p": "แหล่ง: <a href=\"https://www.nintendolife.com/guides/bayonetta-3-how-to-unlock-all-weapons\">NL</a> · <a href=\"https://bayonetta.fandom.com/wiki/Weapons\">fandom Weapons</a> · อาวุธพิเศษจากชุด Nintendo (Master Sword/Arwing Guns) fandom ระบุไว้ในหน้า Weapons แต่ไม่ได้บอกวิธีปลดในภาคนี้ หนูเลยไม่ใส่ในตารางค่ะ",
+     "p": "แหล่ง: <a href=\"https://www.nintendolife.com/guides/bayonetta-3-how-to-unlock-all-weapons\">NL</a> · <a href=\"https://bayonetta.fandom.com/wiki/Weapons\">fandom Weapons</a> · อาวุธพิเศษชุด Nintendo (Master Sword/Arwing Guns) มีชื่ออยู่ในหน้า Weapons ของ fandom แต่ไม่ได้บอกวิธีปลดในภาคนี้ จึงไม่ได้ใส่ไว้ในตาราง",
      "class": "src"
     }
    ]
@@ -2930,7 +2650,7 @@
        [
         "Immortal Marionette",
         "คอมโบ/ป้องกันอัตโนมัติ (หักคะแนนเมื่อเล่น Standard ขึ้นไป)",
-        "100,000 Seeds (IGN — fandom ไม่ได้ลงไว้)"
+        "100,000 Seeds (IGN; fandom ไม่ได้ลงไว้)"
        ],
        [
         "Climax Earring",
@@ -2966,7 +2686,7 @@
      }
     },
     {
-     "p": "แหล่ง: <a href=\"https://bayonetta.fandom.com/wiki/Accessories\">fandom</a> · <a href=\"https://www.ign.com/wikis/bayonetta-3/Accessories\">IGN</a> — ใส่ได้ 2 ชิ้นพร้อมกัน (IGN)",
+     "p": "แหล่ง: <a href=\"https://bayonetta.fandom.com/wiki/Accessories\">fandom</a> · <a href=\"https://www.ign.com/wikis/bayonetta-3/Accessories\">IGN</a> · ใส่ได้ 2 ชิ้นพร้อมกัน (IGN)",
      "class": "src"
     }
    ]
@@ -3073,15 +2793,15 @@
        ],
        [
         "Medallion Shard ×4",
-        "รวมเป็น Blue Medallion → ปลดบทลับ \"The Artifact Unleashed\" (บอส Golem แบบภาค 2) เล่นได้ทั้ง Bayonetta/Jeanne/Viola"
+        "รวมเป็น Blue Medallion ใช้ปลดบทลับ \"The Artifact Unleashed\" (บอส Golem แบบภาค 2) เล่นได้ทั้ง Bayonetta/Jeanne/Viola"
        ],
        [
         "Broken Witch Heart",
-        "ครบ 4 ชิ้น = Witch Heart 1 ดวง (ต้องแจกให้ Bayonetta และ Viola แยกกัน)"
+        "ครบ 4 ชิ้นได้ Witch Heart 1 ดวง (ต้องแจกให้ Bayonetta และ Viola แยกกัน)"
        ],
        [
         "Broken Moon Pearl",
-        "ครบ 2 ชิ้น = Moon Pearl 1 เม็ด (แจกแยก Bayonetta/Viola)"
+        "ครบ 2 ชิ้นได้ Moon Pearl 1 เม็ด (แจกแยก Bayonetta/Viola)"
        ],
        [
         "Halos",
@@ -3099,7 +2819,7 @@
      }
     },
     {
-     "p": "แหล่ง: <a href=\"https://gamers-high.com/bayonetta3/data/shop.html\">gamers-high (ราคา)</a> · <a href=\"https://bayonetta.fandom.com/wiki/Items\">fandom Items</a> — ไอเท็มบริโภคซื้อได้สูงสุด 99 ชิ้น (fandom)",
+     "p": "แหล่ง: <a href=\"https://gamers-high.com/bayonetta3/data/shop.html\">gamers-high (ราคา)</a> · <a href=\"https://bayonetta.fandom.com/wiki/Items\">fandom Items</a> · ไอเท็มบริโภคซื้อได้สูงสุด 99 ชิ้น (fandom)",
      "class": "src"
     }
    ]
@@ -3124,7 +2844,7 @@
        ],
        [
         "Super Mirror β1 (Street Smart Witch)",
-        "ชุดของ Variant — สีต้นฉบับซื้อได้หลังจบเกม",
+        "ชุดของ Variant สีต้นฉบับซื้อได้หลังจบเกม",
         "4,000 Halos*"
        ],
        [
@@ -3194,7 +2914,7 @@
        ],
        [
         "Old Picture Book",
-        "หลังจบเกม ต้องมีกุญแจ 3 ดอก → บทลับ",
+        "หลังจบเกม ต้องมีกุญแจ 3 ดอกเพื่อเข้าบทลับ",
         "4,100 Halos (NL)"
        ]
       ]
@@ -3287,10 +3007,10 @@
    "blocks": [
     {
      "list": [
-      "<b>Phenomenal Remnants (14 ด่าน):</b> ปลดด้วยการเก็บน้ำตาอัมบรา 3 ตัวของแต่ละบท (IGN) · รางวัล: Pulley's Butterfly (PR1), Alruna (PR3), Star of Dinéta (PR6), Infernal Communicator (PR9), Evil Harvest Rosary (PR10), Earring of Time (PR13), Cassiopeia (PR14) <span class=\"mut\">— การจับคู่เลข PR กับเลขบทเป็นการอนุมานจากตัวอย่าง PR3=Alraune/Ch3 ค่ะ</span>",
-      "<b>Witch Trials I–III:</b> Witch Trial I: 10 Verse — ปิดท้ายด้วย Singularity Balance · Witch Trial II: 10 Verse — ปิดท้ายด้วย Bayonetta + Jeanne β3 · Witch Trial III: 10 Verse — ปิดท้ายด้วย Dark Adam + Dark Eve (fandom)",
-      "<b>Old Picture Book:</b> กุญแจน้ำเงิน Ch1 Verse 4 · เขียว Ch4 Verse 1 (Lotus Field) · แดง Ch13 Verse 1 — ปรากฏหลังจบเกมเท่านั้น (NL)",
-      "<b>The Artifact Unleashed:</b> เก็บ Medallion Shard ครบ 4 (Ch1, Ch4, Ch7, Ch10 ตามรายการ 100%) → Blue Medallion (fandom)",
+      "<b>Phenomenal Remnants (14 ด่าน):</b> ปลดด้วยการเก็บน้ำตาอัมบรา 3 ตัวของแต่ละบท (IGN) · รางวัล: Pulley's Butterfly (PR1), Alruna (PR3), Star of Dinéta (PR6), Infernal Communicator (PR9), Evil Harvest Rosary (PR10), Earring of Time (PR13), Cassiopeia (PR14) <span class=\"mut\">(การจับคู่เลข PR กับเลขบทเป็นการอนุมานจากตัวอย่าง PR3 = Alraune/Ch3)</span>",
+      "<b>Witch Trials I–III:</b> แต่ละด่านมี 10 Verse · Witch Trial I ปิดท้ายด้วย Singularity Balance · Witch Trial II ปิดท้ายด้วย Bayonetta + Jeanne β3 · Witch Trial III ปิดท้ายด้วย Dark Adam + Dark Eve (fandom)",
+      "<b>Old Picture Book:</b> กุญแจน้ำเงิน Ch1 Verse 4 · เขียว Ch4 Verse 1 (Lotus Field) · แดง Ch13 Verse 1 · กุญแจทั้งสามปรากฏหลังจบเกมเท่านั้น (NL)",
+      "<b>The Artifact Unleashed:</b> เก็บ Medallion Shard ครบ 4 (Ch1, Ch4, Ch7, Ch10 ตามรายการ 100%) เพื่อรวมเป็น Blue Medallion (fandom)",
       "<b>Rodin:</b> Platinum Ticket 999,999 Seeds หลังจบเกม แขวนในห้อง Viola ท้าสู้เมื่อไหร่ก็ได้ (fandom)"
      ]
     },
@@ -3302,86 +3022,72 @@
       {
        "key": "pr-0",
        "type": "WH",
-       "where": "PR2: ทำชาเลนจ์เขียว 3 อัน → หีบหัวใจ — ใน Phenomenal Remnant 2 ทำชาเลนจ์สีเขียวให้ครบ 3 อันเพื่อรับหัวใจจากหีบค่ะ",
-       "en": "In the Phenomenal Remnant 2 finish the 3 green challenges to get the heart from the chest."
+       "where": "PR2: ทำชาเลนจ์สีเขียวให้ครบ 3 อัน แล้วรับหัวใจจากหีบ"
       },
       {
        "key": "pr-1",
        "type": "Inf",
-       "where": "อยู่ใน PR3 — พบได้ใน Phenomenal Remnant 3 ค่ะ",
-       "en": "Found in Phenomenal Remnant 3."
+       "where": "อยู่ใน Phenomenal Remnant 3 (PR3)"
       },
       {
        "key": "pr-2",
        "type": "BMP",
-       "where": "ไทม์ไทรอัลใน PR4 — ทำไทม์ไทรอัลใน Phenomenal Remnant 4 ให้ผ่านค่ะ",
-       "en": "Finish the Phenomenal Remnant 4 time trial."
+       "where": "ทำไทม์ไทรอัลใน Phenomenal Remnant 4 (PR4) ให้ผ่าน"
       },
       {
        "key": "pr-3",
        "type": "MP",
-       "where": "PR5: ชาเลนจ์เขียว 3 อัน → หีบ — ได้จากหีบหลังทำชาเลนจ์สีเขียวครบ 3 อันใน Phenomenal Remnant 5 ค่ะ",
-       "en": "Obtained from the chest after finishing the 3 green challenges in Phenomenal Remnant 5."
+       "where": "PR5: ทำชาเลนจ์สีเขียวให้ครบ 3 อัน แล้วรับของจากหีบ"
       },
       {
        "key": "pr-4",
        "type": "Light",
-       "where": "อยู่ใน PR6 — พบได้ใน Phenomenal Remnant 6 ค่ะ",
-       "en": "Found in Phenomenal Remnant 6."
+       "where": "อยู่ใน Phenomenal Remnant 6 (PR6)"
       },
       {
        "key": "pr-5",
        "type": "MP",
-       "where": "ไทม์ไทรอัลใน PR7 — ทำไทม์ไทรอัลใน Phenomenal Remnant 7 ให้ผ่านค่ะ",
-       "en": "Finish the time trial in Phenomenal Remnant 7."
+       "where": "ทำไทม์ไทรอัลใน Phenomenal Remnant 7 (PR7) ให้ผ่าน"
       },
       {
        "key": "pr-6",
        "type": "WH",
-       "where": "ชาเลนจ์เขียว 3 อันใน PR8 — ทำชาเลนจ์สีเขียวให้ครบ 3 อันใน Phenomenal Remnant 8 ค่ะ",
-       "en": "Finish the 3 green challenges in Phenomenal Remnant 8."
+       "where": "ทำชาเลนจ์สีเขียวให้ครบ 3 อันใน Phenomenal Remnant 8 (PR8)"
       },
       {
        "key": "pr-7",
        "type": "Fig",
-       "where": "PR9: แท่นลอยฝั่งซ้าย — อยู่บนแท่นลอยแท่นหนึ่งทางซ้ายใน Phenomenal Remnant 9 ค่ะ",
-       "en": "On one of the floating platforms on the left side in Phenomenal Remnant 9."
+       "where": "PR9: อยู่บนแท่นลอยแท่นหนึ่งทางซ้าย"
       },
       {
        "key": "pr-8",
        "type": "Inf",
-       "where": "อยู่ใน PR9 — พบได้ใน Phenomenal Remnant 9 ค่ะ",
-       "en": "Found in Phenomenal Remnant 9."
+       "where": "อยู่ใน Phenomenal Remnant 9 (PR9)"
       },
       {
        "key": "pr-9",
        "type": "WH",
-       "where": "ไทม์ไทรอัลใน PR11 — ทำไทม์ไทรอัลใน Phenomenal Remnant 11 ให้ผ่านค่ะ",
-       "en": "Finish the time trial in Phenomenal Remnant 11."
+       "where": "ทำไทม์ไทรอัลใน Phenomenal Remnant 11 (PR11) ให้ผ่าน"
       },
       {
        "key": "pr-10",
        "type": "WH",
-       "where": "ชาเลนจ์เขียว 3 อันใน PR12 — ทำชาเลนจ์สีเขียวให้ครบ 3 อันใน Phenomenal Remnant 12 ค่ะ",
-       "en": "Finish the 3 green challenges in Phenomenal Remnant 12."
+       "where": "ทำชาเลนจ์สีเขียวให้ครบ 3 อันใน Phenomenal Remnant 12 (PR12)"
       },
       {
        "key": "pr-11",
        "type": "Inf",
-       "where": "อยู่ใน PR13 — พบได้ใน Phenomenal Remnant 13 ค่ะ",
-       "en": "Found in Phenomenal Remnant 13."
+       "where": "อยู่ใน Phenomenal Remnant 13 (PR13)"
       },
       {
        "key": "pr-12",
        "type": "Inf",
-       "where": "อยู่ใน PR14 — พบได้ใน Phenomenal Remnant 14 ค่ะ",
-       "en": "Found in Phenomenal Remnant 14."
+       "where": "อยู่ใน Phenomenal Remnant 14 (PR14)"
       },
       {
        "key": "pr-13",
        "type": "Rec",
-       "where": "ผ่าน Infernal Presence ใน PR14 — ได้หลังผ่าน Infernal Presence ใน Phenomenal Remnant 14 ค่ะ",
-       "en": "Obtained after finishing the infernal presence in Phenomenal Remnant 14."
+       "where": "ได้หลังผ่าน Infernal Presence ใน Phenomenal Remnant 14 (PR14)"
       }
      ]
     },
@@ -3401,13 +3107,13 @@
     },
     {
      "list": [
-      "<b>จำนวน Broken Witch Heart:</b> fandom บอกว่ามี 32 ชิ้น แต่รายการจาก 100% Guides นับได้ 47 ชิ้น (บางรายการน่าจะเป็นหีบ/ชาเลนจ์ที่ให้ชิ้นเดียวกันซ้ำ หรือ fandom อาจนับผิด — หนูยังยืนยันไม่ได้ค่ะ)",
+      "<b>จำนวน Broken Witch Heart:</b> fandom บอกว่ามี 32 ชิ้น แต่รายการจาก 100% Guides นับได้ 47 ชิ้น อาจเป็นเพราะบางรายการเป็นหีบหรือชาเลนจ์ที่ให้ชิ้นเดียวกันซ้ำ หรือ fandom นับผิด ตอนนี้ยังยืนยันไม่ได้",
       "<b>Broken Moon Pearl:</b> fandom = 24 ชิ้น, 100% Guides นับได้ 30 ชิ้น (รวม Phenomenal Remnant)",
-      "<b>Alruna:</b> ตาราง NL บอกเก็บน้ำตา Ch1 แต่ fandom/คอมเมนต์ NL บอก Phenomenal Remnant 3 (Ch1 ให้ Pulley's Butterfly) — หนูใช้ PR3",
-      "<b>Cassiopeia:</b> NL บอก \"เก็บน้ำตาครบใน Ch14\" แต่หน้าน้ำตาของ NL เองบอกว่า Ch14 ไม่มีน้ำตา — เงื่อนไขเปิด PR14 จึงยังไม่ชัด",
+      "<b>Alruna:</b> ตาราง NL บอกเก็บน้ำตา Ch1 แต่ fandom/คอมเมนต์ NL บอก Phenomenal Remnant 3 (Ch1 ให้ Pulley's Butterfly) คู่มือนี้ใช้ PR3",
+      "<b>Cassiopeia:</b> NL บอก \"เก็บน้ำตาครบใน Ch14\" แต่หน้าน้ำตาของ NL เองบอกว่า Ch14 ไม่มีน้ำตา เงื่อนไขเปิด PR14 จึงยังไม่ชัด",
       "<b>Colour My World / G-Pillar:</b> เวลาที่ได้ต่างกันเล็กน้อยระหว่าง NL กับ fandom (ใส่ทั้งสองไว้แล้ว)",
       "<b>Ragewolf Fang:</b> fandom 80,000 Seeds vs IGN 40,000 Seeds",
-      "<b>กุญแจ #2 Old Picture Book:</b> หัวข้อใน NL เขียน \"Chapter 2 – Verse 1\" แต่เนื้อหาเขียน Chapter 4 Verse 1 (Lotus Field อยู่ใน Ch4 ตาม Bewitchment) — หนูยึด Ch4",
+      "<b>กุญแจ #2 Old Picture Book:</b> หัวข้อใน NL เขียน \"Chapter 2 – Verse 1\" แต่เนื้อหาเขียน Chapter 4 Verse 1 (Lotus Field อยู่ใน Ch4 ตาม Bewitchment) คู่มือนี้ยึด Ch4",
       "<b>ราคาร้านค้าไอเท็ม:</b> มาจาก gamers-high.com (ญี่ปุ่น) แหล่งเดียว ยังไม่ได้เทียบกับแหล่งที่สอง",
       "*ราคา Super Mirror β1–β4: fandom บอก \"Super Mirror ทุกตัว 4,000 Halos ยกเว้น 0\" แต่ Samurai Gamers บอกว่าปลดจากเนื้อเรื่อง ราคายังไม่ชัด"
      ]
@@ -3417,14 +3123,14 @@
     },
     {
      "list": [
-      "ลำดับ Verse ในแต่ละบทไม่ได้แทรกไว้ใน Walkthrough เพราะแหล่งที่มีตำแหน่งของสะสม (100% Guides) ไม่ได้บอกว่าแต่ละชิ้นอยู่ก่อน/หลัง Verse ไหน — Walkthrough จึงเป็นลำดับของสะสม ไม่ใช่แผนที่ด่านจริง",
+      "Walkthrough ของแต่ละบทเรียงตามลำดับของสะสม ไม่ใช่แผนที่ด่านจริง และไม่ได้แทรกลำดับ Verse ไว้ เพราะ 100% Guides (แหล่งที่บอกตำแหน่งของสะสม) ไม่ได้ระบุว่าแต่ละชิ้นอยู่ก่อนหรือหลัง Verse ไหน",
       "Chapter 13: 100% Guides มีแค่ 4 ชิ้น (น่าจะไม่ครบ) · Chapter 14: แหล่งไม่ระบุของสะสม · Side Chapter 3: มีเพียง Fast Food ×4",
       "Fast Food (ของสะสมฝั่ง Jeanne) ของ Side Chapter 1, 2, 4 ยังไม่มีข้อมูล",
       "Bewitchments รายบทใส่ไว้แค่บางส่วนเป็นทิป ไม่ได้ลงครบทุกข้อ",
       "ไม่พบแหล่งข้อมูลระบุบอสของ Chapter 9 ชัดเจน · ทิปบอสส่วนใหญ่มาจากเงื่อนไข Bewitchment ไม่ใช่กลยุทธ์เต็ม",
       "Rodin&#x27;s Treasures / ชุด: แหล่งไม่ได้ระบุไอเท็มลับที่ปลด Super Mirror 0",
-      "ไม่มี Epilogue แยก — NL ระบุว่า Ch14 Verse 5–8 เกิดระหว่างเครดิต · ไม่มี &quot;Song of Sin/Toy Records/Shuraba Trials/Rodin&#x27;s Treasures แบบภาค 1–2&quot; ในภาคนี้ตามแหล่งที่หนูตรวจ",
-      "คำอธิบายตำแหน่งแปลเป็นไทยแล้ว และคงข้อความภาษาอังกฤษต้นฉบับจาก 100% Guides ไว้เป็นบรรทัดเล็ก (EN) ใต้แต่ละรายการเพื่อความแม่นยำค่ะ"
+      "ไม่มี Epilogue แยก NL ระบุว่า Ch14 Verse 5–8 เกิดระหว่างเครดิต · ไม่มี &quot;Song of Sin/Toy Records/Shuraba Trials/Rodin&#x27;s Treasures แบบภาค 1–2&quot; ในภาคนี้ตามแหล่งที่ตรวจสอบ",
+      "คำอธิบายตำแหน่งของสะสมเรียบเรียงเป็นภาษาไทยจากรายการของ 100% Guides"
      ]
     }
    ]
@@ -3451,8 +3157,7 @@
       "<a href=\"https://bayonetta.fandom.com/wiki/Bayonetta_3/Walkthrough/Lost_Chapter:_Witch_Trials\">Fandom – Witch Trials</a>",
       "<a href=\"https://www.ign.com/wikis/bayonetta-3/Accessories\">IGN – Accessories</a>",
       "<a href=\"https://gamers-high.com/bayonetta3/data/shop.html\">gamers-high.com – ロダンの店 (ราคาร้าน)</a>",
-      "<a href=\"https://samurai-gamers.com/bayonetta-3/rodins-treasures-item-list/\">Samurai Gamers – Rodin&#x27;s Treasures</a>",
-      "<a href=\"https://www.reddit.com/r/Bayonetta/comments/yorp4r/this_games_camera_is_a_nightmare/\">Reddit r/Bayonetta – camera thread</a>"
+      "<a href=\"https://samurai-gamers.com/bayonetta-3/rodins-treasures-item-list/\">Samurai Gamers – Rodin&#x27;s Treasures</a>"
      ]
     }
    ]

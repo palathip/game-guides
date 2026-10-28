@@ -4,7 +4,7 @@ Usage:  python3 build.py guides/<game>/data.json [-o out.html]
         python3 build.py <game>            # same as guides/<game>/data.json
 Default output: guides/<game>/<data.output>  (e.g. Bayonetta3_Guide_TH.html, no version numbers)
 """
-import argparse, base64, html, json, re, sys
+import argparse, base64, hashlib, html, json, re, sys
 from html.parser import HTMLParser
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent
@@ -24,16 +24,51 @@ UI = {  # default Thai UI labels; override any via data["ui"]
 }
 C_SE, C_BOSS = '#60a5fa', '#f472b6'
 ALLOWED = {'b', 'strong', 'i', 'em', 'a', 'span', 'br', 'code'}
+ALLOWED_ATTR = {'href', 'class', 'lang', 'title'}
+# HTMLParser consumes an unterminated "<tag" at EOF without a handler and clears rawdata.
+# A browser still closes that tag at the next ">" (the </p> or </li> we wrap it in).
+_UNPARSED = re.compile(r'<[/!?]?[A-Za-z][^>]*\Z')
 
 class Inline(HTMLParser):
-    def __init__(s): super().__init__(convert_charrefs=True); s.err = []
-    def handle_starttag(s, t, a):
-        if t not in ALLOWED: s.err.append(f'<{t}> not allowed')
+    """Rebuild allowlisted inline HTML from parser events. Comments, CDATA, declarations and PIs are dropped."""
+    def __init__(s):
+        super().__init__(convert_charrefs=True)
+        s.err, s.out = [], []
+    def _attrs(s, a):
+        parts, ok = [], True
         for k, v in a:
-            if k not in ('href', 'class', 'lang', 'title'): s.err.append(f'attribute {k} not allowed')
-            if k == 'href' and not re.match(r'^(https?://|#)', v or ''): s.err.append(f'bad href {v}')
+            if k not in ALLOWED_ATTR:
+                s.err.append(f'attribute {k} not allowed'); ok = False; continue
+            if k == 'href' and not re.match(r'^(https?://|#)', v or ''):
+                s.err.append(f'bad href {v}'); ok = False; continue
+            parts.append(f' {k}="{E(v or "")}"')
+        return ''.join(parts) if ok else None
+    def handle_starttag(s, t, a):
+        attrs = s._attrs(a)
+        if t not in ALLOWED: s.err.append(f'<{t}> not allowed'); return
+        if attrs is not None: s.out.append(f'<{t}{attrs}>')
     def handle_endtag(s, t):
-        if t not in ALLOWED: s.err.append(f'</{t}> not allowed')
+        if t not in ALLOWED: s.err.append(f'</{t}> not allowed'); return
+        s.out.append(f'</{t}>')
+    def handle_startendtag(s, t, a):
+        attrs = s._attrs(a)
+        if t not in ALLOWED: s.err.append(f'<{t}/> not allowed'); return
+        if attrs is not None: s.out.append(f'<{t}{attrs}/>')
+    def handle_data(s, data):
+        s.out.append(html.escape(data, quote=False))
+    def handle_comment(s, data): pass
+    def handle_decl(s, decl): pass
+    def handle_pi(s, data): pass
+    def unknown_decl(s, data): pass
+
+def sanitize_inline(v):
+    """Return (safe_html, errors). safe_html is serialized from parser events, never the raw string."""
+    if not isinstance(v, str): return '', ['inline HTML must be a string']
+    errs = []
+    if '<!' in v or '<?' in v: errs.append('declaration not allowed')
+    p = Inline(); p.feed(v); p.close()
+    if p.rawdata or _UNPARSED.search(v): errs.append('unparsed markup')
+    return ''.join(p.out), errs + p.err
 
 class Bad(Exception): pass
 MIME = {'.webp': 'image/webp', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png'}
@@ -57,7 +92,7 @@ def maps_html(s, base):
         o.append(f'<figure class="map"><img src="data:{mt};base64,{base64.b64encode(b).decode()}" alt="{E(m.get("caption", ""))}" loading="lazy" decoding="async">' + ((f'<figcaption><details class="capd"><summary>{E(m.get("caption","")[:40].rstrip())}…</summary>{cap}</details></figcaption>' if len(m.get('caption', '')) > 80 else f'<figcaption>{cap}</figcaption>') if cap else '') + '</figure>')
     return ''.join(o)
 def check_inline(v, where, errs):
-    p = Inline(); p.feed(v); p.close(); errs += [f'{where}: {e}' for e in p.err]
+    _, e = sanitize_inline(v); errs += [f'{where}: {x}' for x in e]
 
 def validate(d):
     errs = []
@@ -143,9 +178,9 @@ def render(d, base=ROOT):
         for b in bl:
             if 'h2' in b: o.append(f'<h2 class="h3">{E(b["h2"])}</h2>')
             elif 'h3' in b: o.append(f'<h3>{E(b["h3"])}</h3>')
-            elif 'p' in b: o.append((f'<p class="{E(b["class"])}">' if b.get('class') else '<p>') + b['p'] + '</p>')
-            elif 'list' in b: o.append('<ul>' + ''.join(f'<li>{x}</li>' for x in b['list']) + '</ul>')
-            elif 'olist' in b: o.append('<ol>' + ''.join(f'<li>{x}</li>' for x in b['olist']) + '</ol>')
+            elif 'p' in b: o.append((f'<p class="{E(b["class"])}">' if b.get('class') else '<p>') + sanitize_inline(b['p'])[0] + '</p>')
+            elif 'list' in b: o.append('<ul>' + ''.join(f'<li>{sanitize_inline(x)[0]}</li>' for x in b['list']) + '</ul>')
+            elif 'olist' in b: o.append('<ol>' + ''.join(f'<li>{sanitize_inline(x)[0]}</li>' for x in b['olist']) + '</ol>')
             elif 'table' in b: o.append(tbl(b['table']))
             elif 'checklist' in b: o.append(f'<ul class="ck">{checklist(b["checklist"])}</ul>')
             elif 'totals' in b: o.append('{{TOTALS}}')
@@ -174,7 +209,7 @@ def render(d, base=ROOT):
 ''' + ('' if s.get('flow') is False else f'''<h3>{E(ui['walkthrough'])}</h3><div class="lgk"><span style="--k:{C_SE}">{E(ui['legend_se'])}</span><span style="--k:{C_BOSS}">{E(ui['legend_boss'])}</span><span class="dash" style="--k:#f59e0b">{E(ui['legend_back'])}</span></div><p class="fhint">{E(ui['scroll_hint'])}</p><div class="flow" data-flow="{flow}">{fallback}</div>
 <p class="lg">{E(ui['flow_note'])}</p>
 ''') + f'''<h3>{E(ui['checklist'])}</h3><ul class="ck">{checklist(its) or f'<li class="mut">{E(ui["no_items"])}</li>'}</ul>
-<h3>{E(ui['tips'])}</h3><ul>{''.join(f"<li>{t}</li>" for t in s.get('tips', []))}</ul>
+<h3>{E(ui['tips'])}</h3><ul>{''.join(f"<li>{sanitize_inline(t)[0]}</li>" for t in s.get('tips', []))}</ul>
 ''' + (f'<p class="src">{E(ui["sources"])} {src}</p>' if src else '') + '</details>')
         else:
             for b in s['blocks']:
@@ -188,13 +223,35 @@ def render(d, base=ROOT):
         return f'<a href="#{E(it["id"])}" data-s="{E(it["id"])}" title="{E(f)}" aria-label="{E(f)}"><b>{E(it["short"])}</b><span>{E(sub)}</span></a>'
     picker = ''.join(f'<div class="pg"><h2 class="pgh">{E(g["title"])}</h2><div class="grid {cls[g["style"]]}">' + ''.join(pk(i) for i in g['items']) + '</div></div>' for g in d['picker'])
     cfg = json.dumps({'key': d['storage_key'], 'lang': d.get('lang', 'th'), 'ui': {'collected': ui['collected'], 'unit': ui['unit']}}, ensure_ascii=False).replace('</', '<\\/')
+    js = (TPL / 'app.js').read_text(encoding='utf-8')
+    # Must match template/page.html exactly: <script>const GG={{config}};\n{{js}}</script>
+    script = 'const GG=' + cfg + ';\n' + js
+    digest = base64.b64encode(hashlib.sha256(script.encode('utf-8')).digest()).decode('ascii')
+    # style attributes (badge colors, legend, svg) need 'unsafe-inline'. A style hash would
+    # disable that keyword, so styles are not hashed. Scripts are hashed per page because GG= changes.
+    csp = (
+        "default-src 'self'; "
+        f"script-src 'self' 'sha256-{digest}'; "
+        "style-src 'self' 'unsafe-inline'; "
+        "img-src 'self' data:; "
+        "connect-src https://api.github.com; "
+        "object-src 'none'; base-uri 'none'"
+    )
     rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'picker': picker,
            'intro': blocks(d.get('intro', []), True).replace('{{TOTALS}}', totals), 'sections': '\n'.join(secs).replace('{{TOTALS}}', totals),
-           'footer': E(d.get('footer', '')), 'config': cfg,
-           'css': (TPL / 'style.css').read_text(encoding='utf-8'), 'js': (TPL / 'app.js').read_text(encoding='utf-8')}
+           'footer': E(d.get('footer', '')), 'config': cfg, 'csp': csp,
+           'css': (TPL / 'style.css').read_text(encoding='utf-8'), 'js': js}
     rep.update({f'ui.{k}': E(v) for k, v in ui.items()})
     page = (TPL / 'page.html').read_text(encoding='utf-8')
     return re.sub(r'\{\{([\w.]+)\}\}', lambda m: rep[m.group(1)], page), counts
+
+def guard(page):
+    """Final scan of built HTML. Allows builder data-URI map <img> and JS property assignments inside <script>."""
+    scan = re.sub(r'<script>.*?</script>', '', page, count=1, flags=re.S)
+    scan = re.sub(r'<img\b[^>]*\bsrc="data:image/(?:webp|jpe?g|png);base64,[^"]*"[^>]*>', '', scan, flags=re.I)
+    # on\w+ must be the whole attribute name. content= and aria-controls= contain that
+    # substring but are not event handlers; .onchange= inside <script> is removed above.
+    return re.findall(r'<iframe|<script[^>]+src=|<link[^>]+href=|@import|url\(\s*["\']?https?:|(?<![A-Za-z0-9_])on\w+\s*=|<img\b', scan, re.I)
 
 def main():
     ap = argparse.ArgumentParser(description='Build a single-file game guide from data.json')
@@ -212,8 +269,12 @@ def main():
     print(f'OK  schema valid: {len(d["sections"])} sections')
     if a.check: return
     page, counts = render(d, p.parent)
-    bad = re.findall(r'<iframe|<script[^>]+src=|<link[^>]+href=|@import|url\(\s*["\']?https?:', page, re.I)
-    if bad: sys.exit(f'ERROR: external resource/iframe found: {bad[:3]}')
+    bad = guard(page)
+    if bad: sys.exit(f'ERROR: external resource, event handler, or <img> found: {bad[:3]}')
+    body = re.search(r'<script>(.*?)</script>', page, re.S)
+    digest = base64.b64encode(hashlib.sha256(body.group(1).encode('utf-8')).digest()).decode('ascii') if body else ''
+    if not body or f"'sha256-{digest}'" not in page:
+        sys.exit('ERROR: CSP script hash does not match the inline script')
     out = Path(a.out) if a.out else p.parent / d.get('output', f'{d["game"]}_Guide.html')
     out.write_text(page, encoding='utf-8')
     n = len(page.encode())

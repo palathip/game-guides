@@ -1,0 +1,1549 @@
+{
+ "game": "megamanzero",
+ "output": "MegaManZero_Guide_TH.html",
+ "lang": "th",
+ "title": "Mega Man Zero (GBA): เช็กลิสต์ ทริก และเนื้อเรื่อง",
+ "heading": "⚔️ Mega Man Zero (GBA ภาค 1) เช็กลิสต์ ทริกผ่านด่าน และเนื้อเรื่อง",
+ "storage_key": "mmz1guide:",
+ "footer": "ทำโดยออย 🎮 · ต.ค. 2026",
+ "ui": {
+  "search_placeholder": "ค้นหา เช่น Nuppie, Copy X, Ice Chip…",
+  "empty": "ไม่พบผลลัพธ์ ลองค้นด้วยคำอื่น"
+ },
+ "types": {
+  "Elf": {
+   "label": "Cyber-elf",
+   "short": "Elf",
+   "color": "#38bdf8"
+  },
+  "Chip": {
+   "label": "ชิปธาตุ",
+   "short": "Chip",
+   "color": "#f59e0b"
+  },
+  "Weapon": {
+   "label": "อาวุธ",
+   "short": "Weapon",
+   "color": "#f472b6"
+  },
+  "Item": {
+   "label": "ไอเทมสำคัญ",
+   "short": "Item",
+   "color": "#34d399"
+  }
+ },
+ "intro": [
+  {
+   "p": "คู่มือ Mega Man Zero ภาคแรกบน GBA เรียงตามลำดับภารกิจ แต่ละภารกิจมีเช็กลิสต์ Cyber-elf ชิป และอาวุธ ตามด้วยทริกผ่านด่านและวิธีสู้บอส ติ๊กช่องเมื่อเก็บได้แล้ว เบราว์เซอร์จะจำไว้ให้ เนื้อเรื่องภาคต่ออยู่ในหัวข้อสปอยล์ท้ายหน้า ซึ่งปิดไว้ก่อน"
+  },
+  {
+   "h2": "ความคืบหน้า"
+  },
+  {
+   "totals": true
+  }
+ ],
+ "picker": [
+  {
+   "title": "ก่อนเล่น",
+   "style": "ref",
+   "items": [
+    {
+     "id": "read",
+     "short": "อ่านก่อน"
+    },
+    {
+     "id": "order",
+     "short": "ลำดับ"
+    },
+    {
+     "id": "weak",
+     "short": "จุดอ่อน"
+    },
+    {
+     "id": "weapons",
+     "short": "อาวุธ"
+    },
+    {
+     "id": "elves",
+     "short": "Elf คุ้ม"
+    }
+   ]
+  },
+  {
+   "title": "ภารกิจ",
+   "style": "main",
+   "items": [
+    {
+     "id": "m1",
+     "short": "1"
+    },
+    {
+     "id": "m2",
+     "short": "2"
+    },
+    {
+     "id": "base",
+     "short": "ฐาน"
+    },
+    {
+     "id": "rd",
+     "short": "RD"
+    },
+    {
+     "id": "dt",
+     "short": "รถไฟ"
+    },
+    {
+     "id": "of",
+     "short": "โรงงาน"
+    },
+    {
+     "id": "fs",
+     "short": "Shuttle"
+    },
+    {
+     "id": "hb",
+     "short": "ฐานลับ"
+    },
+    {
+     "id": "gr",
+     "short": "หุ่นยักษ์"
+    },
+    {
+     "id": "rc",
+     "short": "Colbor"
+    },
+    {
+     "id": "pf",
+     "short": "Phantom"
+    },
+    {
+     "id": "dd",
+     "short": "ทะเลทราย"
+    },
+    {
+     "id": "sh",
+     "short": "Hacking"
+    },
+    {
+     "id": "ba",
+     "short": "ฐานบุก"
+    },
+    {
+     "id": "shr",
+     "short": "Shrine"
+    },
+    {
+     "id": "tw",
+     "short": "Tower"
+    },
+    {
+     "id": "core",
+     "short": "Core"
+    }
+   ]
+  },
+  {
+   "title": "เนื้อเรื่องและอ้างอิง",
+   "style": "ref",
+   "items": [
+    {
+     "id": "story",
+     "short": "เนื้อเรื่อง"
+    },
+    {
+     "id": "spoil",
+     "short": "สปอยล์"
+    },
+    {
+     "id": "links",
+     "short": "ลิงก์"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "read",
+   "kind": "page",
+   "title": "อ่านก่อนเล่น",
+   "blocks": [
+    {
+     "p": "<b>ภารกิจที่ล้มเหลวจะเล่นซ้ำไม่ได้</b> ถ้ากด Escape Unit, เลือก Give Up ตอน Game Over หรือกด Abort Mission ภารกิจนั้นจะหายไปถาวร พร้อม Cyber-elf และชิปที่อยู่ในด่าน ควรเซฟก่อนลงด่านทุกครั้ง พลาดเมื่อไหร่ให้โหลดเซฟใหม่",
+     "class": "note"
+    },
+    {
+     "list": [
+      "Cyber-elf ใช้ได้ครั้งเดียวแล้วตาย และทุกตัวที่ใช้จะถูกหักคะแนนตอนจบภารกิจ ตัวที่หายากโดนหักมากกว่า",
+      "เข้าห้องบอสตอนแรงก์ A หรือ S บอสจะใช้ท่าพิเศษ EX Skill เพิ่มมา ถ้าเล่นเอาเนื้อเรื่องอย่างเดียวไม่ต้องสนใจแรงก์ แรงก์ต่ำบอสยิ่งง่าย",
+      "ชิปธาตุชนะกันเป็นวง: ไฟชนะน้ำแข็ง น้ำแข็งชนะสายฟ้า สายฟ้าชนะไฟ ธาตุออกเฉพาะตอนตีแบบชาร์จเต็ม",
+      "Cyber-elf ในกล่องเกือบทุกตัวกลับมาเก็บทีหลังได้ ส่วนตัวที่ได้จากการฆ่าศัตรูต้องเก็บระหว่างทำภารกิจนั้นเท่านั้น",
+      "Cyber-elf บางตัวต้องป้อน E-Crystal ให้ครบก่อนถึงจะใช้ได้ ถ้าเลี้ยงทุกตัวรวมกันต้องใช้ราว 23,150 EC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "order",
+   "kind": "page",
+   "title": "ลำดับภารกิจที่แนะนำ",
+   "blocks": [
+    {
+     "olist": [
+      "ภารกิจ 1: ช่วย Ciel ได้ Z-Saber",
+      "ภารกิจ 2: Disposal Center ได้ Thunder Chip และ Escape Unit",
+      "Retrieve Data (บอสแพ้สายฟ้า) ได้ Triple Rod จาก Cerveau และได้ Shield Boomerang หลังจบอีกหนึ่งภารกิจ",
+      "Destroy Train (บอสแพ้สายฟ้า)",
+      "Occupy Factory ได้ Flame Chip",
+      "Find Shuttle (บอสแพ้ไฟ)",
+      "Find Hidden Base (บอสแพ้ไฟ) ได้ Ice Chip",
+      "หุ่นยักษ์บุกฐาน โผล่มาเองหลังเคลียร์ครบ 4 ภารกิจ",
+      "Rescue Colbor (บอสแพ้น้ำแข็ง)",
+      "Protect Factory",
+      "Duel in Desert (บอสแพ้สายฟ้า)",
+      "Stop the Hacking (บอสแพ้ไฟ)",
+      "ช่วงท้าย: ฐานโดนบุก, Shrine, Tower แล้วจบที่ Core"
+     ]
+    },
+    {
+     "p": "ลำดับนี้ปรับจาก StrategyWiki ซึ่งให้ทำ Retrieve Data เป็นอันสุดท้าย เพราะพอเคลียร์ด่านนี้ รังแมงมุมในแล็บที่ใช้ฟาร์ม E-Crystal จะหายไป ที่นี่ย้ายขึ้นมาเป็นอันที่ 3 เพื่อให้ได้ Triple Rod กับ Shield Boomerang เร็วขึ้นสำหรับคนเล่นเนื้อเรื่อง ต้องเก็บ Clocpah ก่อนกดเริ่ม Retrieve Data และเก็บ Nuppie ก่อนเคลียร์ด่านนี้"
+    }
+   ]
+  },
+  {
+   "id": "weak",
+   "kind": "page",
+   "title": "จุดอ่อนธาตุของบอส",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "บอส",
+       "จุดอ่อน",
+       "ภารกิจ"
+      ],
+      "rows": [
+       [
+        "Golem",
+        "Z-Saber (ฟันหัว)",
+        "1"
+       ],
+       [
+        "Aztec Falcon",
+        "น้ำแข็ง (ตอนนั้นยังไม่มีชิป)",
+        "2"
+       ],
+       [
+        "Maha Ganeshariff",
+        "สายฟ้า",
+        "Retrieve Data"
+       ],
+       [
+        "Pantheon Core",
+        "สายฟ้า",
+        "Destroy Train"
+       ],
+       [
+        "Guard Orotic",
+        "ไม่ระบุ (ตีแกนสีฟ้า)",
+        "Occupy Factory"
+       ],
+       [
+        "Anubis Necromancess",
+        "ไฟ",
+        "Find Shuttle"
+       ],
+       [
+        "Blizzack Staggroff",
+        "ไฟ",
+        "Find Hidden Base"
+       ],
+       [
+        "Hittite Hottaid",
+        "ไม่ระบุ",
+        "หุ่นยักษ์บุกฐาน"
+       ],
+       [
+        "Harpuia",
+        "น้ำแข็ง",
+        "Rescue Colbor"
+       ],
+       [
+        "Phantom",
+        "ไม่มี",
+        "Protect Factory"
+       ],
+       [
+        "Fefnir",
+        "สายฟ้า",
+        "Duel in Desert"
+       ],
+       [
+        "Leviathan",
+        "ไฟ",
+        "Stop the Hacking"
+       ],
+       [
+        "Hanumachine",
+        "สายฟ้า",
+        "ฐานโดนบุก"
+       ],
+       [
+        "Pantheon Ace",
+        "ไม่มี",
+        "Shrine"
+       ],
+       [
+        "Asura Basura",
+        "สายฟ้า",
+        "Shrine"
+       ],
+       [
+        "Herculious Anchus",
+        "น้ำแข็ง",
+        "Shrine"
+       ],
+       [
+        "Rainbow Devil",
+        "ไม่มี",
+        "Tower"
+       ],
+       [
+        "Copy X",
+        "ร่างแรกไม่มี ร่างสองแพ้น้ำแข็ง",
+        "Core"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ข้อมูลจุดอ่อนจากหน้าบอสแต่ละตัวใน Mega Man Knowledge Base",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "weapons",
+   "kind": "page",
+   "title": "อาวุธกับการอัปเลเวล",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "อาวุธ",
+       "ได้จาก",
+       "การอัปเลเวล"
+      ],
+      "rows": [
+       [
+        "Buster Shot",
+        "Milan ให้ตอนเริ่มเกม",
+        "Lv2 ยิงค้างจอได้ 4 นัด, Lv3 ชาร์จได้ 2 ขั้นและใส่ธาตุได้, Lv4 ชาร์จเร็วขึ้น"
+       ],
+       [
+        "Z-Saber",
+        "บอสภารกิจ 1",
+        "Lv2 ฟัน 2 ครั้ง, Lv3 ฟัน 3 ครั้ง, Lv4 ชาร์จได้และใส่ธาตุได้, Lv5 ชาร์จเร็วขึ้น, Lv6 ฟันหมุนกลางอากาศ (ฝึกด้วยการฟันตอนกระโดด), Lv7 ฟันหมุนตอนแดช (ฝึกด้วยการฟันตอนแดช)"
+       ],
+       [
+        "Triple Rod",
+        "Cerveau หลังจบ Retrieve Data",
+        "แทงได้ 8 ทิศ, Lv2 แทง 2 ครั้ง (ตีโดน 40 ครั้ง), Lv3 แทง 3 ครั้ง (160 ครั้ง), Lv4 ชาร์จหมุนได้ (560 ครั้ง), Lv5 ชาร์จเร็วขึ้น (1,840 ครั้ง)"
+       ],
+       [
+        "Shield Boomerang",
+        "Cerveau หลังได้ Triple Rod แล้วจบหรือล้มเหลวอีก 1 ภารกิจ",
+        "ยกโล่สะท้อนกระสุนได้ ชาร์จแล้วขว้างได้, Lv2 ขว้างไกลขึ้น (ตีโดน 60 ครั้ง), Lv3 ไกลขึ้นอีก (160 ครั้ง)"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "อาวุธเลเวลขึ้นตามจำนวนครั้งที่ตีโดนศัตรู StrategyWiki แนะนำให้ฟาร์มที่รังแมงมุมในแล็บใต้ดิน หรือป้อมปืน Totem Cannon ใน Disposal Center จน Z-Saber ได้ Lv5 เป็นอย่างน้อย"
+    }
+   ]
+  },
+  {
+   "id": "elves",
+   "kind": "page",
+   "title": "Cyber-elf ตัวไหนคุ้มใช้",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Cyber-elf",
+       "ผล",
+       "EC",
+       "ได้ที่"
+      ],
+      "rows": [
+       [
+        "Nuppie, Lippie, Mippie, Reppie",
+        "เพิ่ม HP สูงสุดตัวละ 4",
+        "750",
+        "ภารกิจ 1, ฐาน, ภารกิจ 2, Stop the Hacking"
+       ],
+       [
+        "Nutan, Lubtan, Nebitan, Hapitan",
+        "กลายเป็น Sub Tank",
+        "1,200",
+        "Occupy Factory, ทะเลทราย, หุ่นยักษ์"
+       ],
+       [
+        "Shelter",
+        "ป้องกันเพิ่มเป็น 2 เท่าถาวร",
+        "2,000",
+        "Find Hidden Base"
+       ],
+       [
+        "Winkie",
+        "HP เพิ่มเป็น 2 เท่า (มีแถบสีฟ้าซ้อน)",
+        "3,000",
+        "Occupy Factory"
+       ],
+       [
+        "Totten",
+        "หนามทั้งเกมหายอันตรายถาวร",
+        "3,500",
+        "บอส Destroy Train"
+       ],
+       [
+        "Buffer",
+        "โดนตีแล้วไม่กระเด็น",
+        "750",
+        "Destroy Train"
+       ],
+       [
+        "Hafmargo, Hafmarda",
+        "ลด HP บอสในภารกิจนั้นลงครึ่งหนึ่ง",
+        "1,000",
+        "Destroy Train, บอส Phantom"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "ถ้าอยากเล่นเนื้อเรื่องสบายๆ ให้ป้อน EC ตัวเพิ่ม HP ทั้ง 4 ตัวกับ Shelter ก่อน แล้วค่อย Totten เพราะหนามในเกมนี้แตะแล้วตายทันที เก็บ Hafmar ไว้ใช้กับบอสที่ติดจริงๆ หรือ Copy X ส่วนคนที่อยากได้ Cyber-elf ลับ Jackson ห้ามใช้สักตัว ต้องเก็บให้ครบและเลี้ยงจนเต็มก่อน",
+     "class": "note"
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "kind": "chapter",
+   "title": "ภารกิจ 1: ช่วย Ciel (Golem)",
+   "verses": 0,
+   "enemies": [
+    "Golem"
+   ],
+   "items": [
+    {
+     "key": "m1-stoccue",
+     "type": "Elf",
+     "short": "Stoccue",
+     "where": "ทำลายรังแมงมุม (Spider Nest) 5 รัง ในด่านมีแค่ 4 รัง ทำลายรังแรกแล้วถอยออกจากจอนิดหนึ่ง รังจะเกิดใหม่"
+    },
+    {
+     "key": "m1-stocchu",
+     "type": "Elf",
+     "short": "Stocchu",
+     "where": "ทำลาย Pantheon Guardian สีฟ้า 5 ตัว อยู่ช่วงหลังรังที่ 4"
+    },
+    {
+     "key": "m1-nuppie",
+     "type": "Elf",
+     "short": "Nuppie (+HP)",
+     "where": "กล่องอยู่ในห้องสูงขึ้นไปในแล็บ มี E-Crystal 16 อันอยู่ด้วย กลับมาเก็บทีหลังได้ แต่ต้องก่อนเคลียร์ Retrieve Data"
+    },
+    {
+     "key": "m1-clocpah",
+     "type": "Elf",
+     "short": "Clocpah",
+     "where": "สุดทางซ้ายของห้องที่ Zero หลับอยู่ ต้องเก็บก่อนกดเริ่ม Retrieve Data"
+    },
+    {
+     "key": "m1-zsaber",
+     "type": "Weapon",
+     "short": "Z-Saber",
+     "where": "ได้กลางไฟต์บอส"
+    }
+   ],
+   "tips": [
+    "บอส Golem: ยิง Buster ใส่หัว ระวังโดน Ciel สักพักจะมีแสงลึกลับมามอบ Z-Saber ให้ เปิดเมนูใส่ดาบแล้วฟันหัวทีเดียวจบ",
+    "ห้องนี้ฟาร์ม E-Crystal และอัปอาวุธได้ดี แต่ฟาร์มได้จนกว่าจะเคลียร์ Retrieve Data"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Walkthrough",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Walkthrough"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Golem",
+     "url": "https://megaman.fandom.com/wiki/Golem"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "m2",
+   "kind": "chapter",
+   "title": "ภารกิจ 2: Disposal Center (Aztec Falcon)",
+   "verses": 0,
+   "enemies": [
+    "Aztec Falcon"
+   ],
+   "items": [
+    {
+     "key": "m2-birsky",
+     "type": "Elf",
+     "short": "Birsky",
+     "where": "ทำลาย Spiking (ตัวที่ Carryarm หิ้วมา)"
+    },
+    {
+     "key": "m2-gireff",
+     "type": "Elf",
+     "short": "Gireff",
+     "where": "ทำลาย Pantheon Hunter สีฟ้า"
+    },
+    {
+     "key": "m2-gibber",
+     "type": "Elf",
+     "short": "Gibber",
+     "where": "ทำลาย Totem Cannon (ป้อมสีม่วง)"
+    },
+    {
+     "key": "m2-mippie",
+     "type": "Elf",
+     "short": "Mippie (+HP)",
+     "where": "กล่องห้อยอยู่บนตะขอ กระโดดลงจากตึกที่สูงที่สุดแล้วฟันกล่อง"
+    },
+    {
+     "key": "m2-clocpooh",
+     "type": "Elf",
+     "short": "Clocpooh",
+     "where": "กล่องติดผนัง ยืนบน Totem Cannon แล้วฟันจากด้านล่าง จากนั้นรอให้ elf ลอยลงมา"
+    },
+    {
+     "key": "m2-thunder",
+     "type": "Chip",
+     "short": "Thunder Chip",
+     "where": "ได้หลังล้มบอส"
+    },
+    {
+     "key": "m2-escape",
+     "type": "Item",
+     "short": "Escape Unit",
+     "where": "Ciel ให้ตอนกลับถึงฐาน"
+    }
+   ],
+   "tips": [
+    "ทริกด่าน: Contrainer เปลี่ยนทิศลมทุกครั้งที่โดนตี 2 ที ถ้าไม่ตีมัน ลมจะดันให้วิ่งเร็วขึ้น แต่ก็อาจพาไปชนศัตรู ด่านนี้จำกัดเวลา Cyber-elf สายนาฬิกาช่วยได้",
+    "บอส Aztec Falcon: มีเวลา 1:19 นาทีก่อน Reploid จะโดนบี้ เกาะผนังฝั่งตรงข้ามกับมันไว้ พอมันแดชเข้ามาให้ฟันแล้ววิ่งไปผนังอีกฝั่ง ท่าของมันมียิงธนูไฟฟ้า 3 ดอก, แดชข้ามฉาก, ยิงธนูทีละดอก และสร้างกำแพงไฟฟ้า เลือดมีหลอดเดียว ไม่ยาก"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Disposal Center",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Disposal_Center"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Aztec Falcon",
+     "url": "https://megaman.fandom.com/wiki/Aztec_Falcon"
+    }
+   ],
+   "flow": false,
+   "maps": [
+    {
+     "file": "img/mippie.png",
+     "caption": "กล่อง Mippie ห้อยอยู่บนตะขอ กระโดดลงมาจากตึกที่สูงที่สุด",
+     "credit": "ภาพจาก StrategyWiki"
+    },
+    {
+     "file": "img/clocpooh.png",
+     "caption": "กล่อง Clocpooh ติดผนังเหนือ Totem Cannon ยืนบนป้อมแล้วฟันขึ้นไป",
+     "credit": "ภาพจาก StrategyWiki"
+    }
+   ]
+  },
+  {
+   "id": "base",
+   "kind": "page",
+   "title": "ฐาน Resistance (ของหลังภารกิจ 1 และ 2)",
+   "maps": [
+    {
+     "file": "img/lippie.png",
+     "caption": "กล่อง Lippie อยู่บนหลังคาประตูทะเลทราย ทางซ้ายของฐาน",
+     "credit": "ภาพจาก StrategyWiki"
+    }
+   ],
+   "blocks": [
+    {
+     "checklist": [
+      {
+       "key": "base-fureff",
+       "type": "Elf",
+       "short": "Fureff",
+       "where": "หา Reploid ที่หิวอยู่แถวห้องเครื่อง (Hibou) จ่ายให้ 250 EC แล้วเข้าห้องถัดไป"
+      },
+      {
+       "key": "base-clocka",
+       "type": "Elf",
+       "short": "Clocka",
+       "where": "หลังภารกิจ 2 ไปฟังเรื่องของคุณปู่ Andrew"
+      },
+      {
+       "key": "base-lippie",
+       "type": "Elf",
+       "short": "Lippie (+HP)",
+       "where": "หลังภารกิจ 2 ออกจากฐานไปทางซ้าย ยามที่ประตูทะเลทรายจะไม่อยู่แล้ว ปีนขึ้นไปบนประตูแล้วตีกล่องที่ซ่อนอยู่"
+      },
+      {
+       "key": "base-beevoize",
+       "type": "Elf",
+       "short": "Beevoize",
+       "where": "ประตูหลัง Ciel เปิดเฉพาะตอนได้แรงก์ A หรือ S ถ้าเล่นสบายๆ ข้ามไปก่อนได้"
+      }
+     ]
+    },
+    {
+     "p": "แหล่ง: <a href=\"https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves\">StrategyWiki: Cyber-Elves</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "rd",
+   "kind": "chapter",
+   "title": "Retrieve Data (Maha Ganeshariff)",
+   "verses": 0,
+   "enemies": [
+    "Maha Ganeshariff"
+   ],
+   "items": [
+    {
+     "key": "rd-bomga",
+     "type": "Elf",
+     "short": "Bomga",
+     "where": "ทำลาย Clopper"
+    },
+    {
+     "key": "rd-sticker",
+     "type": "Elf",
+     "short": "Sticker",
+     "where": "ทำลายรถถังสีเขียว (Green Tank)"
+    },
+    {
+     "key": "rd-itecle",
+     "type": "Elf",
+     "short": "Itecle",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "rd-somack",
+     "type": "Elf",
+     "short": "Somack",
+     "where": "กล่องในพื้นที่ใหม่บนสุดของปล่อง เปิดให้เข้าหลังจบภารกิจ"
+    },
+    {
+     "key": "rd-trod",
+     "type": "Weapon",
+     "short": "Triple Rod",
+     "where": "คุยกับ Cerveau ที่ฐานหลังจบภารกิจ"
+    },
+    {
+     "key": "rd-shield",
+     "type": "Weapon",
+     "short": "Shield Boomerang",
+     "where": "คุยกับ Cerveau อีกครั้งหลังจบภารกิจถัดไป"
+    }
+   ],
+   "tips": [
+    "ทริกด่าน: มีใบพัดไฟฟ้าหมุนที่ทำลายไม่ได้ ต้องจับจังหวะผ่าน (ถ้ามีชิปน้ำแข็ง ตีชาร์จจะแช่แข็งมันได้) ระเบิดลอยก็เยอะกว่ารอบแรก",
+    "ช่วงหนี: ล้มบอสแล้วเพดานจะถล่มไล่หลัง ประตูฉุกเฉินปิดขวางเป็นระยะ ฟันประตูให้แตกแล้ววิ่งกลับไปที่ปล่องต้นด่านให้ทัน",
+    "บอส Maha Ganeshariff (แพ้สายฟ้า): ตอนมันกลิ้งเป็นลูกบอลให้กระโดดหลบ ถ้ามันเอางวงห้อยเพดานแล้วแกว่ง ให้ฟันโซ่เพื่อหยุดท่านี้ ตอนมันตบมือรัวๆ ยิง Buster ให้ลอยข้ามมือไปโดนหัวได้"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Retrieve Data",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Retrieve_Data"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Maha Ganeshariff",
+     "url": "https://megaman.fandom.com/wiki/Maha_Ganeshariff"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Triple Rod",
+     "url": "https://megaman.fandom.com/wiki/Triple_Rod"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "dt",
+   "kind": "chapter",
+   "title": "Destroy Train (Pantheon Core)",
+   "verses": 0,
+   "enemies": [
+    "Pantheon Core"
+   ],
+   "items": [
+    {
+     "key": "dt-itemon",
+     "type": "Elf",
+     "short": "Itemon",
+     "where": "ทำลายมอเตอร์ไซค์ Kerberos สีส้ม 5 คัน"
+    },
+    {
+     "key": "dt-buffer",
+     "type": "Elf",
+     "short": "Buffer (ไม่กระเด็น)",
+     "where": "ทำลาย Pantheon Warrior ที่ถือโล่หมัดใหญ่ 5 ตัว"
+    },
+    {
+     "key": "dt-hafmargo",
+     "type": "Elf",
+     "short": "Hafmargo (ลด HP บอสครึ่งหนึ่ง)",
+     "where": "ทำลายลูกกลิ้งหนาม Crush Roller สีม่วง 3 ตัวบนรถไฟ"
+    },
+    {
+     "key": "dt-birdian",
+     "type": "Elf",
+     "short": "Birdian",
+     "where": "ทำลายตัวบินเล็ก (Raven) 5 ตัว"
+    },
+    {
+     "key": "dt-beesus",
+     "type": "Elf",
+     "short": "Beesus",
+     "where": "ล้มบอสย่อย Mechaniloid โดยยิงส่วนสีส้มบนหัว"
+    },
+    {
+     "key": "dt-totten",
+     "type": "Elf",
+     "short": "Totten (หนามไม่อันตราย)",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "dt-bireff",
+     "type": "Elf",
+     "short": "Bireff",
+     "where": "กล่องบนปล่องหรือรูบนเพดานใกล้บอสย่อย"
+    }
+   ],
+   "tips": [
+    "ทริกด่าน: เดินขวาก่อนจะเจอ E-Crystal 1 อัน แล้วปีนบันไดไปทางซ้าย ลงหลุมแรกจะเจอ 1UP ระวังตก ทางมีหลุมเยอะต้องกระโดดข้าม เชือกฟันทิ้งได้เลย",
+    "บนรถไฟมีเวลา 2 นาทีให้ไปถึงหลังคารถ เหลือพอเก็บ elf ระหว่างทาง",
+    "บอส Pantheon Core (แพ้สายฟ้า): เริ่มต้นยืนฝั่งซ้าย พื้นจะยกขึ้นไปหาหนามบนเพดาน ให้ย้ายไปแผ่นข้างๆ แล้วค่อยกลับมาเมื่อแผ่นเดิมลดลง ยิง Buster ชาร์จไปเรื่อยๆ ถ้ามันเข้าใกล้ให้ปีนผนังหลบ"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Destroy the Train",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Destroy_the_Train"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Pantheon Core",
+     "url": "https://megaman.fandom.com/wiki/Pantheon_Core"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "of",
+   "kind": "chapter",
+   "title": "Occupy Factory (Guard Orotic)",
+   "verses": 0,
+   "enemies": [
+    "Guard Orotic"
+   ],
+   "items": [
+    {
+     "key": "of-beenet",
+     "type": "Elf",
+     "short": "Beenet",
+     "where": "ทำลาย Shield Attacker 5 ตัว"
+    },
+    {
+     "key": "of-ribbid",
+     "type": "Elf",
+     "short": "Ribbid",
+     "where": "ทำลาย C-Hopper 5 ตัว"
+    },
+    {
+     "key": "of-stickle",
+     "type": "Elf",
+     "short": "Stickle",
+     "where": "ทำลาย Securipider 5 ตัว"
+    },
+    {
+     "key": "of-greff",
+     "type": "Elf",
+     "short": "Greff",
+     "where": "กล่องในช่องลม"
+    },
+    {
+     "key": "of-winkie",
+     "type": "Elf",
+     "short": "Winkie (HP x2)",
+     "where": "กล่องเหนือเครื่องลำเลียง (Carry Arm)"
+    },
+    {
+     "key": "of-motolar",
+     "type": "Elf",
+     "short": "Motolar",
+     "where": "กล่องเหนือบันได"
+    },
+    {
+     "key": "of-nutan",
+     "type": "Elf",
+     "short": "Nutan (Sub Tank)",
+     "where": "หลังกำแพงปลอมหรือทางลับ"
+    },
+    {
+     "key": "of-flame",
+     "type": "Chip",
+     "short": "Flame Chip",
+     "where": "ได้หลังล้มบอส"
+    }
+   ],
+   "tips": [
+    "บอส Guard Orotic: ไม่มีข้อมูลว่าแพ้ธาตุไหน จุดอ่อนคือแกนสีฟ้าตรงกลาง ตีได้ตอนเปลือกเปิด ใช้ Z-Saber ชาร์จ (ต้องกระโดดข้ามหัว) หรือยิง Buster ชาร์จจากไกลๆ ก็ได้ แต่อาจพลาดเพราะมันลอยส่ายไปมา",
+    "หัวงูสีเหลืองต่อย สีแดงพ่นไฟ สีเขียวยิงไฟฟ้าติดตามตัว สีฟ้าพ่นน้ำแข็ง โดนแช่แข็งให้กดปุ่มรัวๆ จะหลุด ฟันแกนเสร็จแล้วรีบแดชออกมา",
+    "ถ้าจะตัดหัว ตัดหัวฝั่งขวา มันหมุนตามเข็มนาฬิกา หัวฝั่งขวาเลยงอกใหม่ช้ากว่า ตอนแรงก์ A หรือ S ตาหัวงูจะกะพริบก่อนแกนยิงกระสุนรัว ให้แดชหนีหรือยกโล่สะท้อนกลับ"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Occupy Factory",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Occupy_Factory"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Guard Orotic",
+     "url": "https://megaman.fandom.com/wiki/Guard_Orotic"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "fs",
+   "kind": "chapter",
+   "title": "Find Shuttle (Anubis Necromancess)",
+   "verses": 0,
+   "enemies": [
+    "Anubis Necromancess"
+   ],
+   "items": [
+    {
+     "key": "fs-itettle",
+     "type": "Elf",
+     "short": "Itettle",
+     "where": "ทำลายงูทราย (Sandsnake)"
+    },
+    {
+     "key": "fs-birfly",
+     "type": "Elf",
+     "short": "Birfly",
+     "where": "ทำลายนก Condoroid"
+    },
+    {
+     "key": "fs-stocpie",
+     "type": "Elf",
+     "short": "Stocpie",
+     "where": "ทำลายกับดักทราย (Sand Jaws)"
+    },
+    {
+     "key": "fs-moria",
+     "type": "Elf",
+     "short": "M-oria",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "fs-lubtan",
+     "type": "Elf",
+     "short": "Lubtan (Sub Tank)",
+     "where": "กล่องบนแท่นที่ถล่มได้ ถ้ามี Triple Rod ให้แทงลงเพื่อเด้งตัวขึ้นไป รอบนี้ไม่ทันก็ไปเก็บตอน Duel in Desert ได้"
+    }
+   ],
+   "tips": [
+    "ทริกด่าน: ด่านสั้น ที่ต้องระวังมีกับดักบนเนินทรายกับเครื่องปั่นพายุ และต้องพามนุษย์ไปที่ปลอดภัยด้วย",
+    "บอส Anubis Necromancess (แพ้ไฟ): มันขว้างไม้เท้ามาช้าๆ ให้แดชหรือกระโดดหลบ จังหวะที่ไม้เท้ายังไม่กลับไปหามันคือช่องให้กระโดดเข้าไปฟัน Saber ชาร์จไฟ ถ้ามันเรียกเสาออกมา ดูควันแล้วกระโดดออก เสาต้นสุดท้ายใช้ปีนผนังหนี"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Find the Shuttle",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Find_the_Shuttle"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Anubis Necromancess",
+     "url": "https://megaman.fandom.com/wiki/Anubis_Necromancess"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "hb",
+   "kind": "chapter",
+   "title": "Find Hidden Base (Blizzack Staggroff)",
+   "verses": 0,
+   "enemies": [
+    "Blizzack Staggroff"
+   ],
+   "items": [
+    {
+     "key": "hb-shelter",
+     "type": "Elf",
+     "short": "Shelter (ป้องกัน x2)",
+     "where": "ทำลาย Battleattle Bros 3 ตัว"
+    },
+    {
+     "key": "hb-ice",
+     "type": "Chip",
+     "short": "Ice Chip",
+     "where": "ได้หลังล้มบอส"
+    }
+   ],
+   "tips": [
+    "ทริกด่าน: ระวังอูฐพ่นไฟ ที่หลุมทรายดูดให้ฆ่าศัตรูตรงกลางหลุมแล้วจะมีปล่องให้กระโดดลง ปล่องที่มีหนามให้ค่อยๆ หลบลงไปจนสุด (ใช้ Totten แล้วง่ายขึ้นมาก) ห้องถัดไปมีหินย้อยกับหลุมหนามยาว ยิงหินย้อยให้ร่วงลงมาใช้ข้าม",
+    "ในฐานต้องปล่อย Reploid ให้ครบ 7 คน เห็น Maverick สีเขียวที่ส่องไฟจากตาให้ยิงก่อนไฟจะส่องโดน ไม่งั้นฐานล็อกดาวน์และปล่อยใครไม่ได้ไปพักหนึ่ง บางกรงมีศัตรูซ่อนอยู่เป็นกับดัก อย่าฟันกรงพวกนั้น",
+    "บอส Blizzack Staggroff (แพ้ไฟ): ยิง Buster ชาร์จตอนมันอยู่บนพื้น ถ้าเข้าใกล้ก็ฟัน Saber ชาร์จ ท่าดูดน้ำแข็งหลบไม่ได้ถ้ายืนบนพื้น ต้องปีนผนังขึ้นไปจนถึงเพดาน",
+    "แหล่งข้อมูลบอกไม่ตรงกันว่า Nebitan กับ M-orell อยู่ด่านนี้หรือด่านอื่น ที่นี่ใส่ไว้ใน Duel in Desert กับ Stop the Hacking ตามตารางของ StrategyWiki ฐานลับนี้กลับมาอีกไม่ได้จนกว่าจะล้ม Fefnir กับ Leviathan"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Find Hidden Base",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Find_Hidden_Base"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Blizzack Staggroff",
+     "url": "https://megaman.fandom.com/wiki/Blizzack_Staggroff"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "gr",
+   "kind": "chapter",
+   "title": "หุ่นยักษ์บุกฐาน (Hittite Hottaid)",
+   "verses": 0,
+   "enemies": [
+    "Hittite Hottaid"
+   ],
+   "items": [
+    {
+     "key": "gr-birtack",
+     "type": "Elf",
+     "short": "Birtack",
+     "where": "ทำลายเฮลิคอปเตอร์สีม่วง Gli-Eye"
+    },
+    {
+     "key": "gr-stoctto",
+     "type": "Elf",
+     "short": "Stoctto",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "gr-hapitan",
+     "type": "Elf",
+     "short": "Hapitan (Sub Tank)",
+     "where": "ปล่อยให้หุ่นยักษ์เจาะทะลุตึกสีเหลืองหรือส้มกลางด่าน แล้วจะเจอกล่องใต้ตึก"
+    }
+   ],
+   "tips": [
+    "ภารกิจนี้โผล่มาเองหลังเคลียร์ครบ 4 ภารกิจ ถ้าหยุดหุ่นไม่ทันหรือกดยกเลิก Hanumachine จะบุกฐานต่อทันที",
+    "บอส Hittite Hottaid: ไม่มีข้อมูลว่าแพ้ธาตุไหน ทำลายทุ่นระเบิด 3 ลูกจากหางก่อนตกถึงพื้น ระเบิดลอยใช้ Triple Rod ทำลายได้ปลอดภัย และกำจัด Gli-Eye ก่อนมันมากวน",
+    "ตอนแรงก์ A หรือ S พังชิ้นส่วนหมดแล้วจะมี Pantheon 3 ตัวออกมาจากช่อง (ใช้หลอดเลือดร่วมกัน) ถ้าโดนกระสุนกรงขังของ Pantheon Bazooka ให้ฟันกรงทิ้ง"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Hittite Hottaid",
+     "url": "https://megaman.fandom.com/wiki/Hittite_Hottaid"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "rc",
+   "kind": "chapter",
+   "title": "Rescue Colbor (Harpuia)",
+   "verses": 0,
+   "enemies": [
+    "Harpuia"
+   ],
+   "items": [
+    {
+     "key": "rc-birtross",
+     "type": "Elf",
+     "short": "Birtross",
+     "where": "ทำลาย Pantheon Flier"
+    },
+    {
+     "key": "rc-beedle",
+     "type": "Elf",
+     "short": "Beedle",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "rc-dereff",
+     "type": "Elf",
+     "short": "Dereff",
+     "where": "กล่องทางซ้ายของจุดเริ่ม"
+    },
+    {
+     "key": "rc-sireff",
+     "type": "Elf",
+     "short": "Sireff",
+     "where": "กล่องใต้แท่น"
+    },
+    {
+     "key": "rc-morick",
+     "type": "Elf",
+     "short": "Morick",
+     "where": "กล่องใต้บันไดถัดจากจุดที่เจอ Sireff"
+    }
+   ],
+   "tips": [
+    "บอส Harpuia (แพ้น้ำแข็ง ใส่ Ice Chip): โจมตีจากข้างบนเป็นส่วนใหญ่ Sonic Boom คือพุ่งขึ้นแล้วปล่อยคลื่นพระจันทร์เสี้ยว Plasma Bit คือลอยกลางจอยิงลูกพลังติดตามตัว",
+    "อย่าชนตัวมันตอนลอย มันจะจับขึ้นไปทุ่มลงพื้น (Izuna Drop) ถ้ามันยิงคลื่นดาบ 3 ลูกจากพื้น จะตามด้วย Sonic Boom ทุกครั้ง",
+    "ตอนแรงก์ A หรือ S มันใช้ Thunder Prison สร้างพายุดูดเข้าหาสายฟ้าที่ขอบจอทั้งสองข้าง (แหล่งข้อมูลไม่ได้เขียนทางเดินในด่านไว้)"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Rescue Colbor-Corbeau",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Rescue_Colbor-Corbeau"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Sage Harpuia",
+     "url": "https://megaman.fandom.com/wiki/Sage_Harpuia"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "pf",
+   "kind": "chapter",
+   "title": "Protect Factory (Phantom)",
+   "verses": 0,
+   "enemies": [
+    "Phantom"
+   ],
+   "items": [
+    {
+     "key": "pf-stickon",
+     "type": "Elf",
+     "short": "Stickon",
+     "where": "ทำลายหมา Garm"
+    },
+    {
+     "key": "pf-hafmarda",
+     "type": "Elf",
+     "short": "Hafmarda (ลด HP บอสครึ่งหนึ่ง)",
+     "where": "ได้จากบอส"
+    }
+   ],
+   "tips": [
+    "บอส Phantom (ไม่แพ้ธาตุไหน): เข้าด่านไปได้ไม่นานจะโดนมันดักตีตั้งแต่ต้นด่าน มันแดชเข้ามาฟันแล้วแยกร่างหลอก ตัวจริงคือตัวที่ทึบกว่า ตีผิดตัวจะโดนสวน",
+    "มันขว้างดาวกระจายยักษ์ที่แตกเป็น 4 ชิ้นเมื่อโดนตัว และขว้างดาวกระจายบูมเมอแรงแล้วขี่ไปปามีดสั้นใส่ ล้มได้แล้วเก็บ elf แล้วไปต่อ"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Protect the Factory",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Protect_the_Factory"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Hidden Phantom",
+     "url": "https://megaman.fandom.com/wiki/Hidden_Phantom"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "dd",
+   "kind": "chapter",
+   "title": "Duel in Desert (Fefnir)",
+   "verses": 0,
+   "enemies": [
+    "Fefnir"
+   ],
+   "items": [
+    {
+     "key": "dd-kenite",
+     "type": "Elf",
+     "short": "Kenite",
+     "where": "ทำลายอูฐ Cameloid"
+    },
+    {
+     "key": "dd-morque",
+     "type": "Elf",
+     "short": "M-orque",
+     "where": "ทำลายรถถังเล็ก (แหล่งข้อมูลบอกสีไม่ตรงกัน มีทั้งเหลืองและเขียว)"
+    },
+    {
+     "key": "dd-turbo",
+     "type": "Elf",
+     "short": "Turbo (วิ่งเร็ว)",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "dd-nebitan",
+     "type": "Elf",
+     "short": "Nebitan (Sub Tank)",
+     "where": "อยู่ในหลุมทราย"
+    },
+    {
+     "key": "dd-lubtan",
+     "label": "Lubtan (Sub Tank) ตัวเดียวกับใน Find Shuttle",
+     "where": "บนแท่นที่ถล่มได้ เก็บที่นี่ถ้ายังไม่ได้เก็บตอน Find Shuttle"
+    }
+   ],
+   "tips": [
+    "ทริกด่าน: วิ่งไปทางซ้ายผ่านทะเลทราย ไม่มีทางลับ ยิง Buster ใส่อูฐเพื่อหยุดมันพ่นไฟก่อน แล้วค่อยเข้าไปฟัน",
+    "บอส Fefnir (แพ้สายฟ้า ใส่ Thunder Chip): ลูกไฟ 3 ลูกให้แดชลอดใต้ ถ้าเป็น 2 ลูกห่างกันให้กระโดดแล้วแดชหลบลูกที่สอง ท่าต่อยพื้นทำให้ลาวาพุ่งขึ้นมา 4 ถึง 5 ครั้ง ถ้ามันชาร์จแล้วกระโดดขึ้น ให้แดชลอดใต้ตัวมันไป",
+    "ช่วงโกรธ มันยิงลูกไฟขึ้นฟ้าให้ตกลงมาแบบสุ่ม แดชหลบไปเรื่อยๆ"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Duel in the Desert",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Duel_in_the_Desert"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Fighting Fefnir",
+     "url": "https://megaman.fandom.com/wiki/Fighting_Fefnir"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "sh",
+   "kind": "chapter",
+   "title": "Stop the Hacking (Leviathan)",
+   "verses": 0,
+   "enemies": [
+    "Leviathan"
+   ],
+   "items": [
+    {
+     "key": "sh-bompa",
+     "type": "Elf",
+     "short": "Bompa",
+     "where": "ทำลาย Screwdriger"
+    },
+    {
+     "key": "sh-bompu",
+     "type": "Elf",
+     "short": "Bompu",
+     "where": "ทำลายแมวน้ำ Sharkseal"
+    },
+    {
+     "key": "sh-reppie",
+     "type": "Elf",
+     "short": "Reppie (+HP)",
+     "where": "ทำลายคอมพิวเตอร์ในห้องคอมพิวเตอร์"
+    },
+    {
+     "key": "sh-keick",
+     "type": "Elf",
+     "short": "Keick",
+     "where": "ทำลายคอมพิวเตอร์ในห้องคอมพิวเตอร์"
+    },
+    {
+     "key": "sh-bomgu",
+     "type": "Elf",
+     "short": "Bomgu",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "sh-areff",
+     "type": "Elf",
+     "short": "Areff",
+     "where": "กล่องข้างหน้าผาใต้น้ำ"
+    },
+    {
+     "key": "sh-rohealar",
+     "type": "Elf",
+     "short": "Rohealar",
+     "where": "เหนือเรือดำน้ำลำแรก กระโดดยากหน่อย"
+    },
+    {
+     "key": "sh-morell",
+     "type": "Elf",
+     "short": "M-orell",
+     "where": "ในทางลับ"
+    },
+    {
+     "key": "sh-morekka",
+     "type": "Elf",
+     "short": "M-orekka",
+     "where": "ตารางหนึ่งบอกว่าอยู่ในห้องขัง อีกหน้าบอกว่าอยู่ในคอมพิวเตอร์ (1-02, 2-01, 3-02, 3-05 สำหรับ 4 ตัวนี้) แหล่งข้อมูลไม่ตรงกัน ลองตีทั้งคอมพิวเตอร์และกรง"
+    },
+    {
+     "key": "sh-tielar",
+     "type": "Elf",
+     "short": "Tielar",
+     "where": "ตารางหนึ่งบอกว่าอยู่ในห้องขัง อีกหน้าบอกว่าอยู่ในคอมพิวเตอร์ (1-02, 2-01, 3-02, 3-05 สำหรับ 4 ตัวนี้) แหล่งข้อมูลไม่ตรงกัน ลองตีทั้งคอมพิวเตอร์และกรง"
+    },
+    {
+     "key": "sh-clocta",
+     "type": "Elf",
+     "short": "Clocta",
+     "where": "ตารางหนึ่งบอกว่าอยู่ในห้องขัง อีกหน้าบอกว่าอยู่ในคอมพิวเตอร์ (1-02, 2-01, 3-02, 3-05 สำหรับ 4 ตัวนี้) แหล่งข้อมูลไม่ตรงกัน ลองตีทั้งคอมพิวเตอร์และกรง"
+    },
+    {
+     "key": "sh-itepon",
+     "type": "Elf",
+     "short": "Itepon",
+     "where": "ตารางหนึ่งบอกว่าอยู่ในห้องขัง อีกหน้าบอกว่าอยู่ในคอมพิวเตอร์ (1-02, 2-01, 3-02, 3-05 สำหรับ 4 ตัวนี้) แหล่งข้อมูลไม่ตรงกัน ลองตีทั้งคอมพิวเตอร์และกรง"
+    }
+   ],
+   "tips": [
+    "บอส Leviathan (แพ้ไฟ ใส่ Flame Chip แม้จะสู้ใต้น้ำ): Marine Snow คือว่ายผ่านด้านบนแล้วทิ้งหนามน้ำแข็งให้ลอยลงมาช้าๆ Ice Ring คือยิงหนามน้ำแข็งหมุนเป็นวง และมีท่ายิงหัวหอกติดตามตัว",
+    "ตอนแรงก์ A หรือ S มันจะชาร์จแล้วปล่อยมังกรน้ำแข็งไล่ตามจนกว่าจะตีให้แตก (แหล่งข้อมูลไม่ได้เขียนทางเดินในด่านไว้)"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Stop the Hacking",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Stop_the_Hacking"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Fairy Leviathan",
+     "url": "https://megaman.fandom.com/wiki/Fairy_Leviathan"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "ba",
+   "kind": "chapter",
+   "title": "ฐานโดนบุก (Hanumachine)",
+   "verses": 0,
+   "enemies": [
+    "Hanumachine"
+   ],
+   "items": [
+    {
+     "key": "ba-sticken",
+     "type": "Elf",
+     "short": "Sticken",
+     "where": "ทำลายลิงจิ๋ว Mini-Hanumachine ระหว่างสู้บอส พลาดแล้วเก็บไม่ได้อีก"
+    },
+    {
+     "key": "ba-eenite",
+     "type": "Elf",
+     "short": "Eenite",
+     "where": "ได้จากบอส"
+    }
+   ],
+   "tips": [
+    "ด่านนี้ต้องช่วย Cerveau จาก Pantheon ด้วย ลิฟต์ของฐานถึงจะใช้ได้",
+    "บอส Hanumachine (แพ้สายฟ้า): อย่าให้ลิงจิ๋วโดนตัว มันจะเกาะแล้วระเบิด ตีทิ้งให้หมด (ได้ Sticken ด้วย) ท่าหมุนกลางอากาศยิงลูกไฟข้ามห้อง และมันจะกลายเป็นลูกไฟเด้งไปทั่ว ตอนแรงก์ A หรือ S มันจะชาร์จแล้วยืดกระบองฟันมาด้วย"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Resistance Base (attacked)",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Resistance_Base_(attacked)"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Hanumachine",
+     "url": "https://megaman.fandom.com/wiki/Hanumachine"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "shr",
+   "kind": "chapter",
+   "title": "Neo Arcadia Shrine (บอส 3 ตัว)",
+   "verses": 0,
+   "enemies": [
+    "Pantheon Ace",
+    "Asura Basura",
+    "Herculious Anchus"
+   ],
+   "items": [
+    {
+     "key": "shr-iteron",
+     "type": "Elf",
+     "short": "Iteron",
+     "where": "บนหลังคาศาลเจ้าหลังแรก"
+    },
+    {
+     "key": "shr-ireff",
+     "type": "Elf",
+     "short": "Ireff",
+     "where": "บนหลังคาศาลเจ้าหลังแรก"
+    },
+    {
+     "key": "shr-coswick",
+     "type": "Elf",
+     "short": "Coswick",
+     "where": "กระโดดลงจากขอบทางซ้าย"
+    },
+    {
+     "key": "shr-stocpoh",
+     "type": "Elf",
+     "short": "Stocpoh",
+     "where": "บนหลังคาหลังที่สอง กระโดดยาก"
+    },
+    {
+     "key": "shr-ereff",
+     "type": "Elf",
+     "short": "Ereff",
+     "where": "บนหลังคาหลังที่สอง กระโดดยาก"
+    },
+    {
+     "key": "shr-muelar",
+     "type": "Elf",
+     "short": "Muelar (บางที่สะกด Meular)",
+     "where": "บนหลังคาหลังที่สาม"
+    },
+    {
+     "key": "shr-beefive",
+     "type": "Elf",
+     "short": "Beefive",
+     "where": "ได้จากบอสย่อยตัวแรก"
+    },
+    {
+     "key": "shr-cloctch",
+     "type": "Elf",
+     "short": "Cloctch",
+     "where": "ได้จากบอสย่อยตัวที่สอง"
+    },
+    {
+     "key": "shr-beehoney",
+     "type": "Elf",
+     "short": "Beehoney",
+     "where": "ได้จากบอส Herculious"
+    }
+   ],
+   "tips": [
+    "บอสย่อย 1, Pantheon Ace: Pantheon บินได้ 2 ตัว ไม่แพ้ธาตุไหน",
+    "บอสย่อย 2, Asura Basura (แพ้สายฟ้า): ตอนหมุนเป็นลูกข่างจะโดนดาเมจแค่ที่หัว ตอนขว้างดาบ 3 เล่ม เล่มแรกมาเรี่ยพื้น เล่มสองข้ามหัว เล่มสามกลางตัว ให้กระโดดหลบเล่มแรกกับเล่มสุดท้าย มันกันกระสุน Buster ได้แค่ 1 ถึง 2 นัด",
+    "บอสใหญ่ Herculious Anchus (แพ้น้ำแข็ง): ใช้ท่าพุ่งชน, ยิงลูกพลัง 4 ลูก และปล่อยแขนมาล้อมเป็นรั้วไฟฟ้า (Beet Anchor) ตีชาร์จน้ำแข็งขัดจังหวะได้ทุกท่ายกเว้น Beet Anchor"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Neo Arcadia Shrine",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Neo_Arcadia_Shrine"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Herculious Anchus",
+     "url": "https://megaman.fandom.com/wiki/Herculious_Anchus"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Asura Basura",
+     "url": "https://megaman.fandom.com/wiki/Asura_Basura"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "tw",
+   "kind": "chapter",
+   "title": "Neo Arcadia Tower (Rainbow Devil)",
+   "verses": 0,
+   "enemies": [
+    "Rainbow Devil"
+   ],
+   "items": [
+    {
+     "key": "tw-birrair",
+     "type": "Elf",
+     "short": "Birrair",
+     "where": "ทำลาย Gyro Cannon"
+    },
+    {
+     "key": "tw-morolli",
+     "type": "Elf",
+     "short": "M-orolli",
+     "where": "ได้จากบอส"
+    },
+    {
+     "key": "tw-hareff",
+     "type": "Elf",
+     "short": "Hareff",
+     "where": "กล่องวางให้เห็นชัดๆ"
+    }
+   ],
+   "tips": [
+    "บอส Rainbow Devil (ไม่แพ้ธาตุไหน): มันคืบเข้ามาเป็นเมือกแล้วรัดตัว (Twister Hold) กดปุ่มรัวๆ จะหลุด ถ้ามันสาดหยดเมือกสีรุ้งไปรอบห้อง หยดพวกนั้นจะวิ่งกลับเข้าหาตัวมัน ระวังโดนตอนขากลับ",
+    "ท่า Bound Attack มันกลายเป็นหัวเด้งไปมา ตีโดนหรือรอนานๆ จะแตกเป็นได้ถึง 4 ชิ้นแล้วร่วงลงพื้น (แหล่งข้อมูลไม่ได้เขียนทางเดินในด่านไว้)"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Cyber-Elves",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves"
+    },
+    {
+     "label": "StrategyWiki: Neo Arcadia Tower",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Neo_Arcadia_Tower"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Rainbow Devil",
+     "url": "https://megaman.fandom.com/wiki/Rainbow_Devil"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "core",
+   "kind": "chapter",
+   "title": "Neo Arcadia Core (Copy X)",
+   "verses": 0,
+   "enemies": [
+    "Copy X"
+   ],
+   "items": [
+    {
+     "key": "core-jackson",
+     "type": "Elf",
+     "short": "Jackson (Cyber-elf ลับ ทำให้อมตะ)",
+     "where": "ต้องเก็บ elf ครบทุกตัว เลี้ยงจนเต็ม แล้วจบเกมโดยไม่ใช้เลยหรือใช้ครบทุกตัว จากนั้นโหลดเซฟที่จบแล้ว ไม่เกี่ยวกับการเล่นรอบนี้"
+    }
+   ],
+   "tips": [
+    "ด่านนี้ต้องสู้บอสเก่าซ้ำก่อนเจอ Copy X ชิปที่ควรใส่ดูได้จาก<a href=\"#weak\">ตารางจุดอ่อน</a>",
+    "Copy X ร่างแรก (ไม่แพ้ธาตุไหน): ตัวกะพริบแปลว่ากำลังเปลี่ยนธาตุ กระสุนจะเปลี่ยนตาม กระสุนน้ำแข็งแตกเป็น 5 ชิ้น ลูกไฟฟ้าตามตัวได้นิดหน่อย ไฟพุ่งเป็นเส้นโค้ง ถ้ามันชาร์จ นัดถัดไปจะแรงขึ้น และมีท่าสไลด์กับ Nova Strike ที่พุ่งตามตัว ตอนแรงก์ A หรือ S มันจะเติมเลือดเต็ม 1 หลอดแล้วอมตะไปพักหนึ่ง",
+    "Copy X ร่างสอง (แพ้น้ำแข็ง): ตอนยิงเลเซอร์มั่ว (Tentei Laser) ให้แดชจากปลายแท่นข้างหนึ่งไปอีกข้าง เลเซอร์จะพลาดหมด วงแหวนผูกมัดไม่ทำดาเมจ ขยับหลบก็พอ ระวังลำแสงที่ไล่เผาพื้น ถ้าได้ยินเสียงหัวเราะหลอนๆ มันกำลังจะทุบแท่นหนามลงมา (ท่า EX)",
+    "Hafmargo หรือ Hafmarda ใช้กับบอสตัวนี้คุ้มที่สุด"
+   ],
+   "sources": [
+    {
+     "label": "StrategyWiki: Unlockable secrets",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Unlockable_secrets"
+    },
+    {
+     "label": "StrategyWiki: Neo Arcadia Core",
+     "url": "https://strategywiki.org/wiki/Mega_Man_Zero/Neo_Arcadia_Core"
+    },
+    {
+     "label": "Mega Man Knowledge Base: Copy X",
+     "url": "https://megaman.fandom.com/wiki/Copy_X"
+    }
+   ],
+   "flow": false
+  },
+  {
+   "id": "story",
+   "kind": "page",
+   "title": "สรุปเนื้อเรื่อง Mega Man Zero 1",
+   "blocks": [
+    {
+     "p": "เรื่องเกิดราว 100 ปีหลังภาค Mega Man X ตอนนั้นทั้ง X และ Zero หายตัวไปนานแล้ว Neo Arcadia นครอุดมคติของมนุษย์ปกครองโดย \"X\" แต่กลับตีตรา Reploid ว่าเป็น Maverick แล้วกำจัดทิ้งโดยไม่ไต่สวน Ciel นักวิทยาศาสตร์สาวจึงหนีออกมาตั้งกลุ่ม Resistance ต่อต้าน"
+    },
+    {
+     "p": "ฉากแรก Ciel กับลูกน้องถูกกองทัพ Pantheon ไล่ล่าเข้าไปในแล็บร้าง แล้วเจอ Zero ที่หลับมาร้อยปี Passy Cyber-elf ของ Ciel ยอมสละชีวิตปลุก Zero ขึ้นมา Zero ตื่นมาความจำเสื่อม แต่ตัดสินใจช่วย Ciel และเข้าร่วม Resistance"
+    },
+    {
+     "p": "Zero รับภารกิจต่างๆ เพื่อซื้อเวลาให้ Ciel สร้างแหล่งพลังงานใหม่ จนวันหนึ่ง Neo Arcadia บุกฐาน Ciel สารภาพว่าเธอเป็นคนช่วยสร้าง Neo Arcadia เอง พอเกิดวิกฤตพลังงานและ X ตัวจริงหายไป เธอสร้าง Copy X ขึ้นมาเป็นผู้นำแทนตั้งแต่อายุ 6 ขวบ Copy X อยากได้โลกที่สงบแบบ X ตัวจริง แต่ไม่มีวิจารณญาณแบบต้นฉบับ เลยตัดสินว่า Reploid เป็นภัยต่อมนุษย์และกำจัดพวกเขาเพื่อประหยัดพลังงาน"
+    },
+    {
+     "p": "Zero บุกเข้า Neo Arcadia และสู้ผ่านสี่ผู้พิทักษ์ (Four Guardians) คือ Harpuia, Phantom, Fefnir และ Leviathan Phantom ระเบิดตัวเองหวังเอา Zero ไปด้วยแต่ไม่สำเร็จ อีกสามคนหนีไปได้ สุดท้าย Zero ล้ม Copy X ได้ Copy X ระเบิดฐานหวังให้ตายด้วยกัน Zero หนีออกมาทันแล้วหมดแรงล้มลงกลางทะเลทราย"
+    },
+    {
+     "p": "ตอนจบ X ตัวจริงซึ่งตอนนี้เป็น Cyber-elf ปรากฏตัว บอกว่าคอยนำทาง Zero มาตลอด เขาเหนื่อยกับการต่อสู้และไม่มีร่างกายเหลือแล้ว จึงฝากโลกไว้กับ Zero พอ X หายไป กองทัพ Pantheon ก็ล้อม Zero ไว้ เขาประกาศว่าจะสู้กับ Neo Arcadia ต่อ แล้วพุ่งเข้าใส่ฝูง Pantheon เป็นฉากสุดท้าย"
+    },
+    {
+     "p": "แหล่ง: <a href=\"https://en.wikipedia.org/wiki/Mega_Man_Zero_(video_game)\">Wikipedia: Mega Man Zero</a> · <a href=\"https://megaman.fandom.com/wiki/Mega_Man_Zero_(video_game)\">Mega Man Knowledge Base</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "spoil",
+   "kind": "page",
+   "title": "สปอยล์: ภาค 2 ถึง 4 ไปต่อยังไง",
+   "open": false,
+   "blocks": [
+    {
+     "p": "สปอยล์ภาคต่อ ถ้าอยากไปลุ้นเองให้ปิดส่วนนี้ไว้",
+     "class": "note"
+    },
+    {
+     "list": [
+      "Zero 2: ผ่านไป 1 ปี Zero ร่อนเร่สู้ในทะเลทรายคนเดียว Harpuia ขึ้นคุม Neo Arcadia ส่วน Resistance ได้ผู้นำใหม่ชื่อ Elpizo ซึ่งบุกตรงๆ แล้วแพ้ยับ จนเพี้ยนไปปลดผนึก Dark Elf และทำลายร่างจริงของ X ที่ใช้ผนึกเธอไว้ สุดท้าย Zero หยุด Elpizo ได้ และรู้ว่า Dark Elf เคยเป็น Mother Elf มาก่อน แต่ถูก Dr. Weil สาปไว้",
+      "Zero 3: Ciel คิดค้นพลังงาน Ciel System สำเร็จ แต่ Dr. Weil กลับมาพร้อม Omega และชุบ Copy X ขึ้นมาใหม่ ภายหลัง Weil หักหลัง Copy X แล้วยึดอำนาจเอง เฉลยตอนท้ายว่า Omega ใช้ร่างเดิมของ Zero Zero ร่วมมือกับเหล่าผู้พิทักษ์จนล้ม Omega ได้ แล้ว X ก็จากไปตลอดกาล",
+      "Zero 4: Weil ปกครอง Neo Arcadia แบบเผด็จการ มนุษย์จึงหนีไปอยู่ที่ Area Zero Zero ต้องสู้กับกลุ่ม Einherjar และ Craft ทหารที่มีปมกับนักข่าวสาว Neige ปิดท้ายด้วยศึกบนดาวเทียมอาวุธ Ragnarok ที่กำลังตกสู่โลก"
+     ]
+    },
+    {
+     "p": "แหล่ง: <a href=\"https://en.wikipedia.org/wiki/Mega_Man_Zero_2\">Wikipedia: Mega Man Zero 2, 3, 4</a>",
+     "class": "src"
+    }
+   ]
+  },
+  {
+   "id": "links",
+   "kind": "page",
+   "title": "แหล่งข้อมูล",
+   "blocks": [
+    {
+     "list": [
+      "<a href=\"https://strategywiki.org/wiki/Mega_Man_Zero/Cyber-Elves\">Mega Man Zero: Cyber-Elves (ตำแหน่งครบทุกตัว)</a> <span class=\"mut\">(StrategyWiki)</span>",
+      "<a href=\"https://strategywiki.org/wiki/Mega_Man_Zero/Walkthrough\">Mega Man Zero: Walkthrough และลำดับภารกิจ</a> <span class=\"mut\">(StrategyWiki)</span>",
+      "<a href=\"https://strategywiki.org/wiki/Mega_Man_Zero/Weapons\">Mega Man Zero: Weapons</a> <span class=\"mut\">(StrategyWiki)</span>",
+      "<a href=\"https://strategywiki.org/wiki/Mega_Man_Zero/Disposal_Center\">Mega Man Zero: Disposal Center (รูปกล่อง)</a> <span class=\"mut\">(StrategyWiki)</span>",
+      "<a href=\"https://strategywiki.org/wiki/Mega_Man_Zero/Unlockable_secrets\">Mega Man Zero: Unlockable secrets</a> <span class=\"mut\">(StrategyWiki)</span>",
+      "<a href=\"https://megaman.fandom.com/wiki/Mega_Man_Zero_(video_game)\">Mega Man Zero (video game)</a> <span class=\"mut\">(Mega Man Knowledge Base)</span>",
+      "<a href=\"https://megaman.fandom.com/wiki/Copy_X\">หน้าบอสแต่ละตัว เช่น Copy X, Harpuia, Leviathan</a> <span class=\"mut\">(Mega Man Knowledge Base)</span>",
+      "<a href=\"https://megaman.fandom.com/wiki/Triple_Rod\">Triple Rod และ Shield Boomerang</a> <span class=\"mut\">(Mega Man Knowledge Base)</span>",
+      "<a href=\"https://en.wikipedia.org/wiki/Mega_Man_Zero_(video_game)\">Mega Man Zero (video game): Plot</a> <span class=\"mut\">(Wikipedia)</span>",
+      "<a href=\"https://en.wikipedia.org/wiki/Mega_Man_Zero_2\">Mega Man Zero 2, 3, 4: Plot</a> <span class=\"mut\">(Wikipedia)</span>"
+     ]
+    }
+   ]
+  }
+ ]
+}

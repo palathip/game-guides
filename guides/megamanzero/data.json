@@ -2,8 +2,8 @@
  "game": "megamanzero",
  "output": "MegaManZero_Guide_TH.html",
  "lang": "th",
- "title": "Mega Man Zero (GBA): เช็กลิสต์ ทริก และเนื้อเรื่อง",
- "heading": "⚔️ Mega Man Zero (GBA ภาค 1) เช็กลิสต์ ทริกผ่านด่าน และเนื้อเรื่อง",
+ "title": "Mega Man Zero (GBA) – คู่มือเดินภารกิจและของสะสม",
+ "heading": "🤖 Mega Man Zero (GBA) – คู่มือเดินภารกิจและของสะสม",
  "storage_key": "mmz1guide:",
  "footer": "ทำโดยออย 🎮 · ต.ค. 2026",
  "ui": {
@@ -76,71 +76,67 @@
    "items": [
     {
      "id": "m1",
-     "short": "1"
+     "short": "01"
     },
     {
      "id": "m2",
-     "short": "2"
-    },
-    {
-     "id": "base",
-     "short": "ฐาน"
+     "short": "02"
     },
     {
      "id": "rd",
-     "short": "RD"
+     "short": "03"
     },
     {
      "id": "dt",
-     "short": "รถไฟ"
+     "short": "04"
     },
     {
      "id": "of",
-     "short": "โรงงาน"
+     "short": "05"
     },
     {
      "id": "fs",
-     "short": "Shuttle"
+     "short": "06"
     },
     {
      "id": "hb",
-     "short": "ฐานลับ"
+     "short": "07"
     },
     {
      "id": "gr",
-     "short": "หุ่นยักษ์"
+     "short": "08"
     },
     {
      "id": "rc",
-     "short": "Colbor"
+     "short": "09"
     },
     {
      "id": "pf",
-     "short": "Phantom"
+     "short": "10"
     },
     {
      "id": "dd",
-     "short": "ทะเลทราย"
+     "short": "11"
     },
     {
      "id": "sh",
-     "short": "Hacking"
+     "short": "12"
     },
     {
      "id": "ba",
-     "short": "ฐานบุก"
+     "short": "13"
     },
     {
      "id": "shr",
-     "short": "Shrine"
+     "short": "14"
     },
     {
      "id": "tw",
-     "short": "Tower"
+     "short": "15"
     },
     {
      "id": "core",
-     "short": "Core"
+     "short": "16"
     }
    ]
   },
@@ -148,6 +144,10 @@
    "title": "เนื้อเรื่องและอ้างอิง",
    "style": "ref",
    "items": [
+    {
+     "id": "base",
+     "short": "ฐาน"
+    },
     {
      "id": "story",
      "short": "เนื้อเรื่อง"
@@ -432,7 +432,7 @@
   {
    "id": "m1",
    "kind": "chapter",
-   "title": "ภารกิจ 1: ช่วย Ciel (Golem)",
+   "title": "01 – ช่วย Ciel (Golem)",
    "verses": 0,
    "enemies": [
     "Golem"
@@ -492,7 +492,7 @@
   {
    "id": "m2",
    "kind": "chapter",
-   "title": "ภารกิจ 2: Disposal Center (Aztec Falcon)",
+   "title": "02 – Disposal Center (Aztec Falcon)",
    "verses": 0,
    "enemies": [
     "Aztec Falcon"
@@ -622,7 +622,7 @@
   {
    "id": "rd",
    "kind": "chapter",
-   "title": "Retrieve Data (Maha Ganeshariff)",
+   "title": "03 – Retrieve Data (Maha Ganeshariff)",
    "verses": 0,
    "enemies": [
     "Maha Ganeshariff"
@@ -693,7 +693,7 @@
   {
    "id": "dt",
    "kind": "chapter",
-   "title": "Destroy Train (Pantheon Core)",
+   "title": "04 – Destroy Train (Pantheon Core)",
    "verses": 0,
    "enemies": [
     "Pantheon Core"
@@ -766,7 +766,7 @@
   {
    "id": "of",
    "kind": "chapter",
-   "title": "Occupy Factory (Guard Orotic)",
+   "title": "05 – Occupy Factory (Guard Orotic)",
    "verses": 0,
    "enemies": [
     "Guard Orotic"
@@ -845,7 +845,7 @@
   {
    "id": "fs",
    "kind": "chapter",
-   "title": "Find Shuttle (Anubis Necromancess)",
+   "title": "06 – Find Shuttle (Anubis Necromancess)",
    "verses": 0,
    "enemies": [
     "Anubis Necromancess"
@@ -905,7 +905,7 @@
   {
    "id": "hb",
    "kind": "chapter",
-   "title": "Find Hidden Base (Blizzack Staggroff)",
+   "title": "07 – Find Hidden Base (Blizzack Staggroff)",
    "verses": 0,
    "enemies": [
     "Blizzack Staggroff"
@@ -949,7 +949,7 @@
   {
    "id": "gr",
    "kind": "chapter",
-   "title": "หุ่นยักษ์บุกฐาน (Hittite Hottaid)",
+   "title": "08 – หุ่นยักษ์บุกฐาน (Hittite Hottaid)",
    "verses": 0,
    "enemies": [
     "Hittite Hottaid"
@@ -994,7 +994,7 @@
   {
    "id": "rc",
    "kind": "chapter",
-   "title": "Rescue Colbor (Harpuia)",
+   "title": "09 – Rescue Colbor (Harpuia)",
    "verses": 0,
    "enemies": [
     "Harpuia"
@@ -1055,7 +1055,7 @@
   {
    "id": "pf",
    "kind": "chapter",
-   "title": "Protect Factory (Phantom)",
+   "title": "10 – Protect Factory (Phantom)",
    "verses": 0,
    "enemies": [
     "Phantom"
@@ -1097,7 +1097,7 @@
   {
    "id": "dd",
    "kind": "chapter",
-   "title": "Duel in Desert (Fefnir)",
+   "title": "11 – Duel in Desert (Fefnir)",
    "verses": 0,
    "enemies": [
     "Fefnir"
@@ -1126,11 +1126,6 @@
      "type": "Elf",
      "short": "Nebitan (Sub Tank)",
      "where": "อยู่ในหลุมทราย"
-    },
-    {
-     "key": "dd-lubtan",
-     "label": "Lubtan (Sub Tank) ตัวเดียวกับใน Find Shuttle",
-     "where": "บนแท่นที่ถล่มได้ เก็บที่นี่ถ้ายังไม่ได้เก็บตอน Find Shuttle"
     }
    ],
    "tips": [
@@ -1152,12 +1147,18 @@
      "url": "https://megaman.fandom.com/wiki/Fighting_Fefnir"
     }
    ],
-   "flow": false
+   "flow": false,
+   "blocks": [
+    {
+     "p": "<b>Lubtan (Sub Tank) ตัวเดียวกับใน Find Shuttle</b>: บนแท่นที่ถล่มได้ เก็บที่นี่ถ้ายังไม่ได้เก็บตอน Find Shuttle",
+     "class": "note"
+    }
+   ]
   },
   {
    "id": "sh",
    "kind": "chapter",
-   "title": "Stop the Hacking (Leviathan)",
+   "title": "12 – Stop the Hacking (Leviathan)",
    "verses": 0,
    "enemies": [
     "Leviathan"
@@ -1259,7 +1260,7 @@
   {
    "id": "ba",
    "kind": "chapter",
-   "title": "ฐานโดนบุก (Hanumachine)",
+   "title": "13 – ฐานโดนบุก (Hanumachine)",
    "verses": 0,
    "enemies": [
     "Hanumachine"
@@ -1301,7 +1302,7 @@
   {
    "id": "shr",
    "kind": "chapter",
-   "title": "Neo Arcadia Shrine (บอส 3 ตัว)",
+   "title": "14 – Neo Arcadia Shrine (บอส 3 ตัว)",
    "verses": 0,
    "enemies": [
     "Pantheon Ace",
@@ -1392,7 +1393,7 @@
   {
    "id": "tw",
    "kind": "chapter",
-   "title": "Neo Arcadia Tower (Rainbow Devil)",
+   "title": "15 – Neo Arcadia Tower (Rainbow Devil)",
    "verses": 0,
    "enemies": [
     "Rainbow Devil"
@@ -1440,7 +1441,7 @@
   {
    "id": "core",
    "kind": "chapter",
-   "title": "Neo Arcadia Core (Copy X)",
+   "title": "16 – Neo Arcadia Core (Copy X)",
    "verses": 0,
    "enemies": [
     "Copy X"

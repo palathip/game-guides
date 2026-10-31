@@ -99,7 +99,7 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
  "storage_key": "mygame:", "footer": "ทำโดยโซอี้",
  "ui": {"search_placeholder": "ค้นหา…"},
  "types": {"Gem": {"label": "อัญมณี (Gem)", "short": "Gem", "color": "#a78bfa"}},
- "intro": [{"p": "สวัสดีค่ะ ติ๊กช่องได้เลยนะคะ"}, {"h2": "รวมของสะสม"}, {"totals": true}],
+ "intro": [{"p": "ติ๊กช่องเมื่อเก็บของแล้ว"}, {"h2": "รวมของสะสม"}, {"totals": true}],
  "picker": [{"title": "บท", "style": "main", "items": [{"id": "c1", "short": "1"}]},
             {"title": "อ้างอิง", "style": "ref", "items": [{"id": "notes", "short": "หมายเหตุ"}]}],
  "sections": [

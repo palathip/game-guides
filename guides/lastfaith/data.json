@@ -4012,17 +4012,17 @@
     {
      "file": "img/world_map.webp",
      "caption": "แผนที่รวมทั้งเกม แต่ละสีคือหนึ่งพื้นที่",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     },
     {
      "file": "img/map_legend.webp",
-     "caption": "คำอธิบายไอคอนบนแผนที่ (ป้ายภาษาจีน)",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "caption": "คำอธิบายไอคอนบนแผนที่",
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
-     "p": "แผนที่ทั้งหมดในคู่มือนี้มาจากไกด์ Steam ของ 鬼流 ป้ายเป็นภาษาจีน หนูใส่ชื่อจีนของแต่ละพื้นที่ไว้ในตารางข้างล่างให้เทียบได้ค่ะ"
+     "p": "แผนที่ทั้งหมดในคู่มือนี้มาจากไกด์ Steam ของ 鬼流 ต้นฉบับเป็นภาษาจีน หนูแปลป้ายบนรูปเป็นชื่ออังกฤษในเกมแล้ว และใส่ชื่อจีนของแต่ละพื้นที่ไว้ในตารางข้างล่างให้เทียบกับต้นฉบับได้ค่ะ"
     },
     {
      "h3": "วิธีอ่านไอคอน"
@@ -4442,32 +4442,12 @@
     {
      "file": "img/area_temple.webp",
      "caption": "แผนที่ Temple of the Deposed Gods",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "ด่านแรกของเกม เป็นคุกในวิหาร ทางลึกหลังประตูขังต้องกลับมาตอนท้ายเกมพร้อม Jailor's Key"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: ไม่ต้องมีอะไร",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#broken-pass\">Broken Pass</a>: ออกทางขวาหลังชนะ Giant Patron"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ประตูขังช่วงลึก มี Walryn Family Crest และ Dark Comet Charm (ต้องมี Jailor's Key)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -4585,34 +4565,12 @@
     {
      "file": "img/area_broken-pass-manor.webp",
      "caption": "แผนที่ Broken Pass",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "ทางเชื่อมหลักช่วงต้น มีป้ายบอกทาง ทางขวาบนไป Oxnevylle Manor ทางขวาล่างไป City of Mythringal"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: ไม่ต้องมีอะไร",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#temple\">Temple of the Deposed Gods</a>: ทางซ้ายสุด",
-      "<a href=\"#manor\">Oxnevylle Manor</a>: ทางขวาบนที่ป้ายบอกทาง",
-      "<a href=\"#mythringal\">City of Mythringal</a>: ทางขวาล่าง ผ่านประตูรั้วแล้วผ่านสุสาน (ต้องมี Mark's Key)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ส่วนบนของ Broken Pass (Bestiary ระบุว่าเข้าได้หลังมี Propulsion Boots) (ต้องมี Propulsion Boots (air dash))"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -4733,36 +4691,12 @@
     {
      "file": "img/area_broken-pass-manor.webp",
      "caption": "แผนที่ Oxnevylle Manor",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "บ้านหลักของเกม อัปเลเวลได้กับ Helenya หน้าคฤหาสน์เท่านั้น NPC หลายคนจะย้ายมาอยู่ที่นี่ระหว่างเกม"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: ไม่ต้องมีอะไร",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#broken-pass\">Broken Pass</a>: ประตูหน้าคฤหาสน์",
-      "<a href=\"#osseus\">Damned Ruins of the Osseus Fortress</a>: ห้องขวาที่ Annabella ยืน ออกประตูด้านนอก ลากกล่องทางซ้ายแล้วกระโดดขึ้น (ต้องมี Gravitational Ring)",
-      "<a href=\"#dlc\">DLC Dungeon</a>: ชั้น 2 ประตูซ้าย ห้องแท่นบูชาใหม่ (DLC Awakened Ancients) (ต้องมี Nighthunter's Grappling Claw)",
-      "<a href=\"#illygarth\">Wonder of Illygarth</a>: รูปปั้นในคฤหาสน์ทำงานหลังชนะ Laddak (ต้องมี ชนะ Lord Patryk Laddak)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ชั้นบนของคฤหาสน์ (ดึงตัวด้วยตะขอ ใช้โคมระย้าขึ้นไป) (ต้องมี Nighthunter's Grappling Claw)",
-      "ห้องซ้ายและขวาชั้นบนสุด กับ Lady Dorothea หลังกำแพงลวงตาในห้องขวา (ต้องมี Forbidden Key)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -5012,36 +4946,12 @@
     {
      "file": "img/area_mythringal.webp",
      "caption": "แผนที่ City of Mythringal",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "เมืองใหญ่กลางแผนที่ แบ่งเป็น West District กับ East District และแยกไปได้หลายพื้นที่"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Mark's Key",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#broken-pass\">Broken Pass</a>: ฝั่งซ้าย (สุสานและแท่น Old Runes)",
-      "<a href=\"#inquisition\">Federal Inquisition</a>: ประตูใหญ่ East District หลังฟันโซ่ 3 จุด (ต้องมี ทำลายโซ่ 3 จุด (ประตูใหญ่ Mythringal))",
-      "<a href=\"#site-cave\">Site Cave</a>: ทางที่ Count Walrick เปิดให้ ไปขวาหนึ่งหน้าจอจาก West District (รูปปั้นช่องแหวน) (ต้องมี Gravitational Ring)",
-      "<a href=\"#high-walls\">High Walls of Mythringal</a>: สุสานซ้ายของ Old Wymond ลากบล็อกหินแล้วขึ้นลิฟต์ไป Caterina's Church (ต้องมี Gravitational Ring)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ไฟมืด (Dark Fire) 4 จุดที่เปิดห้อง The Devourer of the Betrayed ส่วนใหญ่ต้องกระโดดสองชั้น (ต้องมี Celestial Larva (double jump))",
-      "ห้องท้าทายที่ Bestiary บอกว่ากลับมาเล่นได้หลังมี Celestial Larva (ต้องมี Celestial Larva (double jump))"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -5254,33 +5164,12 @@
     {
      "file": "img/area_inquisition.webp",
      "caption": "แผนที่ Federal Inquisition",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "ตึกวิจัยของสหพันธ์ มีบอสสองด่านติดกัน และเป็นที่ได้ Gravitational Ring"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: ทำลายโซ่ 3 จุด (ประตูใหญ่ Mythringal)",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#mythringal\">City of Mythringal</a>: ประตูใหญ่ East District และลิฟต์ฝั่งซ้ายล่างที่ออกไปเมือง"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ห้อง Technological Lens ชั้นล่าง (ปีนกำแพงสองข้าง ประตูต้องใช้กุญแจ) (ต้องมี Mechanical Gloves, Hermann's Office Key)",
-      "ประตูลวงตาทางขวาหลังห้อง Lens มี Demishade Ore ในโลง (ต้องมี Technological Lens)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -5444,26 +5333,12 @@
     {
      "file": "img/area_site-cave.webp",
      "caption": "แผนที่ Site Cave",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "ถ้ำใต้ Mythringal ทางผ่านลงไป Drowned Crypt และทางไป Lower Mythringal ที่ Aldrich อยู่"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Gravitational Ring",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#mythringal\">City of Mythringal</a>: ทางที่ Count Walrick เปิดให้",
-      "<a href=\"#crypt\">Drowned Crypt</a>: พื้นถล่มลงไปหลุมกว้างแล้วไต่ลงต่อ",
-      "<a href=\"#marshland\">Marshland of Shadows</a>: หลุมที่พื้นถล่ม ใช้ตะขอขึ้นหิ้งซ้ายไป Soggy Shelter (ต้องมี Nighthunter's Grappling Claw)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -5568,33 +5443,12 @@
     {
      "file": "img/area_drowned-crypt.webp",
      "caption": "แผนที่ Drowned Crypt",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "สุสานใต้น้ำขนาดใหญ่ มีปริศนาบล็อกหลายจุด จบด้วยบอส Edwyn แล้วได้ตะขอ"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Gravitational Ring",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#site-cave\">Site Cave</a>: ลิฟต์และทางขึ้นใกล้แท่น Crypt Entrance",
-      "<a href=\"#marshland\">Marshland of Shadows</a>: หลุมที่ตกลงมา ใช้ตะขอไปหิ้งซ้าย (ต้องมี Nighthunter's Grappling Claw)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ผนังใส่ Family Crest 4 อันที่ก้นสุสาน มีบอสลับ Nyxaroth และ Bright Comet Charm (ต้องมี Family Crest ครบ 4 อัน)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -5787,26 +5641,12 @@
     {
      "file": "img/area_marshland-erlim.webp",
      "caption": "แผนที่ Marshland of Shadows",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "หนองน้ำทางเดียวที่พาไป City of Erlim และมีทางถ้ำแยกขึ้นไป Liturgical Pass"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Nighthunter's Grappling Claw",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#crypt\">Drowned Crypt</a>: หิ้งซ้ายของหลุมที่พื้นถล่ม (Soggy Shelter)",
-      "<a href=\"#erlim\">City of Erlim</a>: สุดทางซ้าย",
-      "<a href=\"#liturgical\">Liturgical Pass</a>: จากแท่น Soggy Shelter ขึ้นถ้ำขวา ขึ้นลิฟต์ตัวที่สอง แล้วออกประตูซ้ายใกล้ยอด ต้องแดชกลางอากาศ (ต้องมี Propulsion Boots (air dash))"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -5886,33 +5726,12 @@
     {
      "file": "img/area_marshland-erlim.webp",
      "caption": "แผนที่ City of Erlim",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "เมืองที่ถูกโจมตี มีเควสต์หลายสายและเป็นทางเข้า Esk Mansion"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Nighthunter's Grappling Claw",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#marshland\">Marshland of Shadows</a>: ฝั่งขวา (สะพานที่โดนปืนใหญ่ยิง)",
-      "<a href=\"#esk\">Esk Mansion</a>: ฝั่งซ้ายหลังบอส Starborn Nighthunter"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "Second Skin จาก Veiled Maiden (10,000) หลังจบเควสต์ Lady Annika"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -6056,33 +5875,12 @@
     {
      "file": "img/area_esk-mansion.webp",
      "caption": "แผนที่ Esk Mansion",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "คฤหาสน์กระจก ต้องเก็บเศษกระจก 4 ชิ้นมาซ่อมกระจกบานใหญ่ แล้วจะได้ Propulsion Boots"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Nighthunter's Grappling Claw",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#erlim\">City of Erlim</a>: ประตูซ้ายของ Erlim (แท่น Hall of Mirrors)",
-      "<a href=\"#telwynill\">Telwynill Village</a>: ทางลับจากบ้านใน Telwynill (portal หลังกำแพงที่พังได้)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "บอสลับ Harbinger of Nightmare (ตามหัวกะโหลกลอยไปทางลับ) ได้ Esk's Left Eye (ต้องมี Technological Lens, Celestial Larva (double jump), Second Skin)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -6272,34 +6070,12 @@
     {
      "file": "img/area_liturgical-pass.webp",
      "caption": "แผนที่ Liturgical Pass",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "เส้นทางโบสถ์ใหญ่ ต้องดึงคันโยก 3 จุดเปิดประตูโบสถ์ และเป็นที่ได้ Lost Mark of Transcendence"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Propulsion Boots (air dash)",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#marshland\">Marshland of Shadows</a>: ถ้ำจาก Soggy Shelter",
-      "<a href=\"#broken-pass\">Broken Pass</a>: Bestiary แยกส่วนบนของ Broken Pass ไว้หลังได้ Propulsion Boots หนูยังไม่ได้ยืนยันว่าเชื่อมกับที่นี่ตรงไหน (ต้องมี Propulsion Boots (air dash))"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ประตูก้อนเนื้อสีแดง มี Curse of the Burned และ Rare Prototype Blueprint (ต้องมี Lost Mark of Transcendence)",
-      "หิ้งสูงใกล้แท่น Outside the Great Church มี Dried Cold One Liver #2 และของเล่นชุดที่ 3 (ต้องมี Celestial Larva (double jump))"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -6500,34 +6276,12 @@
     {
      "file": "img/area_osseus.webp",
      "caption": "แผนที่ Damned Ruins of the Osseus Fortress",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "ซากป้อมหิมะ พื้นที่นี้รวม Frozen Caverns และทะเลสาบ Moonshadow Lake (บอสลับ) ไว้ด้วย"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Gravitational Ring",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#manor\">Oxnevylle Manor</a>: ประตูนอกห้อง Annabella (แท่น Ruined Outpost)",
-      "<a href=\"#telwynill\">Telwynill Village</a>: จาก Frozen Caverns ขึ้นซ้าย ผ่านบอส Voracious Terror ไปแท่น Telwynill Bridge (ต้องมี Propulsion Boots (air dash), แท่นเลือด/ถ้วยเลือด 4 จุด)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ช่องว่างใน Frozen Caverns และแท่นเลือดบางจุด (ต้องมี Propulsion Boots (air dash))",
-      "Moonshadow Lake: ตีกำแพงลับในห้องที่มีผลไม้ระเบิด ลงบันไดแล้วไปซ้าย"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -6704,34 +6458,12 @@
     {
      "file": "img/area_telwynill.webp",
      "caption": "แผนที่ Telwynill Village",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "หมู่บ้านหิมะ ต้องทำลายกลอน 5 จุดของประตูใหญ่ก่อนไปบอส"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Propulsion Boots (air dash)",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#osseus\">Damned Ruins of the Osseus Fortress</a>: แท่น Telwynill Bridge",
-      "<a href=\"#esk\">Esk Mansion</a>: ทางลับในบ้านท้ายหน้าจอแรก (portal หลังกำแพงที่พังได้)",
-      "<a href=\"#ordens\">Ordens Regnant Palace</a>: ทางขวาหลังชนะ Starborn Nighthunter ตัวที่สอง"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ประตูแม่กุญแจทั่วหมู่บ้าน (ต้องมี Telwynill Village Master Key)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -6855,35 +6587,12 @@
     {
      "file": "img/area_ordens-palace.webp",
      "caption": "แผนที่ Ordens Regnant Palace",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "พระราชวังใหญ่ด้านบนของแผนที่ ต้องจุดเพลิง 4 จุดเพื่อเปิดประตูไปบอส แล้วได้กระโดดสองชั้น"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Propulsion Boots (air dash)",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#telwynill\">Telwynill Village</a>: ฝั่งซ้าย",
-      "<a href=\"#high-walls\">High Walls of Mythringal</a>: ลิฟต์ขวาบนหลังได้ Celestial Larva (ต้องมี Celestial Larva (double jump))"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ประตูที่ล็อกไว้ ทางไปจุดเพลิงที่ 2 และ 3 (ต้องมี Ordens Palace Master Key)",
-      "ประตูใหญ่ไป Lisa (ต้องมี จุดเพลิง 4 จุด (Ordens))",
-      "Sunrise Charm บนที่สูง (ต้องมี Celestial Larva (double jump))"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -7096,35 +6805,12 @@
     {
      "file": "img/area_high-walls.webp",
      "caption": "แผนที่ High Walls of Mythringal",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "กำแพงเมืองสูง แท่น Caterina's Church เปิดได้ตั้งแต่ช่วงกลางเกม แต่ส่วนที่เหลือมาหลังได้กระโดดสองชั้น"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Celestial Larva (double jump)",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#mythringal\">City of Mythringal</a>: ลิฟต์จากสุสานซ้ายของ Wymond ไป Caterina's Church (ต้องมี Gravitational Ring)",
-      "<a href=\"#ordens\">Ordens Regnant Palace</a>: ลิฟต์จากพระราชวัง",
-      "<a href=\"#junas\">Junas Ministry</a>: ไปขวาและลงล่างสุดผ่านบอส Leena"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "Jailor's Key บนเพดาน Caterina's Church (ต้องมี Nighthunter's Grappling Claw)",
-      "Stigma of Catalysis ล่างสุดของพื้นที่ (ต้องมี Celestial Larva (double jump))"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -7294,33 +6980,12 @@
     {
      "file": "img/area_junas-ministry.webp",
      "caption": "แผนที่ Junas Ministry",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "พื้นที่สุดท้ายที่มีเลือดท่วม สำรวจได้เต็มที่ แต่ชนะ Lord Patryk Laddak เมื่อไหร่ก็ย้อนกลับไม่ได้"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: Celestial Larva (double jump)",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#high-walls\">High Walls of Mythringal</a>: ฝั่งซ้าย",
-      "<a href=\"#illygarth\">Wonder of Illygarth</a>: หลังชนะ Laddak กลับไปรูปปั้นใน Oxnevylle Manor (ต้องมี ชนะ Lord Patryk Laddak)"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "ประตูไปบอส: ชนะบิชอป 4 ตัวให้ไฟบนแท่นรูปเพชรติดครบ"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -7452,32 +7117,12 @@
     {
      "file": "img/area_broken-pass-manor.webp",
      "caption": "แผนที่ Wonder of Illygarth",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [
     {
      "p": "พื้นที่ฉากจบ ไปได้จากรูปปั้นใน Oxnevylle Manor หลังชนะ Laddak เงื่อนไขฉากจบอยู่ในหน้า \"ฉากจบ\" ซึ่งพับซ่อนสปอยล์ไว้"
-    },
-    {
-     "p": "ต้องมีก่อนเข้า: ชนะ Lord Patryk Laddak",
-     "class": "note"
-    },
-    {
-     "h3": "ทางเชื่อม"
-    },
-    {
-     "list": [
-      "<a href=\"#manor\">Oxnevylle Manor</a>: รูปปั้นในคฤหาสน์"
-     ]
-    },
-    {
-     "h3": "ส่วนที่ต้องกลับมาทีหลัง"
-    },
-    {
-     "list": [
-      "บอสจริงตัวสุดท้าย (ฉากจบแท้) (ต้องมี Technological Lens, Second Skin)"
-     ]
     },
     {
      "h3": "เส้นทางในพื้นที่"
@@ -7566,7 +7211,7 @@
     {
      "file": "img/area_dlc-dungeon.webp",
      "caption": "แผนที่ Dungeon Mode",
-     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (ป้ายเป็นภาษาจีน)"
+     "credit": "แผนที่: 鬼流, Steam Community guide 3130375705 (แปลป้ายจากภาษาจีนแล้ว)"
     }
    ],
    "blocks": [

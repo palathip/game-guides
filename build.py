@@ -13,7 +13,7 @@ E = lambda s: html.escape(str(s), quote=True)
 LIMIT = 500 * 1024
 UI = {  # default Thai UI labels; override any via data["ui"]
     'toc': 'สารบัญ', 'pick': 'เลือกบท', 'goto': 'ไปที่บท', 'to_start': '↑ เริ่มต้น', 'close': 'ปิด',
-    'search': 'ค้นหา', 'search_placeholder': 'ค้นหา…', 'empty': 'ไม่พบผลลัพธ์ ลองคำอื่นดูนะคะ',
+    'search': 'ค้นหา', 'search_placeholder': 'ค้นหา…', 'empty': 'ไม่พบผลลัพธ์ ลองค้นด้วยคำอื่น',
     'collected': 'เก็บแล้ว', 'unit': 'ชิ้น', 'walkthrough': '🗺️ Walkthrough', 'checklist': 'เช็กลิสต์ของสะสม',
     'tips': 'ทิปบอส/การสู้', 'sources': 'แหล่งข้อมูล:', 'no_items_summary': 'ไม่มีของสะสมในแหล่งข้อมูล',
     'no_items': 'ไม่มีของสะสมในบทนี้ตามแหล่งข้อมูล', 'start': 'เริ่มบท', 'end': 'จบบท', 'verses': '{n} Verse',

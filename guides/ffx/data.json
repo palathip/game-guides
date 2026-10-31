@@ -48,7 +48,7 @@
  },
  "intro": [
   {
-   "p": "คู่มือนี้สำหรับ Final Fantasy X International (PS2) เรียงตามเนื้อเรื่องตั้งแต่ Zanarkand จนจบ ติ๊กช่องเพื่อจดว่าเก็บแล้วได้เลยค่ะ ของที่ต้องย้อนกลับมาเก็บภายหลังจะเป็นกล่องเส้นประนะคะ"
+   "p": "คู่มือนี้สำหรับ Final Fantasy X International (PS2) เรียงตามเนื้อเรื่องตั้งแต่ Zanarkand จนจบ ติ๊กช่องเพื่อจดว่าเก็บแล้วได้เลย ของที่ต้องย้อนกลับมาเก็บภายหลังจะเป็นกล่องเส้นประ"
   },
   {
    "h2": "รวมของสะสม"
@@ -221,12 +221,12 @@
      "key": "a01-0",
      "type": "Item",
      "short": "Potion ×2",
-     "where": "คุยกับเด็กผู้หญิงชุดชมพูคนที่อยู่ไกลสุด 3 ครั้ง แล้วตอบ \"Sure thing\" ค่ะ"
+     "where": "คุยกับเด็กผู้หญิงชุดชมพูคนที่อยู่ไกลสุด 3 ครั้ง แล้วตอบ \"Sure thing\""
     }
    ],
    "tips": [
-    "ฉากสอนเล่นค่ะ เดินตามเนื้อเรื่องไปสู้ Sinspawn Ammes พร้อม Auron ได้เลย",
-    "ใช้ Overdrive ของ Auron (Bushido) เมื่อเกจเต็ม — ท่าแรกมีให้ใช้ตั้งแต่ต้นค่ะ (FF Wiki: Overdrive)"
+    "ฉากสอนเล่น เดินตามเนื้อเรื่องไปสู้ Sinspawn Ammes พร้อม Auron ได้เลย",
+    "ใช้ Overdrive ของ Auron (Bushido) เมื่อเกจเต็ม — ท่าแรกมีให้ใช้ตั้งแต่ต้น (FF Wiki: Overdrive)"
    ],
    "sources": [
     {
@@ -249,12 +249,12 @@
     },
     {
      "olist": [
-      "เริ่มหน้าบ้าน Tidus ตั้งชื่อตัวละคร แล้วคุยกับคนแถวนั้นได้ตามใจค่ะ",
-      "ไปที่ <b>Street</b> คุยกับเด็กผู้หญิงเสื้อชมพูที่หาตั๋วบลิตซ์บอล ตอบว่ามีตั๋วเหลือ จะได้ <b>Potion ×2</b> ค่ะ",
-      "เข้าตึกไปดูฉากเนื้อเรื่อง แล้วเดินลงใต้ตาม Auron ไป ระหว่างทางตีแค่ Sinscale ที่ขวางข้างหน้าก็พอค่ะ",
-      "<b>บอส: Sinspawn Ammes</b> ใช้ Overdrive ของ Auron (Dragon Fang) กวาด Sinscale แล้วตีบอสต่อ บอสใช้แค่ Demi เลยฆ่าเราไม่ได้ค่ะ",
-      "<b>Save Sphere</b> ด้านล่างถนน ใช้เติม HP/MP ได้ค่ะ",
-      "สู้ Sinscale ที่เกิดใหม่เรื่อยๆ จน Auron สั่งให้ตี <b>Tanker</b> ทางขวา ตี Tanker 5 ครั้งก็จบฉากค่ะ"
+      "เริ่มหน้าบ้าน Tidus ตั้งชื่อตัวละคร แล้วคุยกับคนแถวนั้นได้ตามใจ",
+      "ไปที่ <b>Street</b> คุยกับเด็กผู้หญิงเสื้อชมพูที่หาตั๋วบลิตซ์บอล ตอบว่ามีตั๋วเหลือ จะได้ <b>Potion ×2</b>",
+      "เข้าตึกไปดูฉากเนื้อเรื่อง แล้วเดินลงใต้ตาม Auron ไป ระหว่างทางตีแค่ Sinscale ที่ขวางข้างหน้าก็พอ",
+      "<b>บอส: Sinspawn Ammes</b> ใช้ Overdrive ของ Auron (Dragon Fang) กวาด Sinscale แล้วตีบอสต่อ บอสใช้แค่ Demi เลยฆ่าเราไม่ได้",
+      "<b>Save Sphere</b> ด้านล่างถนน ใช้เติม HP/MP ได้",
+      "สู้ Sinscale ที่เกิดใหม่เรื่อยๆ จน Auron สั่งให้ตี <b>Tanker</b> ทางขวา ตี Tanker 5 ครั้งก็จบฉาก"
      ]
     },
     {
@@ -278,54 +278,54 @@
     {
      "key": "a02-p1",
      "label": "#1 Ruins – Al Bhed Compilation Sphere",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-p2",
      "label": "#2 Ruins – Potion ×2",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-p3",
      "label": "#3 Ruins Underwater Hall – Hi-Potion",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-p4",
      "label": "#4 Ruins Hall – Flint",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-p5",
      "label": "#5 Ruins Hall – X-Potion",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-p6",
      "label": "#6 Ruins Hallway – Ether",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-p7",
      "label": "#7 Ruins Hallway – Withered Bouquet",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a02-gil",
      "label": "200 Gil (ไม่มีหมุด)",
-     "where": "หีบฝั่งตะวันออกของ Ruins ใกล้กราฟฟิตี Al Bhed ค่ะ"
+     "where": "หีบฝั่งตะวันออกของ Ruins ใกล้กราฟฟิตี Al Bhed"
     },
     {
      "key": "a02-1",
      "type": "Celes",
      "short": "Onion Knight (ภายหลัง)",
-     "where": "กลับมาตอนมีเรือเหาะ ด้วยพิกัด 12, 57 ดำน้ำไปประตูทางเหนือ ชนะ Geosgaeno แล้วหีบจะโผล่ฝั่งใต้ใต้น้ำ ต้องมี Celestial Mirror ค่ะ",
+     "where": "กลับมาตอนมีเรือเหาะ ด้วยพิกัด 12, 57 ดำน้ำไปประตูทางเหนือ ชนะ Geosgaeno แล้วหีบจะโผล่ฝั่งใต้ใต้น้ำ ต้องมี Celestial Mirror",
      "backtrack": true
     }
    ],
    "tips": [
-    "Klikk: ให้ Rikku (\"????\") ขโมยแล้วปา Grenade ชนะง่ายค่ะ (FF Wiki: Klikk)",
-    "Geosgaeno ช่วงนี้เป็นการหนีตามเนื้อเรื่องค่ะ ตัวจริงที่สู้ได้อยู่ช่วงท้ายเกม"
+    "Klikk: ให้ Rikku (\"????\") ขโมยแล้วปา Grenade ชนะง่าย (FF Wiki: Klikk)",
+    "Geosgaeno ช่วงนี้เป็นการหนีตามเนื้อเรื่อง ตัวจริงที่สู้ได้อยู่ช่วงท้ายเกม"
    ],
    "sources": [
     {
@@ -355,16 +355,16 @@
     },
     {
      "olist": [
-      "ว่ายไปทางตะวันตกเฉียงเหนือ ขึ้นบันไดเก็บ <b>Al Bhed Compilation Sphere</b> (หมุด 1) แล้วเปิดหีบทางใต้ได้ <b>Potion ×2</b> (หมุด 2) ค่ะ",
-      "หีบฝั่งตะวันออกใกล้กราฟฟิตี Al Bhed มี <b>200 Gil</b> เก็บก่อนขึ้นเหนือนะคะ",
-      "<b>Underwater Hall:</b> ใช้ <b>Save Sphere</b> ทางซ้าย แล้วแยกซ้ายเปิดหีบ <b>Hi-Potion</b> (หมุด 3) ค่ะ",
-      "ไปทางเหนือ ว่ายเข้าหา Save Sphere จะเข้า <b>บอส: Sahagin + Geosgaeno</b> เป็นฉากหนี ไม่ต้องเปลืองยาค่ะ",
-      "<b>Corridor → Hall:</b> Save Sphere มุมตะวันตกเฉียงใต้ เข้าห้องข้างๆ เก็บ <b>Flint</b> (หมุด 4) ค่ะ",
-      "กลับห้องหลักไปทางตะวันออก หีบขวาประตูใหญ่มี <b>X-Potion</b> (หมุด 5) ค่ะ",
-      "เข้าประตูทางเหนือ หีบตรงทางเข้ามี <b>Ether</b> (หมุด 6) ขึ้นบันไดเก็บ <b>Withered Bouquet</b> (หมุด 7) แล้วเดินต่อไปชั้น 2 ของห้องหลักเปิดหีบ <b>Hi-Potion</b> ค่ะ",
-      "จุดไฟที่กองไฟกลางห้อง → <b>บอส: Klikk</b> ให้สาวชุดแดง (\"????\") ขโมยแล้วปา Grenade ค่ะ",
-      "<b>บนเรือกู้ซาก:</b> ทำบทเรียน Sphere Grid คุยกับ Al Bhed ทางซ้ายได้ <b>Potion ×3</b> แล้วเก็บ <b>Al Bhed Primer Vol. I</b> ท้ายเรือ แล้วเซฟค่ะ",
-      "ดำน้ำลงไปซากใต้น้ำ ใช้ <b>Save Sphere</b> เปิดเครื่องปั่นไฟ → <b>บอส: Tros</b> (ใช้ Grenade และ Trigger Command 'Pincer Attack') ค่ะ"
+      "ว่ายไปทางตะวันตกเฉียงเหนือ ขึ้นบันไดเก็บ <b>Al Bhed Compilation Sphere</b> (หมุด 1) แล้วเปิดหีบทางใต้ได้ <b>Potion ×2</b> (หมุด 2)",
+      "หีบฝั่งตะวันออกใกล้กราฟฟิตี Al Bhed มี <b>200 Gil</b> เก็บก่อนขึ้นเหนือ",
+      "<b>Underwater Hall:</b> ใช้ <b>Save Sphere</b> ทางซ้าย แล้วแยกซ้ายเปิดหีบ <b>Hi-Potion</b> (หมุด 3)",
+      "ไปทางเหนือ ว่ายเข้าหา Save Sphere จะเข้า <b>บอส: Sahagin + Geosgaeno</b> เป็นฉากหนี ไม่ต้องเปลืองยา",
+      "<b>Corridor → Hall:</b> Save Sphere มุมตะวันตกเฉียงใต้ เข้าห้องข้างๆ เก็บ <b>Flint</b> (หมุด 4)",
+      "กลับห้องหลักไปทางตะวันออก หีบขวาประตูใหญ่มี <b>X-Potion</b> (หมุด 5)",
+      "เข้าประตูทางเหนือ หีบตรงทางเข้ามี <b>Ether</b> (หมุด 6) ขึ้นบันไดเก็บ <b>Withered Bouquet</b> (หมุด 7) แล้วเดินต่อไปชั้น 2 ของห้องหลักเปิดหีบ <b>Hi-Potion</b>",
+      "จุดไฟที่กองไฟกลางห้อง → <b>บอส: Klikk</b> ให้สาวชุดแดง (\"????\") ขโมยแล้วปา Grenade",
+      "<b>บนเรือกู้ซาก:</b> ทำบทเรียน Sphere Grid คุยกับ Al Bhed ทางซ้ายได้ <b>Potion ×3</b> แล้วเก็บ <b>Al Bhed Primer Vol. I</b> ท้ายเรือ แล้วเซฟ",
+      "ดำน้ำลงไปซากใต้น้ำ ใช้ <b>Save Sphere</b> เปิดเครื่องปั่นไฟ → <b>บอส: Tros</b> (ใช้ Grenade และ Trigger Command 'Pincer Attack')"
      ]
     },
     {
@@ -435,77 +435,77 @@
      "key": "a03-0",
      "type": "Celes",
      "short": "#1 Besaid Beach – Moon Crest",
-     "where": "ในซอกบนชายหาดที่ Tidus เจอ Wakka ครั้งแรก (ของ Nirvana) ค่ะ"
+     "where": "ในซอกบนชายหาดที่ Tidus เจอ Wakka ครั้งแรก (ของ Nirvana)"
     },
     {
      "key": "a03-p2",
      "label": "#2 Besaid Beach – Antidote",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p3",
      "label": "#3 Besaid Valley – Phoenix Down",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p4",
      "label": "#4 Besaid Valley – Hi-Potion",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p5",
      "label": "#5 Besaid Valley – Antidote ×2",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p6",
      "label": "#6 Besaid Village – Phoenix Down",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p7",
      "label": "#7 Besaid Village – Potion ×2",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p8",
      "label": "#8 Besaid Village – Hi-Potion",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-p9",
      "label": "#9 Besaid Village – 400 Gil",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a03-1",
      "type": "Primer",
      "short": "Primer II",
-     "where": "Besaid Village – Crusaders Lodge ค่ะ"
+     "where": "Besaid Village – Crusaders Lodge"
     },
     {
      "key": "a03-2",
      "type": "Cloister",
      "short": "Rod of Wisdom",
-     "where": "หีบลับใน Cloister of Trials ของ Besaid: เอา Destruction Sphere จากห้องเล็กที่ข้ามไปใส่ช่องที่เคยมี Besaid Sphere แล้วเปิดหีบหลังกำแพงที่พังค่ะ"
+     "where": "หีบลับใน Cloister of Trials ของ Besaid: เอา Destruction Sphere จากห้องเล็กที่ข้ามไปใส่ช่องที่เคยมี Besaid Sphere แล้วเปิดหีบหลังกำแพงที่พัง"
     },
     {
      "key": "a03-3",
      "type": "Jecht",
      "short": "Jecht's Sphere 3",
-     "where": "ข้างขวาวิหารใน Besaid Village ปลดล็อกหลังชนะ Spherimorph (ต้องย้อนกลับมา) ค่ะ",
+     "where": "ข้างขวาวิหารใน Besaid Village ปลดล็อกหลังชนะ Spherimorph (ต้องย้อนกลับมา)",
      "backtrack": true
     },
     {
      "key": "a03-4",
      "type": "Item",
      "short": "ของจากชาวบ้าน",
-     "where": "Keepa 200 gil, Jassu Potion ×3, Datto Hi-Potion, Botta Potion ×2 และ Seeker's Ring จากนักบวชที่ท่าเรือหลังสอนเล่นค่ะ"
+     "where": "Keepa 200 gil, Jassu Potion ×3, Datto Hi-Potion, Botta Potion ×2 และ Seeker's Ring จากนักบวชที่ท่าเรือหลังสอนเล่น"
     }
    ],
    "tips": [
-    "ของใต้น้ำ: Phoenix Down, Hi-Potion, Antidote ×2 ค่ะ",
-    "Dark Valefor (เฉพาะ International) จะขวางทางเข้าหมู่บ้านหลังได้เรือเหาะ ควรเก็บ Jecht's Sphere และหีบใน Cloister ให้ครบก่อนนะคะ (FF Wiki: Dark Aeon)"
+    "ของใต้น้ำ: Phoenix Down, Hi-Potion, Antidote ×2",
+    "Dark Valefor (เฉพาะ International) จะขวางทางเข้าหมู่บ้านหลังได้เรือเหาะ ควรเก็บ Jecht's Sphere และหีบใน Cloister ให้ครบก่อน (FF Wiki: Dark Aeon)"
    ],
    "sources": [
     {
@@ -543,16 +543,16 @@
     },
     {
      "olist": [
-      "<b>Besaid Beach:</b> ก่อนว่ายไปหากลุ่มคน ว่ายไปทางตะวันออกเปิดหีบ <b>Moon Crest</b> (หมุด 1) แล้วไปฝั่งซ้ายเปิดหีบบนหาดได้ <b>Antidote</b> (หมุด 2) ค่ะ",
-      "คุยกับ Wakka แล้วเดินตามเขาผ่าน Crossroads ไปที่ <b>Besaid Valley</b> ค่ะ",
-      "ในลำน้ำ ดำลงเปิดหีบ <b>Phoenix Down</b> (หมุด 3) ไปทางตะวันออกได้ <b>Hi-Potion</b> (หมุด 4) และตามลำน้ำต่อได้ <b>Antidote ×2</b> (หมุด 5) ค่ะ",
-      "<b>Besaid Village:</b> หีบทางซ้ายของทางเข้า (หมุด 6) แล้วไปซอกฝั่งตะวันตกของหมู่บ้าน มีหีบ 3 ใบ (หมุด 7–9) ค่ะ",
-      "เต็นท์ Crusaders: <b>Al Bhed Primer Vol. II</b> อยู่ขวาโต๊ะค่ะ",
-      "เข้าวิหาร → <b>Cloister of Trials</b> ถ้าเก็บ Destruction Sphere ได้จะได้ <b>Rod of Wisdom</b> ค่ะ",
-      "ตื่นในเต็นท์ Wakka ใช้ <b>Save Sphere</b> แล้วก่อนออกจากหมู่บ้าน ไปคุยกับเจ้าของร้านค้า (หมาจะขุดของให้) ค่ะ",
-      "เดินลงทาง Waterfall Way เจอ Kimahri (ฉากสอนต่อสู้) แล้วกลับถึงหาด ใช้ <b>Save Sphere</b> อีกครั้งค่ะ",
-      "ที่ท่าเรือคุยกับฝูงชนทุกคน ได้ <b>Seeker's Ring, Ether, 400 Gil, Phoenix Down ×3</b> และของจากเด็กบนไม้กระดานค่ะ",
-      "<b>Jecht's Sphere</b> ในหมู่บ้านจะโผล่ภายหลัง (ต้องย้อนมาเก็บหลังผ่าน Macalania และก่อนมี Dark Valefor ขวาง) ค่ะ"
+      "<b>Besaid Beach:</b> ก่อนว่ายไปหากลุ่มคน ว่ายไปทางตะวันออกเปิดหีบ <b>Moon Crest</b> (หมุด 1) แล้วไปฝั่งซ้ายเปิดหีบบนหาดได้ <b>Antidote</b> (หมุด 2)",
+      "คุยกับ Wakka แล้วเดินตามเขาผ่าน Crossroads ไปที่ <b>Besaid Valley</b>",
+      "ในลำน้ำ ดำลงเปิดหีบ <b>Phoenix Down</b> (หมุด 3) ไปทางตะวันออกได้ <b>Hi-Potion</b> (หมุด 4) และตามลำน้ำต่อได้ <b>Antidote ×2</b> (หมุด 5)",
+      "<b>Besaid Village:</b> หีบทางซ้ายของทางเข้า (หมุด 6) แล้วไปซอกฝั่งตะวันตกของหมู่บ้าน มีหีบ 3 ใบ (หมุด 7–9)",
+      "เต็นท์ Crusaders: <b>Al Bhed Primer Vol. II</b> อยู่ขวาโต๊ะ",
+      "เข้าวิหาร → <b>Cloister of Trials</b> ถ้าเก็บ Destruction Sphere ได้จะได้ <b>Rod of Wisdom</b>",
+      "ตื่นในเต็นท์ Wakka ใช้ <b>Save Sphere</b> แล้วก่อนออกจากหมู่บ้าน ไปคุยกับเจ้าของร้านค้า (หมาจะขุดของให้)",
+      "เดินลงทาง Waterfall Way เจอ Kimahri (ฉากสอนต่อสู้) แล้วกลับถึงหาด ใช้ <b>Save Sphere</b> อีกครั้ง",
+      "ที่ท่าเรือคุยกับฝูงชนทุกคน ได้ <b>Seeker's Ring, Ether, 400 Gil, Phoenix Down ×3</b> และของจากเด็กบนไม้กระดาน",
+      "<b>Jecht's Sphere</b> ในหมู่บ้านจะโผล่ภายหลัง (ต้องย้อนมาเก็บหลังผ่าน Macalania และก่อนมี Dark Valefor ขวาง)"
      ]
     },
     {
@@ -634,24 +634,24 @@
      "key": "a04-0",
      "type": "Primer",
      "short": "Primer III",
-     "where": "Power Room บนเรือ (ถ้าพลาดไปเก็บได้ที่ Sanubia Desert ข้างเต็นท์ที่เจอ Wakka) ค่ะ"
+     "where": "Power Room บนเรือ (ถ้าพลาดไปเก็บได้ที่ Sanubia Desert ข้างเต็นท์ที่เจอ Wakka)"
     },
     {
      "key": "a04-1",
      "type": "Jecht",
      "short": "Jecht's Sphere 4",
-     "where": "ห้องกัปตัน หลังชนะ Spherimorph ค่ะ",
+     "where": "ห้องกัปตัน หลังชนะ Spherimorph",
      "backtrack": true
     },
     {
      "key": "a04-2",
      "type": "Item",
      "short": "Potion (เตะกระเป๋า)",
-     "where": "เตะกระเป๋าในห้องโดยสาร ได้ Potion ครั้งละ 1 จนกว่าจะมีครบ 20 ค่ะ"
+     "where": "เตะกระเป๋าในห้องโดยสาร ได้ Potion ครั้งละ 1 จนกว่าจะมีครบ 20"
     }
    ],
    "tips": [
-    "Sinspawn Echuilles: ฮีลก่อนสู้ ใช้ Dark Attack ของ Wakka กัน Drain Touch และ Cheer ของ Tidus ลดการใช้ Potion ค่ะ (FF Wiki)"
+    "Sinspawn Echuilles: ฮีลก่อนสู้ ใช้ Dark Attack ของ Wakka กัน Drain Touch และ Cheer ของ Tidus ลดการใช้ Potion (FF Wiki)"
    ],
    "sources": [
     {
@@ -678,12 +678,12 @@
     },
     {
      "olist": [
-      "คุยกับ Wakka แล้วลงชั้นล่างสุดไปเจอ <b>O'aka XXIII</b> แนะนำให้บริจาค 1,001 Gil ค่ะ",
-      "ห้องตรงข้าม O'aka มีหีบ <b>Remedy</b> ค่ะ",
-      "เตะกระเป๋าบนพื้นได้ Potion สูงสุดจนมีครบ 20 ขวดค่ะ",
-      "ห้อง Power Room ข้าง O'aka มี <b>Al Bhed Primer Vol. III</b> ค่ะ",
-      "ขึ้นดาดฟ้า คุยกับ Wakka แล้วคุยกับ Yuna → <b>บอส: Sin's Fin</b> ให้ Lulu, Wakka, Kimahri ตีครีบ ค่ะ",
-      "<b>บอส: Sinspawn Echuilles</b> (ใต้น้ำ) ใช้ Cheer ของ Tidus และ Dark Attack ของ Wakka แล้วตีบอสตัวเดียวค่ะ"
+      "คุยกับ Wakka แล้วลงชั้นล่างสุดไปเจอ <b>O'aka XXIII</b> แนะนำให้บริจาค 1,001 Gil",
+      "ห้องตรงข้าม O'aka มีหีบ <b>Remedy</b>",
+      "เตะกระเป๋าบนพื้นได้ Potion สูงสุดจนมีครบ 20 ขวด",
+      "ห้อง Power Room ข้าง O'aka มี <b>Al Bhed Primer Vol. III</b>",
+      "ขึ้นดาดฟ้า คุยกับ Wakka แล้วคุยกับ Yuna → <b>บอส: Sin's Fin</b> ให้ Lulu, Wakka, Kimahri ตีครีบ",
+      "<b>บอส: Sinspawn Echuilles</b> (ใต้น้ำ) ใช้ Cheer ของ Tidus และ Dark Attack ของ Wakka แล้วตีบอสตัวเดียว"
      ]
     },
     {
@@ -706,50 +706,50 @@
     {
      "key": "a05-p1",
      "label": "#1 Kilika Woods – Mana Sphere ×2",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a05-p2",
      "label": "#2 Kilika Woods – Scout",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a05-p3",
      "label": "#3 Kilika Woods – Remedy",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a05-p4",
      "label": "#4 Kilika Woods – Hi-Potion",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a05-p5",
      "label": "#5 Kilika Woods – Luck Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a05-0",
      "type": "Primer",
      "short": "Primer IV",
-     "where": "Kilika Port – ร้านเหล้า (Tavern) ค่ะ"
+     "where": "Kilika Port – ร้านเหล้า (Tavern)"
     },
     {
      "key": "a05-1",
      "type": "Item",
      "short": "Kilika Woods",
-     "where": "Mana Sphere ×2, Scout, Luck Sphere; Luzzu ให้ Antidote ×4 ก่อนสู้ Lord Ochu และ Elixir หลังชนะ; NulBlaze Shield จากผู้หญิงฝั่งตะวันตกหลังชนะ Lord Ochu ค่ะ"
+     "where": "Mana Sphere ×2, Scout, Luck Sphere; Luzzu ให้ Antidote ×4 ก่อนสู้ Lord Ochu และ Elixir หลังชนะ; NulBlaze Shield จากผู้หญิงฝั่งตะวันตกหลังชนะ Lord Ochu"
     },
     {
      "key": "a05-2",
      "type": "Cloister",
      "short": "Red Armlet",
-     "where": "หีบลับ Cloister of Trials ของ Kilika ใช้ Destruction Sphere ทำลายกำแพงช่องขวา ก่อนเข้าประตูสุดท้ายค่ะ"
+     "where": "หีบลับ Cloister of Trials ของ Kilika ใช้ Destruction Sphere ทำลายกำแพงช่องขวา ก่อนเข้าประตูสุดท้าย"
     }
    ],
    "tips": [
-    "Lord Ochu (บอสเสริม): ใช้ Fire ของ Lulu ตอนมันหลับให้เรียก Valefor ตีค่ะ (FF Wiki)",
-    "Sinspawn Geneaux: ใช้ Overdrive ของ Valefor หรือ Fire ตีหนวดก่อน แล้วค่อยตีตัวตอนออกจากเปลือกค่ะ (FF Wiki)"
+    "Lord Ochu (บอสเสริม): ใช้ Fire ของ Lulu ตอนมันหลับให้เรียก Valefor ตี (FF Wiki)",
+    "Sinspawn Geneaux: ใช้ Overdrive ของ Valefor หรือ Fire ตีหนวดก่อน แล้วค่อยตีตัวตอนออกจากเปลือก (FF Wiki)"
    ],
    "sources": [
     {
@@ -791,17 +791,17 @@
     },
     {
      "olist": [
-      "<b>Docks:</b> ใช้ <b>Save Sphere</b> แล้วเลี้ยวซ้ายไปดูพิธีส่งวิญญาณของ Yuna ค่ะ",
-      "<b>Residential Area:</b> ตื่นในโรงแรม ใช้ Save Sphere เข้ากระท่อมซ้ายบน และช่วยเด็กจากกระท่อมที่ถล่มเพื่อรับของค่ะ",
-      "ตาม Datto ไปกระท่อมด้านบน เปิดหีบ และเก็บ <b>Al Bhed Primer Vol. IV</b> บนเคาน์เตอร์ แล้วไปหา Wakka ค่ะ",
-      "ไปทางตะวันตกถึง <b>Kilika Woods</b> ใช้ <b>Save Sphere</b> และรับ Yuna เป็นผู้คุ้มกันค่ะ",
-      "เดินสุดทางเปิดหีบ <b>Mana Sphere ×2</b> (หมุด 1) แล้วกลับไปทางเข้า ค่ะ",
-      "ไปทางตะวันตกถึงทางแยก มีทางลับไปหีบ <b>Scout</b> (หมุด 2) ค่ะ",
-      "คุยกับหัวหน้าทหารกลุ่มแรกได้ <b>Remedy</b> (หมุด 3) และกลุ่มถัดไปได้ <b>Hi-Potion</b> (หมุด 4) ค่ะ",
-      "ไปเหนือแล้วแยกซ้ายเปิดหีบ <b>Luck Sphere</b> (หมุด 5) ค่ะ",
-      "(ไม่บังคับ) กลับไป Save Sphere แล้วสู้ <b>บอส: Lord Ochu</b> ชนะแล้วคุยกับ Luzzu ได้ <b>Elixir</b> ค่ะ",
-      "ตามทางไปตะวันออกถึงสะพาน → <b>Pilgrimage Road:</b> Save Sphere แล้ว <b>บอส: Sinspawn Geneaux</b> ค่ะ",
-      "<b>Kilika Temple → Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Red Armlet</b> ค่ะ แล้วได้ Ifrit"
+      "<b>Docks:</b> ใช้ <b>Save Sphere</b> แล้วเลี้ยวซ้ายไปดูพิธีส่งวิญญาณของ Yuna",
+      "<b>Residential Area:</b> ตื่นในโรงแรม ใช้ Save Sphere เข้ากระท่อมซ้ายบน และช่วยเด็กจากกระท่อมที่ถล่มเพื่อรับของ",
+      "ตาม Datto ไปกระท่อมด้านบน เปิดหีบ และเก็บ <b>Al Bhed Primer Vol. IV</b> บนเคาน์เตอร์ แล้วไปหา Wakka",
+      "ไปทางตะวันตกถึง <b>Kilika Woods</b> ใช้ <b>Save Sphere</b> และรับ Yuna เป็นผู้คุ้มกัน",
+      "เดินสุดทางเปิดหีบ <b>Mana Sphere ×2</b> (หมุด 1) แล้วกลับไปทางเข้า",
+      "ไปทางตะวันตกถึงทางแยก มีทางลับไปหีบ <b>Scout</b> (หมุด 2)",
+      "คุยกับหัวหน้าทหารกลุ่มแรกได้ <b>Remedy</b> (หมุด 3) และกลุ่มถัดไปได้ <b>Hi-Potion</b> (หมุด 4)",
+      "ไปเหนือแล้วแยกซ้ายเปิดหีบ <b>Luck Sphere</b> (หมุด 5)",
+      "(ไม่บังคับ) กลับไป Save Sphere แล้วสู้ <b>บอส: Lord Ochu</b> ชนะแล้วคุยกับ Luzzu ได้ <b>Elixir</b>",
+      "ตามทางไปตะวันออกถึงสะพาน → <b>Pilgrimage Road:</b> Save Sphere แล้ว <b>บอส: Sinspawn Geneaux</b>",
+      "<b>Kilika Temple → Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Red Armlet</b> แล้วได้ Ifrit"
      ]
     },
     {
@@ -860,17 +860,17 @@
      "key": "a06-0",
      "type": "Primer",
      "short": "Primer V",
-     "where": "บนสะพานเดินเรือ (ถ้าพลาดเก็บได้ที่ Sanubia Desert ใกล้กองหินที่เจอ Kimahri) ค่ะ"
+     "where": "บนสะพานเดินเรือ (ถ้าพลาดเก็บได้ที่ Sanubia Desert ใกล้กองหินที่เจอ Kimahri)"
     },
     {
      "key": "a06-1",
      "type": "Item",
      "short": "Ace Wizard",
-     "where": "เล่นมินิเกมนับนกนางนวลแล้วตอบ \"11\" ค่ะ"
+     "where": "เล่นมินิเกมนับนกนางนวลแล้วตอบ \"11\""
     }
    ],
    "tips": [
-    "เรียนท่า Jecht Shot บนดาดฟ้าได้ที่นี่ค่ะ (FF Wiki: S.S. Winno)"
+    "เรียนท่า Jecht Shot บนดาดฟ้าได้ที่นี่ (FF Wiki: S.S. Winno)"
    ],
    "sources": [
     {
@@ -889,10 +889,10 @@
     },
     {
      "olist": [
-      "เริ่มในห้องชั้นล่าง เปิดหีบท้ายห้องได้ <b>Hi-Potion</b> ค่ะ",
-      "ใช้ <b>Save Sphere</b> ก่อนเพราะมินิเกม Jecht Shot เล่นได้แค่ครั้งเดียวในรอบนี้ค่ะ",
-      "ขึ้นดาดฟ้า เข้าประตูซ้ายไป Bridge หลังพวงมาลัยเรือมี <b>Al Bhed Primer Vol. V</b> ค่ะ",
-      "<b>มินิเกม Jecht Shot:</b> ถ้าพลาดให้โหลดเซฟแล้วลองใหม่ ได้ท่า Jecht Shot สำหรับบลิตซ์บอลค่ะ (กลับมาทำภายหลังได้)"
+      "เริ่มในห้องชั้นล่าง เปิดหีบท้ายห้องได้ <b>Hi-Potion</b>",
+      "ใช้ <b>Save Sphere</b> ก่อนเพราะมินิเกม Jecht Shot เล่นได้แค่ครั้งเดียวในรอบนี้",
+      "ขึ้นดาดฟ้า เข้าประตูซ้ายไป Bridge หลังพวงมาลัยเรือมี <b>Al Bhed Primer Vol. V</b>",
+      "<b>มินิเกม Jecht Shot:</b> ถ้าพลาดให้โหลดเซฟแล้วลองใหม่ ได้ท่า Jecht Shot สำหรับบลิตซ์บอล (กลับมาทำภายหลังได้)"
      ]
     },
     {
@@ -916,75 +916,75 @@
     {
      "key": "a07-p1",
      "label": "#1 Luca Number 1 Dock – 600 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a07-p2",
      "label": "#2 Luca Number 1 Dock – Tidal Spear",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a07-p3",
      "label": "#3 Luca Number 2 Dock – Phoenix Down ×2",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a07-p4",
      "label": "#4 Luca Number 5 Dock – HP Sphere",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a07-p5",
      "label": "#5 Luca Number 5 Dock – Magic Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a07-p6",
      "label": "#6 Luca City Limits – 1,000 Gil",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a07-0",
      "type": "Primer",
      "short": "Primer VI",
-     "where": "Luca Stadium – Basement B ค่ะ"
+     "where": "Luca Stadium – Basement B"
     },
     {
      "key": "a07-1",
      "type": "Primer",
      "short": "Primer VII",
-     "where": "Luca Theater – Reception ค่ะ"
+     "where": "Luca Theater – Reception"
     },
     {
      "key": "a07-2",
      "type": "Jecht",
      "short": "Jecht's Sphere 5",
-     "where": "ทางเดินหน้าห้องล็อกเกอร์ทีม Aurochs หลังชนะ Spherimorph ค่ะ",
+     "where": "ทางเดินหน้าห้องล็อกเกอร์ทีม Aurochs หลังชนะ Spherimorph",
      "backtrack": true
     },
     {
      "key": "a07-3",
      "type": "Celes",
      "short": "Jupiter Crest",
-     "where": "ในล็อกเกอร์ห้อง Aurochs หลังเข้า Mi'ihen Highroad แล้วย้อนกลับมา (ของ World Champion) ค่ะ",
+     "where": "ในล็อกเกอร์ห้อง Aurochs หลังเข้า Mi'ihen Highroad แล้วย้อนกลับมา (ของ World Champion)",
      "backtrack": true
     },
     {
      "key": "a07-4",
      "type": "Celes",
      "short": "World Champion",
-     "where": "คุยกับบาร์เทนเดอร์ในบาร์ หลังได้อันดับ 3 ขึ้นไปในทัวร์นาเมนต์บลิตซ์บอล ต้องมี Celestial Mirror ค่ะ",
+     "where": "คุยกับบาร์เทนเดอร์ในบาร์ หลังได้อันดับ 3 ขึ้นไปในทัวร์นาเมนต์บลิตซ์บอล ต้องมี Celestial Mirror",
      "backtrack": true
     },
     {
      "key": "a07-5",
      "type": "Item",
      "short": "Tidal Spear และอื่นๆ",
-     "where": "Hi-Potion ×2, 600 gil, Tidal Spear, Magic Sphere, HP Sphere, 1,000 gil และ Strength Sphere เมื่อชนะ Luca Goers ค่ะ"
+     "where": "Hi-Potion ×2, 600 gil, Tidal Spear, Magic Sphere, HP Sphere, 1,000 gil และ Strength Sphere เมื่อชนะ Luca Goers"
     }
    ],
    "tips": [
-    "Oblitzerator: Cheer เพิ่มพลัง ให้ Lulu ใช้ Thunder รัวๆ ค่ะ (FF Wiki)"
+    "Oblitzerator: Cheer เพิ่มพลัง ให้ Lulu ใช้ Thunder รัวๆ (FF Wiki)"
    ],
    "sources": [
     {
@@ -1022,15 +1022,15 @@
     },
     {
      "olist": [
-      "<b>Stadium Basement B:</b> <b>Al Bhed Primer Vol. VI</b> อยู่หลังผู้ชายชุดเขียว และสุดทางเดินมีหีบ <b>Hi-Potion ×2</b> ค่ะ",
-      "<b>Number 1 Dock:</b> หีบ <b>600 Gil</b> (หมุด 1) และ <b>Tidal Spear</b> (หมุด 2) ค่ะ",
-      "<b>Number 2 Dock:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 3) แล้วข้าม Dock 3–4 ไป Dock 5 เลยค่ะ",
-      "<b>Number 5 Dock:</b> เดินหลังกองกล่อง มีหีบ <b>HP Sphere</b> (หมุด 4) และ <b>Magic Sphere</b> (หมุด 5) ค่ะ",
-      "ข้ามสะพานไป <b>Theater</b> เก็บ <b>Al Bhed Primer Vol. VII</b> หน้าบันได ค่ะ",
-      "<b>Luca Square:</b> ขึ้นบันไดตะวันออกเฉียงเหนือไป <b>City Limits</b> เปิดหีบ <b>1,000 Gil</b> (หมุด 6) ค่ะ",
-      "กลับไปสเตเดียม ใช้ <b>Save Sphere</b> หีบ 600 Gil ที่ Dock 1 จะเติมใหม่ เก็บซ้ำได้ค่ะ",
-      "<b>บอส: Oblitzerator</b> แล้วแข่ง <b>บลิตซ์บอลกับ Luca Goers</b> ค่ะ",
-      "<b>บุกเมือง Luca:</b> สู้กับมอนสเตอร์ในสเตเดียม แล้ว <b>บอส: Sahagin Chief</b> ค่ะ"
+      "<b>Stadium Basement B:</b> <b>Al Bhed Primer Vol. VI</b> อยู่หลังผู้ชายชุดเขียว และสุดทางเดินมีหีบ <b>Hi-Potion ×2</b>",
+      "<b>Number 1 Dock:</b> หีบ <b>600 Gil</b> (หมุด 1) และ <b>Tidal Spear</b> (หมุด 2)",
+      "<b>Number 2 Dock:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 3) แล้วข้าม Dock 3–4 ไป Dock 5 เลย",
+      "<b>Number 5 Dock:</b> เดินหลังกองกล่อง มีหีบ <b>HP Sphere</b> (หมุด 4) และ <b>Magic Sphere</b> (หมุด 5)",
+      "ข้ามสะพานไป <b>Theater</b> เก็บ <b>Al Bhed Primer Vol. VII</b> หน้าบันได",
+      "<b>Luca Square:</b> ขึ้นบันไดตะวันออกเฉียงเหนือไป <b>City Limits</b> เปิดหีบ <b>1,000 Gil</b> (หมุด 6)",
+      "กลับไปสเตเดียม ใช้ <b>Save Sphere</b> หีบ 600 Gil ที่ Dock 1 จะเติมใหม่ เก็บซ้ำได้",
+      "<b>บอส: Oblitzerator</b> แล้วแข่ง <b>บลิตซ์บอลกับ Luca Goers</b>",
+      "<b>บุกเมือง Luca:</b> สู้กับมอนสเตอร์ในสเตเดียม แล้ว <b>บอส: Sahagin Chief</b>"
      ]
     },
     {
@@ -1096,89 +1096,89 @@
     {
      "key": "a08-p1",
      "label": "#1 Mi'ihen Highroad South End – Ice Brand",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p2",
      "label": "#2 Mi'ihen Highroad South End – ดวลกับ Belgemine (คนเรียกเอออน)",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p3",
      "label": "#3 Mi'ihen Highroad South – Remedy",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p4",
      "label": "#4 Mi'ihen Highroad Central – 2,000 Gil",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p5",
      "label": "#5 Mi'ihen Highroad Central – Eye Drops ×3",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p6",
      "label": "#6 Mi'ihen Highroad Newroad North – Heat Lance",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-1",
      "type": "Primer",
      "short": "#7 Mi'ihen Highroad Newroad North – Al Bhed Primer (Vol. IX)",
-     "where": "Newroad, North ค่ะ"
+     "where": "Newroad, North"
     },
     {
      "key": "a08-p8",
      "label": "#8 Mi'ihen Highroad North End – Hi-Potion ×2",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p9",
      "label": "#9 Mi'ihen Highroad Oldroad North – Thunder Blade",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p10",
      "label": "#10 Mi'ihen Highroad Oldroad North – Scout",
-     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-p11",
      "label": "#11 Mi'ihen Highroad Oldroad South – Fortune Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบน"
     },
     {
      "key": "a08-2",
      "type": "Celes",
      "short": "#12 Mi'ihen Highroad Oldroad South – Mars Crest",
-     "where": "ปลายสุดของ Oldroad, South ทางเดินแคบทางตะวันออกเฉียงใต้ใกล้ทางเข้า Mushroom Rock Road (ของ Masamune) ค่ะ"
+     "where": "ปลายสุดของ Oldroad, South ทางเดินแคบทางตะวันออกเฉียงใต้ใกล้ทางเข้า Mushroom Rock Road (ของ Masamune)"
     },
     {
      "key": "a08-0",
      "type": "Primer",
      "short": "Primer VIII",
-     "where": "รับจาก Rin ที่ Travel Agency อัตโนมัติค่ะ"
+     "where": "รับจาก Rin ที่ Travel Agency อัตโนมัติ"
     },
     {
      "key": "a08-3",
      "type": "Jecht",
      "short": "Jecht's Sphere 6",
-     "where": "Oldroad, South หลังชนะ Spherimorph ค่ะ",
+     "where": "Oldroad, South หลังชนะ Spherimorph",
      "backtrack": true
     },
     {
      "key": "a08-4",
      "type": "Item",
      "short": "บริจาคให้ O'aka",
-     "where": "บริจาคได้เฉพาะก่อนเหตุการณ์ Operation Mi'ihen เท่านั้น (พลาดถาวร) ค่ะ"
+     "where": "บริจาคได้เฉพาะก่อนเหตุการณ์ Operation Mi'ihen เท่านั้น (พลาดถาวร)"
     },
     {
      "key": "a08-5",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Hunter's Spear, Ice Brand (หลังซากโบราณ), Echo Ring เมื่อชนะเอออนของ Belgemine; Heat Lance, Thunder Blade, Fortune Sphere ต้องขี่ช็อกโกโบค่ะ"
+     "where": "Hunter's Spear, Ice Brand (หลังซากโบราณ), Echo Ring เมื่อชนะเอออนของ Belgemine; Heat Lance, Thunder Blade, Fortune Sphere ต้องขี่ช็อกโกโบ"
     }
    ],
    "tips": [
@@ -1220,16 +1220,16 @@
     },
     {
      "olist": [
-      "<b>South End:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบ (หมุด 1) และดวลกับ <b>Belgemine</b> (หมุด 2) ชนะได้ Echo Ring แพ้ได้ Seeker's Ring ค่ะ",
-      "<b>South:</b> หีบ <b>Remedy</b> (หมุด 3) ทางเหนือ และคนวิ่งผ่านให้ Red Ring ค่ะ",
-      "<b>Central:</b> รับ <b>Lv. 1 Key Sphere</b> จากผู้ชายเดินผ่าน หีบ <b>2,000 Gil</b> (หมุด 4) คุยกับคนตามทางรับของ และหีบสุดทาง <b>Eye Drops ×3</b> (หมุด 5) ค่ะ",
-      "<b>Agency (Rin):</b> <b>Save Sphere</b> + Al Bhed Compilation Sphere ด้านล่างจอ Rin ให้ <b>Al Bhed Primer Vol. VIII</b> ค่ะ",
-      "<b>บอส: Chocobo Eater</b> ดันตกหน้าผาจะได้ Lv. 1 Key Sphere ×2 ค่ะ",
-      "ขี่ Chocobo ไป <b>Newroad North:</b> กดใกล้ขนนก Chocobo บินไปหีบ <b>Heat Lance</b> (หมุด 6) และเก็บ <b>Al Bhed Primer Vol. IX</b> (หมุด 7) ระหว่างทางค่ะ",
-      "<b>North End:</b> ให้ Chocobo เตะหีบ <b>Hi-Potion ×2</b> (หมุด 8) ห้ามลงจาก Chocobo ก่อนไป Oldroad นะคะ",
-      "<b>Oldroad North:</b> ขนนกพาไปหีบลับ (หมุด 9) แล้วได้ <b>Scout</b> (หมุด 10) ค่ะ",
-      "<b>Oldroad South:</b> ขนนกพาไปหีบ <b>Fortune Sphere</b> (หมุด 11) ผ่าน Save Sphere สุดทางมีหีบ <b>Mars Crest</b> (หมุด 12) ค่ะ",
-      "กลับ North End ลงจาก Chocobo คุยกับ Dona ใช้ <b>Save Sphere</b> และบริจาคให้ O'aka รับอาวุธได้ค่ะ"
+      "<b>South End:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบ (หมุด 1) และดวลกับ <b>Belgemine</b> (หมุด 2) ชนะได้ Echo Ring แพ้ได้ Seeker's Ring",
+      "<b>South:</b> หีบ <b>Remedy</b> (หมุด 3) ทางเหนือ และคนวิ่งผ่านให้ Red Ring",
+      "<b>Central:</b> รับ <b>Lv. 1 Key Sphere</b> จากผู้ชายเดินผ่าน หีบ <b>2,000 Gil</b> (หมุด 4) คุยกับคนตามทางรับของ และหีบสุดทาง <b>Eye Drops ×3</b> (หมุด 5)",
+      "<b>Agency (Rin):</b> <b>Save Sphere</b> + Al Bhed Compilation Sphere ด้านล่างจอ Rin ให้ <b>Al Bhed Primer Vol. VIII</b>",
+      "<b>บอส: Chocobo Eater</b> ดันตกหน้าผาจะได้ Lv. 1 Key Sphere ×2",
+      "ขี่ Chocobo ไป <b>Newroad North:</b> กดใกล้ขนนก Chocobo บินไปหีบ <b>Heat Lance</b> (หมุด 6) และเก็บ <b>Al Bhed Primer Vol. IX</b> (หมุด 7) ระหว่างทาง",
+      "<b>North End:</b> ให้ Chocobo เตะหีบ <b>Hi-Potion ×2</b> (หมุด 8) ห้ามลงจาก Chocobo ก่อนไป Oldroad",
+      "<b>Oldroad North:</b> ขนนกพาไปหีบลับ (หมุด 9) แล้วได้ <b>Scout</b> (หมุด 10)",
+      "<b>Oldroad South:</b> ขนนกพาไปหีบ <b>Fortune Sphere</b> (หมุด 11) ผ่าน Save Sphere สุดทางมีหีบ <b>Mars Crest</b> (หมุด 12)",
+      "กลับ North End ลงจาก Chocobo คุยกับ Dona ใช้ <b>Save Sphere</b> และบริจาคให้ O'aka รับอาวุธได้"
      ]
     },
     {
@@ -1324,75 +1324,75 @@
     {
      "key": "a09-p1",
      "label": "#1 Mushroom Rock Valley – 1,000 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-p2",
      "label": "#2 Mushroom Rock Valley – Remedy",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-p3",
      "label": "#3 Mushroom Rock Valley – Hi-Potion",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-p4",
      "label": "#4 Mushroom Rock Precipice – Serene Armlet",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-0",
      "type": "Primer",
      "short": "#5 Mushroom Rock Precipice – Al Bhed Primer (Vol. X)",
-     "where": "Precipice ค่ะ"
+     "where": "Precipice"
     },
     {
      "key": "a09-p6",
      "label": "#6 Mushroom Rock Ridge – Mega-Potion",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-p7",
      "label": "#7 Mushroom Rock Ridge – Serene Bracer",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-p8",
      "label": "#8 Mushroom Rock Aftermath – Hi-Potion",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a09-1",
      "type": "Jecht",
      "short": "Auron's Sphere",
-     "where": "ขอบหน้าผาใกล้ลิฟต์หลัก หลังชนะ Spherimorph ค่ะ",
+     "where": "ขอบหน้าผาใกล้ลิฟต์หลัก หลังชนะ Spherimorph",
      "backtrack": true
     },
     {
      "key": "a09-2",
      "type": "Celes",
      "short": "Masamune",
-     "where": "นำ Rusty Sword (จาก Calm Lands) มาวางที่รูปปั้น Lord Mi'ihen ทางผ่านตะวันตกเฉียงเหนือฝั่ง Djose ต้องมี Celestial Mirror ค่ะ",
+     "where": "นำ Rusty Sword (จาก Calm Lands) มาวางที่รูปปั้น Lord Mi'ihen ทางผ่านตะวันตกเฉียงเหนือฝั่ง Djose ต้องมี Celestial Mirror",
      "backtrack": true
     },
     {
      "key": "a09-3",
      "type": "Celes",
      "short": "Godhand",
-     "where": "ใส่รหัส GODHAND บนเรือเหาะ หีบอยู่ทางเหนือ ต้องมี Celestial Mirror ค่ะ",
+     "where": "ใส่รหัส GODHAND บนเรือเหาะ หีบอยู่ทางเหนือ ต้องมี Celestial Mirror",
      "backtrack": true
     },
     {
      "key": "a09-4",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Tough Bangle, Serene Armlet, Serene Bracer, X-Potion, Mega-Potion และ 1000 gil ค่ะ"
+     "where": "Tough Bangle, Serene Armlet, Serene Bracer, X-Potion, Mega-Potion และ 1000 gil"
     }
    ],
    "tips": [
-    "Sinspawn Gui: Haste ทั้งทีม ใช้ Auron/Kimahri ตีแขนที่มีเกราะ แล้วค่อยตีตัว ใช้ Overdrive ของเอออนตีหลายเป้าค่ะ (FF Wiki)",
-    "Dark Magus Sisters (เฉพาะ International) จะอยู่แถวทางออกฝั่ง Mi'ihen หลังได้เรือเหาะ วิ่งหนีให้แยกสู้ทีละตัวได้ค่ะ (FF Wiki: Dark Aeon)"
+    "Sinspawn Gui: Haste ทั้งทีม ใช้ Auron/Kimahri ตีแขนที่มีเกราะ แล้วค่อยตีตัว ใช้ Overdrive ของเอออนตีหลายเป้า (FF Wiki)",
+    "Dark Magus Sisters (เฉพาะ International) จะอยู่แถวทางออกฝั่ง Mi'ihen หลังได้เรือเหาะ วิ่งหนีให้แยกสู้ทีละตัวได้ (FF Wiki: Dark Aeon)"
    ],
    "sources": [
     {
@@ -1434,14 +1434,14 @@
     },
     {
      "olist": [
-      "คุยกับทหารกลุ่มแรกได้ <b>Ether</b> และ <b>Hi-Potion</b> ค่ะ",
-      "<b>Valley:</b> ใช้ <b>Save Sphere</b> คุยทหารปลายทางได้ Hi-Potion แล้วขึ้นลิฟต์ค่ะ",
-      "ระหว่างทางมีหีบ <b>1,000 Gil</b> (หมุด 1) ทหารให้ Potion ×10 และหีบ <b>Remedy</b> (หมุด 2) กับ <b>Hi-Potion</b> (หมุด 3) ค่ะ",
-      "<b>Precipice:</b> ทหารหน้าลิฟต์ให้ X-Potion ก่อนตามลูกศรแดง เลี้ยวซ้ายไปทางตันเก็บ (หมุด 4) และ <b>Al Bhed Primer Vol. X</b> (หมุด 5) ค่ะ",
-      "ขึ้นลิฟต์ เลี้ยวหัวมุมใช้ <b>Save Sphere</b> แล้วคุยกับ Luzzu ค่ะ",
-      "<b>Ridge:</b> <b>Save Sphere</b> + O'aka หีบใกล้ Yuna กับ Lulu มี <b>Mega-Potion</b> (หมุด 6) และลึกเข้าไปอีกมี <b>Serene Bracer</b> (หมุด 7) ค่ะ",
-      "<b>บอส: Sinspawn Gui</b> (สู้ 2 รอบ) ค่ะ",
-      "<b>Aftermath:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบทางซ้าย <b>Hi-Potion</b> (หมุด 8) ค่ะ"
+      "คุยกับทหารกลุ่มแรกได้ <b>Ether</b> และ <b>Hi-Potion</b>",
+      "<b>Valley:</b> ใช้ <b>Save Sphere</b> คุยทหารปลายทางได้ Hi-Potion แล้วขึ้นลิฟต์",
+      "ระหว่างทางมีหีบ <b>1,000 Gil</b> (หมุด 1) ทหารให้ Potion ×10 และหีบ <b>Remedy</b> (หมุด 2) กับ <b>Hi-Potion</b> (หมุด 3)",
+      "<b>Precipice:</b> ทหารหน้าลิฟต์ให้ X-Potion ก่อนตามลูกศรแดง เลี้ยวซ้ายไปทางตันเก็บ (หมุด 4) และ <b>Al Bhed Primer Vol. X</b> (หมุด 5)",
+      "ขึ้นลิฟต์ เลี้ยวหัวมุมใช้ <b>Save Sphere</b> แล้วคุยกับ Luzzu",
+      "<b>Ridge:</b> <b>Save Sphere</b> + O'aka หีบใกล้ Yuna กับ Lulu มี <b>Mega-Potion</b> (หมุด 6) และลึกเข้าไปอีกมี <b>Serene Bracer</b> (หมุด 7)",
+      "<b>บอส: Sinspawn Gui</b> (สู้ 2 รอบ)",
+      "<b>Aftermath:</b> ใช้ <b>Save Sphere</b> แล้วเปิดหีบทางซ้าย <b>Hi-Potion</b> (หมุด 8)"
      ]
     },
     {
@@ -1516,46 +1516,46 @@
     {
      "key": "a10-p1",
      "label": "#1 Djose Highroad – Phoenix Down ×2",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a10-0",
      "type": "Primer",
      "short": "#2 Djose Highroad – Al Bhed Primer (Vol. XI)",
-     "where": "Djose Highroad ค่ะ"
+     "where": "Djose Highroad"
     },
     {
      "key": "a10-p3",
      "label": "#3 Djose Highroad – Bright Bangle",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a10-p4",
      "label": "#4 Djose Temple – Ability Sphere ×4",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a10-p5",
      "label": "#5 Djose Temple – 4,000 Gil",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a10-1",
      "type": "Cloister",
      "short": "Magic Sphere",
-     "where": "Cloister of Trials: แตะกลีฟที่กะพริบชั้นล่าง ได้ Destruction Sphere แล้วนำขึ้นลิฟต์ใส่แท่นค่ะ"
+     "where": "Cloister of Trials: แตะกลีฟที่กะพริบชั้นล่าง ได้ Destruction Sphere แล้วนำขึ้นลิฟต์ใส่แท่น"
     },
     {
      "key": "a10-2",
      "type": "Item",
      "short": "Halberd (พลาดได้)",
-     "where": "จากทหารหมวกเทาบนสะพานหน้าวิหารหลังผ่าน Trials ต้องเก็บก่อนไป Moonflow ค่ะ"
+     "where": "จากทหารหมวกเทาบนสะพานหน้าวิหารหลังผ่าน Trials ต้องเก็บก่อนไป Moonflow"
     },
     {
      "key": "a10-3",
      "type": "Item",
      "short": "หีบหน้าวิหาร",
-     "where": "4000 gil (ซ้าย), Ability Sphere ×4 (ขวา), Mega Phoenix ในห้องขวาค่ะ"
+     "where": "4000 gil (ซ้าย), Ability Sphere ×4 (ขวา), Mega Phoenix ในห้องขวา"
     }
    ],
    "tips": [],
@@ -1595,12 +1595,12 @@
     },
     {
      "olist": [
-      "<b>Djose Highroad:</b> ใช้ <b>Save Sphere</b> แล้วเดินไปเจอหีบ <b>Phoenix Down ×2</b> (หมุด 1) เลยไปนิดหลังเสามี <b>Al Bhed Primer Vol. XI</b> (หมุด 2) ค่ะ",
-      "คุยกับทุกคนตามทางได้ Soft Ring, Ether, Hi-Potion, Mega-Potion, Variable Steel และหีบ <b>Bright Bangle</b> (หมุด 3) ค่ะ",
-      "<b>Djose Temple (ด้านนอก):</b> <b>Save Sphere</b> หีบข้างร้านทางตะวันออกเฉียงเหนือ <b>Ability Sphere ×4</b> (หมุด 4) และหีบซ้ายสุด <b>4,000 Gil</b> (หมุด 5) ค่ะ",
-      "ในวิหาร หลังคุยกับ Isaaru เปิดหีบห้องซ้าย (Remedy) และห้องขวาของบันได ค่ะ",
-      "<b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Magic Sphere</b> แล้วได้ Ixion ค่ะ",
-      "ตื่นมา ใช้ <b>Save Sphere</b> ตอนออกไป Pilgrimage Road คนแรกปลายสะพานให้ <b>Halberd</b> (<b>พลาดได้</b>) ถัดไปได้ Potion ×10 และ Hi-Potion ×2 ค่ะ"
+      "<b>Djose Highroad:</b> ใช้ <b>Save Sphere</b> แล้วเดินไปเจอหีบ <b>Phoenix Down ×2</b> (หมุด 1) เลยไปนิดหลังเสามี <b>Al Bhed Primer Vol. XI</b> (หมุด 2)",
+      "คุยกับทุกคนตามทางได้ Soft Ring, Ether, Hi-Potion, Mega-Potion, Variable Steel และหีบ <b>Bright Bangle</b> (หมุด 3)",
+      "<b>Djose Temple (ด้านนอก):</b> <b>Save Sphere</b> หีบข้างร้านทางตะวันออกเฉียงเหนือ <b>Ability Sphere ×4</b> (หมุด 4) และหีบซ้ายสุด <b>4,000 Gil</b> (หมุด 5)",
+      "ในวิหาร หลังคุยกับ Isaaru เปิดหีบห้องซ้าย (Remedy) และห้องขวาของบันได",
+      "<b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Magic Sphere</b> แล้วได้ Ixion",
+      "ตื่นมา ใช้ <b>Save Sphere</b> ตอนออกไป Pilgrimage Road คนแรกปลายสะพานให้ <b>Halberd</b> (<b>พลาดได้</b>) ถัดไปได้ Potion ×10 และ Hi-Potion ×2"
      ]
     },
     {
@@ -1660,70 +1660,70 @@
     {
      "key": "a11-p1",
      "label": "#1 Moonflow South Bank Road – Lv. 1 Key Sphere",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p2",
      "label": "#2 Moonflow South Bank Road – X-Potion",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p3",
      "label": "#3 Moonflow South Bank Road – Lv. 1 Key Sphere ×3",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p4",
      "label": "#4 Moonflow South Bank Road – ดวลกับ Belgemine (คนเรียกเอออน)",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p5",
      "label": "#5 Moonflow South Bank Road – Magic Def Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p6",
      "label": "#6 Moonflow South Wharf – Phoenix Down ×2",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p7",
      "label": "#7 Moonflow North Bank – Rikku เข้าทีม",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p8",
      "label": "#8 Moonflow North Bank – Antidote ×4",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-p9",
      "label": "#9 Moonflow North Bank Road – Mega-Potion",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a11-0",
      "type": "Primer",
      "short": "Primer XII",
-     "where": "North Wharf ค่ะ"
+     "where": "North Wharf"
     },
     {
      "key": "a11-1",
      "type": "Jecht",
      "short": "Jecht's Sphere 7",
-     "where": "South Wharf หลังชนะ Spherimorph ค่ะ",
+     "where": "South Wharf หลังชนะ Spherimorph",
      "backtrack": true
     },
     {
      "key": "a11-2",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Lv.1 Key Sphere ×6, X-Potion, 5000 gil; ชนะเอออน Belgemine ได้ Dragon Scale ×2 ค่ะ"
+     "where": "Lv.1 Key Sphere ×6, X-Potion, 5000 gil; ชนะเอออน Belgemine ได้ Dragon Scale ×2"
     }
    ],
    "tips": [
-    "Extractor: ใช้อาวุธธาตุสายฟ้า Slow/Haste/Cheer และ Overdrive ของ Wakka ค่ะ (FF Wiki)"
+    "Extractor: ใช้อาวุธธาตุสายฟ้า Slow/Haste/Cheer และ Overdrive ของ Wakka (FF Wiki)"
    ],
    "sources": [
     {
@@ -1757,14 +1757,14 @@
     },
     {
      "olist": [
-      "<b>South Bank Road:</b> ทางเล็กขวา Shelinda มีหีบ <b>Lv. 1 Key Sphere</b> (หมุด 1) ค่ะ",
-      "หลังกลุ่ม Ronso (Biran & Yenke) มีหีบ <b>X-Potion</b> (หมุด 2) และทางแยกขวาได้ <b>Lv. 1 Key Sphere ×3</b> (หมุด 3) ค่ะ",
-      "ดวล <b>Belgemine</b> (หมุด 4) ชนะได้ Dragon Scale ×2 และได้ Summoner's Soul เสมอ ถัดไปแยกซ้ายเปิดหีบ <b>Magic Def Sphere</b> (หมุด 5) ค่ะ",
-      "<b>South Wharf:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 6) หีบหลัง Lulu ได้ <b>5,000 Gil</b> ใช้ <b>Save Sphere</b> แล้วขึ้น Shoopuf ค่ะ",
-      "<b>บอส: Extractor</b> (ระหว่างนั่ง Shoopuf) ใช้อาวุธธาตุสายฟ้าช่วยได้ค่ะ",
-      "<b>North Wharf:</b> <b>Save Sphere</b> ไปทางตะวันตก 1 จอเก็บ <b>Al Bhed Primer Vol. XII</b> และอีกจอได้หีบ <b>Ether</b> ค่ะ",
-      "ขึ้นเหนือ ได้ <b>Rikku</b> เข้าทีม (หมุด 7) แล้วหีบขวามี <b>Antidote ×4</b> (หมุด 8) ค่ะ",
-      "<b>North Bank Road:</b> หีบสุดทาง <b>Mega-Potion</b> (หมุด 9) แล้วเข้า Guadosalam ค่ะ"
+      "<b>South Bank Road:</b> ทางเล็กขวา Shelinda มีหีบ <b>Lv. 1 Key Sphere</b> (หมุด 1)",
+      "หลังกลุ่ม Ronso (Biran & Yenke) มีหีบ <b>X-Potion</b> (หมุด 2) และทางแยกขวาได้ <b>Lv. 1 Key Sphere ×3</b> (หมุด 3)",
+      "ดวล <b>Belgemine</b> (หมุด 4) ชนะได้ Dragon Scale ×2 และได้ Summoner's Soul เสมอ ถัดไปแยกซ้ายเปิดหีบ <b>Magic Def Sphere</b> (หมุด 5)",
+      "<b>South Wharf:</b> หีบ <b>Phoenix Down ×2</b> (หมุด 6) หีบหลัง Lulu ได้ <b>5,000 Gil</b> ใช้ <b>Save Sphere</b> แล้วขึ้น Shoopuf",
+      "<b>บอส: Extractor</b> (ระหว่างนั่ง Shoopuf) ใช้อาวุธธาตุสายฟ้าช่วยได้",
+      "<b>North Wharf:</b> <b>Save Sphere</b> ไปทางตะวันตก 1 จอเก็บ <b>Al Bhed Primer Vol. XII</b> และอีกจอได้หีบ <b>Ether</b>",
+      "ขึ้นเหนือ ได้ <b>Rikku</b> เข้าทีม (หมุด 7) แล้วหีบขวามี <b>Antidote ×4</b> (หมุด 8)",
+      "<b>North Bank Road:</b> หีบสุดทาง <b>Mega-Potion</b> (หมุด 9) แล้วเข้า Guadosalam"
      ]
     },
     {
@@ -1843,19 +1843,19 @@
      "key": "a12-0",
      "type": "Primer",
      "short": "Primer XIII",
-     "where": "ในบ้าน (House) ค่ะ"
+     "where": "ในบ้าน (House)"
     },
     {
      "key": "a12-1",
      "type": "Celes",
      "short": "Venus Crest",
-     "where": "ใน Farplane หลัง Tidus พูดถึงการออกเดินทางของ Seymour ถ้าพลาดกลับมาได้ภายหลัง (ของ Onion Knight) ค่ะ"
+     "where": "ใน Farplane หลัง Tidus พูดถึงการออกเดินทางของ Seymour ถ้าพลาดกลับมาได้ภายหลัง (ของ Onion Knight)"
     },
     {
      "key": "a12-2",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Mega-Potion, Elixir, 3000 gil, Lightning Marble ×8 ค่ะ"
+     "where": "Mega-Potion, Elixir, 3000 gil, Lightning Marble ×8"
     }
    ],
    "tips": [],
@@ -1880,13 +1880,13 @@
     },
     {
      "olist": [
-      "ประตูแรกคือโรงแรม มี <b>Save Sphere</b> ค่ะ",
-      "หีบขวาประตูคฤหาสน์ Seymour มี <b>Mega-Potion</b> ค่ะ",
-      "บ้านซ้ายสุด: <b>Al Bhed Primer Vol. XIII</b> บนพื้น และหีบท้ายห้อง <b>3,000 Gil</b> ค่ะ",
-      "ใต้บ้านนั้นใกล้เสาไฟมีหีบ <b>Elixir</b> ค่ะ",
-      "เข้าคฤหาสน์ Seymour ดูฉากเนื้อเรื่อง (ชั้น 2 หลังระเบียงมีหีบ Hi-Potion ×2) ค่ะ",
-      "ขึ้นชั้นบนสุดไป <b>Road to Farplane:</b> หีบซ้าย <b>Lightning Marble ×8</b> แล้วเข้า Farplane ค่ะ",
-      "หลัง Seymour ออกจากเมือง กลับเข้า Farplane อีกครั้งเก็บหีบ <b>Venus Crest</b> ค่ะ"
+      "ประตูแรกคือโรงแรม มี <b>Save Sphere</b>",
+      "หีบขวาประตูคฤหาสน์ Seymour มี <b>Mega-Potion</b>",
+      "บ้านซ้ายสุด: <b>Al Bhed Primer Vol. XIII</b> บนพื้น และหีบท้ายห้อง <b>3,000 Gil</b>",
+      "ใต้บ้านนั้นใกล้เสาไฟมีหีบ <b>Elixir</b>",
+      "เข้าคฤหาสน์ Seymour ดูฉากเนื้อเรื่อง (ชั้น 2 หลังระเบียงมีหีบ Hi-Potion ×2)",
+      "ขึ้นชั้นบนสุดไป <b>Road to Farplane:</b> หีบซ้าย <b>Lightning Marble ×8</b> แล้วเข้า Farplane",
+      "หลัง Seymour ออกจากเมือง กลับเข้า Farplane อีกครั้งเก็บหีบ <b>Venus Crest</b>"
      ]
     },
     {
@@ -1905,74 +1905,74 @@
     {
      "key": "a13-p1",
      "label": "#1 Thunder Plains South – Phoenix Down ×2",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-p2",
      "label": "#2 Thunder Plains South – Hi-Potion ×2",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-p3",
      "label": "#3 Thunder Plains South – 5,000 Gil",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-p4",
      "label": "#4 Thunder Plains South – Water Ball",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-p5",
      "label": "#5 Thunder Plains North – X-Potion",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-p6",
      "label": "#6 Thunder Plains North – Ether",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-p7",
      "label": "#7 Thunder Plains North – 2,000 Gil",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a13-0",
      "type": "Primer",
      "short": "Primer XIV",
-     "where": "คุยกับ Rikku ใน Agency แล้วตอบ Rin ว่า \"Okay\" ก่อนเข้าห้อง Yuna ค่ะ"
+     "where": "คุยกับ Rikku ใน Agency แล้วตอบ Rin ว่า \"Okay\" ก่อนเข้าห้อง Yuna"
     },
     {
      "key": "a13-1",
      "type": "Jecht",
      "short": "Jecht's Sphere 8",
-     "where": "ใกล้หอคอยขวากลางเขตใต้ หลังชนะ Spherimorph ค่ะ",
+     "where": "ใกล้หอคอยขวากลางเขตใต้ หลังชนะ Spherimorph",
      "backtrack": true
     },
     {
      "key": "a13-2",
      "type": "Celes",
      "short": "Venus Sigil",
-     "where": "หลบสายฟ้าติดกัน 200 ครั้งโดยไม่ออกจากพื้นที่ หีบจะโผล่หน้า Agency ค่ะ",
+     "where": "หลบสายฟ้าติดกัน 200 ครั้งโดยไม่ออกจากพื้นที่ หีบจะโผล่หน้า Agency",
      "backtrack": true
     },
     {
      "key": "a13-3",
      "type": "Celes",
      "short": "Spirit Lance",
-     "where": "อ่านเรื่อง Gandof ใน Agency แล้วสวดที่หิน Qactuar 3 ก้อน ตาม Qactuar ไปหอคอยพัง ต้องมี Celestial Mirror ค่ะ",
+     "where": "อ่านเรื่อง Gandof ใน Agency แล้วสวดที่หิน Qactuar 3 ก้อน ตาม Qactuar ไปหอคอยพัง ต้องมี Celestial Mirror",
      "backtrack": true
     },
     {
      "key": "a13-4",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Water Ball, 5000 gil, Yellow Shield (หลัง Wantz วิ่งหนี) ค่ะ"
+     "where": "Water Ball, 5000 gil, Yellow Shield (หลัง Wantz วิ่งหนี)"
     }
    ],
    "tips": [
-    "Dark Ixion (เฉพาะ International) จะโผล่หลังเห็นฉากเข้า Calm Lands คุยกับ Warrior Monk เขตเหนือ ต้องชนะ 2 รอบค่ะ (FF Wiki: Dark Aeon)"
+    "Dark Ixion (เฉพาะ International) จะโผล่หลังเห็นฉากเข้า Calm Lands คุยกับ Warrior Monk เขตเหนือ ต้องชนะ 2 รอบ (FF Wiki: Dark Aeon)"
    ],
    "sources": [
     {
@@ -2010,12 +2010,12 @@
     },
     {
      "olist": [
-      "<b>South:</b> หีบซ้าย <b>Save Sphere</b> <b>Phoenix Down ×2</b> (หมุด 1) แล้วเซฟค่ะ",
-      "หีบตะวันตกเฉียงเหนือของ Save Sphere <b>Hi-Potion ×2</b> (หมุด 2) ค่ะ",
-      "เลียบกำแพงฝั่งตะวันตก หลังรูปปั้น Cactuar มีหีบ <b>5,000 Gil</b> (หมุด 3) ค่ะ",
-      "ทางเดินเล็กฝั่งตะวันออกมีหีบ <b>Water Ball</b> (หมุด 4) ค่ะ",
-      "<b>Agency:</b> <b>Save Sphere</b> คุยกับ Rin ตอบ \"Okay\" ได้ <b>Al Bhed Primer Vol. XIV</b> และของเรืองแสงบนพื้นคือ <b>Yellow Shield</b> ค่ะ",
-      "<b>North:</b> หีบขวามือ <b>X-Potion</b> (หมุด 5) ไปเหนือถึง <b>Save Sphere</b> แล้วหีบซ้ายทาง <b>Ether</b> (หมุด 6) กับหีบขวา (หมุด 7) ค่ะ"
+      "<b>South:</b> หีบซ้าย <b>Save Sphere</b> <b>Phoenix Down ×2</b> (หมุด 1) แล้วเซฟ",
+      "หีบตะวันตกเฉียงเหนือของ Save Sphere <b>Hi-Potion ×2</b> (หมุด 2)",
+      "เลียบกำแพงฝั่งตะวันตก หลังรูปปั้น Cactuar มีหีบ <b>5,000 Gil</b> (หมุด 3)",
+      "ทางเดินเล็กฝั่งตะวันออกมีหีบ <b>Water Ball</b> (หมุด 4)",
+      "<b>Agency:</b> <b>Save Sphere</b> คุยกับ Rin ตอบ \"Okay\" ได้ <b>Al Bhed Primer Vol. XIV</b> และของเรืองแสงบนพื้นคือ <b>Yellow Shield</b>",
+      "<b>North:</b> หีบขวามือ <b>X-Potion</b> (หมุด 5) ไปเหนือถึง <b>Save Sphere</b> แล้วหีบซ้ายทาง <b>Ether</b> (หมุด 6) กับหีบขวา (หมุด 7)"
      ]
     },
     {
@@ -2086,84 +2086,84 @@
     {
      "key": "a14-p1",
      "label": "#1 Macalania Woods South – Sleepy Cait Sith",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-p2",
      "label": "#2 Macalania Woods South – 2,000 Gil",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-p3",
      "label": "#3 Macalania Woods Central – Phoenix Down ×3",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-4",
      "type": "Celes",
      "short": "#4 Macalania Woods Central – มินิเกมจับผีเสื้อ (Saturn Sigil)",
-     "where": "ชนะมินิเกมจับผีเสื้อ 2 ครั้ง (หลังได้เรือเหาะ) ค่ะ",
+     "where": "ชนะมินิเกมจับผีเสื้อ 2 ครั้ง (หลังได้เรือเหาะ)",
      "backtrack": true
     },
     {
      "key": "a14-p5",
      "label": "#5 Macalania Woods North – Remedy",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-0",
      "type": "Primer",
      "short": "#6 Macalania Woods Lake Road – Al Bhed Primer (Vol. XV)",
-     "where": "Lake Road ค่ะ"
+     "where": "Lake Road"
     },
     {
      "key": "a14-p7",
      "label": "#7 Lake Macalania Agency Front – 4,000 Gil (เก็บได้ภายหลัง)",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-1",
      "type": "Primer",
      "short": "#8 Lake Macalania Agency Front – Al Bhed Primer (Vol. XVI)",
-     "where": "Lake Macalania – Agency Front ค่ะ"
+     "where": "Lake Macalania – Agency Front"
     },
     {
      "key": "a14-p9",
      "label": "#9 Macalania Hall – 5,000 Gil",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-p10",
      "label": "#10 Macalania Hall – X-Potion",
-     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-p11",
      "label": "#11 Lake Macalania Crevasse – Lv. 1 Key Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบน"
     },
     {
      "key": "a14-2",
      "type": "Jecht",
      "short": "Jecht's Sphere 1",
-     "where": "ได้หลังชนะ Spherimorph ปลดล็อกสเฟียร์อื่นทั้งหมด ค่ะ"
+     "where": "ได้หลังชนะ Spherimorph ปลดล็อกสเฟียร์อื่นทั้งหมด"
     },
     {
      "key": "a14-3",
      "type": "Jecht",
      "short": "Jecht's Sphere 2",
-     "where": "เขตใต้ของ Macalania Woods หลังชนะ Spherimorph ค่ะ"
+     "where": "เขตใต้ของ Macalania Woods หลังชนะ Spherimorph"
     },
     {
      "key": "a14-5",
      "type": "Celes",
      "short": "Celestial Mirror",
-     "where": "ตามหาสามีและลูกชายของหญิงทางเข้า แล้วตรวจแท่นบูชาบน Shimmering Path ด้วย Cloudy Mirror ค่ะ",
+     "where": "ตามหาสามีและลูกชายของหญิงทางเข้า แล้วตรวจแท่นบูชาบน Shimmering Path ด้วย Cloudy Mirror",
      "backtrack": true
     }
    ],
    "tips": [
-    "Spherimorph: ตีกายภาพแล้วดูว่ามันสวนด้วยเวทธาตุไหน ให้ Lulu ใช้ธาตุตรงข้ามค่ะ (FF Wiki)",
+    "Spherimorph: ตีกายภาพแล้วดูว่ามันสวนด้วยเวทธาตุไหน ให้ Lulu ใช้ธาตุตรงข้าม (FF Wiki)",
     "Crawler: <span class=\"mut\">ไม่มีกลยุทธ์ในแหล่ง</span>"
    ],
    "sources": [
@@ -2206,16 +2206,16 @@
     },
     {
      "olist": [
-      "<b>Woods South:</b> ใช้ <b>Save Sphere</b> หีบลับหัวมุม <b>Sleepy Cait Sith</b> (หมุด 1) และต่อไป <b>2,000 Gil</b> (หมุด 2) ค่ะ",
-      "<b>Central:</b> สุดทางเหนือหลังต้นไม้มี <b>Phoenix Down ×3</b> (หมุด 3) มินิเกมจับผีเสื้อ (หมุด 4) ให้ <b>Saturn Sigil</b> ค่ะ",
-      "<b>North:</b> หีบหลังต้นไม้ <b>Remedy</b> (หมุด 5) ค่ะ",
-      "<b>Lake Road:</b> <b>Save Sphere</b> + O'aka ระหว่างทางเก็บ <b>Al Bhed Primer Vol. XV</b> (หมุด 6) ค่ะ",
-      "<b>บอส: Spherimorph</b> ชนะได้ <b>Jecht's Sphere</b> แล้ว Jecht's Sphere ในพื้นที่ก่อนๆ จะโผล่ ควรย้อนไปเก็บอันที่ Besaid เป็นอย่างน้อยค่ะ",
-      "<b>Lake Agency Front:</b> <b>Al Bhed Primer Vol. XVI</b> (หมุด 8) หีบหลัง Clasko (หมุด 7) ยังเก็บไม่ได้รอบนี้ ใช้ <b>Save Sphere</b> ในเอเจนซีค่ะ",
-      "<b>บอส: Crawler</b> แล้วเข้า Macalania Temple (ดูบทที่ 15) ค่ะ",
-      "หลังออกจากวิหาร ที่ <b>Crevasse</b> มีทางแยกไปหีบ <b>Lv. 1 Key Sphere</b> (หมุด 11) และ <b>Save Sphere</b> ก่อนบอสค่ะ",
-      "<b>Lake Bottom:</b> หลัง <b>บอส: Wendigo</b> ใช้ <b>Save Sphere</b> คุยกับทุกคน แล้วย้อนเก็บหีบ 2 ใบหลังเพื่อน (Lv. 2 Key Sphere ฯลฯ) ค่ะ",
-      "หมุด 9–10 (5,000 Gil, X-Potion ×2) อยู่ใน Macalania Hall ดูขั้นตอนในบทที่ 15 ค่ะ"
+      "<b>Woods South:</b> ใช้ <b>Save Sphere</b> หีบลับหัวมุม <b>Sleepy Cait Sith</b> (หมุด 1) และต่อไป <b>2,000 Gil</b> (หมุด 2)",
+      "<b>Central:</b> สุดทางเหนือหลังต้นไม้มี <b>Phoenix Down ×3</b> (หมุด 3) มินิเกมจับผีเสื้อ (หมุด 4) ให้ <b>Saturn Sigil</b>",
+      "<b>North:</b> หีบหลังต้นไม้ <b>Remedy</b> (หมุด 5)",
+      "<b>Lake Road:</b> <b>Save Sphere</b> + O'aka ระหว่างทางเก็บ <b>Al Bhed Primer Vol. XV</b> (หมุด 6)",
+      "<b>บอส: Spherimorph</b> ชนะได้ <b>Jecht's Sphere</b> แล้ว Jecht's Sphere ในพื้นที่ก่อนๆ จะโผล่ ควรย้อนไปเก็บอันที่ Besaid เป็นอย่างน้อย",
+      "<b>Lake Agency Front:</b> <b>Al Bhed Primer Vol. XVI</b> (หมุด 8) หีบหลัง Clasko (หมุด 7) ยังเก็บไม่ได้รอบนี้ ใช้ <b>Save Sphere</b> ในเอเจนซี",
+      "<b>บอส: Crawler</b> แล้วเข้า Macalania Temple (ดูบทที่ 15)",
+      "หลังออกจากวิหาร ที่ <b>Crevasse</b> มีทางแยกไปหีบ <b>Lv. 1 Key Sphere</b> (หมุด 11) และ <b>Save Sphere</b> ก่อนบอส",
+      "<b>Lake Bottom:</b> หลัง <b>บอส: Wendigo</b> ใช้ <b>Save Sphere</b> คุยกับทุกคน แล้วย้อนเก็บหีบ 2 ใบหลังเพื่อน (Lv. 2 Key Sphere ฯลฯ)",
+      "หมุด 9–10 (5,000 Gil, X-Potion ×2) อยู่ใน Macalania Hall ดูขั้นตอนในบทที่ 15"
      ]
     },
     {
@@ -2308,18 +2308,18 @@
      "key": "a15-0",
      "type": "Cloister",
      "short": "Luck Sphere",
-     "where": "Cloister of Trials: หลังสร้างสะพานแล้ว ทำขั้นตอนเสริมเพื่อเอา Destruction Sphere ไปทำลายน้ำแข็งที่ครอบหีบค่ะ"
+     "where": "Cloister of Trials: หลังสร้างสะพานแล้ว ทำขั้นตอนเสริมเพื่อเอา Destruction Sphere ไปทำลายน้ำแข็งที่ครอบหีบ"
     },
     {
      "key": "a15-1",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Shell Targe จาก Tromell, 5000 gil, X-Potion ×2, Elixir ค่ะ"
+     "where": "Shell Targe จาก Tromell, 5000 gil, X-Potion ×2, Elixir"
     }
    ],
    "tips": [
-    "Seymour: ใช้ Dispel หรือ Aerospark ของ Ixion ลบ Shell ให้ Rikku ขโมย Hi-Potion ขององครักษ์ค่ะ (FF Wiki)",
-    "Dark Shiva (เฉพาะ International) ขวางทางเข้าวิหารหลังได้เรือเหาะค่ะ"
+    "Seymour: ใช้ Dispel หรือ Aerospark ของ Ixion ลบ Shell ให้ Rikku ขโมย Hi-Potion ขององครักษ์ (FF Wiki)",
+    "Dark Shiva (เฉพาะ International) ขวางทางเข้าวิหารหลังได้เรือเหาะ"
    ],
    "sources": [
     {
@@ -2346,13 +2346,13 @@
     },
     {
      "olist": [
-      "<b>Crevasse:</b> หีบหน้าวิหาร <b>Mega-Potion</b> ค่ะ",
-      "<b>Road:</b> ทหาร Al Bhed ตีนบันไดให้ <b>400 Gil</b> ค่ะ",
-      "<b>Hall:</b> <b>Save Sphere</b> Tromell ให้ Shell Targe หีบซ้าย <b>5,000 Gil</b> และหีบฝั่งตรงข้ามใกล้กล้อง <b>X-Potion ×2</b> ค่ะ",
-      "หีบท้ายห้อง <b>Remedy ×2</b> คนใกล้หีบให้ Hi-Potion ×2 และห้องข้างๆ ได้ Ether, Elixir, Phoenix Down ×3 ค่ะ",
-      "<b>บอส: Seymour (+ Guado Guardian)</b> แล้วใช้ <b>Save Sphere</b> ค่ะ",
-      "ประตูซ้าย Save Sphere → <b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Luck Sphere</b> ค่ะ",
-      "ออกจากวิหาร ที่ Road มี O'aka + <b>Save Sphere</b> แล้วไป Crevasse ต่อ (ดูบทที่ 14) ค่ะ"
+      "<b>Crevasse:</b> หีบหน้าวิหาร <b>Mega-Potion</b>",
+      "<b>Road:</b> ทหาร Al Bhed ตีนบันไดให้ <b>400 Gil</b>",
+      "<b>Hall:</b> <b>Save Sphere</b> Tromell ให้ Shell Targe หีบซ้าย <b>5,000 Gil</b> และหีบฝั่งตรงข้ามใกล้กล้อง <b>X-Potion ×2</b>",
+      "หีบท้ายห้อง <b>Remedy ×2</b> คนใกล้หีบให้ Hi-Potion ×2 และห้องข้างๆ ได้ Ether, Elixir, Phoenix Down ×3",
+      "<b>บอส: Seymour (+ Guado Guardian)</b> แล้วใช้ <b>Save Sphere</b>",
+      "ประตูซ้าย Save Sphere → <b>Cloister of Trials:</b> ได้ Destruction Sphere จะได้ <b>Luck Sphere</b>",
+      "ออกจากวิหาร ที่ Road มี O'aka + <b>Save Sphere</b> แล้วไป Crevasse ต่อ (ดูบทที่ 14)"
      ]
     },
     {
@@ -2374,132 +2374,132 @@
     {
      "key": "a16-p1",
      "label": "#1 Sanubia Oasis – Remedy ×4",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p2",
      "label": "#2 Sanubia Oasis – เจอ Wakka",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p3",
      "label": "#3 Sanubia Oasis – Al Bhed Potion ×8",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p4",
      "label": "#4 Sanubia Desert East – เจอ Kimahri",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p5",
      "label": "#5 Sanubia Desert East – Rikku เข้าทีม",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p6",
      "label": "#6 Sanubia Desert East – Ether ×2",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p7",
      "label": "#7 Sanubia Desert East – Al Bhed Potion ×8",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p8",
      "label": "#8 Sanubia Desert East – Hi-Potion ×4",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p9",
      "label": "#9 Sanubia Central – Hi-Potion ×4",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p10",
      "label": "#10 Sanubia Central – X-Potion ×2",
-     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p11",
      "label": "#11 Sanubia Central – Mega-Potion ×2",
-     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p12",
      "label": "#12 Sanubia Central – Al Bhed Potion ×8",
-     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p13",
      "label": "#13 Sanubia Central – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #13 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #13 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p14",
      "label": "#14 Sanubia Central – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #14 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #14 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p15",
      "label": "#15 Sanubia Central – 10,000 Gil",
-     "where": "ดูหมุด #15 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #15 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-0",
      "type": "Primer",
      "short": "#16 Sanubia Central – Al Bhed Primer (Vol. XVII)",
-     "where": "Sanubia Desert – Central ค่ะ"
+     "where": "Sanubia Desert – Central"
     },
     {
      "key": "a16-1",
      "type": "Primer",
      "short": "#17 Sanubia Central – Al Bhed Primer (Vol. XVIII)",
-     "where": "Sanubia Desert – Central ค่ะ"
+     "where": "Sanubia Desert – Central"
     },
     {
      "key": "a16-p18",
      "label": "#18 Sanubia West – Hi-Potion ×8",
-     "where": "ดูหมุด #18 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #18 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-3",
      "type": "Celes",
      "short": "#19 Sanubia West – Mercury Crest",
-     "where": "หีบในหลุมทรายเคลื่อนที่เขตสุดท้าย (ของ Godhand) ค่ะ"
+     "where": "หีบในหลุมทรายเคลื่อนที่เขตสุดท้าย (ของ Godhand)"
     },
     {
      "key": "a16-p20",
      "label": "#20 Sanubia West – Megalixir ×3",
-     "where": "ดูหมุด #20 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #20 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p21",
      "label": "#21 Sanubia West – Mega-Potion ×3",
-     "where": "ดูหมุด #21 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #21 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p22",
      "label": "#22 Sanubia West – X-Potion ×2",
-     "where": "ดูหมุด #22 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #22 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-p23",
      "label": "#23 Sanubia West – Teleport Sphere ×2",
-     "where": "ดูหมุด #23 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #23 บนแผนที่ด้านบน"
     },
     {
      "key": "a16-2",
      "type": "Primer",
      "short": "Primer I/III/V (ถ้าพลาด)",
-     "where": "Primer I ทางตะวันออกเฉียงเหนือของโอเอซิส; III ข้างเต็นท์ Wakka; V ใกล้กองหินที่เจอ Kimahri ค่ะ"
+     "where": "Primer I ทางตะวันออกเฉียงเหนือของโอเอซิส; III ข้างเต็นท์ Wakka; V ใกล้กองหินที่เจอ Kimahri"
     },
     {
      "key": "a16-4",
      "type": "Celes",
      "short": "Mercury Sigil",
-     "where": "ทำภารกิจหมู่บ้าน Cactuar หลังได้เรือเหาะค่ะ",
+     "where": "ทำภารกิจหมู่บ้าน Cactuar หลังได้เรือเหาะ",
      "backtrack": true
     }
    ],
@@ -2532,15 +2532,15 @@
     },
     {
      "olist": [
-      "<b>Oasis:</b> <b>Save Sphere</b> ดำน้ำเปิดหีบซ้ายล่าง <b>Remedy ×4</b> (หมุด 1) แล้วไปหา <b>Wakka</b> (หมุด 2) หีบข้างเขาคือ Al Bhed First Aid Kit (หมุด 3) ค่ะ",
-      "<b>East:</b> เจอ <b>Kimahri</b> (หมุด 4) และ <b>Rikku</b> (หมุด 5) หีบข้าง Rikku <b>Ether ×2</b> (หมุด 6) และ <b>Al Bhed Potion ×8</b> (หมุด 7) ใช้ <b>Save Sphere</b> ค่ะ",
-      "ทางแยกซ้ายมีหีบ <b>Hi-Potion ×4</b> (หมุด 8) ค่ะ",
-      "<b>Central:</b> หีบกลางแผนที่ (หมุด 9) มุมตะวันตกสุด (หมุด 11) แล้วไป <b>Save Sphere</b> ทางเหนือ เก็บหีบใกล้ๆ และในคอกทางตะวันตก (หมุด 10, 12–15) ค่ะ",
-      "เหนือคอกมี <b>Al Bhed Primer Vol. XVII</b> (หมุด 16) แล้วกลับ Save Sphere ตรงขึ้นเหนือหาป้าย ใต้ป้ายมี <b>Primer Vol. XVIII</b> (หมุด 17) ค่ะ",
-      "<b>West:</b> เลียบซ้ายขึ้นเหนือ หน้าซอกมีหีบ <b>Hi-Potion ×8</b> (หมุด 18) ในวังทรายของซอกมี <b>Mercury Crest</b> (หมุด 19) ค่ะ",
-      "วังทรายตะวันออกเฉียงเหนือ: สู้ <b>Sandragora</b> ได้ <b>Megalixir ×3</b> (หมุด 20) แล้วตะวันตก <b>Mega-Potion ×3</b> (หมุด 21) เหนือ <b>X-Potion ×2</b> (หมุด 22) ค่ะ",
-      "วังทรายตะวันออก: สู้ Sandragora อีกตัวได้ <b>Teleport Sphere ×2</b> (หมุด 23) ค่ะ",
-      "<b>บอส: Zu</b> ระหว่างทางเข้า Home ค่ะ"
+      "<b>Oasis:</b> <b>Save Sphere</b> ดำน้ำเปิดหีบซ้ายล่าง <b>Remedy ×4</b> (หมุด 1) แล้วไปหา <b>Wakka</b> (หมุด 2) หีบข้างเขาคือ Al Bhed First Aid Kit (หมุด 3)",
+      "<b>East:</b> เจอ <b>Kimahri</b> (หมุด 4) และ <b>Rikku</b> (หมุด 5) หีบข้าง Rikku <b>Ether ×2</b> (หมุด 6) และ <b>Al Bhed Potion ×8</b> (หมุด 7) ใช้ <b>Save Sphere</b>",
+      "ทางแยกซ้ายมีหีบ <b>Hi-Potion ×4</b> (หมุด 8)",
+      "<b>Central:</b> หีบกลางแผนที่ (หมุด 9) มุมตะวันตกสุด (หมุด 11) แล้วไป <b>Save Sphere</b> ทางเหนือ เก็บหีบใกล้ๆ และในคอกทางตะวันตก (หมุด 10, 12–15)",
+      "เหนือคอกมี <b>Al Bhed Primer Vol. XVII</b> (หมุด 16) แล้วกลับ Save Sphere ตรงขึ้นเหนือหาป้าย ใต้ป้ายมี <b>Primer Vol. XVIII</b> (หมุด 17)",
+      "<b>West:</b> เลียบซ้ายขึ้นเหนือ หน้าซอกมีหีบ <b>Hi-Potion ×8</b> (หมุด 18) ในวังทรายของซอกมี <b>Mercury Crest</b> (หมุด 19)",
+      "วังทรายตะวันออกเฉียงเหนือ: สู้ <b>Sandragora</b> ได้ <b>Megalixir ×3</b> (หมุด 20) แล้วตะวันตก <b>Mega-Potion ×3</b> (หมุด 21) เหนือ <b>X-Potion ×2</b> (หมุด 22)",
+      "วังทรายตะวันออก: สู้ Sandragora อีกตัวได้ <b>Teleport Sphere ×2</b> (หมุด 23)",
+      "<b>บอส: Zu</b> ระหว่างทางเข้า Home"
      ]
     },
     {
@@ -2691,69 +2691,69 @@
      "key": "a17-0",
      "type": "Primer",
      "short": "#1 Home Outside – Al Bhed Primer (Vol. XIX)",
-     "where": "ภายใน Home ค่ะ"
+     "where": "ภายใน Home"
     },
     {
      "key": "a17-p2",
      "label": "#2 Home Main Corridor – Al Bhed Potion ×4",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-1",
      "type": "Primer",
      "short": "#3 Home Main Corridor – Al Bhed Primer (Vol. XX)",
-     "where": "Living Quarters ค่ะ"
+     "where": "Living Quarters"
     },
     {
      "key": "a17-p4",
      "label": "#4 Home Main Corridor – หีบปริศนา \"Treasure chest of dreams\"",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-p5",
      "label": "#5 Home Main Corridor – หีบรหัสผ่าน Al Bhed (Friend Sphere)",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-p6",
      "label": "#6 Home Main Corridor – Al Bhed Potion ×6",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-2",
      "type": "Primer",
      "short": "#7 Home Main Corridor – Al Bhed Primer (Vol. XXI)",
-     "where": "Main Corridor ค่ะ"
+     "where": "Main Corridor"
     },
     {
      "key": "a17-p8",
      "label": "#8 Home Main Corridor – หีบปริศนาตัวเลข (Special Sphere)",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-p9",
      "label": "#9 Home Main Corridor – หีบ Al Bhed Verification (Skill Sphere)",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-p10",
      "label": "#10 Home Main Corridor – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-p11",
      "label": "#11 Home Main Corridor – Lv. 4 Key Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบน"
     },
     {
      "key": "a17-p12",
      "label": "#12 Home Environmental Controls – 10,000 Gil",
-     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบน"
     }
    ],
    "tips": [
-    "Primer XIX–XXI เก็บได้ครั้งเดียวในเนื้อเรื่อง ถ้าพลาดต้องใช้ Compilation Sphere ค่ะ (FF Wiki)",
-    "Dark Ifrit (เฉพาะ International) อยู่ทางเข้า Home เดิมหลังได้เรือเหาะค่ะ"
+    "Primer XIX–XXI เก็บได้ครั้งเดียวในเนื้อเรื่อง ถ้าพลาดต้องใช้ Compilation Sphere (FF Wiki)",
+    "Dark Ifrit (เฉพาะ International) อยู่ทางเข้า Home เดิมหลังได้เรือเหาะ"
    ],
    "sources": [
     {
@@ -2787,14 +2787,14 @@
     },
     {
      "olist": [
-      "<b>สำคัญ: Home กลับมาไม่ได้ Primer XIX–XXI พลาดแล้วพลาดเลย</b> ค่ะ",
-      "ด้านนอก: ฝั่งซ้ายเก็บ <b>Al Bhed Primer Vol. XIX</b> (หมุด 1) ใช้ <b>Save Sphere</b> ขวาประตูแล้วเข้าไปค่ะ",
-      "<b>Main Corridor:</b> ทางซ้ายสุดมี Save Sphere <b>อย่าเพิ่งเข้าประตูข้าง Save Sphere</b> จะไปต่อเนื้อเรื่องทันทีค่ะ",
-      "ห้องนอนแรก: สู้ Guado Guardian แล้วเก็บ <b>Primer Vol. XX</b> บนเตียง (หมุด 3) และหีบปริศนา 2 ใบ (หมุด 4–5) ค่ะ",
-      "กลับลงไป ทางกลางเปิดหีบ <b>Al Bhed Potion ×6</b> (หมุด 6) ทางขวาเก็บ <b>Primer Vol. XXI</b> (หมุด 7) แล้วสู้ Guado Guardian ค่ะ",
-      "ห้องนั้นมีหีบปริศนาตัวเลข (หมุด 8) และหีบ Verification (หมุด 9) ค่ะ",
-      "กลับ Save Sphere แล้วเข้าประตูซ้าย: หีบตีนบันได <b>Lv. 2 Key Sphere</b> (หมุด 10) และหีบซ่อนอีกฝั่ง <b>Lv. 4 Key Sphere</b> (หมุด 11) ค่ะ",
-      "<b>Environment Controls:</b> หีบซ้ายสุด <b>10,000 Gil</b> (หมุด 12) แล้วไป Airship Dock ค่ะ"
+      "<b>สำคัญ: Home กลับมาไม่ได้ Primer XIX–XXI พลาดแล้วพลาดเลย</b>",
+      "ด้านนอก: ฝั่งซ้ายเก็บ <b>Al Bhed Primer Vol. XIX</b> (หมุด 1) ใช้ <b>Save Sphere</b> ขวาประตูแล้วเข้าไป",
+      "<b>Main Corridor:</b> ทางซ้ายสุดมี Save Sphere <b>อย่าเพิ่งเข้าประตูข้าง Save Sphere</b> จะไปต่อเนื้อเรื่องทันที",
+      "ห้องนอนแรก: สู้ Guado Guardian แล้วเก็บ <b>Primer Vol. XX</b> บนเตียง (หมุด 3) และหีบปริศนา 2 ใบ (หมุด 4–5)",
+      "กลับลงไป ทางกลางเปิดหีบ <b>Al Bhed Potion ×6</b> (หมุด 6) ทางขวาเก็บ <b>Primer Vol. XXI</b> (หมุด 7) แล้วสู้ Guado Guardian",
+      "ห้องนั้นมีหีบปริศนาตัวเลข (หมุด 8) และหีบ Verification (หมุด 9)",
+      "กลับ Save Sphere แล้วเข้าประตูซ้าย: หีบตีนบันได <b>Lv. 2 Key Sphere</b> (หมุด 10) และหีบซ่อนอีกฝั่ง <b>Lv. 4 Key Sphere</b> (หมุด 11)",
+      "<b>Environment Controls:</b> หีบซ้ายสุด <b>10,000 Gil</b> (หมุด 12) แล้วไป Airship Dock"
      ]
     },
     {
@@ -2892,41 +2892,41 @@
     {
      "key": "a18-p1",
      "label": "#1 Bevelle Underwater – Rematch",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a18-p2",
      "label": "#2 Bevelle Underwater – Avenger",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a18-0",
      "type": "Primer",
      "short": "Primer XXII (พลาดได้)",
-     "where": "Priests' Passage หลังฉากงานแต่ง เก็บได้ครั้งเดียวค่ะ"
+     "where": "Priests' Passage หลังฉากงานแต่ง เก็บได้ครั้งเดียว"
     },
     {
      "key": "a18-1",
      "type": "Cloister",
      "short": "HP Sphere",
-     "where": "Cloister of Trials ของ Bevelle: หีบ Destruction ทางขวาห้องสุดท้าย (Bevelle ได้ของนี้อัตโนมัติเพื่อปลด Anima) ค่ะ"
+     "where": "Cloister of Trials ของ Bevelle: หีบ Destruction ทางขวาห้องสุดท้าย (Bevelle ได้ของนี้อัตโนมัติเพื่อปลด Anima)"
     },
     {
      "key": "a18-2",
      "type": "Item",
      "short": "Knight Lance",
-     "where": "ต้องใช้ Bevelle Sphere อันที่สองจากชั้นล่างค่ะ"
+     "where": "ต้องใช้ Bevelle Sphere อันที่สองจากชั้นล่าง"
     },
     {
      "key": "a18-3",
      "type": "Item",
      "short": "Via Purifico",
-     "where": "Elixir, Wht/Blk Magic Sphere, Mega-Potion, Lucid Ring, Skill Sphere, 10,000 gil; ไม่เปิดประตูตอนสู้ Evrae Altana ได้ Rematch ค่ะ"
+     "where": "Elixir, Wht/Blk Magic Sphere, Mega-Potion, Lucid Ring, Skill Sphere, 10,000 gil; ไม่เปิดประตูตอนสู้ Evrae Altana ได้ Rematch"
     }
    ],
    "tips": [
-    "Evrae: ให้ Rikku เริ่มด้วย Overdrive Mix (Mighty G) เติมบัฟ ใช้ Wakka/Lulu ตีจากไกลค่ะ (FF Wiki)",
-    "Seymour Natus: ติด Poison ได้ ใส่ Reflect ทั้งทีมกับตัวมันจะลดดาเมจค่ะ (FF Wiki)"
+    "Evrae: ให้ Rikku เริ่มด้วย Overdrive Mix (Mighty G) เติมบัฟ ใช้ Wakka/Lulu ตีจากไกล (FF Wiki)",
+    "Seymour Natus: ติด Poison ได้ ใส่ Reflect ทั้งทีมกับตัวมันจะลดดาเมจ (FF Wiki)"
    ],
    "sources": [
     {
@@ -2968,13 +2968,13 @@
     },
     {
      "olist": [
-      "<b>เรือเหาะ:</b> ใช้ <b>Save Sphere</b> ที่ Bridge เดินไปห้องสุดท้ายที่มี Save Sphere คุยกับ Al Bhed ทางซ้ายได้ Al Bhed Potion ×4 → <b>บอส: Evrae</b> ค่ะ",
-      "<b>Bevelle Priests' Passage:</b> เก็บ <b>Al Bhed Primer Vol. XXII</b> บนพื้น (<b>พลาดได้</b> กลับมาไม่ได้) ค่ะ",
-      "<b>Save Sphere</b> → <b>Cloister of Trials</b> (Destruction Sphere ใช้อัตโนมัติ) ได้ Bahamut ค่ะ",
-      "<b>Via Purifico (Yuna):</b> เดินตามแผนที่ในหน้า Jegged หา Kimahri (Mega-Potion) Lulu (Wht Magic Sphere) และหีบอื่นๆ ใช้วาร์ปเปิดทาง ค่ะ",
-      "<b>บอส: Isaaru</b> ค่ะ",
-      "<b>Via Purifico ใต้น้ำ (Tidus):</b> <b>Save Sphere</b> → <b>บอส: Evrae Altana</b> อย่าใช้ Trigger Command เปิดประตู จะได้หีบ <b>Rematch</b> (หมุด 1) และ <b>Avenger</b> (หมุด 2) ค่ะ",
-      "<b>Highbridge:</b> <b>Save Sphere</b> + O'aka → <b>บอส: Seymour Natus</b> (เลเวล Yuna ให้ได้ Reflect ก่อนจะง่ายขึ้น) ค่ะ"
+      "<b>เรือเหาะ:</b> ใช้ <b>Save Sphere</b> ที่ Bridge เดินไปห้องสุดท้ายที่มี Save Sphere คุยกับ Al Bhed ทางซ้ายได้ Al Bhed Potion ×4 → <b>บอส: Evrae</b>",
+      "<b>Bevelle Priests' Passage:</b> เก็บ <b>Al Bhed Primer Vol. XXII</b> บนพื้น (<b>พลาดได้</b> กลับมาไม่ได้)",
+      "<b>Save Sphere</b> → <b>Cloister of Trials</b> (Destruction Sphere ใช้อัตโนมัติ) ได้ Bahamut",
+      "<b>Via Purifico (Yuna):</b> เดินตามแผนที่ในหน้า Jegged หา Kimahri (Mega-Potion) Lulu (Wht Magic Sphere) และหีบอื่นๆ ใช้วาร์ปเปิดทาง",
+      "<b>บอส: Isaaru</b>",
+      "<b>Via Purifico ใต้น้ำ (Tidus):</b> <b>Save Sphere</b> → <b>บอส: Evrae Altana</b> อย่าใช้ Trigger Command เปิดประตู จะได้หีบ <b>Rematch</b> (หมุด 1) และ <b>Avenger</b> (หมุด 2)",
+      "<b>Highbridge:</b> <b>Save Sphere</b> + O'aka → <b>บอส: Seymour Natus</b> (เลเวล Yuna ให้ได้ Reflect ก่อนจะง่ายขึ้น)"
      ]
     },
     {
@@ -3019,89 +3019,89 @@
     {
      "key": "a19-p1",
      "label": "#1 Calm Lands – แคมป์ Rin's Travel Agency + Save Sphere",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-p2",
      "label": "#2 Calm Lands – 5,000 Gil",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-p3",
      "label": "#3 Calm Lands – 10,000 Gil",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-p4",
      "label": "#4 Calm Lands – Lv. 2 Key Sphere",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-0",
      "type": "Primer",
      "short": "#5 Calm Lands – Al Bhed Primer (Vol. XXIII)",
-     "where": "Calm Lands – Central ค่ะ"
+     "where": "Calm Lands – Central"
     },
     {
      "key": "a19-p6",
      "label": "#6 Calm Lands – ครูฝึก Chocobo",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-p7",
      "label": "#7 Calm Lands – ดวลกับ Belgemine (คนเรียกเอออน)",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-p8",
      "label": "#8 Calm Lands Near Bridge – ทางเข้า Cavern of the Stolen Fayth",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a19-2",
      "type": "Celes",
      "short": "#9 Calm Lands Near Bridge – Rusty Sword",
-     "where": "Gorge Bottom (สำหรับ Masamune) ค่ะ"
+     "where": "Gorge Bottom (สำหรับ Masamune)"
     },
     {
      "key": "a19-1",
      "type": "Primer",
      "short": "Primer XXIV",
-     "where": "Remiem Temple ค่ะ"
+     "where": "Remiem Temple"
     },
     {
      "key": "a19-3",
      "type": "Celes",
      "short": "Caladbolg",
-     "where": "ชนะเวลาครูฝึกในการแข่งช็อกโกโบ แล้วลงทางลาดมุมตะวันตกเฉียงเหนือ ต้องมี Celestial Mirror ค่ะ"
+     "where": "ชนะเวลาครูฝึกในการแข่งช็อกโกโบ แล้วลงทางลาดมุมตะวันตกเฉียงเหนือ ต้องมี Celestial Mirror"
     },
     {
      "key": "a19-4",
      "type": "Celes",
      "short": "Sun Sigil",
-     "where": "แข่งช็อกโกโบได้เวลา 0:00 (เก็บลูกโป่งอย่างน้อย 13 ลูก โดนนกไม่เกิน 1 ครั้ง เข้าเส้นใน 36 วินาที) ค่ะ"
+     "where": "แข่งช็อกโกโบได้เวลา 0:00 (เก็บลูกโป่งอย่างน้อย 13 ลูก โดนนกไม่เกิน 1 ครั้ง เข้าเส้นใน 36 วินาที)"
     },
     {
      "key": "a19-5",
      "type": "Celes",
      "short": "Nirvana",
-     "where": "รับภารกิจที่ Monster Arena จับมอนสเตอร์ใน Calm Lands ครบ 9 ชนิด ค่ะ"
+     "where": "รับภารกิจที่ Monster Arena จับมอนสเตอร์ใน Calm Lands ครบ 9 ชนิด"
     },
     {
      "key": "a19-6",
      "type": "Celes",
      "short": "Cloudy Mirror",
-     "where": "ชนะแข่งช็อกโกโบครั้งแรกที่ Remiem Temple ค่ะ"
+     "where": "ชนะแข่งช็อกโกโบครั้งแรกที่ Remiem Temple"
     },
     {
      "key": "a19-7",
      "type": "Item",
      "short": "Buckler พิเศษ (พลาดได้)",
-     "where": "ชายบนโฮเวอร์ครั้งแรกที่มา Calm Lands ขาย Buckler ที่มี Magic Counter ให้ Tidus จะหายไปหลังไปต่อค่ะ"
+     "where": "ชายบนโฮเวอร์ครั้งแรกที่มา Calm Lands ขาย Buckler ที่มี Magic Counter ให้ Tidus จะหายไปหลังไปต่อ"
     }
    ],
    "tips": [
-    "Defender X: Armor Break ของ Auron, ใช้ Provoke ให้ Tidus ดึงการโจมตีค่ะ (FF Wiki)"
+    "Defender X: Armor Break ของ Auron, ใช้ Provoke ให้ Tidus ดึงการโจมตี (FF Wiki)"
    ],
    "sources": [
     {
@@ -3143,14 +3143,14 @@
     },
     {
      "olist": [
-      "<b>Macalania Woods (กลับมา):</b> หลังฉาก เปิดหีบ <b>Lucid Ring</b> และย้อนไปตะวันตกเก็บ <b>Jecht's Sphere</b> ได้ค่ะ",
-      "<b>Calm Lands South:</b> ไปตะวันออกเฉียงใต้สุดเปิดหีบ 2 ใบ (หมุด 2–3) ค่ะ",
-      "ไปแคมป์กลางแผนที่ (หมุด 1) ใช้ <b>Save Sphere</b> หลังแคมป์มีหีบ <b>Lv. 2 Key Sphere</b> (หมุด 4) ค่ะ",
-      "ตะวันตกสุดบนแหลมมี <b>Al Bhed Primer Vol. XXIII</b> (หมุด 5) ค่ะ",
-      "ครูฝึก Chocobo (หมุด 6) และดวล <b>Belgemine</b> (หมุด 7) ชนะได้ Power Sphere ×30 ค่ะ",
-      "<b>Remiem Temple:</b> อ้อมด้านซ้ายวิหารเก็บ <b>Al Bhed Primer Vol. XXIV</b> ค่ะ",
-      "<b>Calm Lands North:</b> <b>Save Sphere</b> → ข้ามสะพาน <b>บอส: Defender X</b> ค่ะ",
-      "ย้อนข้ามสะพาน ลงหุบเขา (ทางเข้า Cavern หมุด 8) ไปทางตะวันออกสุดทางมีดาบปักพื้น <b>Rusty Sword</b> (หมุด 9) ค่ะ"
+      "<b>Macalania Woods (กลับมา):</b> หลังฉาก เปิดหีบ <b>Lucid Ring</b> และย้อนไปตะวันตกเก็บ <b>Jecht's Sphere</b> ได้",
+      "<b>Calm Lands South:</b> ไปตะวันออกเฉียงใต้สุดเปิดหีบ 2 ใบ (หมุด 2–3)",
+      "ไปแคมป์กลางแผนที่ (หมุด 1) ใช้ <b>Save Sphere</b> หลังแคมป์มีหีบ <b>Lv. 2 Key Sphere</b> (หมุด 4)",
+      "ตะวันตกสุดบนแหลมมี <b>Al Bhed Primer Vol. XXIII</b> (หมุด 5)",
+      "ครูฝึก Chocobo (หมุด 6) และดวล <b>Belgemine</b> (หมุด 7) ชนะได้ Power Sphere ×30",
+      "<b>Remiem Temple:</b> อ้อมด้านซ้ายวิหารเก็บ <b>Al Bhed Primer Vol. XXIV</b>",
+      "<b>Calm Lands North:</b> <b>Save Sphere</b> → ข้ามสะพาน <b>บอส: Defender X</b>",
+      "ย้อนข้ามสะพาน ลงหุบเขา (ทางเข้า Cavern หมุด 8) ไปทางตะวันออกสุดทางมีดาบปักพื้น <b>Rusty Sword</b> (หมุด 9)"
      ]
     },
     {
@@ -3231,23 +3231,23 @@
      "key": "a20-0",
      "type": "Primer",
      "short": "Primer XXV",
-     "where": "ภายในถ้ำค่ะ"
+     "where": "ภายในถ้ำ"
     },
     {
      "key": "a20-1",
      "type": "Aeon",
      "short": "Yojimbo",
-     "where": "ห้อง Fayth: เลือก \"To defeat the most powerful of enemies\" แล้วต่อรองราคาจนจ่ายราว 178,931 gil ค่ะ"
+     "where": "ห้อง Fayth: เลือก \"To defeat the most powerful of enemies\" แล้วต่อรองราคาจนจ่ายราว 178,931 gil"
     },
     {
      "key": "a20-2",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Megalixir, Lv.2 Key Sphere, Flexible Arm, MP Sphere ค่ะ"
+     "where": "Megalixir, Lv.2 Key Sphere, Flexible Arm, MP Sphere"
     }
    ],
    "tips": [
-    "Dark Yojimbo (เฉพาะ International) ต้องชนะ 5 ครั้งติดกัน ออกจากถ้ำหรือโหลดเกมจะรีเซ็ตนับใหม่ค่ะ (FF Wiki)"
+    "Dark Yojimbo (เฉพาะ International) ต้องชนะ 5 ครั้งติดกัน ออกจากถ้ำหรือโหลดเกมจะรีเซ็ตนับใหม่ (FF Wiki)"
    ],
    "sources": [
     {
@@ -3281,13 +3281,13 @@
     },
     {
      "olist": [
-      "Jegged แนะนำให้มาที่นี่ช่วงท้ายเกมตอนเลเวลสูงแล้ว และเตรียมเงินไว้เยอะค่ะ",
-      "ทางเข้าอยู่หุบเขาใต้สะพาน Calm Lands (บทที่ 19 หมุด 8) เดินไปท้ายถ้ำเพื่อรับ <b>Yojimbo</b> ค่ะ",
-      "<b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้บอกลำดับเก็บหีบในถ้ำ หนูเลยไม่ได้ใส่ลำดับไว้ ดูรายการของในเช็กลิสต์ได้ค่ะ"
+      "Jegged แนะนำให้มาที่นี่ช่วงท้ายเกมตอนเลเวลสูงแล้ว และเตรียมเงินไว้เยอะ",
+      "ทางเข้าอยู่หุบเขาใต้สะพาน Calm Lands (บทที่ 19 หมุด 8) เดินไปท้ายถ้ำเพื่อรับ <b>Yojimbo</b>",
+      "<b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้บอกลำดับเก็บหีบในถ้ำ จึงไม่ได้ใส่ลำดับไว้ ดูรายการของในเช็กลิสต์ได้"
      ]
     },
     {
-     "p": "แผนที่นี้ยังไม่มีหมุด เพราะแหล่งข้อมูลไม่ได้ระบุตำแหน่งของไว้ค่ะ",
+     "p": "แผนที่นี้ยังไม่มีหมุด เพราะแหล่งข้อมูลไม่ได้ระบุตำแหน่งของไว้",
      "class": "note"
     },
     {
@@ -3310,86 +3310,86 @@
     {
      "key": "a21-p1",
      "label": "#1 Mt Gagazet Mountain Trail 1 – 20,000 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p2",
      "label": "#2 Mt Gagazet Mountain Trail 1 – Mega-Potion",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p3",
      "label": "#3 Mt Gagazet Mountain Trail 1 – Jecht's Sphere",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p4",
      "label": "#4 Mt Gagazet Mountain Trail 1 – Defending Bracer",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-2",
      "type": "Item",
      "short": "#5 Mt Gagazet Mountain Trail 1 – Wantz (พี่น้อง O'aka)",
-     "where": "ต้องคุยกับ Wantz ครั้งแรกที่นี่ ไม่งั้นเขาจะไม่ไปขายของ 4 ช่องที่ Macalania ค่ะ"
+     "where": "ต้องคุยกับ Wantz ครั้งแรกที่นี่ ไม่งั้นเขาจะไม่ไปขายของ 4 ช่องที่ Macalania"
     },
     {
      "key": "a21-p6",
      "label": "#6 Mt Gagazet Mountain Trail 2 – HP Sphere",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p7",
      "label": "#7 Mt Gagazet Mountain Trail 2 – Lv. 4 Key Sphere",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-1",
      "type": "Celes",
      "short": "#8 Mt Gagazet Prominence – Saturn Crest",
-     "where": "Prominence ระหว่างเสาสองต้นซ้ายมือหลังชนะ Seymour Flux (ของ Spirit Lance) ค่ะ"
+     "where": "Prominence ระหว่างเสาสองต้นซ้ายมือหลังชนะ Seymour Flux (ของ Spirit Lance)"
     },
     {
      "key": "a21-p9",
      "label": "#9 Mt Gagazet Submerged 1 – บททดสอบที่ 1 (Lv. 1 Key Sphere)",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p10",
      "label": "#10 Mt Gagazet Submerged 2 – บททดสอบที่ 2 (Fortune Sphere)",
-     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p11",
      "label": "#11 Mt Gagazet Submerged 3 – Return Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p12",
      "label": "#12 Mt Gagazet Submerged 3 – Recovery Ring",
-     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-p13",
      "label": "#13 Mt Gagazet Cave 4 – ซอกที่เพิ่งเปิด (Pep Talk)",
-     "where": "ดูหมุด #13 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #13 บนแผนที่ด้านบน"
     },
     {
      "key": "a21-0",
      "type": "Jecht",
      "short": "Braska's Sphere",
-     "where": "Mountain Trail ทางแยกข้างค่ะ"
+     "where": "Mountain Trail ทางแยกข้าง"
     },
     {
      "key": "a21-3",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "20,000 gil, Lv.4 Key Sphere, Defending Bracer, Pep Talk และ Recovery Ring จากมินิเกมปุ่มค่ะ"
+     "where": "20,000 gil, Lv.4 Key Sphere, Defending Bracer, Pep Talk และ Recovery Ring จากมินิเกมปุ่ม"
     }
    ],
    "tips": [
-    "Seymour Flux: ภูมิต้าน Break ใช้ Holy/Flare/Ultima และ Holy Water แก้ Zombie ค่ะ (FF Wiki)",
-    "Sanctuary Keeper: Dispel + Bio ใส่ Reflect ให้มัน Auron ใช้ Break ต่างๆ ค่ะ (FF Wiki)"
+    "Seymour Flux: ภูมิต้าน Break ใช้ Holy/Flare/Ultima และ Holy Water แก้ Zombie (FF Wiki)",
+    "Sanctuary Keeper: Dispel + Bio ใส่ Reflect ให้มัน Auron ใช้ Break ต่างๆ (FF Wiki)"
    ],
    "sources": [
     {
@@ -3431,16 +3431,16 @@
     },
     {
      "olist": [
-      "<b>Mountain Gate:</b> <b>Save Sphere</b> → <b>บอส: Biran & Yenke Ronso</b> (ขโมย Lv. 3 Key Sphere ได้) ค่ะ",
-      "<b>Mountain Trail:</b> หีบขวาตอนเริ่ม <b>20,000 Gil</b> (หมุด 1) และหีบบนที่ราบซ้าย <b>Mega-Potion ×2</b> (หมุด 2) ค่ะ",
-      "<b>Jecht's Sphere</b> (หมุด 3) ที่ทางแยก Y ไปตะวันตก หีบ <b>Defending Bracer</b> (หมุด 4) และ Wantz (หมุด 5) ค่ะ",
-      "หีบด้านล่าง 2 ใบ <b>HP Sphere</b> (หมุด 6) และ <b>Lv. 4 Key Sphere</b> (หมุด 7) แล้ว <b>Save Sphere</b> ปลายทางค่ะ",
-      "<b>บอส: Seymour Flux</b> ค่ะ",
-      "<b>Prominence:</b> ก่อนถึง Save Sphere หีบซ่อนระหว่างเสามี <b>Saturn Crest</b> (หมุด 8) ค่ะ",
-      "<b>Cave:</b> <b>Save Sphere</b> → <b>Submerged Passage</b> เลี้ยวซ้าย ทำบททดสอบแรกได้ Lv. 1 Key Sphere (หมุด 9) ค่ะ",
-      "กลับ Save Sphere ขึ้นบันไดใหม่ไปทดสอบที่สอง ได้ <b>Fortune Sphere</b> (หมุด 10) ค่ะ",
-      "กลับ Save Sphere ขึ้นบันไดแล้วเลี้ยวขวา ว่ายน้ำสุดทางได้ <b>Return Sphere</b> (หมุด 11) และ <b>Recovery Ring</b> (หมุด 12) ค่ะ",
-      "ทางซ้ายตะวันตกเฉียงเหนือมีซอกที่เพิ่งเปิด (หมุด 13) แล้วขึ้นยอดเขา <b>Save Sphere</b> → <b>บอส: Sanctuary Keeper</b> ค่ะ"
+      "<b>Mountain Gate:</b> <b>Save Sphere</b> → <b>บอส: Biran & Yenke Ronso</b> (ขโมย Lv. 3 Key Sphere ได้)",
+      "<b>Mountain Trail:</b> หีบขวาตอนเริ่ม <b>20,000 Gil</b> (หมุด 1) และหีบบนที่ราบซ้าย <b>Mega-Potion ×2</b> (หมุด 2)",
+      "<b>Jecht's Sphere</b> (หมุด 3) ที่ทางแยก Y ไปตะวันตก หีบ <b>Defending Bracer</b> (หมุด 4) และ Wantz (หมุด 5)",
+      "หีบด้านล่าง 2 ใบ <b>HP Sphere</b> (หมุด 6) และ <b>Lv. 4 Key Sphere</b> (หมุด 7) แล้ว <b>Save Sphere</b> ปลายทาง",
+      "<b>บอส: Seymour Flux</b>",
+      "<b>Prominence:</b> ก่อนถึง Save Sphere หีบซ่อนระหว่างเสามี <b>Saturn Crest</b> (หมุด 8)",
+      "<b>Cave:</b> <b>Save Sphere</b> → <b>Submerged Passage</b> เลี้ยวซ้าย ทำบททดสอบแรกได้ Lv. 1 Key Sphere (หมุด 9)",
+      "กลับ Save Sphere ขึ้นบันไดใหม่ไปทดสอบที่สอง ได้ <b>Fortune Sphere</b> (หมุด 10)",
+      "กลับ Save Sphere ขึ้นบันไดแล้วเลี้ยวขวา ว่ายน้ำสุดทางได้ <b>Return Sphere</b> (หมุด 11) และ <b>Recovery Ring</b> (หมุด 12)",
+      "ทางซ้ายตะวันตกเฉียงเหนือมีซอกที่เพิ่งเปิด (หมุด 13) แล้วขึ้นยอดเขา <b>Save Sphere</b> → <b>บอส: Sanctuary Keeper</b>"
      ]
     },
     {
@@ -3541,45 +3541,45 @@
     {
      "key": "a22-p1",
      "label": "#1 Zanarkand Dome Interior – 10,000 Gil",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a22-p2",
      "label": "#2 Zanarkand Dome Interior – Friend Sphere",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a22-p3",
      "label": "#3 Zanarkand Dome Interior – Lv. 3 Key Sphere",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a22-p4",
      "label": "#4 Zanarkand Dome Corridor – Luck Sphere",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a22-0",
      "type": "Cloister",
      "short": "Magistral Rod",
-     "where": "กลับมาหลังได้เรือเหาะ เหยียบช่องสีขาวทั้งหมด เอา Destruction Sphere ไปใส่ช่องขวาของจอห้องใหญ่ค่ะ",
+     "where": "กลับมาหลังได้เรือเหาะ เหยียบช่องสีขาวทั้งหมด เอา Destruction Sphere ไปใส่ช่องขวาของจอห้องใหญ่",
      "backtrack": true
     },
     {
      "key": "a22-1",
      "type": "Celes",
      "short": "Sun Crest",
-     "where": "The Beyond หลังชนะ Yunalesca ที่บันไดด้านหลัง ถ้าไม่เก็บทันทีต้องชนะ Dark Bahamut ก่อนค่ะ"
+     "where": "The Beyond หลังชนะ Yunalesca ที่บันไดด้านหลัง ถ้าไม่เก็บทันทีต้องชนะ Dark Bahamut ก่อน"
     },
     {
      "key": "a22-2",
      "type": "Item",
      "short": "ของเด่น",
-     "where": "Fortune Sphere, Spiritual Targe ค่ะ"
+     "where": "Fortune Sphere, Spiritual Targe"
     }
    ],
    "tips": [
-    "Spectral Keeper: ยืนให้มีช่องว่างข้างแต่ละคน ใช้ Provoke และ Mental Break ค่ะ (FF Wiki)",
+    "Spectral Keeper: ยืนให้มีช่องว่างข้างแต่ละคน ใช้ Provoke และ Mental Break (FF Wiki)",
     "Yunalesca: <span class=\"mut\">ในหน้าที่อ่านมาไม่มีหัวข้อกลยุทธ์</span>"
    ],
    "sources": [
@@ -3614,14 +3614,14 @@
     },
     {
      "olist": [
-      "กองไฟ: ใช้ <b>Save Sphere</b> ค่ะ",
-      "<b>Overpass:</b> หีบกลางทาง <b>Fortune Sphere</b> และแท่นข้างทาง <b>Spiritual Targe</b> ค่ะ",
-      "<b>Dome:</b> <b>Save Sphere</b> ทางซ้ายทางเข้า ค่ะ",
-      "<b>Interior:</b> ออกอุโมงค์แล้วยูเทิร์นขึ้นทางบน หีบ (หมุด 1) ผ่าน <b>Save Sphere</b> แล้วไปทางขวา <b>Friend Sphere</b> (หมุด 2) ค่ะ",
-      "ตอนเห็นภาพ Braska/Auron/Jecht ให้หันกลับลงชั้นล่าง หีบสุดทาง (หมุด 3) ค่ะ",
-      "<b>Corridor:</b> หีบขวา <b>Luck Sphere</b> (หมุด 4) ขึ้นบันได <b>Save Sphere</b> → <b>Cloister of Trials</b> ได้ <b>Magistral Rod</b> ค่ะ",
-      "<b>บอส: Spectral Keeper</b> แล้ว <b>บอส: Yunalesca</b> ค่ะ",
-      "<b>พลาดได้:</b> หลังชนะ Yunalesca เก็บ <b>Sun Crest</b> ท้ายห้องทันที ไม่งั้น Dark Bahamut จะมาขวางค่ะ"
+      "กองไฟ: ใช้ <b>Save Sphere</b>",
+      "<b>Overpass:</b> หีบกลางทาง <b>Fortune Sphere</b> และแท่นข้างทาง <b>Spiritual Targe</b>",
+      "<b>Dome:</b> <b>Save Sphere</b> ทางซ้ายทางเข้า",
+      "<b>Interior:</b> ออกอุโมงค์แล้วยูเทิร์นขึ้นทางบน หีบ (หมุด 1) ผ่าน <b>Save Sphere</b> แล้วไปทางขวา <b>Friend Sphere</b> (หมุด 2)",
+      "ตอนเห็นภาพ Braska/Auron/Jecht ให้หันกลับลงชั้นล่าง หีบสุดทาง (หมุด 3)",
+      "<b>Corridor:</b> หีบขวา <b>Luck Sphere</b> (หมุด 4) ขึ้นบันได <b>Save Sphere</b> → <b>Cloister of Trials</b> ได้ <b>Magistral Rod</b>",
+      "<b>บอส: Spectral Keeper</b> แล้ว <b>บอส: Yunalesca</b>",
+      "<b>พลาดได้:</b> หลังชนะ Yunalesca เก็บ <b>Sun Crest</b> ท้ายห้องทันที ไม่งั้น Dark Bahamut จะมาขวาง"
      ]
     },
     {
@@ -3681,84 +3681,84 @@
     {
      "key": "a23-p1",
      "label": "#1 Sin Sea of Sorrow – Phantom Ring",
-     "where": "ดูหมุด #1 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #1 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p2",
      "label": "#2 Sin Sea of Sorrow – Special Sphere",
-     "where": "ดูหมุด #2 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #2 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p3",
      "label": "#3 Sin Sea of Sorrow – Elixir",
-     "where": "ดูหมุด #3 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #3 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p4",
      "label": "#4 Sin Sea of Sorrow – Wizard Lance",
-     "where": "ดูหมุด #4 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #4 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p5",
      "label": "#5 Sin Sea of Sorrow – Lv. 3 Key Sphere",
-     "where": "ดูหมุด #5 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #5 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p6",
      "label": "#6 Sin City of Dying Dreams – Lv. 4 Key Sphere",
-     "where": "ดูหมุด #6 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #6 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p7",
      "label": "#7 Sin City of Dying Dreams – Four-on-One",
-     "where": "ดูหมุด #7 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #7 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p8",
      "label": "#8 Sin City of Dying Dreams – Defending Bracer",
-     "where": "ดูหมุด #8 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #8 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p9",
      "label": "#9 Sin City of Dying Dreams – 20,000 Gil",
-     "where": "ดูหมุด #9 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #9 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p10",
      "label": "#10 Sin City of Dying Dreams – HP Sphere",
-     "where": "ดูหมุด #10 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #10 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p11",
      "label": "#11 Sin City of Dying Dreams – Defense Sphere",
-     "where": "ดูหมุด #11 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #11 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p12",
      "label": "#12 Sin City of Dying Dreams – Megalixir",
-     "where": "ดูหมุด #12 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #12 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-p13",
      "label": "#13 Sin City of Dying Dreams – Laevatein",
-     "where": "ดูหมุด #13 บนแผนที่ด้านบนค่ะ"
+     "where": "ดูหมุด #13 บนแผนที่ด้านบน"
     },
     {
      "key": "a23-0",
      "type": "Item",
      "short": "Underdog's Secret ×99",
-     "where": "คุยกับ Rin บนเรือเหาะหลังเก็บ Primer ครบค่ะ"
+     "where": "คุยกับ Rin บนเรือเหาะหลังเก็บ Primer ครบ"
     },
     {
      "key": "a23-1",
      "type": "Item",
      "short": "Inside Sin",
-     "where": "Lv.4 Key Sphere ในห้องล็อก (ล้มมอนสเตอร์ 35 ตัวใน City of Dying Dreams), Laevatein, Infinity, Four-on-One ฯลฯ ค่ะ"
+     "where": "Lv.4 Key Sphere ในห้องล็อก (ล้มมอนสเตอร์ 35 ตัวใน City of Dying Dreams), Laevatein, Infinity, Four-on-One ฯลฯ"
     }
    ],
    "tips": [
-    "Seymour Omnis: หมุนวงแหวน Mortiphasm (ตีกายภาพ = ทวนเข็ม, เวท = ตามเข็ม) แล้วใช้ Nul-spell ค่ะ (FF Wiki)",
-    "ก่อนเข้า Sin สามารถใช้เรือเหาะทำเนื้อหาเสริมทั้งหมดได้ค่ะ"
+    "Seymour Omnis: หมุนวงแหวน Mortiphasm (ตีกายภาพ = ทวนเข็ม, เวท = ตามเข็ม) แล้วใช้ Nul-spell (FF Wiki)",
+    "ก่อนเข้า Sin สามารถใช้เรือเหาะทำเนื้อหาเสริมทั้งหมดได้"
    ],
    "sources": [
     {
@@ -3792,15 +3792,15 @@
     },
     {
      "olist": [
-      "<b>บอส: Sin (Left/Right Fin) → Sinspawn Genais → Overdrive Sin</b> จากบนเรือเหาะ ค่ะ",
-      "<b>Sin - Near Airship:</b> ใช้ <b>Save Sphere</b> ค่ะ",
-      "<b>Sea of Sorrow:</b> หีบ 5 ใบ (หมุด 1–5) บางใบต้องอ้อมเพราะน้ำตก ระวัง Behemoth King ใช้ Meteor สวนตอนตาย ค่ะ",
-      "<b>Save Sphere</b> ท้าย Sea of Sorrow → <b>Garden of Pain: บอส Seymour Omnis</b> ค่ะ",
-      "<b>City of Dying Dreams:</b> หีบ (หมุด 6) ขึ้นลิฟต์ <b>Four-on-One</b> (หมุด 7) ทางเดินถัดไป <b>Defending Bracer</b> (หมุด 8) ค่ะ",
-      "ลานบ่อใหญ่: ลงทางลาด <b>20,000 Gil</b> (หมุด 9) ตามทางเดิน <b>HP Sphere</b> (หมุด 10) และ <b>Defense Sphere</b> (หมุด 11) ค่ะ",
-      "ทางสไลด์ลับทางใต้ของห้องพาไปชั้นล่าง หีบ (หมุด 12) และ <b>Laevatein</b> (หมุด 13) ค่ะ",
-      "<b>Tower of the Dead:</b> <b>Save Sphere</b> สุดท้ายก่อนฉากจบ (ยังกลับเรือเหาะได้) ค่ะ",
-      "<b>The Nucleus</b> → <b>บอส: Braska's Final Aeon</b> (2 ร่าง) → <b>Yu Yevon</b> ค่ะ"
+      "<b>บอส: Sin (Left/Right Fin) → Sinspawn Genais → Overdrive Sin</b> จากบนเรือเหาะ",
+      "<b>Sin - Near Airship:</b> ใช้ <b>Save Sphere</b>",
+      "<b>Sea of Sorrow:</b> หีบ 5 ใบ (หมุด 1–5) บางใบต้องอ้อมเพราะน้ำตก ระวัง Behemoth King ใช้ Meteor สวนตอนตาย",
+      "<b>Save Sphere</b> ท้าย Sea of Sorrow → <b>Garden of Pain: บอส Seymour Omnis</b>",
+      "<b>City of Dying Dreams:</b> หีบ (หมุด 6) ขึ้นลิฟต์ <b>Four-on-One</b> (หมุด 7) ทางเดินถัดไป <b>Defending Bracer</b> (หมุด 8)",
+      "ลานบ่อใหญ่: ลงทางลาด <b>20,000 Gil</b> (หมุด 9) ตามทางเดิน <b>HP Sphere</b> (หมุด 10) และ <b>Defense Sphere</b> (หมุด 11)",
+      "ทางสไลด์ลับทางใต้ของห้องพาไปชั้นล่าง หีบ (หมุด 12) และ <b>Laevatein</b> (หมุด 13)",
+      "<b>Tower of the Dead:</b> <b>Save Sphere</b> สุดท้ายก่อนฉากจบ (ยังกลับเรือเหาะได้)",
+      "<b>The Nucleus</b> → <b>บอส: Braska's Final Aeon</b> (2 ร่าง) → <b>Yu Yevon</b>"
      ]
     },
     {
@@ -3899,13 +3899,13 @@
      "key": "a24-0",
      "type": "Primer",
      "short": "Primer XXVI",
-     "where": "ใน Omega Ruins (ฉบับอเมริกาชื่อผิดเป็น XVI) ค่ะ"
+     "where": "ใน Omega Ruins (ฉบับอเมริกาชื่อผิดเป็น XVI)"
     },
     {
      "key": "a24-1",
      "type": "Item",
      "short": "มินิเกมหีบ",
-     "where": "เปิดหีบ 12 ใบครบทีละกลุ่มโดยไม่เจอ Mimic ได้ Warp Sphere ×99 ถ้าพลาดหีบจะหายถาวรค่ะ"
+     "where": "เปิดหีบ 12 ใบครบทีละกลุ่มโดยไม่เจอ Mimic ได้ Warp Sphere ×99 ถ้าพลาดหีบจะหายถาวร"
     }
    ],
    "tips": [],
@@ -3937,12 +3937,12 @@
     },
     {
      "olist": [
-      "เข้าได้ด้วยพิกัดลับบน NavMap ของเรือเหาะ (ดูหน้า Jegged) ค่ะ",
-      "<b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้เรียงลำดับเก็บหีบในพื้นที่นี้ หนูเลยไม่ใส่ลำดับไว้ค่ะ บอสเด่นคือ Ultima Weapon และ Omega Weapon"
+      "เข้าได้ด้วยพิกัดลับบน NavMap ของเรือเหาะ (ดูหน้า Jegged)",
+      "<b>หมายเหตุ:</b> แหล่งข้อมูลไม่ได้เรียงลำดับเก็บหีบในพื้นที่นี้ จึงไม่ได้ใส่ลำดับไว้ บอสเด่นคือ Ultima Weapon และ Omega Weapon"
      ]
     },
     {
-     "p": "แผนที่นี้ยังไม่มีหมุด เพราะแหล่งข้อมูลไม่ได้ระบุตำแหน่งของไว้ค่ะ",
+     "p": "แผนที่นี้ยังไม่มีหมุด เพราะแหล่งข้อมูลไม่ได้ระบุตำแหน่งของไว้",
      "class": "note"
     },
     {
@@ -3958,15 +3958,15 @@
    "blocks": [
     {
      "list": [
-      "Final Fantasy X International วางจำหน่ายที่ญี่ปุ่นบน PS2 ปี 2002 ค่ะ",
-      "Dark Aeons และซูเปอร์บอส Penance เป็นเนื้อหาเพิ่มของ International/PAL (และรุ่นหลัง) ค่ะ",
-      "มี Expert Sphere Grid ให้เลือกแทน Standard ค่ะ",
-      "มีคลิป Eternal Calm (ราว 14 นาที) ปูเรื่องสู่ X-2 ค่ะ",
-      "อุปกรณ์ที่ Penance ดรอปมีโบนัสคริติคอลซ่อน +10% (เฉพาะรุ่นที่มี Penance) ค่ะ"
+      "Final Fantasy X International วางจำหน่ายที่ญี่ปุ่นบน PS2 ปี 2002",
+      "Dark Aeons และซูเปอร์บอส Penance เป็นเนื้อหาเพิ่มของ International/PAL (และรุ่นหลัง)",
+      "มี Expert Sphere Grid ให้เลือกแทน Standard",
+      "มีคลิป Eternal Calm (ราว 14 นาที) ปูเรื่องสู่ X-2",
+      "อุปกรณ์ที่ Penance ดรอปมีโบนัสคริติคอลซ่อน +10% (เฉพาะรุ่นที่มี Penance)"
      ]
     },
     {
-     "p": "หมายเหตุ: ชื่อไอเท็มในไกด์อิงฉบับภาษาอังกฤษจาก FF Wiki ฉบับญี่ปุ่นอาจใช้ชื่อต่างกัน (อนุมาน) ค่ะ",
+     "p": "หมายเหตุ: ชื่อไอเท็มในไกด์อิงฉบับภาษาอังกฤษจาก FF Wiki ฉบับญี่ปุ่นอาจใช้ชื่อต่างกัน (อนุมาน)",
      "class": "note"
     },
     {
@@ -4008,8 +4008,8 @@
     },
     {
      "list": [
-      "Expert มีช่องน้อยกว่า Standard 68 ช่อง แต่ยังพอดันค่าสถานะส่วนใหญ่ให้สุดค่ะ (FF Wiki)",
-      "คำแนะนำ (อนุมาน): เล่นรอบแรกเลือก Standard จะเดินตามบทบาทตัวละครได้ง่าย ส่วน Expert เหมาะกับคนที่อยากวางแผนเองค่ะ"
+      "Expert มีช่องน้อยกว่า Standard 68 ช่อง แต่ยังพอดันค่าสถานะส่วนใหญ่ให้สุด (FF Wiki)",
+      "คำแนะนำ (อนุมาน): เล่นรอบแรกเลือก Standard จะเดินตามบทบาทตัวละครได้ง่าย ส่วน Expert เหมาะกับคนที่อยากวางแผนเอง"
      ]
     },
     {
@@ -4231,8 +4231,8 @@
     },
     {
      "list": [
-      "ต้องมี Celestial Mirror ก่อนจึงจะได้อาวุธ และใช้ Crest ก่อน Sigil เสมอค่ะ",
-      "อาวุธเหล่านี้ไม่สนค่า Defense ศัตรู เหมาะกับ Penance ค่ะ"
+      "ต้องมี Celestial Mirror ก่อนจึงจะได้อาวุธ และใช้ Crest ก่อน Sigil เสมอ",
+      "อาวุธเหล่านี้ไม่สนค่า Defense ศัตรู เหมาะกับ Penance"
      ]
     },
     {
@@ -4248,7 +4248,7 @@
    "blocks": [
     {
      "list": [
-      "Jecht's Sphere 8 อัน + Auron's Sphere + Braska's Sphere ปลด Bushido ของ Auron ค่ะ",
+      "Jecht's Sphere 8 อัน + Auron's Sphere + Braska's Sphere ปลด Bushido ของ Auron",
       "Tidus: Swordplay ปลดท่าใหม่ตามจำนวนครั้งที่ใช้ (Spiral Cut, Slice & Dice, Energy Rain, Blitz Ace)",
       "Yuna: Grand Summon; Wakka: Slots ได้จากรางวัลบลิตซ์บอล; Lulu: Fury หมุนอนาล็อกขวา",
       "Kimahri: Ronso Rage เรียนด้วย Lancet (12 ท่า); Rikku: Mix ผสมไอเทม 2 ชิ้น"
@@ -4300,7 +4300,7 @@
      }
     },
     {
-     "p": "เก็บครบ 6 วิหารเพื่อปลดผนึก Anima ใน Baaj ค่ะ"
+     "p": "เก็บครบ 6 วิหารเพื่อปลดผนึก Anima ใน Baaj"
     },
     {
      "p": "แหล่ง: <a href=\"https://finalfantasy.fandom.com/wiki/Cloister_of_Trials_%28Final_Fantasy_X%29\">FF Wiki: Cloister of Trials (Final Fantasy X)</a>",
@@ -4394,9 +4394,9 @@
     },
     {
      "list": [
-      "Penance: HP 12,000,000 พร้อมแขนซ้าย/ขวาข้างละ 500,000 ปรากฏหลังชนะ Dark Aeons ทั้งหมด เลือกจากรายการสถานที่ของเรือเหาะค่ะ",
+      "Penance: HP 12,000,000 พร้อมแขนซ้าย/ขวาข้างละ 500,000 ปรากฏหลังชนะ Dark Aeons ทั้งหมด เลือกจากรายการสถานที่ของเรือเหาะ",
       "Judgment Day ทำดาเมจ 99,999 ทั้งทีม ต้องมีแขนทั้งสองข้าง",
-      "แนะนำ Rikku และเกราะ Auto-Haste, Auto-Protect, Auto-Potion, Defense +20% ใช้ Celestial Weapons เพราะไม่สน Defense ค่ะ"
+      "แนะนำ Rikku และเกราะ Auto-Haste, Auto-Protect, Auto-Potion, Defense +20% ใช้ Celestial Weapons เพราะไม่สน Defense"
      ]
     },
     {
@@ -4412,8 +4412,8 @@
    "blocks": [
     {
      "list": [
-      "เส้นทางทีละขั้นของแต่ละบทอิงลำดับจาก walkthrough ของ Jegged.com ค่ะ",
-      "บางบอส (เช่น Chocobo Eater, Crawler, Yunalesca) แหล่งไม่มีหัวข้อกลยุทธ์ ข้อความที่ระบุว่าอนุมานคือการคาดเดาค่ะ"
+      "เส้นทางทีละขั้นของแต่ละบทอิงลำดับจาก walkthrough ของ Jegged.com",
+      "บางบอส (เช่น Chocobo Eater, Crawler, Yunalesca) แหล่งไม่มีหัวข้อกลยุทธ์ ข้อความที่ระบุว่าอนุมานคือการคาดเดา"
      ]
     }
    ]

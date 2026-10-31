@@ -1,0 +1,38 @@
+/* Optional (only in guides with worldMap / unlocks / area / spoiler) */
+.wm{margin:24px 0}
+.wmw{overflow-x:auto;border-radius:18px;background:#000}
+.wmi{position:relative}
+.wmi img{display:block;width:100%;height:auto}
+.wms{position:absolute;inset:0;width:100%;height:100%}
+.wa{cursor:pointer}
+.wa:focus{outline:none}
+.wa .ws{fill:var(--c);fill-opacity:0;stroke:var(--c);stroke-opacity:0;stroke-width:3px;vector-effect:non-scaling-stroke;transition:fill-opacity .15s,stroke-opacity .15s}
+.wa:hover .ws,.wa:focus-visible .ws{fill-opacity:.3;stroke-opacity:1}
+.wa:focus-visible .ws{stroke:#fff}
+.wa .wb{fill:#000;fill-opacity:0;stroke:none}
+.wa:hover .wb,.wa:focus-visible .wb{fill-opacity:.7;stroke:var(--c);stroke-width:1.5px;vector-effect:non-scaling-stroke}
+.wa:focus-visible .wb{stroke:#fff;stroke-width:2px}
+.wl{fill:var(--c);paint-order:stroke;stroke:#000;stroke-width:3px;stroke-linejoin:round}
+.wa:hover .wl,.wa:focus-visible .wl{text-decoration:underline}
+.wld{stroke:var(--c);stroke-width:2px;fill:var(--c);vector-effect:non-scaling-stroke}
+.wm figcaption{font:400 14px/1.43 var(--sans);color:var(--ink48);margin-top:8px}.wm .cr{font-size:12px}
+.wmh{margin:0 0 8px}
+.ah{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:10px 20px;margin:20px 0 8px;font:400 15px/1.55 var(--sans);color:var(--ink80)}
+.ah dt{font:600 14px/1.8 var(--sans);color:var(--ink48)}
+.ah dd{margin:0}
+.ah ul{margin:0;padding-left:18px}
+.ah li{margin:2px 0}
+.rq{display:inline-block;margin:2px 4px 2px 0;padding:0 10px;border:1px solid var(--chip);border-radius:9999px;background:var(--canvas);color:var(--ink);font:600 13px/1.8 var(--sans);text-decoration:none;vertical-align:baseline}
+a.rq:hover{border-color:var(--focus);text-decoration:none}
+.rq0{color:var(--ink48);font-weight:400}
+.ut td:first-child{min-width:12ch}
+.ut tr:target td{background:#e8f1fc}
+.spb{display:block;width:100%;min-height:44px;margin:16px 0;padding:10px 20px;border:1px dashed var(--chip);border-radius:18px;background:var(--canvas);color:var(--ink);font:600 15px/1.4 var(--sans);cursor:pointer}
+.spb:hover{border-color:var(--focus)}
+.spl:not(.rev) .spc{filter:blur(8px);user-select:none;pointer-events:none;max-height:260px;overflow:hidden}
+@media (max-width:640px){.wmi{width:1100px}
+.ah{grid-template-columns:minmax(0,1fr);gap:2px}
+.ah dd{margin-bottom:10px}
+}
+@media (prefers-reduced-motion:reduce){.wa .ws{transition:none}
+}

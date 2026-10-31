@@ -25,6 +25,10 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 | `picker` | group[] | ✔ | ปุ่มในเมนู "เลือกบท" |
 | `sections` | section[] | ✔ | บท + หน้าอ้างอิง เรียงตามลำดับที่แสดง |
 
+| `images` | `"embed"`\|`"files"` | | default `embed` (รูปฝังเป็น base64 ในไฟล์ HTML) · `files` = ใช้ `<img src="img/…">` ไฟล์รูปอยู่ข้างไฟล์ HTML (โฟลเดอร์เกม) ไฟล์ HTML เล็กลงมาก |
+| `worldMap` | object | | แผนที่โลกคลิกได้ (ดูหัวข้อ worldMap) |
+| `unlocks` | unlock[] | | ability/กุญแจ/อีเวนต์ที่เปิดทาง (ดูหัวข้อ worldMap) |
+
 ## types
 ```json
 "types": { "Fig": {"label": "Figure Box (โมเดล 3D)", "short": "Fig", "color": "#34d399"} }
@@ -73,6 +77,14 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 | `{"table": {"head": ["A","B"], "rows": [["a","b"]]}}` | ตาราง (plain text, จำนวนช่องต้องเท่า head) |
 | `{"checklist": [item, ...]}` | เช็กลิสต์ติ๊กได้ (นับรวมในสรุป) |
 | `{"totals": true}` | สรุปจำนวนของสะสมทุกประเภท (คำนวณให้อัตโนมัติ) |
+| `{"unlocks": true}` | ตาราง unlocks จาก root `unlocks` (ได้ที่ไหน ลิงก์ไปพื้นที่ เปิดพื้นที่ไหน) · ชิปเงื่อนไขในหัวพื้นที่จะลิงก์มาที่แถวนี้ |
+
+## worldMap / unlocks / area (ไม่บังคับ สำหรับเกมแนว metroidvania)
+- `worldMap`: `{image, width, height, source{label,url}, labelStyle{fontSizePctOfWidth, fontFamily, fontWeight}, areas:[{id, name, no, polygons:[[[x,y],…]], hotspot{x,y,w,h}, label{text,x,y,anchor,box{x,y,w,h},leader:[[x1,y1],[x2,y2]]}, labelColor}]}` — ทุกพิกัดเป็น % ของรูป · `id` ต้องตรงกับ section · ไม่มี polygons ใช้ hotspot แทน · ถ้า section ไหนมี `maps` เป็นรูปเดียวกับ `image` แผนที่คลิกได้จะแทนรูปนั้น (ไม่งั้นขึ้นบนสุดของ intro)
+- `unlocks`: `[{id, name, type, get, get_area, opens[], note}]` · `get_area`/`opens` = section id
+- chapter `area`: `{requires[], connections[{to, via, requires[]}], gated[{what, requires[]}], bosses[]}` → หัวพื้นที่ (ชิปเงื่อนไข ทางเชื่อม ของที่ต้องกลับมาเอา) · `requires` = unlock id
+- section `spoiler: true` → เนื้อหาเบลอ กดปุ่มก่อนถึงจะอ่านได้
+- build ตรวจว่า id ทั้งหมดชี้ไปที่ section/unlock ที่มีจริง
 
 ## picker
 ```json

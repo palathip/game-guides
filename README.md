@@ -1,5 +1,5 @@
 # game-guides
-Content (ZOE) = `guides/<game>/data.json` · Template (LIN) = `template/` · `build.py` merges them into ONE self-contained HTML (no iframe, no external libs/requests; warns if > 500 KB).
+Content (ZOE) = `guides/<game>/data.json` · Template (LIN) = `template/` · `build.py` merges them into ONE self-contained HTML (no iframe, no external libs/requests; warns if > 500 KB). Exception: `"images": "files"` keeps map images as same-folder files (`guides/<game>/img/`, CSP `img-src 'self'`).
 
     python3 build.py bayonetta3                     # -> guides/bayonetta3/Bayonetta3_Guide_TH.html
     python3 build.py guides/bayonetta3/data.json -o /tmp/out.html

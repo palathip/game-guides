@@ -1,24 +1,36 @@
-<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-yP5j3HuIUBTF/S/r27xrgMjQYzh8wD9Wh3VtySht8jY='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'"><title>Bayonetta 3 – คู่มือเดินด่านและของสะสม</title><style>/* game-guides template – based on Bayonetta 3 v470 (Apple-style brief). Thai: no negative letter-spacing, line-height 1.6 */
-:root{--blue:#0066cc;--focus:#0071e3;--blue-dk:#2997ff;--ink:#1d1d1f;--ink80:#333;--ink48:#6e6e73;--hair:#e0e0e0;--soft:#f0f0f0;--canvas:#fff;--parch:#f5f5f7;--pearl:#fafafc;--tile:#272729;--tile2:#2a2a2c;--chip:#d2d2d7;--sans:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;--disp:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;color-scheme:light;accent-color:var(--blue)}
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-GIzaip6JPZ+V/X4UEPaw+mPt4wOOs36HRbMg6ObkWnk='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'"><title>Bayonetta 3 – คู่มือเดินด่านและของสะสม</title><style>/* game-guides template – Apple-like brief. Thai: no negative letter-spacing, body line-height 1.6 */
+:root{--blue:#0066cc;--on-blue:#fff;--fill:#0066cc;--focus:#0071e3;--blue-dk:#2997ff;--ink:#1d1d1f;--ink80:#333;--ink48:#6e6e73;--hair:#e0e0e0;--soft:#f0f0f0;--canvas:#fff;--parch:#f5f5f7;--pearl:#fafafc;--tile:#272729;--tile2:#2a2a2c;--chip:#d2d2d7;--field:#fff;--bar:rgba(245,245,247,.84);--bar-line:rgba(0,0,0,.08);--danger:#b3261e;--ok:#1e8e3e;--sel:#b3d4f5;--sel-ink:#1d1d1f;--mark:#e8f1fc;--scrim:rgba(0,0,0,.4);--fill-muted:rgba(210,210,215,.64);--line:#8e8e93;--back:#b25000;--sans:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;--disp:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;color-scheme:light;accent-color:var(--fill)}
+@media (prefers-color-scheme:dark){:root{--blue:#9ecbff;--on-blue:#041018;--fill:#0a84ff;--focus:#9ecbff;--ink:#f5f5f7;--ink80:#e8e8ed;--ink48:#aeaeb2;--hair:#3a3a3c;--soft:#2c2c2e;--canvas:#000;--parch:#1c1c1e;--pearl:#2c2c2e;--tile:#1c1c1e;--tile2:#2c2c2e;--chip:#48484a;--field:#2c2c2e;--bar:rgba(28,28,30,.88);--bar-line:rgba(255,255,255,.12);--danger:#ff6961;--ok:#32d74b;--sel:#1a3d66;--sel-ink:#f5f5f7;--mark:#163456;--scrim:rgba(0,0,0,.62);--fill-muted:rgba(255,255,255,.16);--line:#aeaeb2;--back:#f59e0b;color-scheme:dark}}
 *{box-sizing:border-box}
-html{scroll-padding-top:var(--hh,72px);-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--canvas);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
-::selection{background:#b3d4f5;color:var(--ink)}
+html{scroll-padding-top:var(--hh,72px);-webkit-text-size-adjust:100%;scrollbar-color:var(--chip) var(--canvas)}
+body{margin:0;background:var(--canvas);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;caret-color:var(--blue)}
+::selection{background:var(--sel);color:var(--sel-ink)}
 a{color:var(--blue);text-underline-offset:3px}
 a:hover{text-decoration:underline}
-:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:5px}
+button,summary,label{cursor:pointer}
+a,button,summary,label{touch-action:manipulation}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+:is(p,li,dd){text-wrap:pretty}
 b,strong{font-weight:600}
-.top{background:var(--tile);color:#fff;padding:64px max(24px,calc((100% - 980px)/2)) 48px}
-.top h1{font:600 56px/1.2 var(--disp);margin:0;text-wrap:balance}
-header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;min-height:52px;padding:6px max(16px,calc((100% - 980px)/2));background:rgba(245,245,247,.8);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
+.top{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;gap:28px;min-height:300px;padding:20px max(24px,calc((100% - 980px)/2)) 36px;color:#fff;background-color:#141418;background-image:var(--cover,linear-gradient(#272729,#272729));background-size:cover;background-position:center}
+.top::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.58) 0%,rgba(0,0,0,.62) 20%,rgba(0,0,0,.84) 46%,rgba(0,0,0,.92) 100%)}
+.top img{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.top[data-cover="pla"] img{object-position:center 62%}
+.top[data-cover="totk"] img{object-position:center 38%}
+.top[data-cover="ffx"] img,.top[data-cover="lastfaith"] img{object-position:center center}
+.top[data-cover="megamanzero"] img{object-position:center 72%}
+.top .back,.top h1{position:relative;z-index:2}
+.top h1{font:600 56px/1.3 var(--disp);margin:0;max-width:22em;color:#fff;text-wrap:balance}
+header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;min-height:52px;padding:6px max(16px,calc((100% - 980px)/2));background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--bar-line)}
 header nav{flex:none}
 .hd{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;flex:1 1 260px}
-#q{flex:1 1 220px;max-width:360px;height:44px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--canvas);border:1px solid rgba(0,0,0,.08);border-radius:9999px}
+#q{flex:1 1 220px;max-width:360px;height:44px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--field);border:1px solid var(--hair);border-radius:9999px}
 #q::placeholder{color:var(--ink48)}
 #prog{font:400 14px/1.29 var(--sans);color:var(--ink80);font-variant-numeric:tabular-nums}
 #pbar{flex:1 1 100px;max-width:200px;height:4px;background:var(--chip);border-radius:9999px;overflow:hidden}
-#pbar i{display:block;height:100%;width:0;background:var(--blue);transition:width .4s cubic-bezier(.16,1,.3,1)}
-#pkb{font:400 17px var(--sans);color:#fff;background:var(--blue);border:0;border-radius:9999px;padding:0 22px;min-height:44px;cursor:pointer;display:inline-flex;gap:8px;align-items:center;transition:transform .15s}
+#pbar i{display:block;height:100%;width:0;background:var(--fill);transition:width .4s cubic-bezier(.16,1,.3,1)}
+#pkb{font:400 17px var(--sans);color:var(--on-blue);background:var(--fill);border:0;border-radius:9999px;padding:0 22px;min-height:44px;cursor:pointer;display:inline-flex;gap:8px;align-items:center;transition:transform .15s}
+#pkb svg{display:block;flex:none}
 #pkb:active,.grid a:active{transform:scale(.95)}
 .pkc{font-weight:600;max-width:9ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pkc:empty{display:none}
@@ -27,14 +39,14 @@ header nav{flex:none}
 .pk[hidden],#pkbg[hidden]{display:none}
 .pkhd{display:flex;align-items:center;gap:12px;font:600 21px/1.19 var(--disp)}
 .pkintro{margin-left:auto;font-size:14px;padding:8px;min-height:44px;display:inline-flex;align-items:center}
-.pkx{width:44px;height:44px;border:0;border-radius:50%;background:rgba(210,210,215,.64);color:var(--ink);font-size:16px;cursor:pointer}
+.pkx{width:44px;height:44px;border:0;border-radius:50%;background:var(--fill-muted);color:var(--ink);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
 .pgh{font:600 14px/1.29 var(--sans);color:var(--ink48);margin:16px 0 8px}
 .grid{display:grid;gap:8px}
 .gm{grid-template-columns:repeat(5,minmax(0,1fr))}
 .gj,.gr{grid-template-columns:repeat(4,minmax(0,1fr))}
 .grid a{display:flex;flex-direction:column;justify-content:center;min-height:56px;padding:8px 10px;border:1px solid var(--hair);border-radius:18px;background:var(--canvas);color:var(--ink);text-decoration:none;line-height:1.25;transition:transform .15s}
 .grid a b{font:600 17px var(--sans);color:var(--blue)}
-.grid a span{font-size:12px;color:var(--ink48);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.grid a span{font-size:13px;color:var(--ink48);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .gr a b{font-size:14px}
 .gr a span{display:none}
 .grid a[aria-current=true]{border:2px solid var(--focus);padding:7px 9px}
@@ -58,7 +70,7 @@ summary h2{font:600 40px/1.25 var(--disp);margin:0;text-wrap:balance}
 .cnt.done{color:var(--blue);font-weight:600}
 h3{font:600 21px/1.19 var(--disp);margin:40px 0 12px}
 .sm{margin:12px 0}
-.b{display:inline-block;background:var(--c);color:var(--ink);font:600 12px/1.6 var(--sans);border-radius:5px;padding:0 6px;margin-right:2px}
+.b{display:inline-block;background:var(--c);color:#1d1d1f;font:600 13px/1.6 var(--sans);border-radius:5px;padding:0 6px;margin-right:2px}
 .mut,.lg,.src{color:var(--ink48)}
 .src,.lg{font:400 14px/1.43 var(--sans)}
 .lgk{display:flex;flex-wrap:wrap;gap:4px 16px;font:400 14px var(--sans);color:var(--ink80);margin:8px 0}
@@ -70,22 +82,22 @@ main>details:nth-of-type(even) .flow{background:var(--pearl)}
 .fl{display:block;font-family:Sarabun,'Noto Sans Thai',Tahoma,sans-serif}
 .fl text{text-anchor:middle}
 .nb{fill:var(--canvas)}
-.nl{fill:var(--ink);font-size:12px;font-weight:700}
-.nd{fill:var(--ink80);font-size:12px}
-.ed{fill:none;stroke:#8e8e93;stroke-width:1.5}
-.bk{stroke-dasharray:5 4;stroke:#b25000}
-#ah path{fill:#8e8e93}
+.nl{fill:var(--ink);font-size:13px;font-weight:700}
+.nd{fill:var(--ink80);font-size:13px}
+.ed{fill:none;stroke:var(--line);stroke-width:1.5}
+.bk{stroke-dasharray:5 4;stroke:var(--back)}
+#ah path{fill:var(--line)}
 .ck{list-style:none;padding:0;margin:0}
 .ck li{border-bottom:1px solid var(--hair);padding:6px 0 12px}
 .ck label{cursor:pointer;display:inline-flex;gap:10px;align-items:baseline;min-height:44px;padding:6px 0;margin-bottom:-6px}
 .ck input{width:20px;height:20px;flex:none;transform:translateY(4px)}
-.ck .w{color:var(--ink80);font-size:15px;line-height:1.55;margin-left:30px;overflow-wrap:anywhere}
+.ck .w{color:var(--ink80);font-size:15px;line-height:1.6;margin-left:30px;overflow-wrap:anywhere}
 .en{color:var(--ink48);font-size:14px;margin-left:30px;font-style:italic}
 .ck li:has(input:checked) .w{text-decoration:line-through;opacity:.5}
 .ck input:checked+*{opacity:.5}
 .src{overflow-wrap:anywhere}
 .tw{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font:400 15px/1.47 var(--sans)}
+table{border-collapse:collapse;width:100%;font:400 15px/1.6 var(--sans)}
 th,td{border-bottom:1px solid var(--hair);padding:10px 14px;text-align:left;vertical-align:top}
 th{background:var(--parch);color:var(--ink);font-weight:600;font-size:14px}
 tr:last-child td{border-bottom:0}
@@ -93,9 +105,9 @@ tr:last-child td{border-bottom:0}
 #empty{display:none;padding:48px 24px;text-align:center;color:var(--ink48)}
 @media (min-width:641px){.fl{max-width:100%;height:auto}
 }
-@media (max-width:1068px){.top h1{font-size:40px;line-height:1.25}
+@media (max-width:1068px){.top h1{font-size:40px;line-height:1.3}
 }
-@media (max-width:640px){.top{padding:40px 20px 32px}
+@media (max-width:640px){.top{min-height:232px;padding:16px 20px 28px}
 .top h1{font-size:34px}
 main>details{padding:40px 20px}
 #intro{padding:32px 20px 40px}
@@ -103,13 +115,15 @@ summary h2{font-size:28px;line-height:1.3}
 h3,section>h2.h3{font-size:21px;margin-top:32px}
 header{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--parch);padding:6px 12px}
 header{gap:6px 8px}
-.hd{flex:1 1 0;min-width:0;gap:2px 8px}
+.hd{flex:1 1 100%;min-width:0;gap:2px 8px;order:3}
+nav{order:1}
+#syb{order:2}
 #q{max-width:none;min-width:0;flex-basis:100%}
-#prog{font-size:12px;line-height:1.3;padding-left:20px}
+#prog{font-size:13px;line-height:1.4;padding-left:20px}
 #pkb{padding:0 16px}
 #pbar{display:none}
 .fhint{display:block}
-#pkbg{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:19}
+#pkbg{position:fixed;inset:0;background:var(--scrim);z-index:19}
 .pk{position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;max-height:82vh;border-radius:18px 18px 0 0;border:0;padding:10px 16px calc(20px + env(safe-area-inset-bottom))}
 .pk::before{content:"";display:block;width:36px;height:5px;border-radius:9999px;background:var(--chip);margin:0 auto 8px}
 .gr{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -118,33 +132,67 @@ header{gap:6px 8px}
 }
 @media (max-width:419px){.top h1{font-size:28px}
 }
-@media (prefers-reduced-motion:reduce){#pbar i,#pkb,.grid a,summary::before,.top .back{transition:none}
-#pkb:active,.grid a:active,.top .back:active{transform:none}
+@media (prefers-reduced-motion:reduce){#pbar i,#pkb,.grid a,summary::before,.top .back,.home .cards a{transition:none}
+#pkb:active,.grid a:active,.top .back:active,.home .cards a:active{transform:none}
 }
 .fl .nl,.fl .nd{font-family:Sarabun,"Noto Sans Thai",Tahoma,sans-serif}
 .fl text{dominant-baseline:auto}
 figure.map{margin:24px 0}figure.map img{display:block;max-width:100%;height:auto;border-radius:18px;background:var(--soft)}figure.map figcaption{font:400 14px/1.43 var(--sans);color:var(--ink48);margin-top:8px}figure.map .cr{font-size:12px}
 
-.top .back{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-12px 0 4px -12px;color:#fff;border-radius:50%;transition:background .15s,transform .15s}.top .back:hover{background:rgba(255,255,255,.12)}.top .back:active{transform:scale(.92);background:rgba(255,255,255,.2)}
+.top .back{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:0;color:#fff;background:rgba(0,0,0,.55);border-radius:50%;text-decoration:none;transition:background .15s,transform .15s}.top .back:hover{background:rgba(0,0,0,.72);text-decoration:none}.top .back:active{transform:scale(.92);background:rgba(0,0,0,.8)}.top .back:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .capd summary{cursor:pointer;min-height:44px;line-height:1.43;padding:12px 0}
 
-.sya button{font:400 17px var(--sans);min-height:44px;padding:0 22px;border-radius:9999px;border:0;cursor:pointer;background:var(--blue);color:#fff}
+.sya button{font:400 17px var(--sans);min-height:44px;padding:0 22px;border-radius:9999px;border:0;cursor:pointer;background:var(--fill);color:var(--on-blue)}
 .sya .sy2{background:var(--soft);color:var(--ink)}
-#sys{margin:12px 0 0}#sys:empty{display:none}#sys.err{color:#b3261e}
+#sys{margin:12px 0 0}#sys:empty{display:none}#sys.err{color:var(--danger)}
 #syd{width:min(560px,calc(100vw - 24px));max-height:calc(100dvh - 24px);border:0;border-radius:18px;padding:24px;background:var(--canvas);color:var(--ink);font-family:var(--sans)}
-#syd::backdrop{background:rgba(0,0,0,.4)}
+#syd::backdrop{background:var(--scrim)}
 #syd h2{font:600 21px/1.3 var(--disp);margin:0 0 8px}#syd ol{padding-left:20px;margin:8px 0}#syd li{margin:4px 0}
 #syd code{background:var(--parch);border-radius:6px;padding:0 4px}
 #syd label{display:block;font:600 14px var(--sans);margin:12px 0 4px}
 #syd input{width:100%;min-height:44px;font:400 16px var(--sans);padding:0 12px;border:1px solid var(--chip);border-radius:12px;background:var(--pearl);color:var(--ink)}
 #syd :focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.sye{color:#b3261e;font:400 14px var(--sans);margin:8px 0 0;min-height:1em}
+.sye{color:var(--danger);font:400 14px var(--sans);margin:8px 0 0;min-height:1em}
 .sya{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 #syb{position:relative;flex:none;margin-left:auto;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:transparent;color:var(--ink);cursor:pointer}#syb:hover{background:var(--soft)}#syb:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-#syd0{position:absolute;top:9px;right:8px;width:9px;height:9px;border-radius:50%;border:2px solid var(--parch);display:none}#syb[data-s] #syd0{display:block}#syb[data-s=ok] #syd0{background:#1e8e3e}#syb[data-s=busy] #syd0{background:var(--chip)}#syb[data-s=off] #syd0{background:var(--ink48)}#syb[data-s=err] #syd0{background:#b3261e}
+#syd0{position:absolute;top:9px;right:8px;width:9px;height:9px;border-radius:50%;border:2px solid var(--parch);display:none}#syb[data-s] #syd0{display:block}#syb[data-s=ok] #syd0{background:var(--ok)}#syb[data-s=busy] #syd0{background:var(--chip)}#syb[data-s=off] #syd0{background:var(--ink48)}#syb[data-s=err] #syd0{background:var(--danger)}
 @media (max-width:640px){#pkb{padding:0 12px;gap:6px}header{gap:6px 4px}#syb{margin-right:-6px}}
-</style></head><body><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9a90b5"/></marker></defs></svg>
-<div class="top"><a class="back" href="../../index.html" aria-label="กลับไปคู่มือทั้งหมด"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a><h1>🦋 Bayonetta 3 (Switch) – คู่มือเดินด่านและของสะสม</h1></div><header><nav aria-label="สารบัญ"><div class="pkw"><button type="button" id="pkb" aria-haspopup="dialog" aria-expanded="false" aria-controls="pk"><span aria-hidden="true">☰</span> เลือกบท <span id="pkc" class="pkc"></span></button><div id="pk" class="pk" role="dialog" aria-modal="false" aria-labelledby="pkt" hidden><div class="pkhd"><span id="pkt">ไปที่บท</span><a href="#intro" class="pkintro" data-s="intro">↑ เริ่มต้น</a><button type="button" class="pkx" aria-label="ปิด">✕</button></div><div class="pg"><h2 class="pgh">เนื้อเรื่องหลัก</h2><div class="grid gm"><a href="#pro" data-s="pro" title="Prologue – A Chaotic Encounter" aria-label="Prologue – A Chaotic Encounter"><b>P</b><span>A Chaotic Encounter</span></a><a href="#c1" data-s="c1" title="Chapter 1 – Scrambling for Answers" aria-label="Chapter 1 – Scrambling for Answers"><b>1</b><span>Scrambling for Answers</span></a><a href="#c2" data-s="c2" title="Chapter 2 – City on Fire" aria-label="Chapter 2 – City on Fire"><b>2</b><span>City on Fire</span></a><a href="#c3" data-s="c3" title="Chapter 3 – A Sinking Feeling" aria-label="Chapter 3 – A Sinking Feeling"><b>3</b><span>A Sinking Feeling</span></a><a href="#c4" data-s="c4" title="Chapter 4 – Worlds Apart" aria-label="Chapter 4 – Worlds Apart"><b>4</b><span>Worlds Apart</span></a><a href="#c5" data-s="c5" title="Chapter 5 – Hot Pursuit" aria-label="Chapter 5 – Hot Pursuit"><b>5</b><span>Hot Pursuit</span></a><a href="#c6" data-s="c6" title="Chapter 6 – Off the Rails" aria-label="Chapter 6 – Off the Rails"><b>6</b><span>Off the Rails</span></a><a href="#c7" data-s="c7" title="Chapter 7 – Burning Sands" aria-label="Chapter 7 – Burning Sands"><b>7</b><span>Burning Sands</span></a><a href="#c8" data-s="c8" title="Chapter 8 – A Croaking Chorus" aria-label="Chapter 8 – A Croaking Chorus"><b>8</b><span>A Croaking Chorus</span></a><a href="#c9" data-s="c9" title="Chapter 9 – Learning to Fly" aria-label="Chapter 9 – Learning to Fly"><b>9</b><span>Learning to Fly</span></a><a href="#c10" data-s="c10" title="Chapter 10 – Cover of Night" aria-label="Chapter 10 – Cover of Night"><b>10</b><span>Cover of Night</span></a><a href="#c11" data-s="c11" title="Chapter 11 – A Familiar Dance" aria-label="Chapter 11 – A Familiar Dance"><b>11</b><span>A Familiar Dance</span></a><a href="#c12" data-s="c12" title="Chapter 12 – The Edge of Madness" aria-label="Chapter 12 – The Edge of Madness"><b>12</b><span>The Edge of Madness</span></a><a href="#c13" data-s="c13" title="Chapter 13 – Kingdom of One" aria-label="Chapter 13 – Kingdom of One"><b>13</b><span>Kingdom of One</span></a><a href="#c14" data-s="c14" title="Chapter 14 – The Single Truth (บทสุดท้าย)" aria-label="Chapter 14 – The Single Truth (บทสุดท้าย)"><b>14</b><span>The Single Truth (บทสุดท้าย)</span></a></div></div><div class="pg"><h2 class="pgh">Jeanne (Side Chapter)</h2><div class="grid gj"><a href="#s1" data-s="s1" title="Side Chapter 1 (Jeanne) – The Crimson Shadow" aria-label="Side Chapter 1 (Jeanne) – The Crimson Shadow"><b>J1</b><span>The Crimson Shadow</span></a><a href="#s2" data-s="s2" title="Side Chapter 2 (Jeanne) – The Lynx Strikes" aria-label="Side Chapter 2 (Jeanne) – The Lynx Strikes"><b>J2</b><span>The Lynx Strikes</span></a><a href="#s3" data-s="s3" title="Side Chapter 3 (Jeanne) – High Stakes" aria-label="Side Chapter 3 (Jeanne) – High Stakes"><b>J3</b><span>High Stakes</span></a><a href="#s4" data-s="s4" title="Side Chapter 4 (Jeanne) – The Doctor Is Out" aria-label="Side Chapter 4 (Jeanne) – The Doctor Is Out"><b>J4</b><span>The Doctor Is Out</span></a></div></div><div class="pg"><h2 class="pgh">อ้างอิง</h2><div class="grid gr"><a href="#ref-w" data-s="ref-w" title="อาวุธทั้งหมด + Infernal Demon คู่กัน" aria-label="อาวุธทั้งหมด + Infernal Demon คู่กัน"><b>อาวุธ</b><span>อาวุธทั้งหมด + Infernal Demon คู่กัน</span></a><a href="#ref-a" data-s="ref-a" title="Accessories ทั้งหมด (16 ชิ้น)" aria-label="Accessories ทั้งหมด (16 ชิ้น)"><b>Accessory</b><span>Accessories ทั้งหมด (16 ชิ้น)</span></a><a href="#ref-i" data-s="ref-i" title="ไอเท็มร้าน Gates of Hell (Seeds) &amp; ไอเท็มสำคัญ" aria-label="ไอเท็มร้าน Gates of Hell (Seeds) &amp; ไอเท็มสำคัญ"><b>ไอเท็ม/ร้าน</b><span>ไอเท็มร้าน Gates of Hell (Seeds) &amp; ไอเท็มสำคัญ</span></a><a href="#ref-c" data-s="ref-c" title="ชุด (Costumes) &amp; Rodin&#x27;s Treasures (Halos)" aria-label="ชุด (Costumes) &amp; Rodin&#x27;s Treasures (Halos)"><b>ชุด</b><span>ชุด (Costumes) &amp; Rodin&#x27;s Treasures (Halos)</span></a><a href="#ref-x" data-s="ref-x" title="คอนเทนต์ลับ &amp; หลังจบเกม" aria-label="คอนเทนต์ลับ &amp; หลังจบเกม"><b>ลับ</b><span>คอนเทนต์ลับ &amp; หลังจบเกม</span></a><a href="#notes" data-s="notes" title="⚠ ข้อขัดแย้ง &amp; ช่องว่างข้อมูล" aria-label="⚠ ข้อขัดแย้ง &amp; ช่องว่างข้อมูล"><b>ข้อขัดแย้ง</b><span>⚠ ข้อขัดแย้ง &amp; ช่องว่างข้อมูล</span></a><a href="#srcs" data-s="srcs" title="แหล่งข้อมูลทั้งหมด" aria-label="แหล่งข้อมูลทั้งหมด"><b>แหล่งข้อมูล</b><span>แหล่งข้อมูลทั้งหมด</span></a></div></div></div><div id="pkbg" hidden></div></div></nav><div class="hd"><input id="q" type="search" aria-label="ค้นหา" autocomplete="off" placeholder="ค้นหา เช่น แมว, Record, Ch7…"><span id="prog" aria-live="polite"></span><span id="pbar" aria-hidden="true"><i></i></span></div><button type="button" id="syb" aria-haspopup="dialog" aria-label="ตั้งค่าซิงก์" title="ตั้งค่าซิงก์"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.6 4.2 4.2 0 0 0 7 18z"/></svg><i id="syd0" aria-hidden="true"></i></button></header>
+
+.skip{position:fixed;inset-inline-start:16px;top:12px;z-index:30;min-height:44px;padding:0 18px;display:inline-flex;align-items:center;background:var(--fill);color:var(--on-blue);border-radius:9999px;text-decoration:none;transform:translateY(-120px)}
+.skip:focus{transform:none}
+
+/* Per-game color fields sit behind the key art and remain if the image is missing. */
+.cv-bayonetta3,[data-cover="bayonetta3"]{--cover:linear-gradient(148deg,#7a2344 0%,#1a0c12 72%)}
+.cv-ffx,[data-cover="ffx"]{--cover:linear-gradient(168deg,#24508f 0%,#10243f 100%)}
+.cv-megamanzero,[data-cover="megamanzero"]{--cover:linear-gradient(135deg,#d24b3a 0%,#2a221c 100%)}
+.cv-pla,[data-cover="pla"]{--cover:linear-gradient(165deg,#f3f0e4 0%,#6d907a 100%)}
+.cv-lastfaith,[data-cover="lastfaith"]{--cover:linear-gradient(160deg,#5c4638 0%,#1a1410 100%)}
+.cv-totk,[data-cover="totk"]{--cover:linear-gradient(180deg,#d5e3c4 0%,#3f5a3a 50%,#1c2430 100%)}
+
+.home{max-width:1120px;margin:0 auto;padding:48px 24px 80px}
+.home h1{font:600 40px/1.25 var(--disp);margin:0 0 8px;text-wrap:balance}
+.home .lead{margin:0 0 28px;color:var(--ink80);max-width:40em}
+.home .find{display:block;width:100%;height:44px;margin:0 0 20px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--field);border:1px solid var(--hair);border-radius:9999px}
+.home .find::placeholder{color:var(--ink48)}
+.home .cards{display:grid;gap:16px;grid-template-columns:1fr}
+.home .cards a{display:flex;flex-direction:column;min-height:44px;padding:0;overflow:hidden;border:1px solid var(--hair);border-radius:18px;background:var(--parch);color:var(--ink);text-decoration:none;transition:border-color .2s,transform .2s}
+.home .cards a:hover{border-color:var(--focus);text-decoration:none}
+.home .cards a:active{transform:scale(.985)}
+.home .cards a[hidden],.home #none[hidden]{display:none}
+.home .cv{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background-color:#272729;background-image:var(--cover);background-position:center;background-size:cover}
+.home .cv img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.home .cb{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:16px 18px 18px}
+.home .cards b{display:block;font:600 21px/1.35 var(--disp);color:var(--blue);text-wrap:balance}
+.home .sub{color:var(--ink80);font-size:15px;line-height:1.6}
+.home .pf{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:8px;color:var(--ink80)}
+.home .pf svg{display:block;fill:currentColor}
+.home #none{margin:8px 0 0;color:var(--ink48)}
+@media (min-width:720px){.home .cards{grid-template-columns:1fr 1fr}}
+@media (min-width:1080px){.home .cards{grid-template-columns:1fr 1fr 1fr}}
+@media (max-width:640px){.home{padding:32px 20px 56px}.home h1{font-size:28px;line-height:1.3}}
+@media (prefers-reduced-motion:reduce){.top .back,.home .cards a,#pbar i,#pkb,.grid a,summary::before{transition:none}.top .back:active,.home .cards a:active,#pkb:active,.grid a:active{transform:none}}
+</style></head><body><a class="skip" href="#intro">ข้ามไปเนื้อหา</a><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9a90b5"/></marker></defs></svg>
+<div class="top" data-cover="bayonetta3"><img src="hero.webp" width="1280" height="653" alt="" decoding="async"><a class="back" href="../../index.html" aria-label="กลับไปคู่มือทั้งหมด"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a><h1>🦋 Bayonetta 3 (Switch) – คู่มือเดินด่านและของสะสม</h1></div><header><nav aria-label="สารบัญ"><div class="pkw"><button type="button" id="pkb" aria-haspopup="dialog" aria-expanded="false" aria-controls="pk"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg> เลือกบท <span id="pkc" class="pkc"></span></button><div id="pk" class="pk" role="dialog" aria-modal="false" aria-labelledby="pkt" hidden><div class="pkhd"><span id="pkt">ไปที่บท</span><a href="#intro" class="pkintro" data-s="intro">↑ เริ่มต้น</a><button type="button" class="pkx" aria-label="ปิด"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="pg"><h2 class="pgh">เนื้อเรื่องหลัก</h2><div class="grid gm"><a href="#pro" data-s="pro" title="Prologue – A Chaotic Encounter" aria-label="Prologue – A Chaotic Encounter"><b>P</b><span>A Chaotic Encounter</span></a><a href="#c1" data-s="c1" title="Chapter 1 – Scrambling for Answers" aria-label="Chapter 1 – Scrambling for Answers"><b>1</b><span>Scrambling for Answers</span></a><a href="#c2" data-s="c2" title="Chapter 2 – City on Fire" aria-label="Chapter 2 – City on Fire"><b>2</b><span>City on Fire</span></a><a href="#c3" data-s="c3" title="Chapter 3 – A Sinking Feeling" aria-label="Chapter 3 – A Sinking Feeling"><b>3</b><span>A Sinking Feeling</span></a><a href="#c4" data-s="c4" title="Chapter 4 – Worlds Apart" aria-label="Chapter 4 – Worlds Apart"><b>4</b><span>Worlds Apart</span></a><a href="#c5" data-s="c5" title="Chapter 5 – Hot Pursuit" aria-label="Chapter 5 – Hot Pursuit"><b>5</b><span>Hot Pursuit</span></a><a href="#c6" data-s="c6" title="Chapter 6 – Off the Rails" aria-label="Chapter 6 – Off the Rails"><b>6</b><span>Off the Rails</span></a><a href="#c7" data-s="c7" title="Chapter 7 – Burning Sands" aria-label="Chapter 7 – Burning Sands"><b>7</b><span>Burning Sands</span></a><a href="#c8" data-s="c8" title="Chapter 8 – A Croaking Chorus" aria-label="Chapter 8 – A Croaking Chorus"><b>8</b><span>A Croaking Chorus</span></a><a href="#c9" data-s="c9" title="Chapter 9 – Learning to Fly" aria-label="Chapter 9 – Learning to Fly"><b>9</b><span>Learning to Fly</span></a><a href="#c10" data-s="c10" title="Chapter 10 – Cover of Night" aria-label="Chapter 10 – Cover of Night"><b>10</b><span>Cover of Night</span></a><a href="#c11" data-s="c11" title="Chapter 11 – A Familiar Dance" aria-label="Chapter 11 – A Familiar Dance"><b>11</b><span>A Familiar Dance</span></a><a href="#c12" data-s="c12" title="Chapter 12 – The Edge of Madness" aria-label="Chapter 12 – The Edge of Madness"><b>12</b><span>The Edge of Madness</span></a><a href="#c13" data-s="c13" title="Chapter 13 – Kingdom of One" aria-label="Chapter 13 – Kingdom of One"><b>13</b><span>Kingdom of One</span></a><a href="#c14" data-s="c14" title="Chapter 14 – The Single Truth (บทสุดท้าย)" aria-label="Chapter 14 – The Single Truth (บทสุดท้าย)"><b>14</b><span>The Single Truth (บทสุดท้าย)</span></a></div></div><div class="pg"><h2 class="pgh">Jeanne (Side Chapter)</h2><div class="grid gj"><a href="#s1" data-s="s1" title="Side Chapter 1 (Jeanne) – The Crimson Shadow" aria-label="Side Chapter 1 (Jeanne) – The Crimson Shadow"><b>J1</b><span>The Crimson Shadow</span></a><a href="#s2" data-s="s2" title="Side Chapter 2 (Jeanne) – The Lynx Strikes" aria-label="Side Chapter 2 (Jeanne) – The Lynx Strikes"><b>J2</b><span>The Lynx Strikes</span></a><a href="#s3" data-s="s3" title="Side Chapter 3 (Jeanne) – High Stakes" aria-label="Side Chapter 3 (Jeanne) – High Stakes"><b>J3</b><span>High Stakes</span></a><a href="#s4" data-s="s4" title="Side Chapter 4 (Jeanne) – The Doctor Is Out" aria-label="Side Chapter 4 (Jeanne) – The Doctor Is Out"><b>J4</b><span>The Doctor Is Out</span></a></div></div><div class="pg"><h2 class="pgh">อ้างอิง</h2><div class="grid gr"><a href="#ref-w" data-s="ref-w" title="อาวุธทั้งหมด + Infernal Demon คู่กัน" aria-label="อาวุธทั้งหมด + Infernal Demon คู่กัน"><b>อาวุธ</b><span>อาวุธทั้งหมด + Infernal Demon คู่กัน</span></a><a href="#ref-a" data-s="ref-a" title="Accessories ทั้งหมด (16 ชิ้น)" aria-label="Accessories ทั้งหมด (16 ชิ้น)"><b>Accessory</b><span>Accessories ทั้งหมด (16 ชิ้น)</span></a><a href="#ref-i" data-s="ref-i" title="ไอเท็มร้าน Gates of Hell (Seeds) &amp; ไอเท็มสำคัญ" aria-label="ไอเท็มร้าน Gates of Hell (Seeds) &amp; ไอเท็มสำคัญ"><b>ไอเท็ม/ร้าน</b><span>ไอเท็มร้าน Gates of Hell (Seeds) &amp; ไอเท็มสำคัญ</span></a><a href="#ref-c" data-s="ref-c" title="ชุด (Costumes) &amp; Rodin&#x27;s Treasures (Halos)" aria-label="ชุด (Costumes) &amp; Rodin&#x27;s Treasures (Halos)"><b>ชุด</b><span>ชุด (Costumes) &amp; Rodin&#x27;s Treasures (Halos)</span></a><a href="#ref-x" data-s="ref-x" title="คอนเทนต์ลับ &amp; หลังจบเกม" aria-label="คอนเทนต์ลับ &amp; หลังจบเกม"><b>ลับ</b><span>คอนเทนต์ลับ &amp; หลังจบเกม</span></a><a href="#notes" data-s="notes" title="⚠ ข้อขัดแย้ง &amp; ช่องว่างข้อมูล" aria-label="⚠ ข้อขัดแย้ง &amp; ช่องว่างข้อมูล"><b>ข้อขัดแย้ง</b><span>⚠ ข้อขัดแย้ง &amp; ช่องว่างข้อมูล</span></a><a href="#srcs" data-s="srcs" title="แหล่งข้อมูลทั้งหมด" aria-label="แหล่งข้อมูลทั้งหมด"><b>แหล่งข้อมูล</b><span>แหล่งข้อมูลทั้งหมด</span></a></div></div></div><div id="pkbg" hidden></div></div></nav><div class="hd"><input id="q" type="search" aria-label="ค้นหา" autocomplete="off" placeholder="ค้นหา เช่น แมว, Record, Ch7…"><span id="prog" aria-live="polite"></span><span id="pbar" aria-hidden="true"><i></i></span></div><button type="button" id="syb" aria-haspopup="dialog" aria-label="ตั้งค่าซิงก์" title="ตั้งค่าซิงก์"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.6 4.2 4.2 0 0 0 7 18z"/></svg><i id="syd0" aria-hidden="true"></i></button></header>
 <main><p id="empty" role="status">ไม่พบผลลัพธ์ ลองค้นด้วยคำอื่น</p><section id="intro"><p>คู่มือ Bayonetta 3 (Switch) เรียงตามบท ท้ายแต่ละบทมีลิงก์แหล่งข้อมูล จุดที่แหล่งข้อมูลขัดกันหรือยังหาข้อมูลไม่เจอ รวมไว้ในหัวข้อ <a href="#notes">ข้อขัดแย้ง/ช่องว่าง</a> ติ๊กช่องเมื่อเก็บของได้แล้ว เบราว์เซอร์จะจำไว้ให้</p>
 <h2 class="h3">รวมของสะสมที่นับได้ (100% Guides)</h2>
 <ul><li><span class="b" style="--c:#34d399">Fig</span> Figure Box (โมเดล 3D): <b>67</b></li><li><span class="b" style="--c:#ec4899">BWH</span> เศษหัวใจแม่มด (Broken Witch Heart): <b>47</b></li><li><span class="b" style="--c:#f59e0b">Card</span> Card Pack (อาร์ตคอนเซปต์): <b>40</b></li><li><span class="b" style="--c:#60a5fa">BMP</span> เศษไข่มุกจันทร์ (Broken Moon Pearl): <b>30</b></li><li><span class="b" style="--c:#a78bfa">Echo</span> Echoes of Memory (บันทึกเรื่องราว): <b>25</b></li><li><span class="b" style="--c:#fde047">Light</span> Heavenly Light (ด่านท้าทาย ปลดข้อมูลศัตรู): <b>17</b></li><li><span class="b" style="--c:#f43f5e">แมว</span> น้ำตาอัมบรา: แมว: <b>13</b></li><li><span class="b" style="--c:#f43f5e">คางคก</span> น้ำตาอัมบรา: คางคก: <b>13</b></li><li><span class="b" style="--c:#f43f5e">อีกา</span> น้ำตาอัมบรา: อีกา: <b>13</b></li><li><span class="b" style="--c:#22d3ee">Rec</span> Record (แผ่นเพลง): <b>8</b></li><li><span class="b" style="--c:#ec4899">WH</span> หัวใจแม่มดเต็มดวง (Witch Heart): <b>5</b></li><li><span class="b" style="--c:#fb923c">Inf</span> Infernal Presence: <b>5</b></li><li><span class="b" style="--c:#38bdf8">Medal</span> เศษเหรียญตรา (Medallion Shard): <b>4</b></li><li><span class="b" style="--c:#60a5fa">MP</span> ไข่มุกจันทร์เต็มเม็ด (Moon Pearl): <b>2</b></li></ul></section>
@@ -299,7 +347,7 @@ figure.map{margin:24px 0}figure.map img{display:block;max-width:100%;height:auto
 <div class="sya"><button type="submit" value="save" id="sysv">บันทึกและซิงก์</button><button type="button" id="syx" class="sy2">ยกเลิกซิงก์/ลบ token</button><button type="submit" value="cancel" class="sy2" formnovalidate>ปิด</button></div></form></dialog><script>const GG={"key": "b3guide:", "lang": "th", "ui": {"collected": "เก็บแล้ว", "unit": "ชิ้น"}};
 /* game-guides runtime: walkthrough SVG layout, checklist+storage, counters, search, chapter picker */
 (()=>{ // 1) Walkthrough: lay out boxes, wrap text by measuring real glyph widths -> never overflows
-const NS='http://www.w3.org/2000/svg',C=5,W=170,GX=30,GY=34,LH=15,PAD=14,MAXW=W-2*PAD-6;
+const NS='http://www.w3.org/2000/svg',C=5,W=170,GX=30,GY=34,LH=18,PAD=14,MAXW=W-2*PAD-6;
 const seg=(()=>{try{const s=new Intl.Segmenter(GG.lang||'th',{granularity:'word'});return t=>[...s.segment(t)].map(x=>x.segment)}catch(e){return t=>t.split(/(\s+)/)}})();
 const ms=document.createElementNS(NS,'svg');ms.setAttribute('class','fl');ms.setAttribute('aria-hidden','true');ms.style.cssText='position:absolute;left:-9999px;top:0;width:10px;height:10px;visibility:hidden';document.body.appendChild(ms);
 const mt={};['nl','nd'].forEach(c=>{const t=document.createElementNS(NS,'text');t.setAttribute('class',c);ms.appendChild(t);mt[c]=t});

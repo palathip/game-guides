@@ -26,7 +26,7 @@
 a.rq:hover{border-color:var(--focus);text-decoration:none}
 .rq0{color:var(--ink48);font-weight:400}
 .ut td:first-child{min-width:12ch}
-.ut tr:target td{background:#e8f1fc}
+.ut tr:target td{background:var(--mark)}
 .spb{display:block;width:100%;min-height:44px;margin:16px 0;padding:10px 20px;border:1px dashed var(--chip);border-radius:18px;background:var(--canvas);color:var(--ink);font:600 15px/1.4 var(--sans);cursor:pointer}
 .spb:hover{border-color:var(--focus)}
 .spl:not(.rev) .spc{filter:blur(8px);user-select:none;pointer-events:none;max-height:260px;overflow:hidden}

@@ -51,35 +51,45 @@ const targets=links.map(a=>document.getElementById(a.dataset.s)).filter(Boolean)
 const mark=id=>{links.forEach(a=>a.setAttribute('aria-current',a.dataset.s===id?'true':'false'));cur.textContent=id&&id!=='intro'?'· '+short[id]:''};
 let tk=0;const upd=()=>{tk=0;const y=document.querySelector('header').getBoundingClientRect().bottom+12;let id='intro',best=-1e9;for(const t of targets){const tp=t.getBoundingClientRect().top;if(tp<=y&&tp>best&&!t.classList.contains('hide')){best=tp;id=t.id}}mark(id)};
 addEventListener('scroll',()=>{if(!tk)tk=requestAnimationFrame(upd)},{passive:true});upd();})();
-/* Optional checklist sync via a secret GitHub Gist (checklist.json, one key per game).
-   Merge rule: on load, checked = union(local, Gist); writes replace only this game's key.
-   Token only ever travels in the Authorization header to api.github.com. */
-(()=>{const CF='gg-sync',API='https://api.github.com/gists/',FN='checklist.json',SLUG=String(GG.key).replace(/[^\w-]+$/,'')||'guide';
-const $=i=>document.getElementById(i),btn=$('syb'),st=$('sys'),dlg=$('syd');if(!btn||!dlg)return;
+/* Optional checklist sync via one secret GitHub Gist (checklist.json).
+   Checklist arrays stay under each game slug. Cleared dates live in _cleared
+   {"<slug>":"<ISO>"} and never replace those arrays.
+   Merge: checklist union on load; cleared union (earlier date wins).
+   Writes read-modify-write and replace only this game's checklist key, or
+   only this game's entry inside _cleared. Token travels only in the
+   Authorization header to api.github.com. */
+(()=>{const CF=GGState.SYNC_KEY,SLUG=GGState.slugOf(GG.key);
+const $=i=>document.getElementById(i),btn=$('syb'),st=$('sys'),dlg=$('syd');
 const boxes=[...document.querySelectorAll('input[data-k]')],keys=new Set(boxes.map(c=>c.dataset.k));
-const ID_RE=/^[0-9a-f]{20,40}$/i,TK_RE=/^[A-Za-z0-9_]{20,255}$/;
-const cfg=()=>{try{const c=JSON.parse(localStorage.getItem(CF)||'null');return c&&ID_RE.test(c.id)&&TK_RE.test(c.tok)?c:null}catch(e){return null}};
-const say=(t,err)=>{st.textContent=t;st.classList.toggle('err',!!err);const k=!t?'':err?'err':/กำลัง/.test(t)?'busy':/ออฟไลน์/.test(t)?'off':'ok';if(k)btn.dataset.s=k;else delete btn.dataset.s;btn.title=btn.ariaLabel=t?'ตั้งค่าซิงก์ · '+t:'ตั้งค่าซิงก์'};
-const hd=c=>({Authorization:'Bearer '+c.tok,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'});
-async function read(c){const r=await fetch(API+c.id,{headers:hd(c),cache:'no-store'});if(!r.ok)throw r.status;const j=await r.json(),f=j.files&&j.files[FN];
- if(!f||f.truncated)throw 'nofile';let o;try{o=JSON.parse(f.content||'{}')}catch(e){throw 'json'}return o&&typeof o==='object'&&!Array.isArray(o)?o:{}}
+const ID_RE=GGState.ID_RE,TK_RE=GGState.TK_RE;
+const cfg=()=>{try{return GGState.syncConfig(LS.g(CF))}catch(e){return null}};
+const say=(t,err)=>{if(!st||!btn)return;st.textContent=t;st.classList.toggle('err',!!err);const k=!t?'':err?'err':/กำลัง/.test(t)?'busy':/ออฟไลน์/.test(t)?'off':'ok';if(k)btn.dataset.s=k;else delete btn.dataset.s;btn.title=btn.ariaLabel=t?'ตั้งค่าซิงก์ · '+t:'ตั้งค่าซิงก์'};
 const checked=()=>boxes.filter(b=>b.checked).map(b=>b.dataset.k).sort();
 const msg=e=>!navigator.onLine||e instanceof TypeError?['ออฟไลน์ ใช้ข้อมูลในเครื่อง',0]:e===401||e===403?['ซิงก์ไม่สำเร็จ: token ไม่ถูกต้องหรือหมดอายุ',1]:e===404?['ซิงก์ไม่สำเร็จ: ไม่พบ Gist',1]:e==='nofile'?['ซิงก์ไม่สำเร็จ: ไม่พบไฟล์ checklist.json ใน Gist',1]:['ซิงก์ไม่สำเร็จ ใช้ข้อมูลในเครื่อง',1];
-let busy=false;
-async function push(){const c=cfg();if(!c)return;try{const o=await read(c);o[SLUG]=checked();
- const r=await fetch(API+c.id,{method:'PATCH',headers:Object.assign({'Content-Type':'application/json'},hd(c)),body:JSON.stringify({files:{[FN]:{content:JSON.stringify(o,null,1)}}})});
- if(!r.ok)throw r.status;say('ซิงก์แล้ว')}catch(e){const[m,x]=msg(e);say(m,x)}}
-let t;const later=()=>{if(!cfg()||busy)return;clearTimeout(t);say('กำลังซิงก์…');t=setTimeout(push,1500)};
+const localMap=()=>{try{return GGState.normCleared(JSON.parse(LS.g(GGState.CLEARED_KEY)||'{}'))}catch(e){return {}}};
+const saveMap=m=>{try{LS.s(GGState.CLEARED_KEY,JSON.stringify(m))}catch(e){}};
+const paintClr=()=>{const b=$('clr');if(!b)return;const on=!!localMap()[SLUG];b.setAttribute('aria-pressed',on?'true':'false');const t=$('clrl');if(t)t.textContent=on?'Cleared':'Mark as cleared';const i=b.querySelector('.clr-i');if(i)i.hidden=!on};
+let busy=false,localRev=0,gate=Promise.resolve();
+const enqueue=fn=>{const run=gate.then(fn,fn);gate=run.then(()=>{},()=>{});return run};
+async function push(){const c=cfg();if(!c)return;const o=await GGState.gistRead(c);await GGState.gistWrite(c,GGState.writeChecklist(o,SLUG,checked()))}
+async function pushClear(iso){const c=cfg();if(!c)return;const o=await GGState.gistRead(c);await GGState.gistWrite(c,GGState.writeCleared(o,SLUG,iso))}
+let t;const later=()=>{if(!cfg()||busy)return;clearTimeout(t);say('กำลังซิงก์…');t=setTimeout(()=>enqueue(()=>push().then(()=>say('ซิงก์แล้ว')).catch(e=>{const[m,x]=msg(e);say(m,x)})),1500)};
 boxes.forEach(b=>b.addEventListener('change',later));
-async function pull(){const c=cfg();if(!c){say('');return}say('กำลังซิงก์…');try{const o=await read(c),rem=Array.isArray(o[SLUG])?o[SLUG].filter(k=>typeof k==='string'&&keys.has(k)):[];
+async function pull(){const c=cfg();if(!c){say('');return}say('กำลังซิงก์…');const seen=localRev;try{const o=await GGState.gistRead(c),rem=Array.isArray(o[SLUG])?o[SLUG].filter(k=>typeof k==='string'&&keys.has(k)):[];
+ let merged=null;if(localRev===seen){merged=GGState.mergeCleared(localMap(),o[GGState.RESERVED]);saveMap(merged);paintClr()}
  busy=true;boxes.forEach(b=>{if(!b.checked&&rem.includes(b.dataset.k)){b.checked=true;b.dispatchEvent(new Event('change'))}});busy=false;
- const now=checked();if(now.length!==rem.length||now.some(k=>!rem.includes(k)))await push();else say('ซิงก์แล้ว')}catch(e){busy=false;const[m,x]=msg(e);say(m,x)}}
-const idI=$('syi'),tkI=$('syk'),er=$('sye');
+ const now=checked();if(now.length!==rem.length||now.some(k=>!rem.includes(k)))await push();
+ if(merged){const remote=GGState.normCleared(o[GGState.RESERVED]);if((merged[SLUG]||'')!==(remote[SLUG]||''))await pushClear(merged[SLUG]||null)}
+ say('ซิงก์แล้ว')}catch(e){busy=false;const[m,x]=msg(e);say(m,x)}}
+paintClr();
+const clr=$('clr');if(clr)clr.addEventListener('click',()=>{localRev++;const m=localMap(),iso=m[SLUG]?null:new Date().toISOString();if(iso)m[SLUG]=iso;else delete m[SLUG];saveMap(m);paintClr();if(!cfg())return;say('กำลังซิงก์…');enqueue(()=>pushClear(iso).then(()=>say('ซิงก์แล้ว')).catch(e=>{const[m2,x]=msg(e);say(m2,x)}))});
+if(btn&&dlg){const idI=$('syi'),tkI=$('syk'),er=$('sye');
 btn.onclick=()=>{const c=cfg();idI.value=c?c.id:'';tkI.value='';tkI.placeholder=c?'บันทึกไว้แล้ว (ใส่ใหม่เพื่อเปลี่ยน)':'';er.textContent='';dlg.showModal();idI.focus()};
 dlg.addEventListener('close',()=>{tkI.value='';btn.focus({preventScroll:true})});
 $('syf').addEventListener('submit',e=>{if(e.submitter&&e.submitter.value!=='save')return;const id=idI.value.trim(),old=cfg(),tok=tkI.value.trim()||(old&&old.id&&old.tok)||'';
  if(!ID_RE.test(id)){e.preventDefault();er.textContent='Gist ID ต้องเป็นตัวอักษร 0-9 a-f ยาว 20–40 ตัว';idI.focus();return}
  if(!TK_RE.test(tok)){e.preventDefault();er.textContent='รูปแบบ token ไม่ถูกต้อง';tkI.focus();return}
- try{localStorage.setItem(CF,JSON.stringify({id,tok}))}catch(x){e.preventDefault();er.textContent='บันทึกในเบราว์เซอร์นี้ไม่ได้';return}pull()});
-$('syx').onclick=()=>{try{localStorage.removeItem(CF)}catch(e){}clearTimeout(t);say('');dlg.close()};
-pull()})();
+ try{localStorage.setItem(CF,JSON.stringify({id,tok}))}catch(x){e.preventDefault();er.textContent='บันทึกในเบราว์เซอร์นี้ไม่ได้';return}enqueue(()=>pull())});
+$('syx').onclick=()=>{try{localStorage.removeItem(CF)}catch(e){}clearTimeout(t);say('');dlg.close()}}
+enqueue(()=>pull())})();
+GGState.bindThemeSwitch(document.getElementById('thm'));

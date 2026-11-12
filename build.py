@@ -376,15 +376,19 @@ def render(d, base=ROOT):
         return f'<a href="#{E(it["id"])}" data-s="{E(it["id"])}" title="{E(f)}" aria-label="{E(f)}"><b>{E(it["short"])}</b><span>{E(sub)}</span></a>'
     picker = ''.join(f'<div class="pg"><h2 class="pgh">{E(g["title"])}</h2><div class="grid {cls[g["style"]]}">' + ''.join(pk(i) for i in g['items']) + '</div></div>' for g in d['picker'])
     cfg = json.dumps({'key': d['storage_key'], 'lang': d.get('lang', 'th'), 'ui': {'collected': ui['collected'], 'unit': ui['unit']}}, ensure_ascii=False).replace('</', '<\\/')
-    js = (TPL / 'app.js').read_text(encoding='utf-8') + ((TPL / 'map.js').read_text(encoding='utf-8') if feat else '')
+    js = (TPL / 'state.js').read_text(encoding='utf-8') + '\n' + (TPL / 'app.js').read_text(encoding='utf-8') + ((TPL / 'map.js').read_text(encoding='utf-8') if feat else '')
     # Must match template/page.html exactly: <script>const GG={{config}};\n{{js}}</script>
+    # The head boot script is hashed too (it does not contain {{ }} placeholders).
     script = 'const GG=' + cfg + ';\n' + js
-    digest = base64.b64encode(hashlib.sha256(script.encode('utf-8')).digest()).decode('ascii')
+    tpl = (TPL / 'page.html').read_text(encoding='utf-8')
+    bodies = [script if '{{' in raw else raw for raw in re.findall(r'<script>(.*?)</script>', tpl, flags=re.S)]
+    if not bodies: raise Bad('template has no inline script')
+    hashes = [base64.b64encode(hashlib.sha256(s.encode('utf-8')).digest()).decode('ascii') for s in bodies]
     # style attributes (badge colors, legend, svg) need 'unsafe-inline'. A style hash would
     # disable that keyword, so styles are not hashed. Scripts are hashed per page because GG= changes.
     csp = (
         "default-src 'self'; "
-        f"script-src 'self' 'sha256-{digest}'; "
+        "script-src 'self' " + ' '.join(f"'sha256-{h}'" for h in hashes) + "; "
         "style-src 'self' 'unsafe-inline'; "
         "img-src 'self' data:; "
         "connect-src https://api.github.com; "
@@ -404,12 +408,11 @@ def render(d, base=ROOT):
            'footer': E(d.get('footer', '')), 'config': cfg, 'csp': csp,
            'css': css, 'js': js}
     rep.update({f'ui.{k}': E(v) for k, v in ui.items()})
-    page = (TPL / 'page.html').read_text(encoding='utf-8')
-    return re.sub(r'\{\{([\w.]+)\}\}', lambda m: rep[m.group(1)], page), counts
+    return re.sub(r'\{\{([\w.]+)\}\}', lambda m: rep[m.group(1)], tpl), counts
 
 def guard(page):
     """Final scan of built HTML. Allows builder map <img> (data URI or plain relative path) and JS property assignments inside <script>."""
-    scan = re.sub(r'<script>.*?</script>', '', page, count=1, flags=re.S)
+    scan = re.sub(r'<script\b[^>]*>.*?</script>', '', page, flags=re.S | re.I)
     scan = re.sub(r'<img\b[^>]*\bsrc="data:image/(?:webp|jpe?g|png);base64,[^"]*"[^>]*>', '', scan, flags=re.I)
     # relative image (root "images": "files"): only the exact attribute set the builder emits, no scheme, no "..", no "//"
     scan = re.sub(r'<img src="(?![^"]*(?:\.\.|//))[A-Za-z0-9_][A-Za-z0-9_./-]*\.(?:webp|jpe?g|png)"(?: width="\d+" height="\d+")? alt="[^"<>]*"(?: loading="lazy")? decoding="async">', '', scan)
@@ -437,10 +440,12 @@ def main():
     page, counts = render(d, p.parent)
     bad = guard(page)
     if bad: sys.exit(f'ERROR: external resource, event handler, or <img> found: {bad[:3]}')
-    body = re.search(r'<script>(.*?)</script>', page, re.S)
-    digest = base64.b64encode(hashlib.sha256(body.group(1).encode('utf-8')).digest()).decode('ascii') if body else ''
-    if not body or f"'sha256-{digest}'" not in page:
-        sys.exit('ERROR: CSP script hash does not match the inline script')
+    bodies = re.findall(r'<script>(.*?)</script>', page, re.S)
+    if not bodies: sys.exit('ERROR: missing inline script')
+    for body in bodies:
+        digest = base64.b64encode(hashlib.sha256(body.encode('utf-8')).digest()).decode('ascii')
+        if f"'sha256-{digest}'" not in page:
+            sys.exit('ERROR: CSP script hash does not match an inline script')
     out = Path(a.out) if a.out else p.parent / d.get('output', f'{d["game"]}_Guide.html')
     if d.get('images') == 'files' and out.resolve().parent != p.parent.resolve():
         print(f'WARN  "images": "files" -> image paths are relative to {p.parent}; copy its image folders next to {out}', file=sys.stderr)

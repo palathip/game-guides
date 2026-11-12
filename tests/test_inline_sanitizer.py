@@ -48,6 +48,17 @@ class InlineSanitizerTests(unittest.TestCase):
         self.assertTrue(build.guard('<img src=x onerror=alert(1)>'))
         self.assertTrue(build.guard('<img src="data:image/svg+xml;base64,aaaa">'))
 
+    def test_guard_allows_self_hosted_font_preload_only(self):
+        ok = '<link rel="preload" href="../../template/fonts/noto-sans-thai.woff2" as="font" type="font/woff2" crossorigin>'
+        self.assertEqual(build.guard(ok), [])
+        self.assertEqual(build.guard(ok.replace('../../', '')), [])
+        for bad in (
+            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai">',
+            '<link rel="preload" href="https://fonts.gstatic.com/s/notosansthai/v1/a.woff2" as="font" type="font/woff2" crossorigin>',
+            '<link rel="preload" href="../../template/fonts/noto-sans-thai.woff2" as="font" type="font/woff2" crossorigin onload="alert(1)">',
+        ):
+            self.assertTrue(build.guard(bad), bad)
+
 
 if __name__ == '__main__':
     unittest.main()

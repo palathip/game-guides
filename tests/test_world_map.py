@@ -47,6 +47,11 @@ class WorldMapTests(unittest.TestCase):
         self.assertEqual(page.count('img/w.png"'), 1)                             # static world figure replaced by the map
         self.assertIn('href="#u-ring"', page); self.assertIn('<tr id="u-ring">', page)
         self.assertIn('<details class="spl" id="end"', page); self.assertIn('<div class="spc" inert><p>secret</p></div>', page)
+        self.assertIn('--sans:"Noto Sans Thai",Sarabun,"Sukhumvit Set",Tahoma,sans-serif', page)
+        self.assertIn('url("../../template/fonts/noto-sans-thai.woff2")', page)
+        self.assertIn('rel="preload" href="../../template/fonts/noto-sans-thai.woff2" as="font" type="font/woff2" crossorigin', page)
+        self.assertNotIn('fonts.googleapis.com', page)
+        self.assertNotIn('system-ui', page)
 
     def test_bad_ids_reported(self):
         d = guide(); d['worldMap']['areas'][0]['id'] = 'nope'; d['sections'][1]['area']['gated'][0]['requires'] = ['ghost']

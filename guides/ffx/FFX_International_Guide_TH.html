@@ -1,24 +1,29 @@
-<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Sm8S7TUwXk4ikq4Nkym3yoB1b7POwU23X9oXfs6sWjs='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'"><title>Final Fantasy X International (PS2) – คู่มือเดินเรื่อง</title><style>/* game-guides template – based on Bayonetta 3 v470 (Apple-style brief). Thai: no negative letter-spacing, line-height 1.6 */
-:root{--blue:#0066cc;--focus:#0071e3;--blue-dk:#2997ff;--ink:#1d1d1f;--ink80:#333;--ink48:#6e6e73;--hair:#e0e0e0;--soft:#f0f0f0;--canvas:#fff;--parch:#f5f5f7;--pearl:#fafafc;--tile:#272729;--tile2:#2a2a2c;--chip:#d2d2d7;--sans:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;--disp:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;color-scheme:light;accent-color:var(--blue)}
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-45O15sEwvgSjbmULaFZrwkfxCBYit/rr4nPBfN31M00='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'"><title>Final Fantasy X International (PS2) – คู่มือเดินเรื่อง</title><style>/* game-guides template – Apple-like brief. Thai: no negative letter-spacing, body line-height 1.6 */
+:root{--blue:#0066cc;--on-blue:#fff;--fill:#0066cc;--focus:#0071e3;--blue-dk:#2997ff;--ink:#1d1d1f;--ink80:#333;--ink48:#6e6e73;--hair:#e0e0e0;--soft:#f0f0f0;--canvas:#fff;--parch:#f5f5f7;--pearl:#fafafc;--tile:#272729;--tile2:#2a2a2c;--chip:#d2d2d7;--field:#fff;--bar:rgba(245,245,247,.84);--bar-line:rgba(0,0,0,.08);--danger:#b3261e;--ok:#1e8e3e;--sel:#b3d4f5;--sel-ink:#1d1d1f;--mark:#e8f1fc;--scrim:rgba(0,0,0,.4);--fill-muted:rgba(210,210,215,.64);--line:#8e8e93;--back:#b25000;--sans:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;--disp:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","Sukhumvit Set","Noto Sans Thai",Sarabun,Tahoma,sans-serif;color-scheme:light;accent-color:var(--fill)}
+@media (prefers-color-scheme:dark){:root{--blue:#9ecbff;--on-blue:#041018;--fill:#0a84ff;--focus:#9ecbff;--ink:#f5f5f7;--ink80:#e8e8ed;--ink48:#aeaeb2;--hair:#3a3a3c;--soft:#2c2c2e;--canvas:#000;--parch:#1c1c1e;--pearl:#2c2c2e;--tile:#1c1c1e;--tile2:#2c2c2e;--chip:#48484a;--field:#2c2c2e;--bar:rgba(28,28,30,.88);--bar-line:rgba(255,255,255,.12);--danger:#ff6961;--ok:#32d74b;--sel:#1a3d66;--sel-ink:#f5f5f7;--mark:#163456;--scrim:rgba(0,0,0,.62);--fill-muted:rgba(255,255,255,.16);--line:#aeaeb2;--back:#f59e0b;color-scheme:dark}}
 *{box-sizing:border-box}
-html{scroll-padding-top:var(--hh,72px);-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--canvas);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
-::selection{background:#b3d4f5;color:var(--ink)}
+html{scroll-padding-top:var(--hh,72px);-webkit-text-size-adjust:100%;scrollbar-color:var(--chip) var(--canvas)}
+body{margin:0;background:var(--canvas);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;caret-color:var(--blue)}
+::selection{background:var(--sel);color:var(--sel-ink)}
 a{color:var(--blue);text-underline-offset:3px}
 a:hover{text-decoration:underline}
-:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:5px}
+button,summary,label{cursor:pointer}
+a,button,summary,label{touch-action:manipulation}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+:is(p,li,dd){text-wrap:pretty}
 b,strong{font-weight:600}
-.top{background:var(--tile);color:#fff;padding:64px max(24px,calc((100% - 980px)/2)) 48px}
-.top h1{font:600 56px/1.2 var(--disp);margin:0;text-wrap:balance}
-header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;min-height:52px;padding:6px max(16px,calc((100% - 980px)/2));background:rgba(245,245,247,.8);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
+.top{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;gap:28px;min-height:300px;padding:20px max(24px,calc((100% - 980px)/2)) 36px;color:#fff;background-color:#141418;background-image:linear-gradient(180deg,rgba(0,0,0,.58) 0%,rgba(0,0,0,.2) 38%,rgba(0,0,0,.84) 100%),var(--cover,linear-gradient(#272729,#272729));background-size:cover;background-position:center}
+.top h1{font:600 56px/1.3 var(--disp);margin:0;max-width:22em;color:#fff;text-wrap:balance}
+header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;min-height:52px;padding:6px max(16px,calc((100% - 980px)/2));background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--bar-line)}
 header nav{flex:none}
 .hd{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;flex:1 1 260px}
-#q{flex:1 1 220px;max-width:360px;height:44px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--canvas);border:1px solid rgba(0,0,0,.08);border-radius:9999px}
+#q{flex:1 1 220px;max-width:360px;height:44px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--field);border:1px solid var(--hair);border-radius:9999px}
 #q::placeholder{color:var(--ink48)}
 #prog{font:400 14px/1.29 var(--sans);color:var(--ink80);font-variant-numeric:tabular-nums}
 #pbar{flex:1 1 100px;max-width:200px;height:4px;background:var(--chip);border-radius:9999px;overflow:hidden}
-#pbar i{display:block;height:100%;width:0;background:var(--blue);transition:width .4s cubic-bezier(.16,1,.3,1)}
-#pkb{font:400 17px var(--sans);color:#fff;background:var(--blue);border:0;border-radius:9999px;padding:0 22px;min-height:44px;cursor:pointer;display:inline-flex;gap:8px;align-items:center;transition:transform .15s}
+#pbar i{display:block;height:100%;width:0;background:var(--fill);transition:width .4s cubic-bezier(.16,1,.3,1)}
+#pkb{font:400 17px var(--sans);color:var(--on-blue);background:var(--fill);border:0;border-radius:9999px;padding:0 22px;min-height:44px;cursor:pointer;display:inline-flex;gap:8px;align-items:center;transition:transform .15s}
+#pkb svg{display:block;flex:none}
 #pkb:active,.grid a:active{transform:scale(.95)}
 .pkc{font-weight:600;max-width:9ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pkc:empty{display:none}
@@ -27,14 +32,14 @@ header nav{flex:none}
 .pk[hidden],#pkbg[hidden]{display:none}
 .pkhd{display:flex;align-items:center;gap:12px;font:600 21px/1.19 var(--disp)}
 .pkintro{margin-left:auto;font-size:14px;padding:8px;min-height:44px;display:inline-flex;align-items:center}
-.pkx{width:44px;height:44px;border:0;border-radius:50%;background:rgba(210,210,215,.64);color:var(--ink);font-size:16px;cursor:pointer}
+.pkx{width:44px;height:44px;border:0;border-radius:50%;background:var(--fill-muted);color:var(--ink);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
 .pgh{font:600 14px/1.29 var(--sans);color:var(--ink48);margin:16px 0 8px}
 .grid{display:grid;gap:8px}
 .gm{grid-template-columns:repeat(5,minmax(0,1fr))}
 .gj,.gr{grid-template-columns:repeat(4,minmax(0,1fr))}
 .grid a{display:flex;flex-direction:column;justify-content:center;min-height:56px;padding:8px 10px;border:1px solid var(--hair);border-radius:18px;background:var(--canvas);color:var(--ink);text-decoration:none;line-height:1.25;transition:transform .15s}
 .grid a b{font:600 17px var(--sans);color:var(--blue)}
-.grid a span{font-size:12px;color:var(--ink48);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.grid a span{font-size:13px;color:var(--ink48);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .gr a b{font-size:14px}
 .gr a span{display:none}
 .grid a[aria-current=true]{border:2px solid var(--focus);padding:7px 9px}
@@ -58,7 +63,7 @@ summary h2{font:600 40px/1.25 var(--disp);margin:0;text-wrap:balance}
 .cnt.done{color:var(--blue);font-weight:600}
 h3{font:600 21px/1.19 var(--disp);margin:40px 0 12px}
 .sm{margin:12px 0}
-.b{display:inline-block;background:var(--c);color:var(--ink);font:600 12px/1.6 var(--sans);border-radius:5px;padding:0 6px;margin-right:2px}
+.b{display:inline-block;background:var(--c);color:#1d1d1f;font:600 13px/1.6 var(--sans);border-radius:5px;padding:0 6px;margin-right:2px}
 .mut,.lg,.src{color:var(--ink48)}
 .src,.lg{font:400 14px/1.43 var(--sans)}
 .lgk{display:flex;flex-wrap:wrap;gap:4px 16px;font:400 14px var(--sans);color:var(--ink80);margin:8px 0}
@@ -70,22 +75,22 @@ main>details:nth-of-type(even) .flow{background:var(--pearl)}
 .fl{display:block;font-family:Sarabun,'Noto Sans Thai',Tahoma,sans-serif}
 .fl text{text-anchor:middle}
 .nb{fill:var(--canvas)}
-.nl{fill:var(--ink);font-size:12px;font-weight:700}
-.nd{fill:var(--ink80);font-size:12px}
-.ed{fill:none;stroke:#8e8e93;stroke-width:1.5}
-.bk{stroke-dasharray:5 4;stroke:#b25000}
-#ah path{fill:#8e8e93}
+.nl{fill:var(--ink);font-size:13px;font-weight:700}
+.nd{fill:var(--ink80);font-size:13px}
+.ed{fill:none;stroke:var(--line);stroke-width:1.5}
+.bk{stroke-dasharray:5 4;stroke:var(--back)}
+#ah path{fill:var(--line)}
 .ck{list-style:none;padding:0;margin:0}
 .ck li{border-bottom:1px solid var(--hair);padding:6px 0 12px}
 .ck label{cursor:pointer;display:inline-flex;gap:10px;align-items:baseline;min-height:44px;padding:6px 0;margin-bottom:-6px}
 .ck input{width:20px;height:20px;flex:none;transform:translateY(4px)}
-.ck .w{color:var(--ink80);font-size:15px;line-height:1.55;margin-left:30px;overflow-wrap:anywhere}
+.ck .w{color:var(--ink80);font-size:15px;line-height:1.6;margin-left:30px;overflow-wrap:anywhere}
 .en{color:var(--ink48);font-size:14px;margin-left:30px;font-style:italic}
 .ck li:has(input:checked) .w{text-decoration:line-through;opacity:.5}
 .ck input:checked+*{opacity:.5}
 .src{overflow-wrap:anywhere}
 .tw{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font:400 15px/1.47 var(--sans)}
+table{border-collapse:collapse;width:100%;font:400 15px/1.6 var(--sans)}
 th,td{border-bottom:1px solid var(--hair);padding:10px 14px;text-align:left;vertical-align:top}
 th{background:var(--parch);color:var(--ink);font-weight:600;font-size:14px}
 tr:last-child td{border-bottom:0}
@@ -93,9 +98,9 @@ tr:last-child td{border-bottom:0}
 #empty{display:none;padding:48px 24px;text-align:center;color:var(--ink48)}
 @media (min-width:641px){.fl{max-width:100%;height:auto}
 }
-@media (max-width:1068px){.top h1{font-size:40px;line-height:1.25}
+@media (max-width:1068px){.top h1{font-size:40px;line-height:1.3}
 }
-@media (max-width:640px){.top{padding:40px 20px 32px}
+@media (max-width:640px){.top{min-height:232px;padding:16px 20px 28px}
 .top h1{font-size:34px}
 main>details{padding:40px 20px}
 #intro{padding:32px 20px 40px}
@@ -103,13 +108,15 @@ summary h2{font-size:28px;line-height:1.3}
 h3,section>h2.h3{font-size:21px;margin-top:32px}
 header{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--parch);padding:6px 12px}
 header{gap:6px 8px}
-.hd{flex:1 1 0;min-width:0;gap:2px 8px}
+.hd{flex:1 1 100%;min-width:0;gap:2px 8px;order:3}
+nav{order:1}
+#syb{order:2}
 #q{max-width:none;min-width:0;flex-basis:100%}
-#prog{font-size:12px;line-height:1.3;padding-left:20px}
+#prog{font-size:13px;line-height:1.4;padding-left:20px}
 #pkb{padding:0 16px}
 #pbar{display:none}
 .fhint{display:block}
-#pkbg{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:19}
+#pkbg{position:fixed;inset:0;background:var(--scrim);z-index:19}
 .pk{position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;max-height:82vh;border-radius:18px 18px 0 0;border:0;padding:10px 16px calc(20px + env(safe-area-inset-bottom))}
 .pk::before{content:"";display:block;width:36px;height:5px;border-radius:9999px;background:var(--chip);margin:0 auto 8px}
 .gr{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -118,33 +125,66 @@ header{gap:6px 8px}
 }
 @media (max-width:419px){.top h1{font-size:28px}
 }
-@media (prefers-reduced-motion:reduce){#pbar i,#pkb,.grid a,summary::before,.top .back{transition:none}
-#pkb:active,.grid a:active,.top .back:active{transform:none}
+@media (prefers-reduced-motion:reduce){#pbar i,#pkb,.grid a,summary::before,.top .back,.home .cards a{transition:none}
+#pkb:active,.grid a:active,.top .back:active,.home .cards a:active{transform:none}
 }
 .fl .nl,.fl .nd{font-family:Sarabun,"Noto Sans Thai",Tahoma,sans-serif}
 .fl text{dominant-baseline:auto}
 figure.map{margin:24px 0}figure.map img{display:block;max-width:100%;height:auto;border-radius:18px;background:var(--soft)}figure.map figcaption{font:400 14px/1.43 var(--sans);color:var(--ink48);margin-top:8px}figure.map .cr{font-size:12px}
 
-.top .back{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-12px 0 4px -12px;color:#fff;border-radius:50%;transition:background .15s,transform .15s}.top .back:hover{background:rgba(255,255,255,.12)}.top .back:active{transform:scale(.92);background:rgba(255,255,255,.2)}
+.top .back{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:0;color:#fff;background:rgba(0,0,0,.55);border-radius:50%;text-decoration:none;transition:background .15s,transform .15s}.top .back:hover{background:rgba(0,0,0,.72);text-decoration:none}.top .back:active{transform:scale(.92);background:rgba(0,0,0,.8)}.top .back:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .capd summary{cursor:pointer;min-height:44px;line-height:1.43;padding:12px 0}
 
-.sya button{font:400 17px var(--sans);min-height:44px;padding:0 22px;border-radius:9999px;border:0;cursor:pointer;background:var(--blue);color:#fff}
+.sya button{font:400 17px var(--sans);min-height:44px;padding:0 22px;border-radius:9999px;border:0;cursor:pointer;background:var(--fill);color:var(--on-blue)}
 .sya .sy2{background:var(--soft);color:var(--ink)}
-#sys{margin:12px 0 0}#sys:empty{display:none}#sys.err{color:#b3261e}
+#sys{margin:12px 0 0}#sys:empty{display:none}#sys.err{color:var(--danger)}
 #syd{width:min(560px,calc(100vw - 24px));max-height:calc(100dvh - 24px);border:0;border-radius:18px;padding:24px;background:var(--canvas);color:var(--ink);font-family:var(--sans)}
-#syd::backdrop{background:rgba(0,0,0,.4)}
+#syd::backdrop{background:var(--scrim)}
 #syd h2{font:600 21px/1.3 var(--disp);margin:0 0 8px}#syd ol{padding-left:20px;margin:8px 0}#syd li{margin:4px 0}
 #syd code{background:var(--parch);border-radius:6px;padding:0 4px}
 #syd label{display:block;font:600 14px var(--sans);margin:12px 0 4px}
 #syd input{width:100%;min-height:44px;font:400 16px var(--sans);padding:0 12px;border:1px solid var(--chip);border-radius:12px;background:var(--pearl);color:var(--ink)}
 #syd :focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.sye{color:#b3261e;font:400 14px var(--sans);margin:8px 0 0;min-height:1em}
+.sye{color:var(--danger);font:400 14px var(--sans);margin:8px 0 0;min-height:1em}
 .sya{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 #syb{position:relative;flex:none;margin-left:auto;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:transparent;color:var(--ink);cursor:pointer}#syb:hover{background:var(--soft)}#syb:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-#syd0{position:absolute;top:9px;right:8px;width:9px;height:9px;border-radius:50%;border:2px solid var(--parch);display:none}#syb[data-s] #syd0{display:block}#syb[data-s=ok] #syd0{background:#1e8e3e}#syb[data-s=busy] #syd0{background:var(--chip)}#syb[data-s=off] #syd0{background:var(--ink48)}#syb[data-s=err] #syd0{background:#b3261e}
+#syd0{position:absolute;top:9px;right:8px;width:9px;height:9px;border-radius:50%;border:2px solid var(--parch);display:none}#syb[data-s] #syd0{display:block}#syb[data-s=ok] #syd0{background:var(--ok)}#syb[data-s=busy] #syd0{background:var(--chip)}#syb[data-s=off] #syd0{background:var(--ink48)}#syb[data-s=err] #syd0{background:var(--danger)}
 @media (max-width:640px){#pkb{padding:0 12px;gap:6px}header{gap:6px 4px}#syb{margin-right:-6px}}
-</style></head><body><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9a90b5"/></marker></defs></svg>
-<div class="top"><a class="back" href="../../index.html" aria-label="กลับไปคู่มือทั้งหมด"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a><h1>⚔️ Final Fantasy X International (PS2) – Walkthrough &amp; ของสะสม</h1></div><header><nav aria-label="สารบัญ"><div class="pkw"><button type="button" id="pkb" aria-haspopup="dialog" aria-expanded="false" aria-controls="pk"><span aria-hidden="true">☰</span> เลือกบท <span id="pkc" class="pkc"></span></button><div id="pk" class="pk" role="dialog" aria-modal="false" aria-labelledby="pkt" hidden><div class="pkhd"><span id="pkt">ไปที่บท</span><a href="#intro" class="pkintro" data-s="intro">↑ เริ่มต้น</a><button type="button" class="pkx" aria-label="ปิด">✕</button></div><div class="pg"><h2 class="pgh">เนื้อเรื่อง</h2><div class="grid gm"><a href="#a01" data-s="a01" title="01 – Zanarkand (ความฝัน)" aria-label="01 – Zanarkand (ความฝัน)"><b>01</b><span>Zanarkand (ความฝัน)</span></a><a href="#a02" data-s="a02" title="02 – ซากปรักหักพัง Baaj" aria-label="02 – ซากปรักหักพัง Baaj"><b>02</b><span>ซากปรักหักพัง Baaj</span></a><a href="#a03" data-s="a03" title="03 – Besaid" aria-label="03 – Besaid"><b>03</b><span>Besaid</span></a><a href="#a04" data-s="a04" title="04 – S.S. Liki" aria-label="04 – S.S. Liki"><b>04</b><span>S.S. Liki</span></a><a href="#a05" data-s="a05" title="05 – Kilika" aria-label="05 – Kilika"><b>05</b><span>Kilika</span></a><a href="#a06" data-s="a06" title="06 – S.S. Winno" aria-label="06 – S.S. Winno"><b>06</b><span>S.S. Winno</span></a><a href="#a07" data-s="a07" title="07 – Luca" aria-label="07 – Luca"><b>07</b><span>Luca</span></a><a href="#a08" data-s="a08" title="08 – Mi&#x27;ihen Highroad" aria-label="08 – Mi&#x27;ihen Highroad"><b>08</b><span>Mi&#x27;ihen Highroad</span></a><a href="#a09" data-s="a09" title="09 – Mushroom Rock Road" aria-label="09 – Mushroom Rock Road"><b>09</b><span>Mushroom Rock Road</span></a><a href="#a10" data-s="a10" title="10 – Djose" aria-label="10 – Djose"><b>10</b><span>Djose</span></a><a href="#a11" data-s="a11" title="11 – Moonflow" aria-label="11 – Moonflow"><b>11</b><span>Moonflow</span></a><a href="#a12" data-s="a12" title="12 – Guadosalam" aria-label="12 – Guadosalam"><b>12</b><span>Guadosalam</span></a><a href="#a13" data-s="a13" title="13 – Thunder Plains" aria-label="13 – Thunder Plains"><b>13</b><span>Thunder Plains</span></a><a href="#a14" data-s="a14" title="14 – Macalania Woods &amp; ทะเลสาบ" aria-label="14 – Macalania Woods &amp; ทะเลสาบ"><b>14</b><span>Macalania Woods &amp; ทะเลสาบ</span></a><a href="#a15" data-s="a15" title="15 – Macalania Temple" aria-label="15 – Macalania Temple"><b>15</b><span>Macalania Temple</span></a><a href="#a16" data-s="a16" title="16 – Bikanel (Sanubia Desert)" aria-label="16 – Bikanel (Sanubia Desert)"><b>16</b><span>Bikanel (Sanubia Desert)</span></a><a href="#a17" data-s="a17" title="17 – Home (บ้าน Al Bhed)" aria-label="17 – Home (บ้าน Al Bhed)"><b>17</b><span>Home (บ้าน Al Bhed)</span></a><a href="#a18" data-s="a18" title="18 – Bevelle &amp; Via Purifico" aria-label="18 – Bevelle &amp; Via Purifico"><b>18</b><span>Bevelle &amp; Via Purifico</span></a><a href="#a19" data-s="a19" title="19 – Calm Lands &amp; Remiem Temple" aria-label="19 – Calm Lands &amp; Remiem Temple"><b>19</b><span>Calm Lands &amp; Remiem Temple</span></a><a href="#a20" data-s="a20" title="20 – Cavern of the Stolen Fayth" aria-label="20 – Cavern of the Stolen Fayth"><b>20</b><span>Cavern of the Stolen Fayth</span></a><a href="#a21" data-s="a21" title="21 – Mt. Gagazet" aria-label="21 – Mt. Gagazet"><b>21</b><span>Mt. Gagazet</span></a><a href="#a22" data-s="a22" title="22 – Zanarkand Ruins &amp; Dome" aria-label="22 – Zanarkand Ruins &amp; Dome"><b>22</b><span>Zanarkand Ruins &amp; Dome</span></a><a href="#a23" data-s="a23" title="23 – เรือเหาะ &amp; Sin" aria-label="23 – เรือเหาะ &amp; Sin"><b>23</b><span>เรือเหาะ &amp; Sin</span></a><a href="#a24" data-s="a24" title="24 – Omega Ruins (เสริม)" aria-label="24 – Omega Ruins (เสริม)"><b>24</b><span>Omega Ruins (เสริม)</span></a></div></div><div class="pg"><h2 class="pgh">อ้างอิง</h2><div class="grid gr"><a href="#r-intl" data-s="r-intl" title="สิ่งที่ International มีเพิ่ม" aria-label="สิ่งที่ International มีเพิ่ม"><b>International</b><span>สิ่งที่ International มีเพิ่ม</span></a><a href="#r-grid" data-s="r-grid" title="Standard vs Expert Sphere Grid" aria-label="Standard vs Expert Sphere Grid"><b>Standard</b><span>Standard vs Expert Sphere Grid</span></a><a href="#r-primer" data-s="r-primer" title="Al Bhed Primer ทั้ง 26 เล่ม" aria-label="Al Bhed Primer ทั้ง 26 เล่ม"><b>Al</b><span>Al Bhed Primer ทั้ง 26 เล่ม</span></a><a href="#r-celes" data-s="r-celes" title="Celestial Weapons" aria-label="Celestial Weapons"><b>Celestial</b><span>Celestial Weapons</span></a><a href="#r-jecht" data-s="r-jecht" title="Jecht Spheres &amp; Overdrive" aria-label="Jecht Spheres &amp; Overdrive"><b>Jecht</b><span>Jecht Spheres &amp; Overdrive</span></a><a href="#r-cloister" data-s="r-cloister" title="Cloister of Trials – หีบลับ" aria-label="Cloister of Trials – หีบลับ"><b>Cloister</b><span>หีบลับ</span></a><a href="#r-aeon" data-s="r-aeon" title="เอออนเสริม" aria-label="เอออนเสริม"><b>เอออนเสริม</b><span>เอออนเสริม</span></a><a href="#r-arena" data-s="r-arena" title="Monster Arena" aria-label="Monster Arena"><b>Monster</b><span>Monster Arena</span></a><a href="#r-dark" data-s="r-dark" title="Dark Aeons &amp; Penance (เฉพาะ International)" aria-label="Dark Aeons &amp; Penance (เฉพาะ International)"><b>Dark</b><span>Dark Aeons &amp; Penance (เฉพาะ International)</span></a><a href="#r-gap" data-s="r-gap" title="หมายเหตุ &amp; ข้อจำกัด" aria-label="หมายเหตุ &amp; ข้อจำกัด"><b>หมายเหตุ</b><span>หมายเหตุ &amp; ข้อจำกัด</span></a></div></div></div><div id="pkbg" hidden></div></div></nav><div class="hd"><input id="q" type="search" aria-label="ค้นหา" autocomplete="off" placeholder="ค้นหา เช่น Primer"><span id="prog" aria-live="polite"></span><span id="pbar" aria-hidden="true"><i></i></span></div><button type="button" id="syb" aria-haspopup="dialog" aria-label="ตั้งค่าซิงก์" title="ตั้งค่าซิงก์"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.6 4.2 4.2 0 0 0 7 18z"/></svg><i id="syd0" aria-hidden="true"></i></button></header>
+
+.skip{position:fixed;inset-inline-start:16px;top:12px;z-index:30;min-height:44px;padding:0 18px;display:inline-flex;align-items:center;background:var(--fill);color:var(--on-blue);border-radius:9999px;text-decoration:none;transform:translateY(-120px)}
+.skip:focus{transform:none}
+
+/* Original color fields. Guide folders hold maps and screenshots, not key art. */
+.cv-bayonetta3,[data-cover="bayonetta3"]{--cover:linear-gradient(148deg,#7a2344 0%,#1a0c12 72%)}
+.cv-ffx,[data-cover="ffx"]{--cover:linear-gradient(168deg,#24508f 0%,#10243f 100%)}
+.cv-megamanzero,[data-cover="megamanzero"]{--cover:linear-gradient(135deg,#d24b3a 0%,#2a221c 100%)}
+.cv-pla,[data-cover="pla"]{--cover:linear-gradient(165deg,#f3f0e4 0%,#6d907a 100%)}
+.cv-lastfaith,[data-cover="lastfaith"]{--cover:linear-gradient(160deg,#5c4638 0%,#1a1410 100%)}
+.cv-totk,[data-cover="totk"]{--cover:linear-gradient(180deg,#d5e3c4 0%,#3f5a3a 50%,#1c2430 100%)}
+
+.home{max-width:1120px;margin:0 auto;padding:48px 24px 80px}
+.home h1{font:600 40px/1.25 var(--disp);margin:0 0 8px;text-wrap:balance}
+.home .lead{margin:0 0 28px;color:var(--ink80);max-width:40em}
+.home .find{display:block;width:100%;height:44px;margin:0 0 20px;padding:0 20px;font:400 17px var(--sans);color:var(--ink);background:var(--field);border:1px solid var(--hair);border-radius:9999px}
+.home .find::placeholder{color:var(--ink48)}
+.home .cards{display:grid;gap:16px;grid-template-columns:1fr}
+.home .cards a{display:flex;flex-direction:column;min-height:44px;padding:0;overflow:hidden;border:1px solid var(--hair);border-radius:18px;background:var(--parch);color:var(--ink);text-decoration:none;transition:border-color .2s,transform .2s}
+.home .cards a:hover{border-color:var(--focus);text-decoration:none}
+.home .cards a:active{transform:scale(.985)}
+.home .cards a[hidden],.home #none[hidden]{display:none}
+.home .cv{display:block;aspect-ratio:16/9;background-color:#272729;background-image:var(--cover);background-position:center;background-size:cover}
+.home .cb{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:16px 18px 18px}
+.home .cards b{display:block;font:600 21px/1.35 var(--disp);color:var(--blue);text-wrap:balance}
+.home .sub{color:var(--ink80);font-size:15px;line-height:1.6}
+.home .pf{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:8px;color:var(--ink80)}
+.home .pf svg{display:block;fill:currentColor}
+.home #none{margin:8px 0 0;color:var(--ink48)}
+@media (min-width:720px){.home .cards{grid-template-columns:1fr 1fr}}
+@media (min-width:1080px){.home .cards{grid-template-columns:1fr 1fr 1fr}}
+@media (max-width:640px){.home{padding:32px 20px 56px}.home h1{font-size:28px;line-height:1.3}}
+@media (prefers-reduced-motion:reduce){.top .back,.home .cards a,#pbar i,#pkb,.grid a,summary::before{transition:none}.top .back:active,.home .cards a:active,#pkb:active,.grid a:active{transform:none}}
+</style></head><body><a class="skip" href="#intro">ข้ามไปเนื้อหา</a><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9a90b5"/></marker></defs></svg>
+<div class="top" data-cover="ffx"><a class="back" href="../../index.html" aria-label="กลับไปคู่มือทั้งหมด"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a><h1>⚔️ Final Fantasy X International (PS2) – Walkthrough &amp; ของสะสม</h1></div><header><nav aria-label="สารบัญ"><div class="pkw"><button type="button" id="pkb" aria-haspopup="dialog" aria-expanded="false" aria-controls="pk"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg> เลือกบท <span id="pkc" class="pkc"></span></button><div id="pk" class="pk" role="dialog" aria-modal="false" aria-labelledby="pkt" hidden><div class="pkhd"><span id="pkt">ไปที่บท</span><a href="#intro" class="pkintro" data-s="intro">↑ เริ่มต้น</a><button type="button" class="pkx" aria-label="ปิด"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="pg"><h2 class="pgh">เนื้อเรื่อง</h2><div class="grid gm"><a href="#a01" data-s="a01" title="01 – Zanarkand (ความฝัน)" aria-label="01 – Zanarkand (ความฝัน)"><b>01</b><span>Zanarkand (ความฝัน)</span></a><a href="#a02" data-s="a02" title="02 – ซากปรักหักพัง Baaj" aria-label="02 – ซากปรักหักพัง Baaj"><b>02</b><span>ซากปรักหักพัง Baaj</span></a><a href="#a03" data-s="a03" title="03 – Besaid" aria-label="03 – Besaid"><b>03</b><span>Besaid</span></a><a href="#a04" data-s="a04" title="04 – S.S. Liki" aria-label="04 – S.S. Liki"><b>04</b><span>S.S. Liki</span></a><a href="#a05" data-s="a05" title="05 – Kilika" aria-label="05 – Kilika"><b>05</b><span>Kilika</span></a><a href="#a06" data-s="a06" title="06 – S.S. Winno" aria-label="06 – S.S. Winno"><b>06</b><span>S.S. Winno</span></a><a href="#a07" data-s="a07" title="07 – Luca" aria-label="07 – Luca"><b>07</b><span>Luca</span></a><a href="#a08" data-s="a08" title="08 – Mi&#x27;ihen Highroad" aria-label="08 – Mi&#x27;ihen Highroad"><b>08</b><span>Mi&#x27;ihen Highroad</span></a><a href="#a09" data-s="a09" title="09 – Mushroom Rock Road" aria-label="09 – Mushroom Rock Road"><b>09</b><span>Mushroom Rock Road</span></a><a href="#a10" data-s="a10" title="10 – Djose" aria-label="10 – Djose"><b>10</b><span>Djose</span></a><a href="#a11" data-s="a11" title="11 – Moonflow" aria-label="11 – Moonflow"><b>11</b><span>Moonflow</span></a><a href="#a12" data-s="a12" title="12 – Guadosalam" aria-label="12 – Guadosalam"><b>12</b><span>Guadosalam</span></a><a href="#a13" data-s="a13" title="13 – Thunder Plains" aria-label="13 – Thunder Plains"><b>13</b><span>Thunder Plains</span></a><a href="#a14" data-s="a14" title="14 – Macalania Woods &amp; ทะเลสาบ" aria-label="14 – Macalania Woods &amp; ทะเลสาบ"><b>14</b><span>Macalania Woods &amp; ทะเลสาบ</span></a><a href="#a15" data-s="a15" title="15 – Macalania Temple" aria-label="15 – Macalania Temple"><b>15</b><span>Macalania Temple</span></a><a href="#a16" data-s="a16" title="16 – Bikanel (Sanubia Desert)" aria-label="16 – Bikanel (Sanubia Desert)"><b>16</b><span>Bikanel (Sanubia Desert)</span></a><a href="#a17" data-s="a17" title="17 – Home (บ้าน Al Bhed)" aria-label="17 – Home (บ้าน Al Bhed)"><b>17</b><span>Home (บ้าน Al Bhed)</span></a><a href="#a18" data-s="a18" title="18 – Bevelle &amp; Via Purifico" aria-label="18 – Bevelle &amp; Via Purifico"><b>18</b><span>Bevelle &amp; Via Purifico</span></a><a href="#a19" data-s="a19" title="19 – Calm Lands &amp; Remiem Temple" aria-label="19 – Calm Lands &amp; Remiem Temple"><b>19</b><span>Calm Lands &amp; Remiem Temple</span></a><a href="#a20" data-s="a20" title="20 – Cavern of the Stolen Fayth" aria-label="20 – Cavern of the Stolen Fayth"><b>20</b><span>Cavern of the Stolen Fayth</span></a><a href="#a21" data-s="a21" title="21 – Mt. Gagazet" aria-label="21 – Mt. Gagazet"><b>21</b><span>Mt. Gagazet</span></a><a href="#a22" data-s="a22" title="22 – Zanarkand Ruins &amp; Dome" aria-label="22 – Zanarkand Ruins &amp; Dome"><b>22</b><span>Zanarkand Ruins &amp; Dome</span></a><a href="#a23" data-s="a23" title="23 – เรือเหาะ &amp; Sin" aria-label="23 – เรือเหาะ &amp; Sin"><b>23</b><span>เรือเหาะ &amp; Sin</span></a><a href="#a24" data-s="a24" title="24 – Omega Ruins (เสริม)" aria-label="24 – Omega Ruins (เสริม)"><b>24</b><span>Omega Ruins (เสริม)</span></a></div></div><div class="pg"><h2 class="pgh">อ้างอิง</h2><div class="grid gr"><a href="#r-intl" data-s="r-intl" title="สิ่งที่ International มีเพิ่ม" aria-label="สิ่งที่ International มีเพิ่ม"><b>International</b><span>สิ่งที่ International มีเพิ่ม</span></a><a href="#r-grid" data-s="r-grid" title="Standard vs Expert Sphere Grid" aria-label="Standard vs Expert Sphere Grid"><b>Standard</b><span>Standard vs Expert Sphere Grid</span></a><a href="#r-primer" data-s="r-primer" title="Al Bhed Primer ทั้ง 26 เล่ม" aria-label="Al Bhed Primer ทั้ง 26 เล่ม"><b>Al</b><span>Al Bhed Primer ทั้ง 26 เล่ม</span></a><a href="#r-celes" data-s="r-celes" title="Celestial Weapons" aria-label="Celestial Weapons"><b>Celestial</b><span>Celestial Weapons</span></a><a href="#r-jecht" data-s="r-jecht" title="Jecht Spheres &amp; Overdrive" aria-label="Jecht Spheres &amp; Overdrive"><b>Jecht</b><span>Jecht Spheres &amp; Overdrive</span></a><a href="#r-cloister" data-s="r-cloister" title="Cloister of Trials – หีบลับ" aria-label="Cloister of Trials – หีบลับ"><b>Cloister</b><span>หีบลับ</span></a><a href="#r-aeon" data-s="r-aeon" title="เอออนเสริม" aria-label="เอออนเสริม"><b>เอออนเสริม</b><span>เอออนเสริม</span></a><a href="#r-arena" data-s="r-arena" title="Monster Arena" aria-label="Monster Arena"><b>Monster</b><span>Monster Arena</span></a><a href="#r-dark" data-s="r-dark" title="Dark Aeons &amp; Penance (เฉพาะ International)" aria-label="Dark Aeons &amp; Penance (เฉพาะ International)"><b>Dark</b><span>Dark Aeons &amp; Penance (เฉพาะ International)</span></a><a href="#r-gap" data-s="r-gap" title="หมายเหตุ &amp; ข้อจำกัด" aria-label="หมายเหตุ &amp; ข้อจำกัด"><b>หมายเหตุ</b><span>หมายเหตุ &amp; ข้อจำกัด</span></a></div></div></div><div id="pkbg" hidden></div></div></nav><div class="hd"><input id="q" type="search" aria-label="ค้นหา" autocomplete="off" placeholder="ค้นหา เช่น Primer"><span id="prog" aria-live="polite"></span><span id="pbar" aria-hidden="true"><i></i></span></div><button type="button" id="syb" aria-haspopup="dialog" aria-label="ตั้งค่าซิงก์" title="ตั้งค่าซิงก์"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.6 4.2 4.2 0 0 0 7 18z"/></svg><i id="syd0" aria-hidden="true"></i></button></header>
 <main><p id="empty" role="status">ไม่พบผลลัพธ์ ลองค้นด้วยคำอื่น</p><section id="intro"><p>คู่มือนี้สำหรับ Final Fantasy X International (PS2) เรียงตามเนื้อเรื่องตั้งแต่ Zanarkand จนจบ ติ๊กช่องเพื่อจดว่าเก็บแล้วได้เลย ของที่ต้องย้อนกลับมาเก็บภายหลังจะเป็นกล่องเส้นประ</p>
 <h2 class="h3">รวมของสะสม</h2>
 <ul><li><span class="b" style="--c:#38bdf8">Primer</span> Al Bhed Primer: <b>26</b></li><li><span class="b" style="--c:#f59e0b">Item</span> ไอเท็ม/ของพลาดได้: <b>25</b></li><li><span class="b" style="--c:#fde047">Celes</span> Celestial (อาวุธ/Crest/Sigil): <b>21</b></li><li><span class="b" style="--c:#a78bfa">Sphere</span> Jecht/Movie Sphere: <b>10</b></li><li><span class="b" style="--c:#34d399">Trial</span> หีบลับ Cloister of Trials: <b>6</b></li><li><span class="b" style="--c:#f472b6">Aeon</span> เอออนเสริม: <b>1</b></li></ul></section>
@@ -289,7 +329,7 @@ figure.map{margin:24px 0}figure.map img{display:block;max-width:100%;height:auto
 <div class="sya"><button type="submit" value="save" id="sysv">บันทึกและซิงก์</button><button type="button" id="syx" class="sy2">ยกเลิกซิงก์/ลบ token</button><button type="submit" value="cancel" class="sy2" formnovalidate>ปิด</button></div></form></dialog><script>const GG={"key": "ffxintl:", "lang": "th", "ui": {"collected": "เก็บแล้ว", "unit": "ชิ้น"}};
 /* game-guides runtime: walkthrough SVG layout, checklist+storage, counters, search, chapter picker */
 (()=>{ // 1) Walkthrough: lay out boxes, wrap text by measuring real glyph widths -> never overflows
-const NS='http://www.w3.org/2000/svg',C=5,W=170,GX=30,GY=34,LH=15,PAD=14,MAXW=W-2*PAD-6;
+const NS='http://www.w3.org/2000/svg',C=5,W=170,GX=30,GY=34,LH=18,PAD=14,MAXW=W-2*PAD-6;
 const seg=(()=>{try{const s=new Intl.Segmenter(GG.lang||'th',{granularity:'word'});return t=>[...s.segment(t)].map(x=>x.segment)}catch(e){return t=>t.split(/(\s+)/)}})();
 const ms=document.createElementNS(NS,'svg');ms.setAttribute('class','fl');ms.setAttribute('aria-hidden','true');ms.style.cssText='position:absolute;left:-9999px;top:0;width:10px;height:10px;visibility:hidden';document.body.appendChild(ms);
 const mt={};['nl','nd'].forEach(c=>{const t=document.createElementNS(NS,'text');t.setAttribute('class',c);ms.appendChild(t);mt[c]=t});

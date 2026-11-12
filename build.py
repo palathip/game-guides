@@ -390,7 +390,7 @@ def render(d, base=ROOT):
         "connect-src https://api.github.com; "
         "object-src 'none'; base-uri 'none'"
     )
-    rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'picker': picker,
+    rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'slug': E(d.get('game', '')), 'picker': picker,
            'intro': blocks(d.get('intro', []), True).replace('{{TOTALS}}', totals), 'sections': '\n'.join(secs).replace('{{TOTALS}}', totals),
            'footer': E(d.get('footer', '')), 'config': cfg, 'csp': csp,
            'css': (TPL / 'style.css').read_text(encoding='utf-8') + ((TPL / 'map.css').read_text(encoding='utf-8') if feat else ''), 'js': js}

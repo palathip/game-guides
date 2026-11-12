@@ -1,6 +1,6 @@
 /* game-guides runtime: walkthrough SVG layout, checklist+storage, counters, search, chapter picker */
 (()=>{ // 1) Walkthrough: lay out boxes, wrap text by measuring real glyph widths -> never overflows
-const NS='http://www.w3.org/2000/svg',C=5,W=170,GX=30,GY=34,LH=15,PAD=14,MAXW=W-2*PAD-6;
+const NS='http://www.w3.org/2000/svg',C=5,W=170,GX=30,GY=34,LH=18,PAD=14,MAXW=W-2*PAD-6;
 const seg=(()=>{try{const s=new Intl.Segmenter(GG.lang||'th',{granularity:'word'});return t=>[...s.segment(t)].map(x=>x.segment)}catch(e){return t=>t.split(/(\s+)/)}})();
 const ms=document.createElementNS(NS,'svg');ms.setAttribute('class','fl');ms.setAttribute('aria-hidden','true');ms.style.cssText='position:absolute;left:-9999px;top:0;width:10px;height:10px;visibility:hidden';document.body.appendChild(ms);
 const mt={};['nl','nd'].forEach(c=>{const t=document.createElementNS(NS,'text');t.setAttribute('class',c);ms.appendChild(t);mt[c]=t});

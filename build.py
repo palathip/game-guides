@@ -395,10 +395,14 @@ def render(d, base=ROOT):
     if hp.is_file():
         wh = img_size(hp.read_bytes()) or (1280, 480)
         hero = f'<img src="hero.webp" width="{wh[0]}" height="{wh[1]}" alt="" decoding="async">'
+    # style.css lives in template/, so url("fonts/…") is correct for index.html.
+    # Built guides inline that CSS at guides/<game>/, where the same files are two levels up.
+    css = (TPL / 'style.css').read_text(encoding='utf-8') + ((TPL / 'map.css').read_text(encoding='utf-8') if feat else '')
+    css = css.replace('url("fonts/', 'url("../../template/fonts/')
     rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'slug': E(d.get('game', '')), 'hero': hero, 'picker': picker,
            'intro': blocks(d.get('intro', []), True).replace('{{TOTALS}}', totals), 'sections': '\n'.join(secs).replace('{{TOTALS}}', totals),
            'footer': E(d.get('footer', '')), 'config': cfg, 'csp': csp,
-           'css': (TPL / 'style.css').read_text(encoding='utf-8') + ((TPL / 'map.css').read_text(encoding='utf-8') if feat else ''), 'js': js}
+           'css': css, 'js': js}
     rep.update({f'ui.{k}': E(v) for k, v in ui.items()})
     page = (TPL / 'page.html').read_text(encoding='utf-8')
     return re.sub(r'\{\{([\w.]+)\}\}', lambda m: rep[m.group(1)], page), counts
@@ -409,6 +413,8 @@ def guard(page):
     scan = re.sub(r'<img\b[^>]*\bsrc="data:image/(?:webp|jpe?g|png);base64,[^"]*"[^>]*>', '', scan, flags=re.I)
     # relative image (root "images": "files"): only the exact attribute set the builder emits, no scheme, no "..", no "//"
     scan = re.sub(r'<img src="(?![^"]*(?:\.\.|//))[A-Za-z0-9_][A-Za-z0-9_./-]*\.(?:webp|jpe?g|png)"(?: width="\d+" height="\d+")? alt="[^"<>]*"(?: loading="lazy")? decoding="async">', '', scan)
+    # Self-hosted font preload only. Any other <link href> (CDN, stylesheet, script) still fails.
+    scan = re.sub(r'<link rel="preload" href="(?:\.\./\.\./)?template/fonts/[A-Za-z0-9._-]+\.woff2" as="font" type="font/woff2" crossorigin>', '', scan)
     # on\w+ must be the whole attribute name. content= and aria-controls= contain that
     # substring but are not event handlers; .onchange= inside <script> is removed above.
     return re.findall(r'<iframe|<script[^>]+src=|<link[^>]+href=|@import|url\(\s*["\']?https?:|(?<![A-Za-z0-9_])on\w+\s*=|<img\b', scan, re.I)

@@ -390,7 +390,12 @@ def render(d, base=ROOT):
         "connect-src https://api.github.com; "
         "object-src 'none'; base-uri 'none'"
     )
-    rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'slug': E(d.get('game', '')), 'picker': picker,
+    hero = ''
+    hp = Path(base) / 'hero.webp'
+    if hp.is_file():
+        wh = img_size(hp.read_bytes()) or (1280, 480)
+        hero = f'<img src="hero.webp" width="{wh[0]}" height="{wh[1]}" alt="" decoding="async">'
+    rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'slug': E(d.get('game', '')), 'hero': hero, 'picker': picker,
            'intro': blocks(d.get('intro', []), True).replace('{{TOTALS}}', totals), 'sections': '\n'.join(secs).replace('{{TOTALS}}', totals),
            'footer': E(d.get('footer', '')), 'config': cfg, 'csp': csp,
            'css': (TPL / 'style.css').read_text(encoding='utf-8') + ((TPL / 'map.css').read_text(encoding='utf-8') if feat else ''), 'js': js}

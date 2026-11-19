@@ -27,7 +27,7 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 
 | `images` | `"embed"`\|`"files"` | | default `embed` (รูปฝังเป็น base64 ในไฟล์ HTML) · `files` = ใช้ `<img src="img/…">` ไฟล์รูปอยู่ข้างไฟล์ HTML (โฟลเดอร์เกม) ไฟล์ HTML เล็กลงมาก |
 | `profile` | `"guide"`\|`"reference"` | | default `guide` · `reference` = หน้าอ้างอิงที่ไม่มีเช็กลิสต์ (เช่นคู่มือจอย) ซ่อนปุ่ม Mark as cleared, แถบความคืบหน้า และปุ่มซิงก์ |
-| `section` | `"games"`\|`"controllers"` | | ถ้าใส่ จะแสดงเมนูบนสุด คู่มือเกม / Controller Guide · ค่าเริ่มต้นของลิงก์คิดจาก `site_root` (`../../`) |
+| `section` | `"games"`\|`"controllers"` | | ถ้าใส่ จะแสดงเมนูบนสุด Game Guides / Controller Guide · ค่าเริ่มต้นของลิงก์คิดจาก `site_root` (`../../`) |
 | `back_href` / `back_label` | string | | ลิงก์ปุ่มกลับ ค่าเริ่มต้น `../../index.html` และ «กลับไปคู่มือทั้งหมด» · `back_href` ต้องเป็นพาธ `.html` แบบสัมพัทธ์ |
 | `hero_fit` | `"cover"`\|`"contain"` | | default `cover` · `contain` โชว์ภาพสินค้าทั้งชิ้นบนพื้นเข้ม |
 | `hero_alt` | string | | คำอธิบายภาพ hero |

@@ -448,7 +448,7 @@ def render(d, base=ROOT):
         def nav_a(key, href, label):
             cur = f' aria-current="{here}"' if section == key else ''
             return f'<a href="{E(href)}"{cur}>{E(label)}</a>'
-        site_nav = '<nav class="sitenav" aria-label="เมนูหลัก">' + nav_a('games', root + 'index.html', 'คู่มือเกม') + nav_a('controllers', root + 'controllers/index.html', 'Controller Guide') + '</nav>'
+        site_nav = '<nav class="sitenav" aria-label="เมนูหลัก">' + nav_a('games', root + 'index.html', 'Game Guides') + nav_a('controllers', root + 'controllers/index.html', 'Controller Guide') + '</nav>'
     else:
         site_nav = ''
     # style.css lives in template/, so url("fonts/…") is correct for index.html.

@@ -26,6 +26,9 @@ UI = {  # default Thai UI labels; override any via data["ui"]
     'flow_note': 'กล่องเรียงตามลำดับที่แหล่งข้อมูลเล่าเส้นทาง · ขอบเส้นประ = ต้องย้อนกลับ/หันหลัง · ขอบชมพูหนา = ศัตรู/บอสที่แหล่งระบุชื่อ (ตำแหน่งในลำดับเป็นการวางท้ายบทโดยประมาณ ไม่ใช่ลำดับจริง)',
 }
 C_SE, C_BOSS = '#60a5fa', '#f472b6'
+CLEARED_BTN = ('<button type="button" id="clr" class="clr" aria-pressed="false">'
+    '<svg class="clr-i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" hidden>'
+    '<path d="M5 12.5l4.2 4.2L19 7.5"/></svg><span id="clrl">Mark as cleared</span></button>')
 ALLOWED = {'b', 'strong', 'i', 'em', 'a', 'span', 'br', 'code'}
 ALLOWED_ATTR = {'href', 'class', 'lang', 'title'}
 # HTMLParser consumes an unterminated "<tag" at EOF without a handler and clears rawdata.
@@ -152,11 +155,13 @@ def validate(d):
             if 'blocks' in s:
                 if not isinstance(s['blocks'], list): errs.append(f'{w}: "blocks" must be a list')
                 else: [block_check(b, f'{w}.blocks[{j}]', errs, items) for j, b in enumerate(s['blocks'])]
+            if 'gallery' in s and not isinstance(s['gallery'], bool): errs.append(f'{w}: "gallery" must be true/false')
             for j, x in enumerate(s.get('sources', [])):
                 if not re.match(r'^https?://', x.get('url', '')): errs.append(f'{w}.sources[{j}]: url must be http(s)')
         elif s.get('kind') == 'page':
             req(s, 'blocks', list, w)
             for j, b in enumerate(s.get('blocks', [])): block_check(b, f'{w}.blocks[{j}]', errs, items)
+            if 'gallery' in s and not isinstance(s['gallery'], bool): errs.append(f'{w}: "gallery" must be true/false')
         else: errs.append(f'{w}: kind must be "chapter" or "page"')
     for j, b in enumerate(d.get('intro', [])): block_check(b, f'intro[{j}]', errs, items)
     errs += validate_map(d, ids)
@@ -166,11 +171,27 @@ def validate(d):
             if it.get('id') not in ids: errs.append(f'picker: id {it.get("id")} not found in sections')
     return errs
 
+def _rel_html(v):
+    """Relative .html path. Rejects schemes, protocol-relative URLs and '..' segments that escape."""
+    if not isinstance(v, str) or '//' in v or ':' in v or '\\' in v: return False
+    return re.fullmatch(r'(?:(?:\./|\.\./)|[A-Za-z0-9_-]+/)*[A-Za-z0-9_-]+\.html', v) is not None
+def _site_root(v):
+    if not isinstance(v, str) or '//' in v or ':' in v or '\\' in v: return False
+    return re.fullmatch(r'(?:\./|\.\./)*', v) is not None
+
 HEX = re.compile(r'#[0-9a-fA-F]{3,8}')
 def validate_map(d, ids):
     """Optional root worldMap / unlocks and chapter "area" (metroidvania guides). Ids must point at sections/unlocks."""
     errs = []; num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
     if 'images' in d and d['images'] not in ('embed', 'files'): errs.append('root: "images" must be "embed" or "files"')
+    if d.get('profile', 'guide') not in ('guide', 'reference'): errs.append('root: "profile" must be "guide" or "reference"')
+    if d.get('hero_fit', 'cover') not in ('cover', 'contain'): errs.append('root: "hero_fit" must be "cover" or "contain"')
+    if 'section' in d and d['section'] not in ('games', 'controllers'): errs.append('root: "section" must be "games" or "controllers"')
+    if 'back_href' in d and not _rel_html(d['back_href']): errs.append('root: "back_href" must be a relative .html path')
+    if 'back_label' in d and not isinstance(d['back_label'], str): errs.append('root: "back_label" must be a string')
+    if 'hero_alt' in d and not isinstance(d['hero_alt'], str): errs.append('root: "hero_alt" must be a string')
+    if 'site_root' in d and not _site_root(d['site_root']): errs.append('root: "site_root" must be a relative prefix such as ../../')
+    if 'gallery' in d: errs.append('root: "gallery" belongs on a section, not the root')
     U = d.get('unlocks', [])
     if not isinstance(U, list): return errs + ['root: "unlocks" must be a list']
     uids = set()
@@ -223,9 +244,10 @@ def validate_map(d, ids):
             errs.append(f'{w}: label.leader must be [[x1,y1],[x2,y2]]')
     return errs
 
+PDF_NAME = re.compile(r'[A-Za-z0-9][A-Za-z0-9._-]*\.pdf')
 def block_check(b, w, errs, items):
-    k = [x for x in ('h2', 'h3', 'p', 'list', 'olist', 'table', 'checklist', 'totals', 'unlocks') if x in b]
-    if len(k) != 1: errs.append(f'{w}: block needs exactly one of h2/h3/p/list/olist/table/checklist/totals/unlocks'); return
+    k = [x for x in ('h2', 'h3', 'p', 'list', 'olist', 'table', 'checklist', 'totals', 'unlocks', 'file') if x in b]
+    if len(k) != 1: errs.append(f'{w}: block needs exactly one of h2/h3/p/list/olist/table/checklist/totals/unlocks/file'); return
     k = k[0]
     if k == 'p': check_inline(b['p'], w, errs)
     if k in ('list', 'olist'): [check_inline(x, f'{w}.{k}', errs) for x in b[k]]
@@ -234,6 +256,13 @@ def block_check(b, w, errs, items):
         t = b['table']
         for r in t.get('rows', []):
             if len(r) != len(t.get('head', [])): errs.append(f'{w}: row has {len(r)} cells, head has {len(t.get("head", []))}')
+    if k == 'file':
+        f = b['file']
+        if not isinstance(f, dict) or not isinstance(f.get('label'), str) or not f.get('label'):
+            errs.append(f'{w}: file needs a "label"')
+        href = f.get('href') if isinstance(f, dict) else None
+        if not isinstance(href, str) or not PDF_NAME.fullmatch(href) or '/' in href or '\\' in href:
+            errs.append(f'{w}: file.href must be a same-folder .pdf filename')
 
 # ---------- render: optional world map / areas / unlocks / spoilers ----------
 def has_feat(d):
@@ -296,6 +325,15 @@ def map_parts(d, ui, base, link):
                 + (f'<figcaption>{fc}</figcaption>' if fc else '') + '</figure>')
     return area_head, unlocks_tbl, world
 
+def file_html(f, base):
+    """Same-folder PDF link. The href is a filename already checked by block_check."""
+    href = f['href']
+    root = Path(base).resolve()
+    fp = (root / href).resolve()
+    if fp.parent != root or not fp.is_file():
+        sys.exit(f'ERROR: file block: PDF not found next to the guide: {href}')
+    return f'<p class="src"><a href="{E(href)}">{E(f["label"])}</a></p>'
+
 def render(d, base=ROOT):
     ui = {**UI, **d.get('ui', {})}; T = d['types']
     link = d.get('images') == 'files'; feat = has_feat(d)
@@ -304,9 +342,11 @@ def render(d, base=ROOT):
     WM = d.get('worldMap'); wm_img = WM['image'] if WM else None
     wm_host = next((s['id'] for s in d['sections'] if any(isinstance(m, dict) and m.get('file') == wm_img for m in s.get('maps', []))), None) if WM else None
     def smaps(s):
-        if s['id'] != wm_host: return maps_html(s, base, link)
-        cap = next(m for m in s['maps'] if m.get('file') == wm_img)
-        return world(cap) + maps_html(s, base, link, {wm_img})
+        if s['id'] != wm_host: body = maps_html(s, base, link)
+        else:
+            cap = next(m for m in s['maps'] if m.get('file') == wm_img)
+            body = world(cap) + maps_html(s, base, link, {wm_img})
+        return f'<div class="shots">{body}</div>' if s.get('gallery') and body else body
     badge = lambda t: f'<span class="b" style="--c:{T[t]["color"]}">{E(T[t]["short"])}</span>'
     def checklist(lst):
         o = []
@@ -330,6 +370,7 @@ def render(d, base=ROOT):
             elif 'list' in b: o.append('<ul>' + ''.join(f'<li>{sanitize_inline(x)[0]}</li>' for x in b['list']) + '</ul>')
             elif 'olist' in b: o.append('<ol>' + ''.join(f'<li>{sanitize_inline(x)[0]}</li>' for x in b['olist']) + '</ol>')
             elif 'table' in b: o.append(tbl(b['table']))
+            elif 'file' in b: o.append(file_html(b['file'], base))
             elif 'checklist' in b: o.append(f'<ul class="ck">{checklist(b["checklist"])}</ul>')
             elif 'totals' in b: o.append('{{TOTALS}}')
             elif 'unlocks' in b: o.append(unlocks_tbl() if unlocks_tbl else '')
@@ -398,7 +439,18 @@ def render(d, base=ROOT):
     hp = Path(base) / 'hero.webp'
     if hp.is_file():
         wh = img_size(hp.read_bytes()) or (1280, 480)
-        hero = f'<img src="hero.webp" width="{wh[0]}" height="{wh[1]}" alt="" decoding="async">'
+        hero = f'<img src="hero.webp" width="{wh[0]}" height="{wh[1]}" alt="{E(d.get("hero_alt") or "")}" decoding="async">'
+    ref = d.get('profile') == 'reference'
+    root = d.get('site_root', '../../')
+    section = d.get('section')
+    if section:
+        here = 'page' if d.get('section_here') else 'location'
+        def nav_a(key, href, label):
+            cur = f' aria-current="{here}"' if section == key else ''
+            return f'<a href="{E(href)}"{cur}>{E(label)}</a>'
+        site_nav = '<nav class="sitenav" aria-label="เมนูหลัก">' + nav_a('games', root + 'index.html', 'คู่มือเกม') + nav_a('controllers', root + 'controllers/index.html', 'Controller Guide') + '</nav>'
+    else:
+        site_nav = ''
     # style.css lives in template/, so url("fonts/…") is correct for index.html.
     # Built guides inline that CSS at guides/<game>/, where the same files are two levels up.
     css = (TPL / 'style.css').read_text(encoding='utf-8') + ((TPL / 'map.css').read_text(encoding='utf-8') if feat else '')
@@ -406,7 +458,13 @@ def render(d, base=ROOT):
     rep = {'lang': E(d.get('lang', 'th')), 'title': E(d['title']), 'heading': E(d['heading']), 'slug': E(d.get('game', '')), 'hero': hero, 'picker': picker,
            'intro': blocks(d.get('intro', []), True).replace('{{TOTALS}}', totals), 'sections': '\n'.join(secs).replace('{{TOTALS}}', totals),
            'footer': E(d.get('footer', '')), 'config': cfg, 'csp': csp,
-           'css': css, 'js': js}
+           'css': css, 'js': js,
+           'body_attr': ' data-kind="reference"' if ref else '',
+           'hero_attr': ' data-hero="contain"' if d.get('hero_fit') == 'contain' else '',
+           'back_href': E(d.get('back_href') or '../../index.html'),
+           'back_label': E(d.get('back_label') or 'กลับไปคู่มือทั้งหมด'),
+           'cleared': '' if ref else CLEARED_BTN,
+           'site_nav': site_nav}
     rep.update({f'ui.{k}': E(v) for k, v in ui.items()})
     return re.sub(r'\{\{([\w.]+)\}\}', lambda m: rep[m.group(1)], tpl), counts
 

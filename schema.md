@@ -26,6 +26,11 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 | `sections` | section[] | ✔ | บท + หน้าอ้างอิง เรียงตามลำดับที่แสดง |
 
 | `images` | `"embed"`\|`"files"` | | default `embed` (รูปฝังเป็น base64 ในไฟล์ HTML) · `files` = ใช้ `<img src="img/…">` ไฟล์รูปอยู่ข้างไฟล์ HTML (โฟลเดอร์เกม) ไฟล์ HTML เล็กลงมาก |
+| `profile` | `"guide"`\|`"reference"` | | default `guide` · `reference` = หน้าอ้างอิงที่ไม่มีเช็กลิสต์ (เช่นคู่มือจอย) ซ่อนปุ่ม Mark as cleared, แถบความคืบหน้า และปุ่มซิงก์ |
+| `section` | `"games"`\|`"controllers"` | | ถ้าใส่ จะแสดงเมนูบนสุด คู่มือเกม / Controller Guide · ค่าเริ่มต้นของลิงก์คิดจาก `site_root` (`../../`) |
+| `back_href` / `back_label` | string | | ลิงก์ปุ่มกลับ ค่าเริ่มต้น `../../index.html` และ «กลับไปคู่มือทั้งหมด» · `back_href` ต้องเป็นพาธ `.html` แบบสัมพัทธ์ |
+| `hero_fit` | `"cover"`\|`"contain"` | | default `cover` · `contain` โชว์ภาพสินค้าทั้งชิ้นบนพื้นเข้ม |
+| `hero_alt` | string | | คำอธิบายภาพ hero |
 | `worldMap` | object | | แผนที่โลกคลิกได้ (ดูหัวข้อ worldMap) |
 | `unlocks` | unlock[] | | ability/กุญแจ/อีเวนต์ที่เปิดทาง (ดูหัวข้อ worldMap) |
 
@@ -78,6 +83,9 @@ You only write data.json. Layout, CSS, JS, walkthrough boxes, checklist, search 
 | `{"checklist": [item, ...]}` | เช็กลิสต์ติ๊กได้ (นับรวมในสรุป) |
 | `{"totals": true}` | สรุปจำนวนของสะสมทุกประเภท (คำนวณให้อัตโนมัติ) |
 | `{"unlocks": true}` | ตาราง unlocks จาก root `unlocks` (ได้ที่ไหน ลิงก์ไปพื้นที่ เปิดพื้นที่ไหน) · ชิปเงื่อนไขในหัวพื้นที่จะลิงก์มาที่แถวนี้ |
+| `{"file": {"href": "manual.pdf", "label": "คู่มือ PDF"}}` | ลิงก์ไฟล์ PDF ที่อยู่โฟลเดอร์เดียวกับ data.json ชื่อไฟล์เท่านั้น ห้ามมีพาธ |
+
+หน้า `kind: "page"` ใส่ `"gallery": true` ได้ รูปใน `maps` จะเรียงเป็นการ์ด เพิ่มจอยรุ่นใหม่: ดูหัวข้อ Controller Guide ใน `README.md`
 
 ## worldMap / unlocks / area (ไม่บังคับ สำหรับเกมแนว metroidvania)
 - `worldMap`: `{image, width, height, source{label,url}, labelStyle{fontSizePctOfWidth, fontFamily, fontWeight}, areas:[{id, name, no, polygons:[[[x,y],…]], hotspot{x,y,w,h}, label{text,x,y,anchor,box{x,y,w,h},leader:[[x1,y1],[x2,y2]]}, labelColor}]}` — ทุกพิกัดเป็น % ของรูป · `id` ต้องตรงกับ section · ไม่มี polygons ใช้ hotspot แทน · ถ้า section ไหนมี `maps` เป็นรูปเดียวกับ `image` แผนที่คลิกได้จะแทนรูปนั้น (ไม่งั้นขึ้นบนสุดของ intro)

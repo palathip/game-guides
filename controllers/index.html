@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<script>(function(){try{var t=localStorage.getItem("gg-theme");if(t!=="light"&&t!=="dark")return;document.documentElement.setAttribute("data-theme",t);var m=document.createElement("meta");m.id="gg-tc";m.name="theme-color";m.content=t==="dark"?"#000000":"#f5f5f7";document.head.appendChild(m)}catch(e){}})();</script>
+<title>Controller Guide – คู่มือจอย</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230066cc'/%3E%3Cpath d='M8 12h16M8 16h16M8 20h10' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" href="../template/fonts/noto-sans-thai.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../template/style.css">
+</head>
+<body>
+<a class="skip" href="#guides">ข้ามไปรายการจอย</a>
+<header class="hbar"><nav class="sitenav" aria-label="เมนูหลัก"><a href="../index.html">คู่มือเกม</a><a href="index.html" aria-current="page">Controller Guide</a></nav><button type="button" id="thm" class="thm" role="switch" aria-checked="false"><span class="sr" id="thml">ธีมสว่าง</span><span class="thm-track" aria-hidden="true"><span class="thm-knob"><svg class="sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3V21.5M2.5 12h2.2M19.3 12h2.2M4.8 4.8l1.6 1.6M17.6 17.6l1.6 1.6M19.2 4.8l-1.6 1.6M6.4 17.6l-1.6 1.6"/></svg><svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8 8 0 1 1 9.8 3.5 6.4 6.4 0 0 0 20.5 14.2z"/></svg></span></span></button></header>
+<main class="home">
+<h1>Controller Guide</h1>
+<p class="lead">คู่มือจอยภาษาไทย อ่านบนมือถือได้ แต่ละรุ่นเป็นหน้าของตัวเอง สรุปจากคู่มือและหน้าสินค้าทางการ ข้อมูลที่มาจากรีวิวมีป้ายกำกับในหน้านั้น</p>
+<input id="find" class="find" type="search" placeholder="ค้นหาจอย" aria-label="ค้นหาจอย" aria-controls="guides" autocomplete="off">
+<nav id="guides" class="cards" aria-label="รายการจอย">
+<a data-k="fantech zenith pro wgp18 จอย เกมแพด hall effect strikespeed bluetooth" href="wgp18/WGP18_Guide_TH.html"><span class="cv cv-wgp18" aria-hidden="true"><img src="wgp18/cover.webp" alt="" width="800" height="450" decoding="async"></span><span class="cb"><b>Fantech ZENITH PRO</b><span class="sub">รุ่น WGP18 · ปุ่ม การเชื่อมต่อ ไฟ LED</span></span></a>
+</nav>
+<p id="none" role="status" hidden>ไม่พบจอย</p>
+<script>
+(()=>{const q=document.getElementById('find'),cs=[...document.querySelectorAll('#guides a')],no=document.getElementById('none');
+const n=t=>t.normalize('NFC').toLowerCase();
+const hay=a=>n((a.querySelector('.cb')||a).textContent+' '+(a.dataset.k||''));
+q.addEventListener('input',()=>{const v=n(q.value.trim());let k=0;cs.forEach(a=>{const m=!v||hay(a).includes(v);a.hidden=!m;if(m)k++});no.hidden=k>0});
+q.addEventListener('keydown',e=>{if(e.key==='Escape'){q.value='';q.dispatchEvent(new Event('input'))}});})();
+</script>
+<script src="../template/state.js"></script>
+<script>GGState.bindThemeSwitch(document.getElementById('thm'));</script>
+</main>
+</body>
+</html>

@@ -25,11 +25,11 @@ class ControllerGuideTests(unittest.TestCase):
         home = (ROOT / "index.html").read_text(encoding="utf-8")
         cat = (ROOT / "controllers" / "index.html").read_text(encoding="utf-8")
         self.assertIn('href="controllers/index.html">Controller Guide', home)
-        self.assertIn('aria-current="page">คู่มือเกม', home)
+        self.assertIn('aria-current="page">Game Guides', home)
         self.assertIn('href="guides/bayonetta3/Bayonetta3_Guide_TH.html"', home)
         self.assertIn('href="guides/totk/ZeldaTOTK_Guide_TH.html"', home)
         self.assertEqual(home.count('class="bdg"'), 6)
-        self.assertIn('href="../index.html">คู่มือเกม', cat)
+        self.assertIn('href="../index.html">Game Guides', cat)
         self.assertIn('aria-current="page">Controller Guide', cat)
         self.assertIn('href="wgp18/WGP18_Guide_TH.html"', cat)
 
@@ -48,6 +48,7 @@ class ControllerGuideTests(unittest.TestCase):
             "EOS PRO WGP15",
             'href="WGP18_QSG_25120300.pdf"',
             'aria-label="เมนูหลัก"',
+            ">Game Guides<",
             "Controller Guide",
         ):
             self.assertIn(need, html)
@@ -57,6 +58,7 @@ class ControllerGuideTests(unittest.TestCase):
             "Steam Deck support",
             "ใช้ได้กับ Steam Deck",
             'id="clr"',
+            ">คู่มือเกม<",
         ):
             self.assertNotIn(bad, html)
         self.assertEqual(build.guard(html), [])
@@ -71,7 +73,7 @@ class ControllerGuideTests(unittest.TestCase):
         self.assertIn('data-kind="reference"', ref)
         self.assertIn('data-hero="contain"', ref)
         self.assertIn('aria-current="location">Controller Guide', ref)
-        self.assertIn('href="../../index.html">คู่มือเกม', ref)
+        self.assertIn('href="../../index.html">Game Guides', ref)
 
     def test_file_href_stays_in_the_guide_folder(self):
         bad = mini()

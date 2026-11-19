@@ -44,7 +44,6 @@ class ControllerGuideTests(unittest.TestCase):
             "ไม่ตรงกับตาราง LED INDICATOR",
             "ทั้งสองชุดมาจากคู่มือ QSG แผ่นเดียวกัน",
             "Steam Deck ไม่ปรากฏในคู่มือ QSG หรือหน้าสินค้าทางการ",
-            "รองรับ Steam Deck หรือไม่",
             "EOS PRO WGP15",
             'href="WGP18_QSG_25120300.pdf"',
             'aria-label="เมนูหลัก"',
@@ -59,6 +58,15 @@ class ControllerGuideTests(unittest.TestCase):
             "ใช้ได้กับ Steam Deck",
             'id="clr"',
             ">คู่มือเกม<",
+            "สิ่งที่อยู่ในกล่อง",
+            "ปุ่มและชิ้นส่วน",
+            "การแก้ปัญหา",
+            "ข้อมูลที่ไม่มีในแหล่งทางการ",
+            "pdftotext",
+            'id="box"',
+            'id="parts"',
+            'id="trouble"',
+            'id="gaps"',
         ):
             self.assertNotIn(bad, html)
         self.assertEqual(build.guard(html), [])

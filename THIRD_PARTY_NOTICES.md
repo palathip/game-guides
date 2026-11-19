@@ -34,6 +34,19 @@ dark scrim keeps the hero title readable.
 | The Last Faith | `guides/lastfaith/cover.webp`, `guides/lastfaith/hero.webp` | Steam library hero for [The Last Faith](https://store.steampowered.com/app/1274600/The_Last_Faith/) ([library_hero.jpg](https://cdn.cloudflare.steamstatic.com/steam/apps/1274600/library_hero.jpg)) | Kumi Souls Games and Playstack |
 | The Legend of Zelda: Tears of the Kingdom | `guides/totk/cover.webp`, `guides/totk/hero.webp` | Nintendo eShop key art on [Tears of the Kingdom](https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/) ([store image](https://assets.nintendo.com/image/upload/f_jpg,q_auto/store/software/switch/70010000063714/fb30eab428df3fc993b41c76e20f72e4d76d49734d17d31996b5ab61c414b117)). The store award ribbon on the right edge was cropped out. | Nintendo |
 
+## Controller product photos and Quick Start Guide
+
+The Controller Guide page for the Fantech ZENITH PRO (WGP18) uses official
+Fantech product photos and the official one-page Quick Start Guide. They
+identify the controller on this non-commercial guide. They are not openly
+licensed. Fantech retains the copyright.
+
+| File | Source |
+| --- | --- |
+| `controllers/wgp18/hero.webp`, `controllers/wgp18/cover.webp`, `controllers/wgp18/img/angle.webp`, `controllers/wgp18/img/side.webp`, `controllers/wgp18/img/back.webp` | Product photos from the [ZENITH PRO WGP18 product page](https://fantechworld.com/products/zenith-pro-wgp18). Crops are WebP, composited on black. |
+| `controllers/wgp18/img/qsg.webp` | Render of page 1 of the official Quick Start Guide, for preview. |
+| `controllers/wgp18/WGP18_QSG_25120300.pdf` | Official Quick Start Guide, same file as [WGP18_QSG_25120300.pdf](https://cdn.shopify.com/s/files/1/0630/1689/4649/files/WGP18_QSG_25120300.pdf?v=1772103154) on the Fantech download page. |
+
 ## Noto Sans Thai
 
 The site (home page and every built guide) uses Noto Sans Thai as the primary

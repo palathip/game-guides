@@ -54,7 +54,7 @@ header nav{flex:none}
 .gr a span{display:none}
 .grid a[aria-current=true]{border:2px solid var(--focus);padding:7px 9px}
 main{padding:0}
-#intro{padding:48px max(24px,calc((100% - 980px)/2)) 56px}
+#intro{padding:48px max(24px,calc((100% - 980px)/2)) 56px}#intro:empty{display:none}
 #intro p,main .w{max-width:68ch}
 main>details :is(p,dd,:not(.ck)>li){max-width:72ch}
 section>h2.h3{font:600 21px/1.19 var(--disp);margin:40px 0 12px}

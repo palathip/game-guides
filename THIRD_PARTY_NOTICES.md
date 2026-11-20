@@ -46,6 +46,8 @@ licensed. Fantech retains the copyright.
 | `controllers/wgp18/hero.webp`, `controllers/wgp18/cover.webp`, `controllers/wgp18/img/angle.webp`, `controllers/wgp18/img/side.webp`, `controllers/wgp18/img/back.webp` | Product photos from the [ZENITH PRO WGP18 product page](https://fantechworld.com/products/zenith-pro-wgp18). Crops are WebP, composited on black. |
 | `controllers/wgp18/img/qsg.webp` | Render of page 1 of the official Quick Start Guide, for preview. |
 | `controllers/wgp18/WGP18_QSG_25120300.pdf` | Official Quick Start Guide, same file as [WGP18_QSG_25120300.pdf](https://cdn.shopify.com/s/files/1/0630/1689/4649/files/WGP18_QSG_25120300.pdf?v=1772103154) on the Fantech download page. |
+| `controllers/nj12/hero.webp`, `controllers/nj12/cover.webp`, `controllers/nj12/img/handheld.webp`, `controllers/nj12/img/split.webp`, `controllers/nj12/img/pair.webp` | Product photos from the [NYXI Hyperion 2 product page](https://nyxigame.com/products/nintendo-switch-joycon-nyxi-hyperion-2-gamepad). Crops are WebP. |
+| `controllers/nj12/NJ12_Hyperion_2_manual.pdf` | Official NJ12 manual, same file as the [NYXI manual download](https://cdn-files.myshopline.com/file/store/1677638626094/NJ12%20manual%20for%20cutomer.pdf). |
 
 ## Noto Sans Thai
 

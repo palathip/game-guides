@@ -174,6 +174,7 @@ figure.map{margin:24px 0}figure.map img{display:block;max-width:100%;height:auto
 .cv-totk,[data-cover="totk"]{--cover:linear-gradient(180deg,#d5e3c4 0%,#3f5a3a 50%,#1c2430 100%)}
 .cv-wgp18,[data-cover="wgp18"]{--cover:linear-gradient(165deg,#2c2c30 0%,#0c0c0e 100%)}
 .cv-nj12,[data-cover="nj12"]{--cover:linear-gradient(165deg,#3a2458 0%,#100814 100%)}
+.cv-t50,[data-cover="t50"]{--cover:linear-gradient(165deg,#f4f6f8 0%,#c5ced6 100%)}
 
 .home{max-width:1120px;margin:0 auto;padding:32px 24px 80px}
 .home h1{font:600 40px/1.25 var(--disp);margin:0 0 8px;text-wrap:balance}

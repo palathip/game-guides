@@ -48,6 +48,8 @@ licensed. Fantech retains the copyright.
 | `controllers/wgp18/WGP18_QSG_25120300.pdf` | Official Quick Start Guide, same file as [WGP18_QSG_25120300.pdf](https://cdn.shopify.com/s/files/1/0630/1689/4649/files/WGP18_QSG_25120300.pdf?v=1772103154) on the Fantech download page. |
 | `controllers/nj12/hero.webp`, `controllers/nj12/cover.webp`, `controllers/nj12/img/handheld.webp`, `controllers/nj12/img/split.webp`, `controllers/nj12/img/pair.webp` | Product photos from the [NYXI Hyperion 2 product page](https://nyxigame.com/products/nintendo-switch-joycon-nyxi-hyperion-2-gamepad). Crops are WebP. |
 | `controllers/nj12/NJ12_Hyperion_2_manual.pdf` | Official NJ12 manual, same file as the [NYXI manual download](https://cdn-files.myshopline.com/file/store/1677638626094/NJ12%20manual%20for%20cutomer.pdf). |
+| `controllers/t50/hero.webp`, `controllers/t50/cover.webp`, `controllers/t50/img/white-back.webp`, `controllers/t50/img/black-front.webp`, `controllers/t50/img/blue-front.webp`, `controllers/t50/img/pink-front.webp`, `controllers/t50/img/2pack-front.webp` | Product photos from the [AceGamer T50 product page](https://acegamerstore.com/products/acegamer-t50-wireless-pocket-controller). Crops are WebP. |
+| `controllers/t50/T50_manual_20250820.pdf` | Official T50 manual, same file as [T50-_-_-20250820.pdf](https://cdn.shopify.com/s/files/1/0921/8772/2100/files/T50-_-_-20250820.pdf?v=1755764125) on the AceGamer manual page. |
 
 ## Noto Sans Thai
 

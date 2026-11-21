@@ -34,6 +34,8 @@ class ControllerGuideTests(unittest.TestCase):
         self.assertIn('href="wgp18/WGP18_Guide_TH.html"', cat)
         self.assertIn('href="nj12/NJ12_Guide_TH.html"', cat)
         self.assertIn(">NYXI Hyperion 2<", cat)
+        self.assertIn('href="t50/T50_Guide_TH.html"', cat)
+        self.assertIn(">AceGamer T50<", cat)
 
     def test_wgp18_keeps_labels_and_does_not_claim_steam_deck(self):
         html = PAGE.read_text(encoding="utf-8")
@@ -85,6 +87,22 @@ class ControllerGuideTests(unittest.TestCase):
         for need in ("ภาพสินค้า", "รุ่นและสเปก", "ยังไม่รองรับโหมดติดข้างเครื่อง", ">Game Guides<", "NJ12_Hyperion_2_manual.pdf"):
             self.assertIn(need, html)
         for bad in ("สิ่งที่อยู่ในกล่อง", "ปุ่มและชิ้นส่วน", "การแก้ปัญหา", "ข้อมูลที่ไม่มีในแหล่งทางการ", "Zero-Drift", "No Delay", "Steam Deck"):
+            self.assertNotIn(bad, html)
+        self.assertEqual(build.guard(html), [])
+
+    def test_t50_matches_trimmed_controller_shape(self):
+        html = (ROOT / "controllers" / "t50" / "T50_Guide_TH.html").read_text(encoding="utf-8")
+        data = json.loads((ROOT / "controllers" / "t50" / "data.json").read_text(encoding="utf-8"))
+        self.assertEqual(build.validate(data), [])
+        self.assertEqual(data["intro"], [])
+        self.assertEqual(data["title"], "AceGamer T50 Wireless Pocket Controller")
+        ids = [s["id"] for s in data["sections"]]
+        self.assertEqual(ids, ["photos", "spec", "connect", "buttons", "battery", "software", "calib", "sources"])
+        picked = [it["id"] for g in data["picker"] for it in g["items"]]
+        self.assertEqual(picked, ids)
+        for need in ("ภาพสินค้า", "Steam Deck", ">Game Guides<", "T50_manual_20250820.pdf", "ไม่รองรับการปลุกเครื่องจากโหมดสลีป"):
+            self.assertIn(need, html)
+        for bad in ("สิ่งที่อยู่ในกล่อง", "ปุ่มและชิ้นส่วน", "การแก้ปัญหา", "ข้อมูลที่ไม่มีในแหล่งทางการ"):
             self.assertNotIn(bad, html)
         self.assertEqual(build.guard(html), [])
 
